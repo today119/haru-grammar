@@ -1,0 +1,1676 @@
+[
+ {
+  "id": 46,
+  "title": "대명사 : 지시대명사",
+  "points": [
+   "가까이 있는 것은 this(단수)/these(복수), 멀리 있는 것은 that(단수)/those(복수)로 가리킨다.",
+   "단수에는 단수 동사: This is ~ / That is ~, 복수에는 복수 동사: These are ~ / Those are ~",
+   "this/that/these/those 뒤에 명사가 오면 '이 ~/저 ~'라는 뜻의 지시형용사가 된다. 예: this book, these books",
+   "Is this/that ~? 질문에 대답할 때는 보통 it으로 받는다. 예: Is that your bag? — Yes, it is.",
+   "전화할 때 자기를 소개하는 말은 This is + 이름이다. 예: Hello, this is Mina."
+  ],
+  "examples": [
+   {
+    "en": "This is my new phone.",
+    "ko": "이것은 내 새 휴대폰이야."
+   },
+   {
+    "en": "Those are my classmates over there.",
+    "ko": "저기 있는 저 사람들은 내 반 친구들이야."
+   },
+   {
+    "en": "These cookies are very sweet.",
+    "ko": "이 쿠키들은 아주 달아."
+   }
+  ],
+  "trap": "these/those 뒤의 명사와 동사도 복수여야 한다(These book is ✗ → These books are ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (내 바로 옆에 있는 신발들)\n___ are my shoes.",
+    "choices": [
+     "This",
+     "That",
+     "These",
+     "It"
+    ],
+    "answer": 2,
+    "exp": "가까이 있는 여러 개는 these를 쓴다. 동사가 are이므로 단수 This/That/It은 맞지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (하늘 멀리 있는 새들)\nLook at ___ birds in the sky!",
+    "choices": [
+     "this",
+     "that",
+     "these",
+     "those"
+    ],
+    "answer": 3,
+    "exp": "멀리 있는 복수 명사(birds) 앞에는 those를 쓴다. this/that은 단수 명사 앞에 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 올바른 문장을 고르세요.",
+    "choices": [
+     "This is my friends.",
+     "These are my friends.",
+     "These is my friend.",
+     "This are my friend."
+    ],
+    "answer": 1,
+    "exp": "복수는 These are + 복수명사, 단수는 This is + 단수명사로 짝을 맞춘다."
+   },
+   {
+    "type": "mc",
+    "q": "대답의 빈칸에 알맞은 것을 고르세요.\nA: Is that your bag?\nB: Yes, ___ is.",
+    "choices": [
+     "that",
+     "it",
+     "this",
+     "these"
+    ],
+    "answer": 1,
+    "exp": "this/that으로 물으면 대답에서는 it으로 받는다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 this가 '이것'이라는 대명사로 쓰인 문장을 고르세요.",
+    "choices": [
+     "This book is fun.",
+     "I like this song.",
+     "This is my sister.",
+     "This cake is sweet."
+    ],
+    "answer": 2,
+    "exp": "This is my sister.의 This는 혼자 주어로 쓰인 대명사이다. 나머지는 뒤의 명사를 꾸미는 '이 ~'(지시형용사)이다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nThose flower are very pretty.",
+    "choices": [
+     "Those",
+     "flower",
+     "are",
+     "very"
+    ],
+    "answer": 1,
+    "exp": "Those 뒤에는 복수명사가 와야 하므로 flower → flowers로 고쳐야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "These book is interesting.",
+    "answer": false,
+    "exp": "these 뒤에는 복수명사와 복수동사가 온다. These books are interesting.이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "those는 that의 복수형이다.",
+    "answer": true,
+    "exp": "this ↔ these, that ↔ those가 단수·복수 짝이다."
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "title": "대명사 : 부정대명사 (1)",
+  "points": [
+   "one: 앞에 나온 명사와 '같은 종류의 아무거나 하나'를 가리킨다. (복수는 ones)",
+   "it: 앞에 나온 '바로 그 물건'을 가리킨다.",
+   "둘 중에서: one ~, the other ~ (하나는 ~, 나머지 하나는 ~)",
+   "셋 중에서: one ~, another ~, the other ~ (하나는, 또 하나는, 나머지 하나는)",
+   "여럿 중 막연히: some ~, others ~ (어떤 사람들은 ~, 다른 사람들은 ~)"
+  ],
+  "examples": [
+   {
+    "en": "I lost my pen, so I bought a new one.",
+    "ko": "펜을 잃어버려서 새 것을 하나 샀다."
+   },
+   {
+    "en": "I have two brothers. One is tall, and the other is short.",
+    "ko": "나는 형이 둘 있다. 한 명은 키가 크고, 나머지 한 명은 작다."
+   },
+   {
+    "en": "Some people like tea, and others like coffee.",
+    "ko": "어떤 사람들은 차를 좋아하고, 다른 사람들은 커피를 좋아한다."
+   }
+  ],
+  "trap": "둘 중 '나머지 하나'는 another가 아니라 the other를 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI lost my umbrella. I need to buy a new ___.",
+    "choices": [
+     "it",
+     "one",
+     "this",
+     "that"
+    ],
+    "answer": 1,
+    "exp": "잃어버린 그 우산이 아니라 같은 종류의 다른 우산 하나이므로 one을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI found my key. I put ___ in my bag.",
+    "choices": [
+     "one",
+     "ones",
+     "it",
+     "other"
+    ],
+    "answer": 2,
+    "exp": "찾은 '바로 그' 열쇠를 가리키므로 it을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI have two dogs. One is white, and ___ is black.",
+    "choices": [
+     "another",
+     "other",
+     "the other",
+     "others"
+    ],
+    "answer": 2,
+    "exp": "둘 중 하나(one)를 말한 뒤 나머지 하나는 the other이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI have three cats. One is black, ___ is white, and the other is brown.",
+    "choices": [
+     "the other",
+     "another",
+     "others",
+     "other"
+    ],
+    "answer": 1,
+    "exp": "셋 중 두 번째 것은 '또 하나' another, 마지막 남은 것은 the other이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nSome people like summer, and ___ like winter.",
+    "choices": [
+     "other",
+     "another",
+     "one",
+     "others"
+    ],
+    "answer": 3,
+    "exp": "막연한 여러 사람을 나눌 때 some ~, others ~를 쓴다. like(복수동사)와도 맞는다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "I don't like this cap. Show me another one.",
+     "I have two sisters. One is a nurse, and the other is a teacher.",
+     "My phone is old. I want a new it.",
+     "These shoes are big. Do you have smaller ones?"
+    ],
+    "answer": 2,
+    "exp": "it은 꾸밈을 받을 수 없고 '바로 그것'을 뜻하므로 a new one이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "I have two pens. One is red, and another is blue.",
+    "answer": false,
+    "exp": "두 개 중 나머지 하나는 the other이다. another는 셋 이상에서 '또 하나'일 때 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "앞에 나온 바로 그 물건을 다시 가리킬 때는 one이 아니라 it을 쓴다.",
+    "answer": true,
+    "exp": "it = 바로 그것, one = 같은 종류의 아무거나 하나."
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "title": "대명사 : 부정대명사 (2)",
+  "points": [
+   "some은 주로 긍정문, any는 주로 부정문·의문문에 쓴다. 예: I have some money. / I don't have any money.",
+   "each(각각의)와 every(모든)는 뒤에 단수명사 + 단수동사가 온다. 예: Every student has a book.",
+   "each of + the 복수명사 + 단수동사. 예: Each of the rooms has a window.",
+   "all(모두)과 both(둘 다)는 복수 취급한다. 예: All of the students are here. / Both of them are kind."
+  ],
+  "examples": [
+   {
+    "en": "I bought some apples.",
+    "ko": "나는 사과를 몇 개 샀다."
+   },
+   {
+    "en": "Every child loves this game.",
+    "ko": "모든 아이가 이 게임을 좋아한다."
+   },
+   {
+    "en": "Both of my parents are teachers.",
+    "ko": "우리 부모님 두 분 다 선생님이다."
+   }
+  ],
+  "trap": "every는 '모든'이라는 뜻이지만 단수 취급한다(Every children ✗ → Every child ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI don't have ___ money.",
+    "choices": [
+     "some",
+     "any",
+     "every",
+     "each"
+    ],
+    "answer": 1,
+    "exp": "부정문에는 any를 쓴다. every/each는 셀 수 없는 money와 쓰지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI bought ___ apples at the market.",
+    "choices": [
+     "any",
+     "some",
+     "every",
+     "each"
+    ],
+    "answer": 1,
+    "exp": "긍정문에서 '몇 개의'는 some이다. every/each 뒤에는 단수명사가 와야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nEach student ___ a locker.",
+    "choices": [
+     "have",
+     "has",
+     "are having",
+     "to have"
+    ],
+    "answer": 1,
+    "exp": "each + 단수명사는 단수 취급하므로 has를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nEvery ___ in my class likes soccer.",
+    "choices": [
+     "boy",
+     "boys",
+     "the boys",
+     "boyes"
+    ],
+    "answer": 0,
+    "exp": "every 뒤에는 단수명사가 온다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nBoth of my parents ___ teachers.",
+    "choices": [
+     "is",
+     "am",
+     "be",
+     "are"
+    ],
+    "answer": 3,
+    "exp": "both(둘 다)는 복수이므로 are를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "All of the students are here.",
+     "Every children loves this game.",
+     "Each of the rooms has a window.",
+     "Do you have any questions?"
+    ],
+    "answer": 1,
+    "exp": "every 뒤에는 단수명사가 와야 하므로 Every child loves ~가 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "Each of the boys have a bike.",
+    "answer": false,
+    "exp": "each of + 복수명사는 단수 취급하므로 has가 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "any는 주로 부정문과 의문문에 쓴다.",
+    "answer": true,
+    "exp": "some은 긍정문, any는 부정문·의문문에 주로 쓴다."
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "title": "형용사 : 기분 또는 상태 표현",
+  "points": [
+   "사람이 느끼는 기분은 -ed 형용사: excited(신난), bored(지루한), surprised(놀란), interested(관심 있는)",
+   "기분을 일으키는 원인(사물·일)은 -ing 형용사: exciting(신나게 하는), boring(지루하게 하는), surprising(놀라운)",
+   "상태 표현: 주어 + be동사 + 형용사. 예: I am tired.",
+   "감각동사(look, feel, sound, taste, smell) + 형용사. 예: You look happy. (happily ✗)"
+  ],
+  "examples": [
+   {
+    "en": "I am excited about the trip.",
+    "ko": "나는 여행 때문에 신난다."
+   },
+   {
+    "en": "The movie was boring.",
+    "ko": "그 영화는 지루했다."
+   },
+   {
+    "en": "This soup smells good.",
+    "ko": "이 수프는 냄새가 좋다."
+   }
+  ],
+  "trap": "사람의 기분에 -ing를 쓰면 틀린다(I'm boring ✗ '나는 지루한 사람이다' → I'm bored ○ '나는 지루하다').",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI am ___ about the trip.",
+    "choices": [
+     "exciting",
+     "excited",
+     "excite",
+     "excitement"
+    ],
+    "answer": 1,
+    "exp": "사람이 느끼는 기분은 -ed 형용사 excited를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThe movie was very ___. I fell asleep.",
+    "choices": [
+     "bored",
+     "bore",
+     "boredly",
+     "boring"
+    ],
+    "answer": 3,
+    "exp": "영화가 지루함을 주는 원인이므로 -ing 형용사 boring을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nShe looks ___ today.",
+    "choices": [
+     "happily",
+     "happiness",
+     "happy",
+     "more happily"
+    ],
+    "answer": 2,
+    "exp": "look(~해 보이다) 같은 감각동사 뒤에는 형용사가 온다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 올바른 문장을 고르세요.",
+    "choices": [
+     "I was surprising at the news.",
+     "I surprised at the news.",
+     "I was surprised at the news.",
+     "I am surprise at the news."
+    ],
+    "answer": 2,
+    "exp": "사람이 놀란 것은 be + surprised로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis soup tastes ___.",
+    "choices": [
+     "good",
+     "well",
+     "nicely",
+     "goodly"
+    ],
+    "answer": 0,
+    "exp": "taste는 감각동사이므로 형용사 good을 쓴다. well, nicely는 부사이다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nHe felt sadly after the game.",
+    "choices": [
+     "He",
+     "felt",
+     "sadly",
+     "the game"
+    ],
+    "answer": 2,
+    "exp": "feel은 감각동사라 형용사 sad가 와야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "I'm interesting in music.",
+    "answer": false,
+    "exp": "'관심 있는'은 사람이 느끼는 것이므로 I'm interested in music.이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "look, feel, sound 같은 감각동사 뒤에는 부사가 아니라 형용사가 온다.",
+    "answer": true,
+    "exp": "예: You sound tired. / It feels soft."
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "title": "형용사 : 형용사와 자주 쓰이는 전치사",
+  "points": [
+   "be + 형용사 + 전치사는 한 덩어리로 외운다.",
+   "be good at(~을 잘하다), be interested in(~에 관심 있다), be afraid of(~을 무서워하다)",
+   "be proud of(~을 자랑스러워하다), be full of(~으로 가득 차다), be famous for(~으로 유명하다)",
+   "be different from(~와 다르다), be late for(~에 늦다), be worried about(~을 걱정하다)",
+   "전치사 뒤에 동사가 오면 -ing 형태로 쓴다. 예: He is good at swimming."
+  ],
+  "examples": [
+   {
+    "en": "She is good at drawing.",
+    "ko": "그녀는 그림을 잘 그린다."
+   },
+   {
+    "en": "I'm afraid of dogs.",
+    "ko": "나는 개를 무서워한다."
+   },
+   {
+    "en": "This town is famous for its beaches.",
+    "ko": "이 마을은 해변으로 유명하다."
+   }
+  ],
+  "trap": "형용사마다 짝이 되는 전치사가 정해져 있다(good in ✗ → good at, interested at ✗ → interested in).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe is good ___ swimming.",
+    "choices": [
+     "in",
+     "of",
+     "at",
+     "for"
+    ],
+    "answer": 2,
+    "exp": "'~을 잘하다'는 be good at이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI'm interested ___ dance.",
+    "choices": [
+     "on",
+     "in",
+     "at",
+     "with"
+    ],
+    "answer": 1,
+    "exp": "'~에 관심 있다'는 be interested in이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMy sister is afraid ___ dogs.",
+    "choices": [
+     "for",
+     "to",
+     "from",
+     "of"
+    ],
+    "answer": 3,
+    "exp": "'~을 무서워하다'는 be afraid of이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis town is famous ___ its beaches.",
+    "choices": [
+     "for",
+     "of",
+     "in",
+     "at"
+    ],
+    "answer": 0,
+    "exp": "'~으로 유명하다'는 be famous for이다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "I'm proud of you.",
+     "She is different with her sister.",
+     "Don't be late for school.",
+     "He is worried about the test."
+    ],
+    "answer": 1,
+    "exp": "'~와 다르다'는 be different from이다."
+   },
+   {
+    "type": "mc",
+    "q": "두 빈칸에 공통으로 알맞은 것을 고르세요.\nShe is proud ___ her son.\nI'm afraid ___ snakes.",
+    "choices": [
+     "with",
+     "of",
+     "at",
+     "in"
+    ],
+    "answer": 1,
+    "exp": "be proud of, be afraid of 모두 전치사 of를 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "I'm worried about my test.",
+    "answer": true,
+    "exp": "'~을 걱정하다'는 be worried about이다."
+   },
+   {
+    "type": "ox",
+    "q": "Are you interested at music?",
+    "answer": false,
+    "exp": "be interested in이 맞다. Are you interested in music?"
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "title": "형용사 : 같은 단어 다른 뜻의 형용사",
+  "points": [
+   "한 단어에 뜻이 여러 개인 형용사는 문장 앞뒤 내용(문맥)으로 뜻을 정한다.",
+   "hard: 어려운 / 딱딱한(단단한)",
+   "light: 가벼운 / 밝은(연한),  free: 자유로운 / 한가한 / 무료의",
+   "right: 옳은 / 오른쪽의,  fine: 괜찮은 / 맑은(좋은)",
+   "kind: 친절한 (명사로 쓰이면 '종류')"
+  ],
+  "examples": [
+   {
+    "en": "This bread is too hard.",
+    "ko": "이 빵은 너무 딱딱하다."
+   },
+   {
+    "en": "Are you free tomorrow?",
+    "ko": "너 내일 한가하니?"
+   },
+   {
+    "en": "The tickets are free.",
+    "ko": "그 표는 무료이다."
+   }
+  ],
+  "trap": "free를 무조건 '자유로운'으로 해석하면 틀린다. 시간 이야기면 '한가한', 돈 이야기면 '무료의'이다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "밑줄 친 light의 뜻을 고르세요.\nThis bag is very light. I can carry it easily.",
+    "choices": [
+     "밝은",
+     "가벼운",
+     "늦은",
+     "빠른"
+    ],
+    "answer": 1,
+    "exp": "쉽게 들 수 있다고 했으므로 '가벼운'이다."
+   },
+   {
+    "type": "mc",
+    "q": "free의 뜻을 고르세요.\nThe tickets are free. You don't need to pay.",
+    "choices": [
+     "한가한",
+     "바쁜",
+     "무료의",
+     "어려운"
+    ],
+    "answer": 2,
+    "exp": "돈을 낼 필요가 없다고 했으므로 '무료의'이다."
+   },
+   {
+    "type": "mc",
+    "q": "free의 뜻을 고르세요.\nAre you free this afternoon?",
+    "choices": [
+     "무료의",
+     "무거운",
+     "친절한",
+     "한가한"
+    ],
+    "answer": 3,
+    "exp": "시간(오후)에 대해 묻고 있으므로 '한가한'이다."
+   },
+   {
+    "type": "mc",
+    "q": "right의 뜻을 고르세요.\nRaise your right hand.",
+    "choices": [
+     "옳은",
+     "바쁜",
+     "오른쪽의",
+     "가벼운"
+    ],
+    "answer": 2,
+    "exp": "손(hand)을 꾸미므로 '오른쪽의'이다."
+   },
+   {
+    "type": "mc",
+    "q": "hard의 뜻이 나머지 셋과 다른 것을 고르세요.",
+    "choices": [
+     "This bread is very hard.",
+     "This math problem is hard.",
+     "The test was hard for me.",
+     "English is hard to learn."
+    ],
+    "answer": 0,
+    "exp": "빵의 hard는 '딱딱한', 나머지는 모두 '어려운'이다."
+   },
+   {
+    "type": "mc",
+    "q": "fine의 뜻을 고르세요.\nA: How are you? B: I'm fine, thank you.",
+    "choices": [
+     "벌금",
+     "괜찮은",
+     "무료의",
+     "가는"
+    ],
+    "answer": 1,
+    "exp": "안부 인사에 대한 대답이므로 '괜찮은(잘 지내는)'이다."
+   },
+   {
+    "type": "ox",
+    "q": "She has a kind heart.에서 kind는 '종류'라는 뜻이다.",
+    "answer": false,
+    "exp": "heart를 꾸미는 형용사이므로 '친절한'이다. '종류'는 명사로 쓰일 때의 뜻이다."
+   },
+   {
+    "type": "ox",
+    "q": "This box is light, not heavy.에서 light는 '가벼운'이라는 뜻이다.",
+    "answer": true,
+    "exp": "heavy(무거운)와 반대되므로 '가벼운'이다."
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "title": "형용사 : 형용사 + 주어 동사 연결",
+  "points": [
+   "감정·확신을 나타내는 형용사 뒤에 '주어 + 동사' 문장을 붙여 이유나 내용을 말할 수 있다.",
+   "공식: 주어 + be동사 + 형용사 + (that) + 주어 + 동사",
+   "자주 쓰는 형용사: sure(확신하는), glad/happy(기쁜), sorry(미안한), afraid(유감인·걱정되는)",
+   "이때 that은 생략할 수 있다. 예: I'm sure (that) he will come.",
+   "that 뒤 문장도 주어와 동사의 짝(수·시제)이 맞아야 한다."
+  ],
+  "examples": [
+   {
+    "en": "I'm sure that she will win.",
+    "ko": "나는 그녀가 이길 거라고 확신해."
+   },
+   {
+    "en": "I'm glad you came.",
+    "ko": "네가 와서 기뻐."
+   },
+   {
+    "en": "I'm sorry I'm late.",
+    "ko": "늦어서 미안해."
+   }
+  ],
+  "trap": "형용사 뒤 문장에도 주어와 동사가 모두 있어야 한다(I'm afraid that will rain ✗ → I'm afraid that it will rain ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI'm sure ___ she will pass the test.",
+    "choices": [
+     "what",
+     "that",
+     "which",
+     "who"
+    ],
+    "answer": 1,
+    "exp": "형용사 sure 뒤에 문장을 이을 때는 that을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI'm glad you ___ here.",
+    "choices": [
+     "are",
+     "is",
+     "be",
+     "being"
+    ],
+    "answer": 0,
+    "exp": "주어 you에 맞는 동사는 are이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI'm sorry ___ late.",
+    "choices": [
+     "am I",
+     "I",
+     "I am",
+     "to I"
+    ],
+    "answer": 2,
+    "exp": "sorry 뒤에는 '주어 + 동사' 순서로 I am이 온다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 올바른 문장을 고르세요.",
+    "choices": [
+     "I'm afraid that will rain.",
+     "I'm afraid it rain.",
+     "I'm afraid that raining.",
+     "I'm afraid that it will rain."
+    ],
+    "answer": 3,
+    "exp": "that 뒤에 주어(it)와 동사(will rain)가 모두 있어야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "우리말 해석으로 알맞은 것을 고르세요.\nI'm happy that you like the gift.",
+    "choices": [
+     "나는 행복해서 선물을 좋아한다.",
+     "네가 선물을 좋아해서 나는 기쁘다.",
+     "너는 선물을 받아서 행복하다.",
+     "나는 네가 선물을 줄 거라 확신한다."
+    ],
+    "answer": 1,
+    "exp": "I'm happy(나는 기쁘다) + that you like the gift(네가 선물을 좋아해서)."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nI'm sure that he are honest.",
+    "choices": [
+     "sure",
+     "that",
+     "he",
+     "are"
+    ],
+    "answer": 3,
+    "exp": "주어가 he이므로 동사는 is가 되어야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "I'm glad that you are safe.에서 that은 생략할 수 있다.",
+    "answer": true,
+    "exp": "형용사 뒤 that은 생략 가능하다. I'm glad you are safe."
+   },
+   {
+    "type": "ox",
+    "q": "I'm sorry that I be late.",
+    "answer": false,
+    "exp": "that 뒤에는 동사원형 be가 아니라 주어에 맞는 am을 써야 한다. I'm sorry that I am late."
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "title": "부사 : 문장에서의 역할",
+  "points": [
+   "부사는 동사, 형용사, 다른 부사, 문장 전체를 꾸민다. (명사는 꾸미지 않는다)",
+   "대부분 형용사 + ly로 만든다. 예: slow → slowly, careful → carefully, happy → happily",
+   "형용사와 모양이 같은 부사도 있다. 예: fast(빠른/빠르게), early(이른/일찍)",
+   "-ly로 끝나도 형용사인 단어가 있다. 예: friendly(친절한), lovely(사랑스러운)",
+   "문장 맨 앞의 부사는 문장 전체를 꾸민다. 예: Luckily, I found my wallet."
+  ],
+  "examples": [
+   {
+    "en": "She sings beautifully.",
+    "ko": "그녀는 아름답게 노래한다."
+   },
+   {
+    "en": "This is a really difficult question.",
+    "ko": "이것은 정말 어려운 문제다."
+   },
+   {
+    "en": "He speaks English very well.",
+    "ko": "그는 영어를 아주 잘한다."
+   }
+  ],
+  "trap": "동사를 꾸밀 때 형용사를 쓰면 틀린다(drive careful ✗ → drive carefully ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe runs very ___.",
+    "choices": [
+     "fastly",
+     "fast",
+     "fastest",
+     "more fast"
+    ],
+    "answer": 1,
+    "exp": "fast는 형용사와 부사의 모양이 같다. fastly라는 단어는 없다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nShe sings ___.",
+    "choices": [
+     "beautiful",
+     "beauty",
+     "beautifully",
+     "beautify"
+    ],
+    "answer": 2,
+    "exp": "동사 sings를 꾸미므로 부사 beautifully를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis is a ___ difficult question.",
+    "choices": [
+     "real",
+     "really",
+     "reality",
+     "realize"
+    ],
+    "answer": 1,
+    "exp": "형용사 difficult를 꾸미는 것은 부사 really이다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장에서 very가 꾸며 주는 말을 고르세요.\nShe speaks English very well.",
+    "choices": [
+     "She",
+     "speaks",
+     "English",
+     "well"
+    ],
+    "answer": 3,
+    "exp": "very는 부사 well을 꾸며 '아주 잘'이라는 뜻을 만든다. 부사는 다른 부사도 꾸민다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 올바른 문장을 고르세요.",
+    "choices": [
+     "He drove carefully.",
+     "He drove careful.",
+     "He is a carefully driver.",
+     "He drove the car slow carefully."
+    ],
+    "answer": 0,
+    "exp": "동사 drove는 부사 carefully가 꾸민다. 명사 driver 앞에는 형용사 careful을 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "Luckily, I found my wallet.에서 Luckily의 역할을 고르세요.",
+    "choices": [
+     "동사만 꾸민다",
+     "형용사를 꾸민다",
+     "문장 전체를 꾸민다",
+     "명사를 꾸민다"
+    ],
+    "answer": 2,
+    "exp": "문장 맨 앞의 Luckily(운 좋게도)는 문장 전체를 꾸민다."
+   },
+   {
+    "type": "ox",
+    "q": "부사는 명사를 꾸밀 수 있다.",
+    "answer": false,
+    "exp": "명사를 꾸미는 것은 형용사이다. 부사는 동사·형용사·부사·문장 전체를 꾸민다."
+   },
+   {
+    "type": "ox",
+    "q": "friendly는 -ly로 끝나지만 형용사이다.",
+    "answer": true,
+    "exp": "friendly(친절한)는 명사 friend + ly로 만든 형용사이다."
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "title": "부사 : 같은 단어 다른 뜻의 부사",
+  "points": [
+   "-ly가 붙으면 뜻이 완전히 달라지는 부사가 있다.",
+   "hard(열심히, 세게) ↔ hardly(거의 ~않다)",
+   "late(늦게) ↔ lately(최근에)",
+   "near(가까이) ↔ nearly(거의),  high(높이) ↔ highly(매우)",
+   "fast, early는 형용사·부사 모양이 같고, fastly는 없는 단어이다."
+  ],
+  "examples": [
+   {
+    "en": "He studies hard every day.",
+    "ko": "그는 매일 열심히 공부한다."
+   },
+   {
+    "en": "I can hardly hear you.",
+    "ko": "네 말이 거의 안 들려."
+   },
+   {
+    "en": "I haven't seen him lately.",
+    "ko": "최근에 그를 못 봤다."
+   }
+  ],
+  "trap": "hardly는 '열심히'가 아니라 '거의 ~않다'라는 부정의 뜻이다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe studies ___ every day to pass the test.",
+    "choices": [
+     "hardly",
+     "hardy",
+     "hard",
+     "harded"
+    ],
+    "answer": 2,
+    "exp": "'열심히'는 hard이다. hardly는 '거의 ~않다'이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI can ___ hear you. Please speak louder.",
+    "choices": [
+     "hard",
+     "hardly",
+     "high",
+     "late"
+    ],
+    "answer": 1,
+    "exp": "더 크게 말해 달라고 했으므로 '거의 안 들린다' → hardly."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (최근에)\nI haven't seen him ___.",
+    "choices": [
+     "late",
+     "later",
+     "lates",
+     "lately"
+    ],
+    "answer": 3,
+    "exp": "'최근에'는 lately이다. late는 '늦게'이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI got up ___ this morning, so I missed the bus.",
+    "choices": [
+     "lately",
+     "lateness",
+     "late",
+     "latest"
+    ],
+    "answer": 2,
+    "exp": "'늦게' 일어났다는 뜻이므로 late. lately는 '최근에'이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (거의 10시)\nIt's ___ 10 o'clock.",
+    "choices": [
+     "near",
+     "nearly",
+     "nearby",
+     "nears"
+    ],
+    "answer": 1,
+    "exp": "'거의'는 nearly이다. near는 '가까이'이다."
+   },
+   {
+    "type": "mc",
+    "q": "뜻이 바르게 짝지어지지 않은 것을 고르세요.",
+    "choices": [
+     "hard - 열심히",
+     "hardly - 거의 ~않다",
+     "lately - 늦게",
+     "highly - 매우"
+    ],
+    "answer": 2,
+    "exp": "lately는 '최근에'이다. '늦게'는 late이다."
+   },
+   {
+    "type": "ox",
+    "q": "fast는 형용사와 부사의 모양이 같다.",
+    "answer": true,
+    "exp": "a fast car(빠른 차), run fast(빠르게 달리다) 모두 fast이다."
+   },
+   {
+    "type": "ox",
+    "q": "hardly는 '열심히'라는 뜻이다.",
+    "answer": false,
+    "exp": "hardly는 '거의 ~않다'이다. '열심히'는 hard이다."
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "title": "부사 : 부정부사와 빈도 부사",
+  "points": [
+   "빈도부사(얼마나 자주): always(항상) > usually(보통) > often(자주) > sometimes(가끔) > seldom/hardly ever(거의 ~않다) > never(전혀 ~않다)",
+   "위치: be동사·조동사 뒤, 일반동사 앞. 예: She is always late. / I always walk to school.",
+   "never, hardly, seldom은 이미 부정의 뜻이 있으므로 not과 함께 쓰지 않는다.",
+   "never = not ~ ever. 예: He never lies. = He doesn't ever lie."
+  ],
+  "examples": [
+   {
+    "en": "I usually get up at seven.",
+    "ko": "나는 보통 7시에 일어난다."
+   },
+   {
+    "en": "She is never late for class.",
+    "ko": "그녀는 수업에 절대 늦지 않는다."
+   },
+   {
+    "en": "He can hardly swim.",
+    "ko": "그는 수영을 거의 못한다."
+   }
+  ],
+  "trap": "빈도부사를 일반동사 뒤에 두거나(go often ✗), never와 not을 함께 쓰면(doesn't never ✗) 틀린다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "always가 들어갈 알맞은 위치를 고르세요.\nShe (A) is (B) late (C) for (D) school.",
+    "choices": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "answer": 1,
+    "exp": "빈도부사는 be동사 뒤에 온다. She is always late for school."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI ___ go to bed early. I usually stay up late.",
+    "choices": [
+     "often",
+     "always",
+     "usually",
+     "seldom"
+    ],
+    "answer": 3,
+    "exp": "보통 늦게 잔다고 했으므로 일찍 자는 일은 '거의 없다' → seldom."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "I never eat fish.",
+     "He doesn't never call me.",
+     "She can hardly swim.",
+     "We usually walk to school."
+    ],
+    "answer": 1,
+    "exp": "never는 이미 부정이므로 not과 함께 쓰지 않는다. He never calls me.가 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (100% — 일요일마다 빠짐없이)\nI ___ play soccer on Sundays.",
+    "choices": [
+     "sometimes",
+     "always",
+     "never",
+     "often"
+    ],
+    "answer": 1,
+    "exp": "빠짐없이 매번은 always(항상)이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈도가 높은 것부터 바르게 나열한 것을 고르세요.",
+    "choices": [
+     "always > usually > often > sometimes > never",
+     "always > sometimes > often > usually > never",
+     "usually > always > often > never > sometimes",
+     "never > sometimes > often > usually > always"
+    ],
+    "answer": 0,
+    "exp": "항상 > 보통 > 자주 > 가끔 > 전혀 순서이다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장과 뜻이 같은 것을 고르세요.\nHe never tells a lie.",
+    "choices": [
+     "He always tells a lie.",
+     "He often tells a lie.",
+     "He doesn't ever tell a lie.",
+     "He sometimes tells a lie."
+    ],
+    "answer": 2,
+    "exp": "never = not ~ ever(결코 ~않다)."
+   },
+   {
+    "type": "ox",
+    "q": "He is never late for class.",
+    "answer": true,
+    "exp": "빈도부사 never가 be동사 is 뒤에 바르게 놓였다."
+   },
+   {
+    "type": "ox",
+    "q": "I go often to the gym.",
+    "answer": false,
+    "exp": "빈도부사는 일반동사 앞에 온다. I often go to the gym."
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "title": "부사 : enough와 too",
+  "points": [
+   "형용사/부사 + enough: 충분히 ~한. 예: tall enough (enough tall ✗)",
+   "enough + 명사: 충분한 ~. 예: enough money",
+   "형용사 + enough + to 동사원형: ~할 만큼 충분히 …하다",
+   "too + 형용사 + to 동사원형: 너무 …해서 ~할 수 없다 (부정의 뜻)",
+   "too ~ to = so ~ that + 주어 + can't. 예: He is too young to drive. = He is so young that he can't drive."
+  ],
+  "examples": [
+   {
+    "en": "He is tall enough to reach the shelf.",
+    "ko": "그는 선반에 손이 닿을 만큼 키가 크다."
+   },
+   {
+    "en": "This tea is too hot to drink.",
+    "ko": "이 차는 너무 뜨거워서 마실 수 없다."
+   },
+   {
+    "en": "We have enough time.",
+    "ko": "우리는 시간이 충분하다."
+   }
+  ],
+  "trap": "enough는 형용사 뒤, 명사 앞에 온다(enough old ✗ → old enough ○ / enough time ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe is ___ to ride the roller coaster.",
+    "choices": [
+     "enough tall",
+     "tall enough",
+     "too tall enough",
+     "enough tallness"
+    ],
+    "answer": 1,
+    "exp": "enough는 형용사 뒤에 온다: tall enough."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nWe have ___ to buy the tickets.",
+    "choices": [
+     "enough money",
+     "enough moneys",
+     "money enoughly",
+     "too money"
+    ],
+    "answer": 0,
+    "exp": "enough는 명사 앞에 온다. money는 셀 수 없는 명사라 -s를 붙이지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis coffee is ___ hot to drink.",
+    "choices": [
+     "enough",
+     "too",
+     "very",
+     "much"
+    ],
+    "answer": 1,
+    "exp": "'너무 뜨거워서 마실 수 없다'는 too + 형용사 + to 동사원형이다."
+   },
+   {
+    "type": "mc",
+    "q": "두 문장의 뜻이 같도록 빈칸에 알맞은 것을 고르세요.\nShe is too young to drive.\n= She is so young that she ___ drive.",
+    "choices": [
+     "can",
+     "must",
+     "will",
+     "can't"
+    ],
+    "answer": 3,
+    "exp": "too ~ to는 '너무 ~해서 …할 수 없다'이므로 so ~ that + can't로 바꾼다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "The box is too heavy to lift.",
+     "Is the room big enough?",
+     "I don't have enough time.",
+     "He is enough old to vote."
+    ],
+    "answer": 3,
+    "exp": "enough는 형용사 뒤에 와야 하므로 old enough가 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThe bag is too small ___ all my books.",
+    "choices": [
+     "to hold",
+     "holding",
+     "hold",
+     "for hold"
+    ],
+    "answer": 0,
+    "exp": "too + 형용사 뒤에는 to + 동사원형이 온다."
+   },
+   {
+    "type": "ox",
+    "q": "enough가 형용사를 꾸밀 때는 형용사 뒤에 온다.",
+    "answer": true,
+    "exp": "예: old enough, big enough."
+   },
+   {
+    "type": "ox",
+    "q": "too는 '충분히'라는 긍정적인 뜻으로 쓰인다.",
+    "answer": false,
+    "exp": "too는 '너무 ~해서 할 수 없다'는 부정적인 뜻을 담는다. '충분히'는 enough이다."
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "title": "부사 : ago와 before",
+  "points": [
+   "ago: '(지금부터) ~ 전에'. 반드시 '기간 + ago'로 쓰고 과거시제와 함께 쓴다. 예: two days ago",
+   "ago는 혼자 쓸 수 없고, 현재완료(have + p.p.)와도 쓸 수 없다.",
+   "before(부사): 혼자 쓰여 '전에, 이전에'. 현재완료와 함께 쓸 수 있다. 예: I have seen it before.",
+   "before(전치사·접속사): '~하기 전에'. 예: before lunch, before you go to bed"
+  ],
+  "examples": [
+   {
+    "en": "I met him three days ago.",
+    "ko": "나는 3일 전에 그를 만났다."
+   },
+   {
+    "en": "I have been to Busan before.",
+    "ko": "나는 전에 부산에 가 본 적이 있다."
+   },
+   {
+    "en": "Wash your hands before dinner.",
+    "ko": "저녁 먹기 전에 손을 씻어라."
+   }
+  ],
+  "trap": "ago는 과거시제와만 쓴다(I have met him a year ago ✗ → I met him a year ago ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI met him three days ___.",
+    "choices": [
+     "before",
+     "ago",
+     "after",
+     "since"
+    ],
+    "answer": 1,
+    "exp": "지금부터 3일 전이므로 '기간 + ago'를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI have seen this movie ___.",
+    "choices": [
+     "ago",
+     "since",
+     "before",
+     "for"
+    ],
+    "answer": 2,
+    "exp": "현재완료와 함께 혼자 '전에'라는 뜻으로 쓰는 것은 before이다. ago는 현재완료와 쓸 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "I have been to Jeju ago.",
+     "She left an hour ago.",
+     "We moved here two years ago.",
+     "Wash your hands before lunch."
+    ],
+    "answer": 0,
+    "exp": "ago는 혼자 쓸 수 없고 현재완료와도 쓰지 않는다. I have been to Jeju before.가 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (2주 전에)\nI saw her ___.",
+    "choices": [
+     "ago",
+     "two weeks ago",
+     "ago two weeks",
+     "before two weeks"
+    ],
+    "answer": 1,
+    "exp": "ago는 '기간 + ago' 순서로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI ___ my homework an hour ago.",
+    "choices": [
+     "finish",
+     "have finished",
+     "finished",
+     "will finish"
+    ],
+    "answer": 2,
+    "exp": "ago는 과거시제와 함께 쓰므로 finished이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nBrush your teeth ___ you go to bed.",
+    "choices": [
+     "ago",
+     "yet",
+     "before",
+     "ever"
+    ],
+    "answer": 2,
+    "exp": "'~하기 전에'라는 뜻으로 문장을 이을 수 있는 것은 before이다."
+   },
+   {
+    "type": "ox",
+    "q": "ago는 현재완료 시제와 함께 쓸 수 없다.",
+    "answer": true,
+    "exp": "ago는 과거의 한 시점을 말하므로 과거시제와 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "I have met him two years ago.",
+    "answer": false,
+    "exp": "ago는 과거시제와 써야 한다. I met him two years ago."
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "title": "비교 : 동등 비교",
+  "points": [
+   "as + 원급(형용사/부사 원래 모양) + as: ~만큼 …한/하게",
+   "not as(so) + 원급 + as: ~만큼 …하지 않은 (= 더 …하지 않다)",
+   "as + 원급 + as possible: 가능한 한 …하게. 예: as soon as possible",
+   "배수 + as + 원급 + as: ~보다 몇 배 …한. 예: twice as big as (두 배 큰)"
+  ],
+  "examples": [
+   {
+    "en": "Tom is as tall as his father.",
+    "ko": "톰은 아빠만큼 키가 크다."
+   },
+   {
+    "en": "My bag is not as heavy as yours.",
+    "ko": "내 가방은 네 것만큼 무겁지 않다."
+   },
+   {
+    "en": "Please call me as soon as possible.",
+    "ko": "가능한 한 빨리 전화해 줘."
+   }
+  ],
+  "trap": "as와 as 사이에는 비교급이 아니라 원급을 쓴다(as taller as ✗ → as tall as ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nTom is as ___ as his father.",
+    "choices": [
+     "tall",
+     "taller",
+     "tallest",
+     "more tall"
+    ],
+    "answer": 0,
+    "exp": "as ~ as 사이에는 원급을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMy bag is not ___ heavy as yours.",
+    "choices": [
+     "much",
+     "very",
+     "so",
+     "more"
+    ],
+    "answer": 2,
+    "exp": "not as ~ as는 not so ~ as로도 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장과 뜻이 같은 것을 고르세요.\nMina is not as old as Jisu.",
+    "choices": [
+     "Mina is older than Jisu.",
+     "Jisu is younger than Mina.",
+     "Jisu is older than Mina.",
+     "Mina is as old as Jisu."
+    ],
+    "answer": 2,
+    "exp": "미나는 지수만큼 나이가 많지 않다 = 지수가 미나보다 나이가 많다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nPlease come as ___ as possible.",
+    "choices": [
+     "sooner",
+     "soonest",
+     "more soon",
+     "soon"
+    ],
+    "answer": 3,
+    "exp": "as + 원급 + as possible: 가능한 한 ~하게."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "She runs as fast as her brother.",
+     "This box is as bigger as that one.",
+     "My room is twice as big as yours.",
+     "I'm not as busy as you."
+    ],
+    "answer": 1,
+    "exp": "as ~ as 사이에는 원급 big을 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요. (두 배 두꺼운)\nThis book is ___ that one.",
+    "choices": [
+     "twice as thick as",
+     "as twice thick as",
+     "twice thick as",
+     "as thick twice as"
+    ],
+    "answer": 0,
+    "exp": "배수는 as 앞에 둔다: 배수 + as + 원급 + as."
+   },
+   {
+    "type": "ox",
+    "q": "He can swim as well as his coach.",
+    "answer": true,
+    "exp": "as + 원급(부사 well) + as로 바르게 쓰였다."
+   },
+   {
+    "type": "ox",
+    "q": "as ~ as 사이에는 비교급을 쓴다.",
+    "answer": false,
+    "exp": "as ~ as 사이에는 원급을 쓴다."
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "title": "비교 : 우등 & 열등 비교",
+  "points": [
+   "우등 비교: 비교급 + than (~보다 더 …한). 예: taller than, more difficult than",
+   "비교급 만들기: 짧은 말은 -er (tall → taller, big → bigger, heavy → heavier), 긴 말은 more + 원급 (more beautiful)",
+   "불규칙: good/well → better, bad → worse, many/much → more",
+   "열등 비교: less + 원급 + than (~보다 덜 …한)",
+   "비교급 강조는 much, even, far, a lot을 쓴다(very ✗). 예: much faster"
+  ],
+  "examples": [
+   {
+    "en": "This box is heavier than that one.",
+    "ko": "이 상자가 저 상자보다 더 무겁다."
+   },
+   {
+    "en": "Math is more difficult than English for me.",
+    "ko": "나에게는 수학이 영어보다 더 어렵다."
+   },
+   {
+    "en": "This phone is less expensive than that one.",
+    "ko": "이 휴대폰은 저것보다 덜 비싸다."
+   }
+  ],
+  "trap": "more와 -er을 함께 쓰지 않는다(more smarter ✗ → smarter ○), 비교급 앞 강조에 very는 못 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis box is ___ than that one.",
+    "choices": [
+     "heavyer",
+     "heavier",
+     "more heavy",
+     "heaviest"
+    ],
+    "answer": 1,
+    "exp": "'자음 + y'로 끝나면 y를 i로 바꾸고 -er: heavier."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMath is ___ difficult than English for me.",
+    "choices": [
+     "more",
+     "much",
+     "very",
+     "most"
+    ],
+    "answer": 0,
+    "exp": "긴 형용사 difficult의 비교급은 more difficult이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMy grade is ___ than last year.",
+    "choices": [
+     "gooder",
+     "more good",
+     "better",
+     "best"
+    ],
+    "answer": 2,
+    "exp": "good의 비교급은 불규칙으로 better이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis car is ___ faster than mine.",
+    "choices": [
+     "very",
+     "so",
+     "most",
+     "much"
+    ],
+    "answer": 3,
+    "exp": "비교급을 강조할 때는 much를 쓴다. very는 비교급을 꾸밀 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장과 뜻이 같은 것을 고르세요.\nThis phone is less expensive than that one.",
+    "choices": [
+     "This phone is more expensive than that one.",
+     "That phone is cheaper than this one.",
+     "That phone is more expensive than this one.",
+     "This phone is as expensive as that one."
+    ],
+    "answer": 2,
+    "exp": "이 폰이 덜 비싸다 = 저 폰이 더 비싸다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "He is more smarter than you.",
+     "She is taller than her sister.",
+     "Today is hotter than yesterday.",
+     "I feel worse than before."
+    ],
+    "answer": 0,
+    "exp": "smart의 비교급은 smarter이므로 more를 함께 쓰면 안 된다."
+   },
+   {
+    "type": "ox",
+    "q": "big의 비교급은 biger이다.",
+    "answer": false,
+    "exp": "'단모음 + 단자음'으로 끝나면 자음을 한 번 더 쓴다: bigger."
+   },
+   {
+    "type": "ox",
+    "q": "less + 원급 + than은 '~보다 덜 …한'이라는 뜻이다.",
+    "answer": true,
+    "exp": "예: less difficult than(~보다 덜 어려운)."
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "title": "비교 : 최상급 비교",
+  "points": [
+   "최상급: the + -est / the + most + 원급 (가장 ~한). 예: the tallest, the most famous",
+   "범위 표현: in + 장소·집단(단수) / of + 복수 명사. 예: in my class, of the three",
+   "불규칙: good/well → best, bad → worst, many/much → most",
+   "one of the + 최상급 + 복수명사: 가장 ~한 것들 중 하나. 예: one of the biggest cities"
+  ],
+  "examples": [
+   {
+    "en": "Mt. Everest is the highest mountain in the world.",
+    "ko": "에베레스트산은 세계에서 가장 높은 산이다."
+   },
+   {
+    "en": "He is the tallest of the three boys.",
+    "ko": "그는 세 소년 중에서 가장 키가 크다."
+   },
+   {
+    "en": "Seoul is one of the biggest cities in Asia.",
+    "ko": "서울은 아시아에서 가장 큰 도시 중 하나이다."
+   }
+  ],
+  "trap": "one of the + 최상급 뒤에는 복수명사가 와야 한다(one of the biggest city ✗ → cities ○).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMt. Everest is the ___ mountain in the world.",
+    "choices": [
+     "high",
+     "higher",
+     "highest",
+     "most high"
+    ],
+    "answer": 2,
+    "exp": "'가장 높은'은 the + highest이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nShe is the ___ singer in Korea.",
+    "choices": [
+     "most famous",
+     "famousest",
+     "more famous",
+     "famous"
+    ],
+    "answer": 0,
+    "exp": "긴 형용사 famous의 최상급은 the most famous이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe is the tallest ___ the three boys.",
+    "choices": [
+     "in",
+     "of",
+     "at",
+     "on"
+    ],
+    "answer": 1,
+    "exp": "뒤에 복수 명사(the three boys)가 오면 of를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nSeoul is one of the biggest ___ in Asia.",
+    "choices": [
+     "city",
+     "a city",
+     "the city",
+     "cities"
+    ],
+    "answer": 3,
+    "exp": "one of the + 최상급 뒤에는 복수명사가 온다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis is the ___ movie I have ever seen.",
+    "choices": [
+     "baddest",
+     "worse",
+     "worst",
+     "most bad"
+    ],
+    "answer": 2,
+    "exp": "bad의 최상급은 불규칙으로 worst이다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 문장을 고르세요.",
+    "choices": [
+     "She is the best singer in the school.",
+     "This is the most expensive bag in the store.",
+     "He is the fastest of all the players.",
+     "It is the most cold day of the year."
+    ],
+    "answer": 3,
+    "exp": "cold는 짧은 형용사이므로 최상급은 the coldest이다."
+   },
+   {
+    "type": "ox",
+    "q": "Minsu is the smartest boy in his class.",
+    "answer": true,
+    "exp": "the + 최상급 + in + 집단으로 바르게 쓰였다."
+   },
+   {
+    "type": "ox",
+    "q": "최상급 앞에는 보통 a를 붙인다.",
+    "answer": false,
+    "exp": "최상급 앞에는 보통 the를 붙인다."
+   }
+  ]
+ }
+]

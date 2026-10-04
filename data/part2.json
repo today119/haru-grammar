@@ -1,0 +1,403 @@
+[
+{
+"id": 16,
+"title": "동명사 : 문장 시작에 오는 동명사",
+"points": [
+"동명사 = 동사원형 + -ing. '~하는 것'이라는 뜻으로 명사처럼 쓰인다.",
+"동명사는 문장 맨 앞에서 주어가 될 수 있다. 공식: 동명사(-ing) ~ + 동사 (예: Swimming is fun.)",
+"동명사 주어는 항상 단수 취급 → 동사는 is / was / 3인칭 단수형(-s)을 쓴다.",
+"동명사 뒤에 목적어나 꾸며 주는 말이 붙어도 그 덩어리 전체가 주어 하나다. (Playing soccer with friends is exciting.)",
+"부정은 동명사 바로 앞에 not을 붙인다. (Not eating breakfast is bad for you.)"
+],
+"examples": [
+{"en": "Running every morning keeps me healthy.", "ko": "매일 아침 달리는 것은 나를 건강하게 해 준다."},
+{"en": "Learning English is not easy.", "ko": "영어를 배우는 것은 쉽지 않다."},
+{"en": "Watching movies is my hobby.", "ko": "영화 보는 것이 나의 취미다."}
+],
+"trap": "동명사 주어 뒤에 복수 명사가 와도(Playing games ...) 주어는 동명사이므로 동사는 단수(is)를 써야 한다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. ___ is good for your health.", "choices": ["Walk", "Walking", "Walks", "Walked"], "answer": 1, "exp": "문장 맨 앞 주어 자리에는 '~하는 것'을 뜻하는 동명사(Walking)가 온다. 동사원형이나 과거형은 주어가 될 수 없다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. Reading books ___ my favorite activity.", "choices": ["are", "be", "is", "were"], "answer": 2, "exp": "동명사 주어(Reading books)는 단수 취급하므로 is를 쓴다. books가 복수라고 are를 쓰면 틀린다."},
+{"type": "mc", "q": "어법상 올바른 문장을 고르시오.", "choices": ["Eat vegetables is important.", "Eating vegetables are important.", "Eats vegetables is important.", "Eating vegetables is important."], "answer": 3, "exp": "주어 자리에는 동명사 Eating을 쓰고, 동명사 주어는 단수이므로 is를 쓴다."},
+{"type": "mc", "q": "다음 문장에서 어법상 틀린 부분을 고르시오. Making new friends are not always easy.", "choices": ["Making", "new friends", "are", "always easy"], "answer": 2, "exp": "주어는 동명사 Making new friends 덩어리이므로 단수 취급, are가 아니라 is가 맞다."},
+{"type": "mc", "q": "밑줄 친 Swimming의 문장 속 역할을 고르시오. Swimming in the sea is dangerous.", "choices": ["주어", "목적어", "보어", "수식어"], "answer": 0, "exp": "Swimming in the sea가 문장 맨 앞에서 '바다에서 수영하는 것은'이라는 주어 역할을 한다."},
+{"type": "mc", "q": "'일찍 일어나는 것은 어렵다'를 바르게 영작한 것을 고르시오.", "choices": ["Get up early is hard.", "Getting up early is hard.", "Getting up early hard.", "Got up early is hard."], "answer": 1, "exp": "'일어나는 것'은 동명사 Getting up으로 주어를 만들고 동사 is가 반드시 필요하다."},
+{"type": "ox", "q": "Playing computer games are fun.", "answer": false, "exp": "동명사 주어 Playing computer games는 단수 취급하므로 are가 아니라 is를 써야 한다."},
+{"type": "ox", "q": "동명사가 주어일 때는 단수 취급하여 단수 동사를 쓴다.", "answer": true, "exp": "동명사는 '~하는 것'이라는 하나의 행동을 나타내므로 단수 취급한다."}
+]
+},
+{
+"id": 17,
+"title": "동명사 : 동명사만 동반되는 동사",
+"points": [
+"다음 동사 뒤에는 동명사(-ing)만 온다: enjoy, finish, mind, avoid, give up, keep, practice, quit, stop(그만두다).",
+"공식: 주어 + enjoy/finish/mind ... + 동사-ing (예: I enjoy swimming.)",
+"이 동사들 뒤에 to부정사를 쓰면 틀린 문장이 된다. (enjoy to swim X)",
+"전치사 뒤에도 동명사를 쓴다: be good at -ing, thank you for -ing, How about -ing?",
+"Would you mind -ing? = '~해 주시겠어요?'라는 공손한 부탁 표현이다."
+],
+"examples": [
+{"en": "I enjoy playing badminton.", "ko": "나는 배드민턴 치는 것을 즐긴다."},
+{"en": "She finished cleaning her room.", "ko": "그녀는 방 청소를 끝냈다."},
+{"en": "He gave up smoking last year.", "ko": "그는 작년에 담배를 끊었다."}
+],
+"trap": "enjoy, finish, mind, avoid, give up 뒤에 to부정사를 넣은 보기를 정답으로 고르는 실수가 가장 많다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I enjoy ___ basketball after school.", "choices": ["to play", "play", "playing", "played"], "answer": 2, "exp": "enjoy는 동명사만 목적어로 취하므로 playing이 정답이다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. She finished ___ her homework.", "choices": ["doing", "to do", "do", "does"], "answer": 0, "exp": "finish 뒤에는 동명사가 온다. finish to do는 틀린 표현이다."},
+{"type": "mc", "q": "빈칸에 들어갈 수 없는 것을 고르시오. I ___ watching TV.", "choices": ["enjoy", "finished", "want", "gave up"], "answer": 2, "exp": "want는 to부정사를 목적어로 취하는 동사라 want watching은 틀리다. 나머지는 모두 동명사를 취한다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. Would you mind ___ the window?", "choices": ["open", "to open", "opened", "opening"], "answer": 3, "exp": "mind는 동명사를 목적어로 취한다. Would you mind opening ~? = '~ 좀 열어 주시겠어요?'"},
+{"type": "mc", "q": "어법상 올바른 문장을 고르시오.", "choices": ["He keeps to talk in class.", "He kept talking in class.", "She avoided to meet me.", "They practiced to swim."], "answer": 1, "exp": "keep, avoid, practice는 모두 동명사를 취하므로 kept talking만 맞다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. My brother is good at ___ soccer.", "choices": ["plays", "playing", "to play", "play"], "answer": 1, "exp": "전치사(at) 뒤에는 명사 역할을 하는 동명사를 쓴다."},
+{"type": "ox", "q": "He gave up to eat fast food.", "answer": false, "exp": "give up은 동명사를 취하므로 gave up eating fast food가 맞다."},
+{"type": "ox", "q": "Do you mind closing the door?", "answer": true, "exp": "mind 뒤에 동명사 closing이 왔으므로 올바른 문장이다."}
+]
+},
+{
+"id": 18,
+"title": "동명사 : 동명사와 부정사 비교",
+"points": [
+"to부정사만 취하는 동사: want, hope, plan, decide, promise, expect (앞으로 할 일·계획의 느낌)",
+"동명사만 취하는 동사: enjoy, finish, mind, avoid, give up (이미 하고 있거나 한 일의 느낌)",
+"둘 다 가능하고 뜻도 거의 같은 동사: like, love, hate, start, begin",
+"remember/forget + to부정사 = (앞으로) ~할 것을 / + 동명사 = (과거에) ~했던 것을",
+"stop + 동명사 = ~하는 것을 멈추다 / stop + to부정사 = ~하기 위해 (하던 일을) 멈추다"
+],
+"examples": [
+{"en": "I decided to study abroad.", "ko": "나는 유학을 가기로 결심했다."},
+{"en": "Don't forget to bring your umbrella.", "ko": "우산 가져오는 것 잊지 마."},
+{"en": "He stopped to drink water.", "ko": "그는 물을 마시려고 (하던 일을) 멈췄다."}
+],
+"trap": "stop drinking(마시는 것을 멈추다)과 stop to drink(마시려고 멈추다)는 뜻이 완전히 다르다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I hope ___ you again soon.", "choices": ["seeing", "to see", "see", "saw"], "answer": 1, "exp": "hope는 to부정사만 목적어로 취한다."},
+{"type": "mc", "q": "빈칸에 to swim과 swimming이 모두 들어갈 수 있는 동사를 고르시오. I ___ to swim / swimming.", "choices": ["enjoy", "want", "like", "finish"], "answer": 2, "exp": "like는 to부정사와 동명사를 모두 취한다. enjoy·finish는 동명사만, want는 to부정사만 가능하다."},
+{"type": "mc", "q": "'나갈 때 문 잠그는 것을 기억해'라는 뜻이 되도록 빈칸에 알맞은 것을 고르시오. Remember ___ the door when you leave.", "choices": ["lock", "locked", "locking", "to lock"], "answer": 3, "exp": "앞으로 할 일을 기억하라는 뜻이므로 remember + to부정사를 쓴다."},
+{"type": "mc", "q": "'나는 작년에 그를 만났던 것을 기억한다'가 되도록 빈칸에 알맞은 것을 고르시오. I remember ___ him last year.", "choices": ["meet", "meeting", "to meet", "met"], "answer": 1, "exp": "과거에 이미 한 일을 기억할 때는 remember + 동명사를 쓴다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. He stopped smoking.", "choices": ["그는 담배를 끊었다.", "그는 담배를 피우려고 멈춰 섰다.", "그는 담배를 피우기 시작했다.", "그는 담배를 피우고 싶었다."], "answer": 0, "exp": "stop + 동명사는 '~하는 것을 멈추다'라는 뜻이다. '피우려고 멈추다'는 stop to smoke이다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["She decided to join the club.", "I enjoy cooking.", "They planned visiting Busan.", "He finished reading the book."], "answer": 2, "exp": "plan은 to부정사를 취하므로 planned to visit가 맞다."},
+{"type": "ox", "q": "I forgot to call my mom, so she was angry.", "answer": true, "exp": "forget + to부정사는 '(해야 할 일을) 잊어버리다'라는 뜻으로, 전화하는 것을 잊었다는 올바른 문장이다."},
+{"type": "ox", "q": "stop to eat은 '먹는 것을 멈추다'라는 뜻이다.", "answer": false, "exp": "stop to eat은 '먹기 위해 멈추다'라는 뜻이다. '먹는 것을 멈추다'는 stop eating이다."}
+]
+},
+{
+"id": 19,
+"title": "분사 : ~하는(ing) vs. ~당한(ed)",
+"points": [
+"현재분사(-ing) = 능동·진행 '~하는, ~하고 있는' (a sleeping baby: 자고 있는 아기)",
+"과거분사(-ed, p.p.) = 수동·완료 '~된, ~당한' (a broken window: 깨진 창문)",
+"감정 표현: 감정을 일으키는 것(사물·상황)은 -ing, 감정을 느끼는 사람은 -ed. (The game was exciting. / I was excited.)",
+"분사가 혼자면 명사 앞에, 다른 말과 함께 길어지면 명사 뒤에 둔다. (the boy running in the park)"
+],
+"examples": [
+{"en": "Look at the smiling girl.", "ko": "웃고 있는 저 소녀를 봐."},
+{"en": "I found a lost dog.", "ko": "나는 길 잃은 개를 발견했다."},
+{"en": "The game was exciting, so we were excited.", "ko": "경기가 흥미진진해서 우리는 신이 났다."}
+],
+"trap": "사람이 감정을 느낄 때는 -ed를 쓴다. I am interesting은 '나는 흥미로운 사람이다'라는 엉뚱한 뜻이 된다.",
+"quiz": [
+{"type": "mc", "q": "'그 소식은 매우 놀라웠다'가 되도록 빈칸에 알맞은 것을 고르시오. The news was very ___.", "choices": ["surprised", "surprising", "surprise", "surprises"], "answer": 1, "exp": "소식이 놀라움을 '일으키는' 것이므로 -ing 형태 surprising을 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I was ___ because the class was too long.", "choices": ["bore", "boring", "bores", "bored"], "answer": 3, "exp": "사람(I)이 지루함을 '느끼는' 것이므로 -ed 형태 bored를 쓴다."},
+{"type": "mc", "q": "'깨진 창문이 있다'가 되도록 빈칸에 알맞은 것을 고르시오. There is a ___ window.", "choices": ["breaking", "broke", "broken", "break"], "answer": 2, "exp": "창문은 깨짐을 '당한' 것이므로 과거분사 broken을 쓴다."},
+{"type": "mc", "q": "'공을 차고 있는 소년은 내 남동생이다'가 되도록 빈칸에 알맞은 것을 고르시오. The boy ___ a ball is my brother.", "choices": ["kicked", "kicking", "kicks", "to kick"], "answer": 1, "exp": "소년이 직접 공을 '차고 있는' 것이므로 현재분사 kicking이 명사 뒤에서 꾸민다."},
+{"type": "mc", "q": "어법상 올바른 문장을 고르시오.", "choices": ["I am interesting in music.", "The book was interested.", "She was tired after the game.", "We were exciting about the trip."], "answer": 2, "exp": "사람이 피곤함을 느끼므로 tired가 맞다. 나머지는 interested, interesting, excited로 고쳐야 한다."},
+{"type": "mc", "q": "'이것은 한국에서 만들어진 차다'가 되도록 빈칸에 알맞은 것을 고르시오. This is a car ___ in Korea.", "choices": ["make", "makes", "making", "made"], "answer": 3, "exp": "차는 '만들어진' 대상이므로 과거분사 made를 쓴다."},
+{"type": "ox", "q": "The soccer game was exciting.", "answer": true, "exp": "경기가 흥분을 '일으키는' 것이므로 exciting이 맞다."},
+{"type": "ox", "q": "I was very confusing by the question.", "answer": false, "exp": "사람이 혼란을 '느끼는' 것이므로 confused를 써야 한다."}
+]
+},
+{
+"id": 20,
+"title": "분사 : 문장을 연결하는 분사 활용",
+"points": [
+"분사구문: 접속사(when, because, as, while 등)가 있는 부분을 -ing로 줄여 두 문장을 짧게 연결하는 방법이다.",
+"만드는 법: ① 접속사 빼기 ② 주절과 주어가 같으면 주어 빼기 ③ 동사를 -ing로 바꾸기 (When I opened the door → Opening the door)",
+"be동사도 Being으로 바꾼다. (Because I was hungry → Being hungry)",
+"뜻(때·이유 등)은 문맥으로 해석한다: '~할 때', '~해서'",
+"부정은 분사 바로 앞에 not을 붙인다: Not knowing the answer, ..."
+],
+"examples": [
+{"en": "Opening the door, I saw a cat.", "ko": "문을 열었을 때, 나는 고양이 한 마리를 보았다."},
+{"en": "Feeling tired, he went to bed early.", "ko": "피곤해서 그는 일찍 잠자리에 들었다."},
+{"en": "Not knowing the answer, she kept quiet.", "ko": "답을 몰라서 그녀는 조용히 있었다."}
+],
+"trap": "부정 분사구문은 Knowing not이 아니라 Not knowing처럼 not을 맨 앞에 쓴다.",
+"quiz": [
+{"type": "mc", "q": "두 문장이 같은 뜻이 되도록 빈칸에 알맞은 것을 고르시오. Because I was hungry, I ate two sandwiches. = ___ hungry, I ate two sandwiches.", "choices": ["Be", "Being", "Been", "To be"], "answer": 1, "exp": "접속사와 주어를 빼고 be동사 was를 Being으로 바꾼다."},
+{"type": "mc", "q": "두 문장이 같은 뜻이 되도록 빈칸에 알맞은 것을 고르시오. When she heard the news, she cried. = ___ the news, she cried.", "choices": ["Heard", "Hear", "Hearing", "Hears"], "answer": 2, "exp": "접속사 When과 주어 she를 빼고 동사를 -ing(Hearing)로 바꾼다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. ___ what to say, he stayed silent.", "choices": ["Knowing not", "Not knowing", "Don't knowing", "No knowing"], "answer": 1, "exp": "분사구문의 부정은 not을 분사 바로 앞에 붙여 Not knowing으로 쓴다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. Walking along the beach, I found a shell.", "choices": ["해변을 걷기 위해 나는 조개를 찾았다.", "해변을 걷는 것은 조개를 찾는 것이다.", "해변을 걷지 않았지만 조개를 발견했다.", "해변을 따라 걷다가 나는 조개를 발견했다."], "answer": 3, "exp": "Walking ~은 '~할 때/~하다가'라는 때를 나타내는 분사구문이다."},
+{"type": "mc", "q": "As he was tired, he slept early.를 분사구문으로 바르게 바꾼 것을 고르시오.", "choices": ["Being tired, he slept early.", "Was tired, he slept early.", "Be tired, he slept early.", "Tiring, he slept early."], "answer": 0, "exp": "접속사와 주어를 빼고 was를 Being으로 바꾼다. Tiring은 '피곤하게 만드는'이라는 다른 뜻이다."},
+{"type": "mc", "q": "다음 문장에서 어법상 틀린 부분을 고르시오. Listen to music, I cleaned my room.", "choices": ["Listen", "to music", "I", "cleaned"], "answer": 0, "exp": "분사구문이므로 동사원형 Listen이 아니라 Listening을 써야 한다."},
+{"type": "ox", "q": "Seeing me, she waved her hand.", "answer": true, "exp": "When she saw me를 줄인 분사구문으로 올바르다. '나를 보고 그녀는 손을 흔들었다.'"},
+{"type": "ox", "q": "Not to know his number, I couldn't call him.", "answer": false, "exp": "분사구문의 부정은 Not knowing his number로 써야 한다."}
+]
+},
+{
+"id": 21,
+"title": "분사 : 동시 동작을 나타내는 분사",
+"points": [
+"동시 동작: 주절 + , + -ing ~ = '~하면서' (He came in, singing a song.)",
+"두 동작의 주어가 같을 때 쓰며, 뒤의 -ing 동작이 앞 동작과 동시에 일어난다.",
+"with + 명사 + 분사 = '(명사)가 ~한 채로'",
+"명사가 스스로 하면 -ing (with the engine running), 명사가 당하는 상태면 p.p. (with his eyes closed, with his arms folded)"
+],
+"examples": [
+{"en": "She walked home, listening to music.", "ko": "그녀는 음악을 들으면서 집으로 걸어갔다."},
+{"en": "He sat on the bench, reading a newspaper.", "ko": "그는 신문을 읽으면서 벤치에 앉아 있었다."},
+{"en": "She listened to the song with her eyes closed.", "ko": "그녀는 눈을 감은 채로 그 노래를 들었다."}
+],
+"trap": "'눈을 감은 채로'는 눈이 '감겨진' 상태이므로 with her eyes closing이 아니라 with her eyes closed다.",
+"quiz": [
+{"type": "mc", "q": "'그녀는 TV를 보면서 아침을 먹었다'가 되도록 빈칸에 알맞은 것을 고르시오. She ate breakfast, ___ TV.", "choices": ["watch", "watched", "watching", "watches"], "answer": 2, "exp": "'~하면서'라는 동시 동작은 콤마 뒤에 -ing를 쓴다."},
+{"type": "mc", "q": "'그는 팔짱을 낀 채 소파에 앉아 있었다'가 되도록 빈칸에 알맞은 것을 고르시오. He sat on the sofa with his arms ___.", "choices": ["folding", "folded", "fold", "folds"], "answer": 1, "exp": "팔은 '접혀진' 상태이므로 with + 명사 + 과거분사(folded)를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I sat there with my eyes ___.", "choices": ["close", "closing", "closes", "closed"], "answer": 3, "exp": "눈은 '감겨진' 상태이므로 과거분사 closed를 쓴다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. He ran to school, eating bread.", "choices": ["그는 빵을 먹으면서 학교로 뛰어갔다.", "그는 빵을 먹기 위해 학교로 뛰어갔다.", "그는 학교에 뛰어간 후 빵을 먹었다.", "그는 빵을 먹지 않고 학교로 뛰어갔다."], "answer": 0, "exp": "콤마 + -ing는 '~하면서'라는 동시 동작을 나타낸다."},
+{"type": "mc", "q": "'개가 꼬리를 흔들며 나에게 왔다'가 되도록 빈칸에 알맞은 것을 고르시오. The dog came to me, ___ its tail.", "choices": ["wag", "wags", "wagged", "wagging"], "answer": 3, "exp": "개가 직접 꼬리를 흔들면서 오는 동시 동작이므로 현재분사 wagging을 쓴다."},
+{"type": "mc", "q": "'그녀는 울면서 그곳에 서 있었다'를 바르게 쓴 것을 고르시오. She stood there, ___.", "choices": ["cry", "cried", "crying", "cries"], "answer": 2, "exp": "접속사 없이 콤마 뒤에 동작을 덧붙일 때는 -ing(crying)를 써야 '~하면서'가 된다."},
+{"type": "ox", "q": "He talked on the phone with his legs crossing.", "answer": false, "exp": "다리는 '꼬아진' 상태이므로 with his legs crossed가 맞다."},
+{"type": "ox", "q": "'~하면서'라는 동시 동작은 주절 뒤에 콤마와 -ing를 붙여 나타낼 수 있다.", "answer": true, "exp": "예: She walked home, listening to music. (음악을 들으면서 걸어갔다)"}
+]
+},
+{
+"id": 22,
+"title": "상태를 나타내는 be와 행동을 나타내는 do 동사",
+"points": [
+"be동사(am, are, is, was, were) = '~이다, ~하다, ~에 있다'라는 상태를 나타낸다. 공식: 주어 + be동사 + 명사/형용사/장소",
+"일반동사(play, eat, go, like 등) = 행동이나 마음을 나타낸다. 공식: 주어 + 일반동사 (+ 목적어)",
+"부정문·의문문: be동사는 be 뒤에 not, be를 맨 앞으로 (Are you ~?) / 일반동사는 do·does·did를 빌려 쓴다 (Do you ~? / I don't ~)",
+"한 문장에 be동사와 일반동사를 나란히 쓰지 않는다. (I am like it. X → I like it.)",
+"know, like, want, have(가지다) 같은 상태 동사는 보통 진행형(-ing)으로 쓰지 않는다."
+],
+"examples": [
+{"en": "She is a nurse.", "ko": "그녀는 간호사이다."},
+{"en": "He doesn't eat meat.", "ko": "그는 고기를 먹지 않는다."},
+{"en": "Were you at home yesterday?", "ko": "너 어제 집에 있었니?"}
+],
+"trap": "일반동사 의문문에 be동사를 쓰는 실수(Are you like pizza? X → Do you like pizza?)가 자주 나온다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. ___ you like soccer?", "choices": ["Are", "Is", "Do", "Does"], "answer": 2, "exp": "like는 일반동사이므로 의문문은 Do를 빌려 만든다. 주어가 you이므로 Do이다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. She ___ happy today.", "choices": ["does", "is", "do", "are"], "answer": 1, "exp": "happy는 형용사로 상태를 나타내므로 be동사가 필요하고, 주어 She에는 is를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. ___ he tired yesterday?", "choices": ["Was", "Did", "Were", "Does"], "answer": 0, "exp": "tired(형용사) 앞에는 be동사가 필요하고, 과거(yesterday)·3인칭 단수이므로 Was이다."},
+{"type": "mc", "q": "My father drinks coffee.를 부정문으로 바르게 바꾼 것을 고르시오.", "choices": ["My father isn't drinks coffee.", "My father don't drink coffee.", "My father doesn't drinks coffee.", "My father doesn't drink coffee."], "answer": 3, "exp": "일반동사 부정문은 doesn't + 동사원형이다. doesn't 뒤에 drinks처럼 -s를 붙이면 틀린다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["I am a student.", "They play tennis.", "I am know her name.", "He was at school."], "answer": 2, "exp": "be동사(am)와 일반동사(know)를 나란히 쓸 수 없다. I know her name.이 맞다."},
+{"type": "mc", "q": "'나는 그 답을 안다'가 되도록 빈칸에 알맞은 것을 고르시오. I ___ the answer.", "choices": ["am knowing", "know", "knowing", "am know"], "answer": 1, "exp": "know는 상태 동사라 보통 진행형으로 쓰지 않고, be동사와 함께 쓰지도 않는다."},
+{"type": "ox", "q": "Are you want some water?", "answer": false, "exp": "want는 일반동사이므로 Do you want some water?가 맞다."},
+{"type": "ox", "q": "Did she go to the gym last night?", "answer": true, "exp": "일반동사 과거 의문문은 Did + 주어 + 동사원형이므로 올바르다."}
+]
+},
+{
+"id": 23,
+"title": "사역동사 have, make, let",
+"points": [
+"사역동사 = 다른 사람에게 어떤 일을 '하게 하다'라는 동사. 공식: 주어 + make/have/let + 목적어 + 동사원형",
+"make = (억지로) ~하게 시키다 / have = (부탁·지시해서) ~하게 하다 / let = ~하도록 허락하다",
+"사역동사의 목적어 뒤에는 to부정사가 아니라 동사원형을 쓴다. (make him go O / make him to go X)",
+"목적어가 '당하는' 대상이면 have + 목적어 + p.p. (I had my hair cut. 머리를 잘랐다(잘림을 당했다))",
+"비슷한 뜻이라도 get, want, tell, ask는 목적어 뒤에 to부정사를 쓴다. (get him to clean)"
+],
+"examples": [
+{"en": "My mom made me clean my room.", "ko": "엄마는 나에게 방을 청소하게 하셨다."},
+{"en": "Let me introduce myself.", "ko": "제 소개를 하겠습니다."},
+{"en": "I had my car washed.", "ko": "나는 내 차를 세차 맡겼다."}
+],
+"trap": "사역동사 make/have/let 뒤 목적어 다음에 to부정사를 쓰면 틀린다(made me to wait X).",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. My teacher made us ___ the poem.", "choices": ["memorize", "to memorize", "memorizing", "memorized"], "answer": 0, "exp": "사역동사 make + 목적어 + 동사원형이므로 memorize가 맞다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. Please let me ___ you.", "choices": ["to help", "helping", "help", "helped"], "answer": 2, "exp": "let + 목적어 + 동사원형이다. '제가 도와드릴게요.'"},
+{"type": "mc", "q": "'나는 어제 휴대폰을 수리 받았다'가 되도록 빈칸에 알맞은 것을 고르시오. I had my phone ___ yesterday.", "choices": ["repair", "repairing", "to repair", "repaired"], "answer": 3, "exp": "휴대폰은 수리를 '당하는' 대상이므로 have + 목적어 + 과거분사(repaired)를 쓴다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["She let her son play games.", "He made me to wait.", "I had him fix the door.", "Mom made me eat carrots."], "answer": 1, "exp": "make는 사역동사이므로 목적어 뒤에 동사원형을 쓴다. He made me wait.가 맞다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. My dad let me go to the concert.", "choices": ["아빠는 나를 억지로 콘서트에 가게 하셨다.", "아빠는 나와 함께 콘서트에 가셨다.", "아빠는 내가 콘서트에 가도록 허락해 주셨다.", "아빠는 내가 콘서트에 못 가게 하셨다."], "answer": 2, "exp": "let은 '~하도록 허락하다'라는 뜻이다. '억지로 시키다'는 make이다."},
+{"type": "mc", "q": "빈칸에 들어갈 수 있는 것을 고르시오. The coach ___ the players run 10 laps.", "choices": ["wanted", "made", "told", "asked"], "answer": 1, "exp": "목적어 뒤에 동사원형 run이 왔으므로 사역동사 made만 가능하다. want, tell, ask는 to run을 써야 한다."},
+{"type": "ox", "q": "She had her hair cut.", "answer": true, "exp": "머리는 잘림을 '당하는' 것이므로 have + 목적어 + p.p.(cut)로 올바르다. cut은 과거분사도 cut이다."},
+{"type": "ox", "q": "Don't let him to touch the cake.", "answer": false, "exp": "let + 목적어 + 동사원형이므로 Don't let him touch the cake.가 맞다."}
+]
+},
+{
+"id": 24,
+"title": "지각 동사 see, hear, feel",
+"points": [
+"지각동사 = 보고(see, watch), 듣고(hear, listen to), 느끼는(feel) 동사. 공식: 주어 + 지각동사 + 목적어 + 동사원형/-ing",
+"동사원형: 동작 전체를 처음부터 끝까지 봄 / -ing: 동작이 진행 중인 순간을 강조",
+"목적어가 '당하는' 대상이면 과거분사를 쓴다. (I heard my name called. 내 이름이 불리는 것을 들었다)",
+"지각동사의 목적어 뒤에는 to부정사를 쓸 수 없다. (see him to go X)"
+],
+"examples": [
+{"en": "I saw him cross the street.", "ko": "나는 그가 길을 건너는 것을 보았다."},
+{"en": "She heard someone singing.", "ko": "그녀는 누군가 노래하고 있는 것을 들었다."},
+{"en": "I felt the ground shake.", "ko": "나는 땅이 흔들리는 것을 느꼈다."}
+],
+"trap": "지각동사 뒤 목적어 다음에 to부정사를 넣은 보기(heard him to sing)는 항상 틀린 것이다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I saw a boy ___ the street.", "choices": ["to cross", "crossed", "crossing", "crosses"], "answer": 2, "exp": "지각동사 see + 목적어 + 동사원형/-ing이므로 crossing이 맞다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. She heard her mom ___ her name.", "choices": ["call", "to call", "calls", "called"], "answer": 0, "exp": "엄마가 직접 부르는 것이므로 지각동사 hear + 목적어 + 동사원형(call)을 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I felt something ___ my arm.", "choices": ["touches", "to touch", "touched", "touch"], "answer": 3, "exp": "feel + 목적어 + 동사원형이므로 touch가 맞다."},
+{"type": "mc", "q": "'나는 복도에서 내 이름이 불리는 것을 들었다'가 되도록 빈칸에 알맞은 것을 고르시오. I heard my name ___ in the hall.", "choices": ["call", "calling", "called", "to call"], "answer": 2, "exp": "이름은 '불리는' 대상이므로 과거분사 called를 쓴다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["We watched the kids play.", "I heard him to sing.", "He felt the house shaking.", "I saw her dancing."], "answer": 1, "exp": "지각동사 뒤에는 to부정사를 쓰지 않는다. I heard him sing(singing).이 맞다."},
+{"type": "mc", "q": "빈칸에 들어갈 수 없는 것을 고르시오. I ___ him open the box.", "choices": ["saw", "watched", "wanted", "noticed"], "answer": 2, "exp": "want는 지각동사가 아니어서 wanted him to open처럼 to부정사를 써야 한다."},
+{"type": "ox", "q": "I listened to the birds singing.", "answer": true, "exp": "listen to도 지각동사처럼 목적어 + -ing를 쓸 수 있다."},
+{"type": "ox", "q": "지각동사의 목적어 뒤에는 to부정사도 자연스럽게 쓸 수 있다.", "answer": false, "exp": "지각동사 + 목적어 뒤에는 동사원형, -ing, 또는 p.p.만 온다. to부정사는 쓸 수 없다."}
+]
+},
+{
+"id": 25,
+"title": "태 : 수동태와 능동태의 구조",
+"points": [
+"능동태 = 주어가 직접 하는 것 / 수동태 = 주어가 당하는 것 ('~되다, ~받다')",
+"수동태 공식: 주어 + be동사 + 과거분사(p.p.) (+ by + 행위자)",
+"바꾸는 법: ① 능동태 목적어 → 수동태 주어 ② 동사 → be + p.p. ③ 능동태 주어 → by + 목적격(by him, by her)",
+"시제는 be동사로 나타낸다: is made(현재) / was made(과거)",
+"행위자가 중요하지 않거나 누군지 모르면 by ~를 생략한다. (English is spoken in many countries.)"
+],
+"examples": [
+{"en": "The window was broken by Tom.", "ko": "그 창문은 톰에 의해 깨졌다."},
+{"en": "English is spoken in many countries.", "ko": "영어는 많은 나라에서 사용된다."},
+{"en": "This song was written by my teacher.", "ko": "이 노래는 우리 선생님이 쓰셨다."}
+],
+"trap": "수동태에서 be동사를 빠뜨리거나(The car washed X), by 뒤에 주격을 쓰는(by he X) 실수가 많다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. This bridge ___ in 1990.", "choices": ["built", "was built", "was building", "builds"], "answer": 1, "exp": "다리는 '지어진' 대상이고 과거(1990)이므로 was + p.p.(was built)를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. The room is cleaned ___ my sister every day.", "choices": ["from", "with", "by", "to"], "answer": 2, "exp": "수동태에서 행위자(누가 했는지)는 by로 나타낸다."},
+{"type": "mc", "q": "Mina wrote the letter.를 수동태로 바르게 바꾼 것을 고르시오.", "choices": ["The letter wrote by Mina.", "The letter is written by Mina.", "The letter was wrote by Mina.", "The letter was written by Mina."], "answer": 3, "exp": "과거(wrote)이므로 was + 과거분사(written)를 쓴다. wrote는 과거형이지 과거분사가 아니다."},
+{"type": "mc", "q": "'그 케이크는 그에 의해 만들어졌다'가 되도록 빈칸에 알맞은 것을 고르시오. The cake was made by ___.", "choices": ["he", "his", "him", "himself"], "answer": 2, "exp": "전치사 by 뒤에는 목적격(him)을 쓴다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["Soccer is played all over the world.", "The car washed by my dad.", "The book was read by many students.", "These cookies were baked by Ann."], "answer": 1, "exp": "차는 '세차된' 대상이므로 be동사가 필요하다. The car was washed by my dad.가 맞다."},
+{"type": "mc", "q": "Many people love this song.을 수동태로 바르게 바꾼 것을 고르시오.", "choices": ["This song is loved by many people.", "This song loves many people.", "This song was loving by many people.", "This song is love by many people."], "answer": 0, "exp": "현재(love)이므로 is + 과거분사(loved) + by 행위자로 쓴다."},
+{"type": "ox", "q": "The windows are cleaned every week.", "answer": true, "exp": "창문은 '청소되는' 대상이고 복수이므로 are + p.p.로 올바르다. 행위자는 생략되었다."},
+{"type": "ox", "q": "The picture was painted by he.", "answer": false, "exp": "by 뒤에는 목적격을 써야 하므로 by him이 맞다."}
+]
+},
+{
+"id": 26,
+"title": "태 : 수동태와 should & will",
+"points": [
+"조동사가 있는 수동태 공식: 주어 + 조동사(will, should, can, must) + be + 과거분사(p.p.)",
+"조동사 뒤에는 항상 동사원형이 오므로 be동사도 원형 be를 쓴다. (will is done X → will be done)",
+"will be + p.p. = ~될 것이다 / should be + p.p. = ~되어야 한다",
+"부정문: 조동사 + not + be + p.p. (should not be used)",
+"의문문: 조동사 + 주어 + be + p.p.? (Will it be finished soon?)"
+],
+"examples": [
+{"en": "The work will be finished tomorrow.", "ko": "그 일은 내일 끝날 것이다."},
+{"en": "Phones should be turned off in class.", "ko": "수업 중에는 휴대폰을 꺼야 한다."},
+{"en": "The stars can be seen at night.", "ko": "별은 밤에 볼 수 있다."}
+],
+"trap": "조동사 뒤에 is/are를 쓰거나(will is held X), p.p. 대신 동사원형을 쓰는(should be follow X) 실수가 많다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. The report will ___ by Friday.", "choices": ["finish", "be finished", "is finished", "finished"], "answer": 1, "exp": "보고서는 '끝내지는' 대상이므로 will + be + p.p.를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. Trash should ___ in the bin.", "choices": ["put", "be putting", "be put", "is put"], "answer": 2, "exp": "쓰레기는 '넣어지는' 대상이므로 should + be + p.p.(put)를 쓴다. put은 과거분사도 put이다."},
+{"type": "mc", "q": "'새 도서관이 내년에 지어질 것이다'가 되도록 빈칸에 알맞은 것을 고르시오. The new library ___ next year.", "choices": ["will build", "will is built", "is will built", "will be built"], "answer": 3, "exp": "조동사 수동태는 will + be + p.p. 순서다. 도서관은 스스로 짓지 않으므로 will build는 틀리다."},
+{"type": "mc", "q": "'시험 중에 휴대폰은 사용되어서는 안 된다'가 되도록 빈칸에 알맞은 것을 고르시오. Cell phones ___ during the test.", "choices": ["should not be used", "should be not used", "not should be used", "should not used"], "answer": 0, "exp": "부정은 조동사 바로 뒤에 not을 붙여 should not be + p.p.로 쓴다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["The door must be locked.", "The game will be played tomorrow.", "This rule should be follow.", "The pizza will be delivered soon."], "answer": 2, "exp": "be 뒤에는 과거분사가 와야 하므로 should be followed가 맞다."},
+{"type": "mc", "q": "We will hold the meeting tomorrow.를 수동태로 바꿀 때 빈칸에 알맞은 것을 고르시오. The meeting ___ tomorrow.", "choices": ["will held", "will be held", "will be holding", "will hold"], "answer": 1, "exp": "will + be + 과거분사(held)로 쓴다. hold의 과거분사는 held이다."},
+{"type": "ox", "q": "The homework should be done by tomorrow.", "answer": true, "exp": "should + be + p.p.(done)로 올바른 조동사 수동태다."},
+{"type": "ox", "q": "The party will is held on Saturday.", "answer": false, "exp": "조동사 뒤에는 원형 be를 써야 하므로 will be held가 맞다."}
+]
+},
+{
+"id": 27,
+"title": "태 : 수동태로 못 쓰는 동사",
+"points": [
+"수동태는 능동태의 목적어를 주어로 만드는 것이므로, 목적어가 없는 동사는 수동태로 쓸 수 없다.",
+"목적어가 없는 동사(자동사): happen, occur(일어나다), appear(나타나다), disappear(사라지다), arrive, die, rise",
+"The accident happened. (O) / The accident was happened. (X)",
+"목적어가 있어도 수동태로 잘 쓰지 않는 상태 동사: resemble(닮다), have(가지다), fit(맞다)"
+],
+"examples": [
+{"en": "The accident happened last night.", "ko": "그 사고는 어젯밤에 일어났다."},
+{"en": "The sun disappeared behind the clouds.", "ko": "해가 구름 뒤로 사라졌다."},
+{"en": "She resembles her mother.", "ko": "그녀는 엄마를 닮았다."}
+],
+"trap": "'일어났다, 사라졌다'를 우리말 느낌 때문에 was happened, was disappeared처럼 수동태로 쓰면 틀린다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. A car accident ___ yesterday.", "choices": ["was happened", "is happened", "happened", "happen"], "answer": 2, "exp": "happen은 목적어가 없는 자동사라 수동태로 쓸 수 없고, yesterday이므로 과거형 happened를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. The magician ___ suddenly.", "choices": ["was disappeared", "disappeared", "is disappeared", "been disappeared"], "answer": 1, "exp": "disappear는 자동사라 수동태가 불가능하다. 능동형 disappeared가 맞다."},
+{"type": "mc", "q": "수동태로 바꿀 수 없는 문장을 고르시오.", "choices": ["Tom broke the cup.", "She cleaned the room.", "They built a house.", "He resembles his father."], "answer": 3, "exp": "resemble(닮다)은 상태 동사라 목적어가 있어도 수동태로 쓰지 않는다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["The problem was occurred.", "The bus arrived late.", "My grandfather died in 2010.", "The sun rises in the east."], "answer": 0, "exp": "occur는 자동사라 수동태로 쓸 수 없다. The problem occurred.가 맞다."},
+{"type": "mc", "q": "수동태로 쓸 수 없는 동사를 고르시오.", "choices": ["write", "appear", "make", "eat"], "answer": 1, "exp": "appear(나타나다)는 목적어가 없는 자동사라 수동태가 없다. 나머지는 목적어를 가질 수 있다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. The plane ___ at the airport at 3 p.m.", "choices": ["arrived", "was arrived", "is arrived", "been arrived"], "answer": 0, "exp": "arrive는 자동사이므로 수동태로 쓸 수 없다. arrived가 맞다."},
+{"type": "ox", "q": "Strange things were happened in the house.", "answer": false, "exp": "happen은 수동태로 쓸 수 없으므로 Strange things happened가 맞다."},
+{"type": "ox", "q": "happen, appear처럼 목적어가 없는 동사는 수동태로 쓸 수 없다.", "answer": true, "exp": "수동태는 목적어를 주어로 바꾸는 것이므로 목적어가 없는 동사는 수동태가 될 수 없다."}
+]
+},
+{
+"id": 28,
+"title": "가정법 : 가정법 과거 표현",
+"points": [
+"가정법 과거 = 지금 사실과 반대되거나 일어나기 어려운 일을 상상할 때 쓴다.",
+"공식: If + 주어 + 과거동사, 주어 + would/could/might + 동사원형",
+"모양은 과거지만 뜻은 현재: '(지금) 만약 ~라면 ~할 텐데'",
+"if절의 be동사는 주어와 상관없이 were를 쓴다. (If I were you, ...)",
+"실제로 일어날 수 있는 일은 단순 조건문: If it rains tomorrow, I will stay home. (if절에 will X)"
+],
+"examples": [
+{"en": "If I were rich, I would buy a big house.", "ko": "내가 부자라면 큰 집을 살 텐데."},
+{"en": "If I had time, I could help you.", "ko": "나에게 시간이 있다면 너를 도와줄 수 있을 텐데."},
+{"en": "If he knew her number, he would call her.", "ko": "그가 그녀의 번호를 안다면 그녀에게 전화할 텐데."}
+],
+"trap": "가정법 과거의 주절에는 will이 아니라 would(could)를 쓰고, if절의 be동사는 were를 쓴다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. If I ___ a bird, I would fly to you.", "choices": ["am", "were", "be", "will be"], "answer": 1, "exp": "현재 사실의 반대를 상상하는 가정법 과거이므로 if절의 be동사는 were를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. If I had a car, I ___ drive to work.", "choices": ["will", "am", "did", "would"], "answer": 3, "exp": "if절이 과거(had)인 가정법 과거이므로 주절에는 would + 동사원형을 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. If she ___ the answer, she would tell us.", "choices": ["knows", "know", "knew", "known"], "answer": 2, "exp": "주절이 would tell이므로 가정법 과거이고, if절에는 과거동사 knew를 쓴다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. If I were you, I would rest.", "choices": ["내가 너라면 쉴 텐데.", "나는 너이므로 쉰다.", "내가 너였다면 쉬었을 텐데.", "나는 너처럼 쉬었다."], "answer": 0, "exp": "가정법 과거는 모양은 과거지만 '(지금) ~라면 ~할 텐데'라는 현재의 뜻이다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["If I were taller, I could dunk.", "If he had money, he would buy it.", "If I am you, I would apologize.", "If we lived near, we would visit often."], "answer": 2, "exp": "주절이 would인 가정법 과거이므로 if절은 If I were you가 되어야 한다."},
+{"type": "mc", "q": "두 문장이 같은 뜻이 되도록 빈칸에 알맞은 것을 고르시오. As I don't have time, I can't go. = If I ___ time, I ___ go.", "choices": ["have – can", "had – could", "had had – could have", "have – could"], "answer": 1, "exp": "현재 사실(시간이 없다)의 반대이므로 가정법 과거 If I had ~, I could ~를 쓴다."},
+{"type": "ox", "q": "If I were a teacher, I would give no homework.", "answer": true, "exp": "If + were, 주어 + would + 동사원형의 올바른 가정법 과거 문장이다."},
+{"type": "ox", "q": "If it will rain tomorrow, I will stay home.", "answer": false, "exp": "조건을 나타내는 if절에는 미래라도 현재시제를 쓴다. If it rains tomorrow가 맞다."}
+]
+},
+{
+"id": 29,
+"title": "가정법 : 가정법 과거완료 표현",
+"points": [
+"가정법 과거완료 = 이미 지나간 과거 사실과 반대되는 일을 상상할 때 쓴다.",
+"공식: If + 주어 + had + p.p., 주어 + would/could/might + have + p.p.",
+"뜻: '(그때) 만약 ~했더라면 ~했을 텐데' (실제로는 하지 않았다)",
+"가정법 과거(지금 반대: If I had ~, I would + 원형)와 구분해야 한다.",
+"부정: If + 주어 + hadn't + p.p. (If it hadn't rained, ...)"
+],
+"examples": [
+{"en": "If I had studied harder, I would have passed the test.", "ko": "내가 더 열심히 공부했더라면 시험에 합격했을 텐데."},
+{"en": "If you had told me, I could have helped you.", "ko": "네가 나에게 말했더라면 내가 도와줄 수 있었을 텐데."},
+{"en": "If it hadn't rained, we would have played soccer.", "ko": "비가 오지 않았더라면 우리는 축구를 했을 텐데."}
+],
+"trap": "if절에는 had p.p., 주절에는 would have p.p.를 쓴다. if절에 would have를 쓰거나 주절에 would + 동사원형을 쓰면 틀린다.",
+"quiz": [
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. If I had left earlier, I ___ the bus.", "choices": ["would catch", "will catch", "would have caught", "had caught"], "answer": 2, "exp": "if절이 had p.p.인 가정법 과거완료이므로 주절은 would have + p.p.를 쓴다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. If she ___ harder, she would have won.", "choices": ["trained", "had trained", "has trained", "would train"], "answer": 1, "exp": "주절이 would have won이므로 가정법 과거완료이고, if절에는 had + p.p.를 쓴다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. If he had come, we would have been happy.", "choices": ["그가 와서 우리는 행복했다.", "그가 오면 우리는 행복할 것이다.", "그가 온다면 우리는 행복할 텐데.", "그가 왔더라면 우리는 행복했을 텐데."], "answer": 3, "exp": "가정법 과거완료는 '(그때) ~했더라면 ~했을 텐데'라는 과거 사실의 반대다. 실제로 그는 오지 않았다."},
+{"type": "mc", "q": "두 문장이 같은 뜻이 되도록 빈칸에 알맞은 것을 고르시오. Because I didn't know, I didn't help. = If I ___, I would have helped.", "choices": ["had known", "knew", "have known", "would know"], "answer": 0, "exp": "과거 사실(몰랐다)의 반대이므로 if절에 had + p.p.(had known)를 쓴다."},
+{"type": "mc", "q": "다음 문장에서 어법상 틀린 부분을 고르시오. If you had called me, I would come to the party.", "choices": ["had called", "would", "come", "to the party"], "answer": 2, "exp": "if절이 had called(과거완료)이므로 주절은 would have come이 되어야 한다."},
+{"type": "mc", "q": "'과거 사실의 반대'를 나타내는 문장을 고르시오.", "choices": ["If I am rich, I will travel.", "If I were rich, I would travel.", "If I was rich, I traveled.", "If I had been rich, I would have traveled."], "answer": 3, "exp": "had been ~, would have p.p.가 과거 사실의 반대(가정법 과거완료)다. If I were ~는 현재 사실의 반대다."},
+{"type": "ox", "q": "If I had known the truth, I would have told you.", "answer": true, "exp": "If + had p.p., would have p.p.의 올바른 가정법 과거완료 문장이다."},
+{"type": "ox", "q": "If she would have studied, she would have passed.", "answer": false, "exp": "if절에는 would have가 아니라 had p.p.를 쓴다. If she had studied가 맞다."}
+]
+},
+{
+"id": 30,
+"title": "가정법 : I wish ~와 What if를 활용한 가정법 표현",
+"points": [
+"I wish + 주어 + 과거동사(be동사는 were) = '(지금) ~라면 좋을 텐데' → 현재 이루기 어려운 소망",
+"I wish + 주어 + had + p.p. = '(그때) ~했더라면 좋았을 텐데' → 과거에 대한 후회",
+"I wish I could + 동사원형 = '~할 수 있으면 좋을 텐데'",
+"What if + 주어 + 동사 ~? = '~하면 어떡하지? / ~하면 어떨까?' → 걱정이나 제안",
+"I wish 뒤에는 현재시제(am, have)를 쓰지 않는다."
+],
+"examples": [
+{"en": "I wish I were taller.", "ko": "내가 키가 더 크면 좋을 텐데."},
+{"en": "I wish I had listened to you.", "ko": "네 말을 들었더라면 좋았을 텐데."},
+{"en": "What if it rains tomorrow?", "ko": "내일 비가 오면 어떡하지?"}
+],
+"trap": "I wish I am ~ (X) → I wish I were ~. 과거 일에 대한 후회는 I wish I had p.p.를 쓴다.",
+"quiz": [
+{"type": "mc", "q": "'(지금) 남동생이 있으면 좋을 텐데'가 되도록 빈칸에 알맞은 것을 고르시오. I wish I ___ a little brother.", "choices": ["have", "had", "has", "having"], "answer": 1, "exp": "현재 이루기 어려운 소망은 I wish + 과거동사로 나타낸다."},
+{"type": "mc", "q": "빈칸에 알맞은 것을 고르시오. I wish I ___ fly like a bird.", "choices": ["can", "will", "am", "could"], "answer": 3, "exp": "I wish 뒤에는 과거형을 쓰므로 can이 아니라 could를 쓴다."},
+{"type": "mc", "q": "'어제 우산을 가져왔더라면 좋았을 텐데'가 되도록 빈칸에 알맞은 것을 고르시오. I wish I ___ my umbrella yesterday.", "choices": ["brought", "bring", "had brought", "have brought"], "answer": 2, "exp": "과거 일에 대한 후회는 I wish + had + p.p.로 나타낸다."},
+{"type": "mc", "q": "'내일 비가 오면 어떡하지?'가 되도록 빈칸에 알맞은 것을 고르시오. What if it ___ tomorrow?", "choices": ["rains", "raining", "to rain", "rain"], "answer": 0, "exp": "What if 뒤에는 주어 + 동사가 오며, 주어 it이 3인칭 단수이므로 rains를 쓴다."},
+{"type": "mc", "q": "다음 문장의 뜻으로 알맞은 것을 고르시오. I wish I were rich.", "choices": ["나는 부자였다.", "나는 부자가 될 것이다.", "내가 (지금) 부자라면 좋을 텐데.", "내가 부자였더라면 좋았을 텐데."], "answer": 2, "exp": "I wish + were는 현재 사실의 반대 소망이다. 지금은 부자가 아니라는 뜻이 숨어 있다."},
+{"type": "mc", "q": "어법상 틀린 문장을 고르시오.", "choices": ["I wish I knew the answer.", "I wish I am good at math.", "What if we miss the train?", "I wish I had studied more."], "answer": 1, "exp": "I wish 뒤에는 현재시제를 쓰지 않는다. I wish I were good at math.가 맞다."},
+{"type": "ox", "q": "I wish it were Saturday today.", "answer": true, "exp": "I wish + 주어 + were로 '오늘이 토요일이면 좋을 텐데'라는 올바른 문장이다."},
+{"type": "ox", "q": "I wish I have more free time.", "answer": false, "exp": "I wish 뒤에는 과거동사를 써야 하므로 I wish I had more free time.이 맞다."}
+]
+}
+]

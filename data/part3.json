@@ -1,0 +1,1682 @@
+[
+ {
+  "id": 31,
+  "title": "명사 : 단수와 복수",
+  "points": [
+   "셀 수 있는 명사가 하나일 때는 단수형을 쓰고, 앞에 a/an을 붙인다. 예: a book, an egg",
+   "둘 이상일 때는 복수형을 쓴다. 기본은 명사 + -s 예: books, pens",
+   "-s, -x, -sh, -ch, -o로 끝나면 + -es 예: boxes, dishes, watches, potatoes",
+   "자음 + y로 끝나면 y를 i로 바꾸고 + -es 예: city → cities / 모음 + y는 그냥 + -s 예: boy → boys",
+   "주어가 복수면 동사도 복수에 맞춘다. 예: The boxes are heavy."
+  ],
+  "examples": [
+   {
+    "en": "I have a dog.",
+    "ko": "나는 개 한 마리가 있다."
+   },
+   {
+    "en": "She has two cats.",
+    "ko": "그녀는 고양이 두 마리가 있다."
+   },
+   {
+    "en": "The boxes are very heavy.",
+    "ko": "그 상자들은 매우 무겁다."
+   }
+  ],
+  "trap": "숫자 2 이상 뒤에는 반드시 복수형(two books)을 쓰고, a/an은 단수명사 앞에만 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI have two ___.",
+    "choices": [
+     "book",
+     "books",
+     "a book",
+     "bookes"
+    ],
+    "answer": 1,
+    "exp": "two(둘) 뒤에는 복수형이 와야 하므로 books가 정답이다. bookes는 없는 형태다."
+   },
+   {
+    "type": "mc",
+    "q": "box의 올바른 복수형을 고르세요.",
+    "choices": [
+     "boxs",
+     "boxies",
+     "boxes",
+     "boxen"
+    ],
+    "answer": 2,
+    "exp": "-x로 끝나는 명사는 -es를 붙인다. → boxes"
+   },
+   {
+    "type": "mc",
+    "q": "city의 올바른 복수형을 고르세요.",
+    "choices": [
+     "citys",
+     "cityes",
+     "citis",
+     "cities"
+    ],
+    "answer": 3,
+    "exp": "자음 + y로 끝나면 y를 i로 바꾸고 -es를 붙인다. → cities"
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "She has three brother.",
+     "There is two apples.",
+     "My bags are on the desk.",
+     "He is a students."
+    ],
+    "answer": 2,
+    "exp": "bags(복수)에 are가 맞다. three brother → brothers, There is → are, a students → a student로 고쳐야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nI (A)bought (B)five (C)egg (D)yesterday.",
+    "choices": [
+     "(A) bought",
+     "(B) five",
+     "(C) egg",
+     "(D) yesterday"
+    ],
+    "answer": 2,
+    "exp": "five(다섯) 뒤에는 복수형이 와야 하므로 egg → eggs로 고쳐야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThere ___ three pencils on the desk.",
+    "choices": [
+     "is",
+     "are",
+     "am",
+     "be"
+    ],
+    "answer": 1,
+    "exp": "three pencils는 복수이므로 There are를 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "boy의 복수형은 boies이다.",
+    "answer": false,
+    "exp": "모음(o) + y로 끝나면 그냥 -s만 붙인다. → boys"
+   },
+   {
+    "type": "ox",
+    "q": "Many students are in the gym.",
+    "answer": true,
+    "exp": "students(복수)에 are를 써서 올바른 문장이다."
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "title": "명사 : 다양한 복수 형태",
+  "points": [
+   "-s를 붙이지 않고 모양이 바뀌는 불규칙 복수가 있다. 예: man → men, woman → women, child → children, person → people",
+   "모음이 바뀌는 것: foot → feet, tooth → teeth, mouse → mice",
+   "단수와 복수 모양이 같은 것: fish, sheep, deer 예: one sheep, five sheep",
+   "-f/-fe로 끝나면 f를 v로 바꾸고 + -es 예: leaf → leaves, knife → knives, wolf → wolves (예외: roof → roofs)",
+   "두 부분이 짝을 이루는 물건은 항상 복수 취급: pants, glasses(안경), scissors, shoes 예: My pants are new."
+  ],
+  "examples": [
+   {
+    "en": "Three children are playing in the park.",
+    "ko": "아이 세 명이 공원에서 놀고 있다."
+   },
+   {
+    "en": "My feet hurt after the game.",
+    "ko": "경기 후에 발이 아프다."
+   },
+   {
+    "en": "I need new glasses.",
+    "ko": "나는 새 안경이 필요하다."
+   }
+  ],
+  "trap": "child의 복수는 childs가 아니라 children이고, sheep·fish는 복수여도 -s를 붙이지 않는다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "child의 올바른 복수형을 고르세요.",
+    "choices": [
+     "childs",
+     "childes",
+     "children",
+     "childrens"
+    ],
+    "answer": 2,
+    "exp": "child는 불규칙 복수로 children이 된다. childrens는 이미 복수인 children에 s를 또 붙인 틀린 형태다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI brush my ___ three times a day.",
+    "choices": [
+     "tooths",
+     "teeth",
+     "teeths",
+     "toothes"
+    ],
+    "answer": 1,
+    "exp": "tooth의 복수는 모음이 바뀐 teeth이다. -s를 붙이는 형태는 모두 틀리다."
+   },
+   {
+    "type": "mc",
+    "q": "knife의 올바른 복수형을 고르세요.",
+    "choices": [
+     "knifes",
+     "knifs",
+     "knivies",
+     "knives"
+    ],
+    "answer": 3,
+    "exp": "-fe로 끝나는 명사는 f를 v로 바꾸고 -es를 붙인다. → knives"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThere are five ___ on the farm.",
+    "choices": [
+     "sheep",
+     "sheeps",
+     "sheepes",
+     "a sheep"
+    ],
+    "answer": 0,
+    "exp": "sheep은 단수와 복수의 모양이 같다. 그래서 five sheep이 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "Two womans are talking.",
+     "Those mens are teachers.",
+     "Many people like soccer.",
+     "I saw three mouses."
+    ],
+    "answer": 2,
+    "exp": "person의 복수는 people이다. womans → women, mens → men, mouses → mice로 고쳐야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nThe (A)leafs on the tree (B)turn (C)red (D)in autumn.",
+    "choices": [
+     "(A) leafs",
+     "(B) turn",
+     "(C) red",
+     "(D) in"
+    ],
+    "answer": 0,
+    "exp": "-f로 끝나는 leaf의 복수는 leaves이다."
+   },
+   {
+    "type": "ox",
+    "q": "My new pants is black.",
+    "answer": false,
+    "exp": "pants(바지)는 항상 복수 취급하므로 is가 아니라 are를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "foot의 복수형은 feet이다.",
+    "answer": true,
+    "exp": "foot은 모음이 바뀌는 불규칙 복수로 feet가 된다."
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "title": "명사 : 가산, 불가산 명사 구분 및 활용",
+  "points": [
+   "가산명사(셀 수 있는 명사): 하나, 둘 셀 수 있다 → a/an을 붙이거나 복수형을 쓴다. 예: an apple, two chairs",
+   "불가산명사(셀 수 없는 명사): 물질·개념 등 → a/an도, 복수형 -s도 쓰지 않는다. 예: water, milk, money, bread, rice",
+   "우리말로는 셀 수 있을 것 같지만 영어에서는 불가산인 명사: advice, homework, information, furniture",
+   "불가산명사는 단위를 써서 센다: a glass of water, a cup of coffee, a piece of advice, two pieces of paper",
+   "불가산명사가 주어면 단수 동사: 불가산명사 + is/was 예: The water is cold."
+  ],
+  "examples": [
+   {
+    "en": "I drink a glass of milk every morning.",
+    "ko": "나는 매일 아침 우유 한 잔을 마신다."
+   },
+   {
+    "en": "She gave me some good advice.",
+    "ko": "그녀는 나에게 좋은 조언을 해 주었다."
+   },
+   {
+    "en": "We have a lot of homework today.",
+    "ko": "오늘 우리는 숙제가 많다."
+   }
+  ],
+  "trap": "advice, homework, information, furniture, money는 불가산명사이므로 a를 붙이거나 -s를 붙이면 틀린다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "셀 수 없는 명사(불가산명사)를 고르세요.",
+    "choices": [
+     "apple",
+     "chair",
+     "information",
+     "student"
+    ],
+    "answer": 2,
+    "exp": "information(정보)은 불가산명사라서 an information, informations로 쓰지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "I have many homeworks.",
+     "He gave me a good advice.",
+     "We bought new furniture.",
+     "She needs an information."
+    ],
+    "answer": 2,
+    "exp": "furniture는 불가산명사로 a나 -s 없이 쓴 것이 맞다. homework, advice, information도 불가산이라 a/-s를 붙이면 틀린다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nPlease give me two ___ of paper.",
+    "choices": [
+     "piece",
+     "pieces",
+     "papers",
+     "piece's"
+    ],
+    "answer": 1,
+    "exp": "불가산명사 paper는 단위(piece)로 센다. 둘이므로 단위를 복수로 바꿔 two pieces of paper가 된다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nMy (A)mother (B)gave (C)me some (D)moneys.",
+    "choices": [
+     "(A) mother",
+     "(B) gave",
+     "(C) me",
+     "(D) moneys"
+    ],
+    "answer": 3,
+    "exp": "money는 불가산명사라서 복수형 -s를 붙이지 않는다. → some money"
+   },
+   {
+    "type": "mc",
+    "q": "셀 수 있는 명사(가산명사)를 고르세요.",
+    "choices": [
+     "bread",
+     "milk",
+     "egg",
+     "money"
+    ],
+    "answer": 2,
+    "exp": "egg는 an egg, two eggs처럼 셀 수 있다. bread, milk, money는 불가산명사이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThere ___ a lot of water on the floor.",
+    "choices": [
+     "are",
+     "is",
+     "were",
+     "have"
+    ],
+    "answer": 1,
+    "exp": "water는 불가산명사라서 a lot of가 붙어도 단수 취급 → There is"
+   },
+   {
+    "type": "ox",
+    "q": "information은 셀 수 없는 명사라서 informations로 쓰지 않는다.",
+    "answer": true,
+    "exp": "information은 불가산명사이므로 복수형이 없다."
+   },
+   {
+    "type": "ox",
+    "q": "I want a bread.",
+    "answer": false,
+    "exp": "bread는 불가산명사라 a를 붙일 수 없다. some bread 또는 a piece(loaf) of bread로 써야 한다."
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "title": "명사 : 집합명사",
+  "points": [
+   "집합명사: 여러 사람·동물이 모인 하나의 집단을 나타내는 명사 예: family, team, class, club, audience",
+   "집단 전체를 하나로 볼 때는 단수 취급한다. 예: My family is large. (우리 가족은 대가족이다)",
+   "구성원 한 명 한 명을 생각할 때는 복수 취급할 수 있다(주로 영국식). 예: My family are all tall.",
+   "police(경찰), people(사람들), cattle(소 떼)은 -s가 없어도 항상 복수 취급 → are",
+   "집단 자체가 여러 개면 복수형을 쓴다. 예: two teams, many families"
+  ],
+  "examples": [
+   {
+    "en": "My class has thirty students.",
+    "ko": "우리 반에는 학생이 30명 있다."
+   },
+   {
+    "en": "The police are looking for the thief.",
+    "ko": "경찰이 그 도둑을 찾고 있다."
+   },
+   {
+    "en": "There are five families in this building.",
+    "ko": "이 건물에는 다섯 가구가 산다."
+   }
+  ],
+  "trap": "police와 people은 -s가 없어도 항상 복수라서 is가 아니라 are를 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThe police ___ at the door now.",
+    "choices": [
+     "is",
+     "are",
+     "was",
+     "has"
+    ],
+    "answer": 1,
+    "exp": "police는 항상 복수 취급하는 집합명사이다. now(지금)이므로 현재형 are가 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMany people ___ soccer in Korea.",
+    "choices": [
+     "likes",
+     "liking",
+     "is like",
+     "like"
+    ],
+    "answer": 3,
+    "exp": "people은 '사람들'이라는 복수이므로 동사에 -s를 붙이지 않는다. → like"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThere are four ___ in our village.",
+    "choices": [
+     "family",
+     "familys",
+     "familyes",
+     "families"
+    ],
+    "answer": 3,
+    "exp": "가족(집단)이 여러 개면 복수형을 쓴다. 자음 + y → ies 규칙으로 families"
+   },
+   {
+    "type": "mc",
+    "q": "항상 복수 취급하는 명사를 고르세요.",
+    "choices": [
+     "class",
+     "team",
+     "police",
+     "family"
+    ],
+    "answer": 2,
+    "exp": "police는 항상 복수 동사(are)를 쓴다. class, team, family는 보통 집단 전체로 보아 단수로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "The people is kind.",
+     "The cattle are eating grass.",
+     "Two team played well.",
+     "The police is busy."
+    ],
+    "answer": 1,
+    "exp": "cattle(소 떼)은 항상 복수 취급이라 are가 맞다. people·police도 복수라 are, two 뒤에는 teams를 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)There (B)are three (C)class in (D)the second grade.",
+    "choices": [
+     "(A) There",
+     "(B) are",
+     "(C) class",
+     "(D) the"
+    ],
+    "answer": 2,
+    "exp": "반(집단)이 셋이므로 복수형 classes로 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "My family is large.",
+    "answer": true,
+    "exp": "가족을 하나의 집단으로 보아 '대가족이다'라고 말하므로 단수 취급(is)이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "people은 '사람들'이라는 뜻일 때 peoples로 써야 한다.",
+    "answer": false,
+    "exp": "people 자체가 '사람들'이라는 복수이다. peoples는 '여러 민족들'이라는 다른 뜻이다."
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "title": "명사 : 관사, 무관사, 복수형의 차이",
+  "points": [
+   "a/an + 단수명사: 정해지지 않은 '어떤 하나' 예: I have a dog.",
+   "the + 명사: 듣는 사람도 아는 '그' 특정한 것 예: The dog is cute.",
+   "무관사 + 복수형: 그 종류 전체를 일반적으로 말할 때 예: I like dogs. (개라는 동물을 좋아한다)",
+   "무관사 + 불가산명사: 물질·개념을 일반적으로 말할 때 예: Water is important.",
+   "셀 수 있는 단수명사는 보통 혼자 쓰지 않는다 → a/an, the, my 등이 필요하다. 예: He is a student. (He is student ×)"
+  ],
+  "examples": [
+   {
+    "en": "I saw a cat. The cat was black.",
+    "ko": "나는 고양이 한 마리를 봤다. 그 고양이는 검은색이었다."
+   },
+   {
+    "en": "Cats like fish.",
+    "ko": "고양이는 생선을 좋아한다."
+   },
+   {
+    "en": "Milk is good for children.",
+    "ko": "우유는 아이들에게 좋다."
+   }
+  ],
+  "trap": "'나는 개를 좋아한다'처럼 종류 전체를 말할 때는 I like a dog이 아니라 무관사 복수형 I like dogs를 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "'(일반적으로) 나는 개를 좋아한다'는 뜻이 되도록 빈칸에 알맞은 것을 고르세요.\nI like ___.",
+    "choices": [
+     "dog",
+     "a dog",
+     "dogs",
+     "the dog"
+    ],
+    "answer": 2,
+    "exp": "종류 전체를 일반적으로 말할 때는 무관사 + 복수형을 쓴다. the dog은 특정한 개, dog 혼자는 틀린 형태다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 차례대로 알맞은 것을 고르세요.\nI bought ___ book yesterday. ___ book is very interesting.",
+    "choices": [
+     "the / A",
+     "a / The",
+     "a / A",
+     "an / The"
+    ],
+    "answer": 1,
+    "exp": "처음 말할 때는 a, 앞에서 말한 그 책을 다시 말할 때는 The를 쓴다. book은 자음 소리로 시작하므로 an은 틀린다."
+   },
+   {
+    "type": "mc",
+    "q": "'물은 건강에 좋다'라는 일반적인 뜻이 되도록 빈칸에 알맞은 것을 고르세요.\n___ is good for your health.",
+    "choices": [
+     "A water",
+     "Waters",
+     "Water",
+     "An water"
+    ],
+    "answer": 2,
+    "exp": "water는 불가산명사이고 일반적인 물을 말하므로 관사 없이 Water를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "He is student.",
+     "I have a car.",
+     "She wants cat.",
+     "This is umbrella."
+    ],
+    "answer": 1,
+    "exp": "셀 수 있는 단수명사는 혼자 쓸 수 없어 a/an이 필요하다. → a student, a cat, an umbrella"
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)Dog are (B)good (C)friends for (D)people.",
+    "choices": [
+     "(A) Dog",
+     "(B) good",
+     "(C) friends",
+     "(D) people"
+    ],
+    "answer": 0,
+    "exp": "개 전체를 일반적으로 말하고 동사가 are이므로 무관사 복수형 Dogs로 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "I like the dogs.의 뜻으로 알맞은 것을 고르세요.",
+    "choices": [
+     "나는 개(라는 동물) 전체를 좋아한다.",
+     "나는 개 한 마리를 좋아한다.",
+     "나는 개를 키운다.",
+     "나는 (서로 알고 있는) 그 개들을 좋아한다."
+    ],
+    "answer": 3,
+    "exp": "the가 붙으면 특정한 대상을 가리킨다. 개 전체를 말하려면 I like dogs.를 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "셀 수 있는 단수명사(book, car 등)는 보통 관사나 my 같은 말 없이 혼자 쓰지 않는다.",
+    "answer": true,
+    "exp": "단수 가산명사 앞에는 a/an, the, my 등이 필요하다. 예: a book, the car, my bag"
+   },
+   {
+    "type": "ox",
+    "q": "I have cat at home.",
+    "answer": false,
+    "exp": "cat은 셀 수 있는 단수명사라 혼자 쓸 수 없다. → I have a cat at home."
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "title": "관사 : 부정관사, 정관사의 쓰임",
+  "points": [
+   "a/an(부정관사): 정해지지 않은 하나, 처음 말하는 것 예: I saw a movie.",
+   "an은 발음이 모음 소리로 시작할 때 쓴다(철자가 아니라 소리 기준). 예: an apple, an hour / a university, a uniform",
+   "the(정관사): 앞에서 이미 말한 것, 서로 알고 있는 것 예: The movie was funny.",
+   "세상에 하나뿐인 것 앞에는 the 예: the sun, the moon, the earth",
+   "최상급·서수 앞에는 the 예: the tallest boy, the first day"
+  ],
+  "examples": [
+   {
+    "en": "I have an idea.",
+    "ko": "나에게 좋은 생각이 하나 있어."
+   },
+   {
+    "en": "I saw a movie yesterday. The movie was funny.",
+    "ko": "어제 영화를 한 편 봤다. 그 영화는 재미있었다."
+   },
+   {
+    "en": "The sun rises in the east.",
+    "ko": "해는 동쪽에서 뜬다."
+   }
+  ],
+  "trap": "a와 an은 철자가 아니라 첫 소리로 정한다: an hour(h 묵음), a uniform('유' 소리).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI waited for ___ hour.",
+    "choices": [
+     "a",
+     "an",
+     "much",
+     "two"
+    ],
+    "answer": 1,
+    "exp": "hour는 h가 소리 나지 않아 모음 소리 [아워]로 시작하므로 an을 쓴다. two 뒤에는 hours가 와야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nShe studies at ___ university in Seoul.",
+    "choices": [
+     "a",
+     "an",
+     "much",
+     "two"
+    ],
+    "answer": 0,
+    "exp": "university는 철자는 u(모음)지만 [유] 소리로 시작해 a를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ moon is very bright tonight.",
+    "choices": [
+     "A",
+     "An",
+     "The",
+     "Some"
+    ],
+    "answer": 2,
+    "exp": "달은 세상에 하나뿐이므로 the를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI bought a bag. ___ bag is blue.",
+    "choices": [
+     "A",
+     "The",
+     "An",
+     "Any"
+    ],
+    "answer": 1,
+    "exp": "앞에서 이미 말한 그 가방을 다시 가리키므로 The를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "He is a tallest boy in my class.",
+     "He is tallest boy in my class.",
+     "He is an tallest boy in my class.",
+     "He is the tallest boy in my class."
+    ],
+    "answer": 3,
+    "exp": "최상급(tallest) 앞에는 the를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\nMy (A)father (B)is (C)a (D)English teacher.",
+    "choices": [
+     "(A) father",
+     "(B) is",
+     "(C) a",
+     "(D) English"
+    ],
+    "answer": 2,
+    "exp": "English는 모음 소리로 시작하므로 a가 아니라 an을 써야 한다. → an English teacher"
+   },
+   {
+    "type": "ox",
+    "q": "an umbrella는 맞고, a umbrella는 틀리다.",
+    "answer": true,
+    "exp": "umbrella는 모음 소리 [어]로 시작하므로 an을 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "She is a honest girl.",
+    "answer": false,
+    "exp": "honest는 h가 소리 나지 않아 모음 소리로 시작한다. → an honest girl"
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "title": "관사 : 유용한 관사 용법",
+  "points": [
+   "a/an = '~마다, ~당(per)' 예: twice a week(일주일에 두 번), 100 km an hour(시속 100km)",
+   "the + 형용사 = '~한 사람들'(복수 취급) 예: the rich(부자들), the young(젊은이들), the poor(가난한 사람들)",
+   "악기를 연주할 때는 보통 play the + 악기 예: play the piano, play the guitar",
+   "신체 일부를 잡거나 칠 때: 동사 + 사람 + 전치사 + the + 신체부위 예: He took me by the hand. / She patted him on the shoulder.",
+   "by the + 단위 = '~ 단위로' 예: They pay me by the hour.(시간당으로)"
+  ],
+  "examples": [
+   {
+    "en": "I play soccer twice a week.",
+    "ko": "나는 일주일에 두 번 축구를 한다."
+   },
+   {
+    "en": "We should help the poor.",
+    "ko": "우리는 가난한 사람들을 도와야 한다."
+   },
+   {
+    "en": "He took me by the hand.",
+    "ko": "그는 내 손을 잡았다."
+   }
+  ],
+  "trap": "the + 형용사는 '~한 사람들'이라는 복수이므로 동사도 복수형(are, need)을 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI go swimming three times ___ week.",
+    "choices": [
+     "the",
+     "an",
+     "a",
+     "many"
+    ],
+    "answer": 2,
+    "exp": "a/an은 '~마다'의 뜻이 있다. week는 자음 소리로 시작하므로 a week(일주일에)."
+   },
+   {
+    "type": "mc",
+    "q": "'부자들이 항상 행복한 것은 아니다'라는 뜻이 되도록 빈칸에 알맞은 것을 고르세요.\n___ rich are not always happy.",
+    "choices": [
+     "The",
+     "A",
+     "An",
+     "Some"
+    ],
+    "answer": 0,
+    "exp": "the + 형용사 = '~한 사람들'. The rich = 부자들"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThe young ___ full of energy.",
+    "choices": [
+     "was",
+     "has",
+     "are",
+     "is"
+    ],
+    "answer": 2,
+    "exp": "the young은 '젊은이들'이라는 복수이므로 are를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe patted me on ___ shoulder.",
+    "choices": [
+     "an",
+     "a",
+     "some",
+     "the"
+    ],
+    "answer": 3,
+    "exp": "사람을 목적어로 먼저 쓰고 신체 부위를 말할 때는 the를 쓴다. → pat 사람 on the shoulder"
+   },
+   {
+    "type": "mc",
+    "q": "We meet once a month.에서 a의 뜻으로 알맞은 것을 고르세요.",
+    "choices": [
+     "그",
+     "~마다(~당)",
+     "특정한 하나의",
+     "아무거나"
+    ],
+    "answer": 1,
+    "exp": "once a month는 '한 달에 한 번'으로, 여기서 a는 '~마다'의 뜻이다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)The old (B)needs (C)our (D)help.",
+    "choices": [
+     "(A) The old",
+     "(B) needs",
+     "(C) our",
+     "(D) help"
+    ],
+    "answer": 1,
+    "exp": "the old는 '노인들'이라는 복수이므로 needs가 아니라 need를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "악기를 연주한다고 할 때는 보통 play the piano처럼 악기 앞에 the를 붙인다.",
+    "answer": true,
+    "exp": "악기 앞에는 the를 붙이는 것이 기본이다. 반면 운동 경기(play soccer) 앞에는 관사를 쓰지 않는다."
+   },
+   {
+    "type": "ox",
+    "q": "This car can run 200 km a hour.",
+    "answer": false,
+    "exp": "hour는 모음 소리로 시작하므로 '시간당'은 an hour로 써야 한다."
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "title": "관사 : 무관사의 활용",
+  "points": [
+   "장소를 원래 목적으로 이용할 때는 관사를 쓰지 않는다. 예: go to school(공부하러), go to bed(자러), go to church(예배하러), go to work(일하러)",
+   "교통수단: by + 교통수단(무관사) 예: by bus, by car, by subway, by train / 걸어서는 on foot",
+   "식사 이름 앞에는 관사를 쓰지 않는다. 예: have breakfast, eat lunch, after dinner",
+   "요일·월·언어 앞에는 보통 관사를 쓰지 않는다. 예: on Monday, in May, speak English",
+   "건물 자체에 다른 볼일로 갈 때는 the를 쓴다. 예: My mom went to the school to meet my teacher."
+  ],
+  "examples": [
+   {
+    "en": "I go to school by bus.",
+    "ko": "나는 버스를 타고 학교에 간다."
+   },
+   {
+    "en": "We had lunch together.",
+    "ko": "우리는 함께 점심을 먹었다."
+   },
+   {
+    "en": "She went to bed early last night.",
+    "ko": "그녀는 어젯밤 일찍 잠자리에 들었다."
+   }
+  ],
+  "trap": "교통수단은 by bus처럼 관사 없이 쓴다(by the bus ×, by a bus ×).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI usually go to school ___.",
+    "choices": [
+     "by a bus",
+     "by the bus",
+     "by bus",
+     "by buses"
+    ],
+    "answer": 2,
+    "exp": "교통수단은 by + 무관사 단수명사로 쓴다. → by bus"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nWhat did you have for ___?",
+    "choices": [
+     "breakfast",
+     "a breakfast",
+     "the breakfast",
+     "breakfasts"
+    ],
+    "answer": 0,
+    "exp": "식사 이름(breakfast, lunch, dinner) 앞에는 보통 관사를 쓰지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI was tired, so I went to ___ early.",
+    "choices": [
+     "a bed",
+     "beds",
+     "the bed",
+     "bed"
+    ],
+    "answer": 3,
+    "exp": "'잠자리에 들다'는 침대를 원래 목적(잠)으로 쓰므로 무관사 go to bed이다."
+   },
+   {
+    "type": "mc",
+    "q": "My mother went to the school to see my teacher.에서 the를 쓴 이유로 알맞은 것을 고르세요.",
+    "choices": [
+     "공부하러 간 것이라서",
+     "학교 건물에 다른 볼일로 간 것이라서",
+     "학교가 세상에 하나뿐이라서",
+     "학교가 여러 개라서"
+    ],
+    "answer": 1,
+    "exp": "엄마는 공부하러 간 것이 아니라 선생님을 만나러 간 것이다. 원래 목적이 아니면 the를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "I came here by the taxi.",
+     "We speak the English in class.",
+     "He goes to work by subway.",
+     "She was born in the May."
+    ],
+    "answer": 2,
+    "exp": "교통수단(by subway), go to work는 무관사가 맞다. by taxi, speak English, in May로 고쳐야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)We (B)went (C)there (D)by the train.",
+    "choices": [
+     "(A) We",
+     "(B) went",
+     "(C) there",
+     "(D) by the train"
+    ],
+    "answer": 3,
+    "exp": "교통수단은 관사 없이 by train으로 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "on Monday, in July처럼 요일·월 앞에는 보통 관사를 쓰지 않는다.",
+    "answer": true,
+    "exp": "요일과 월 이름 앞에는 보통 관사를 쓰지 않는다."
+   },
+   {
+    "type": "ox",
+    "q": "He goes to the bed at 10 every night.",
+    "answer": false,
+    "exp": "'잠자리에 들다'는 무관사 go to bed이다. → He goes to bed at 10 every night."
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "title": "관사 : 운동과 학문에 관련된 무관사 표현",
+  "points": [
+   "운동 경기 이름 앞에는 관사를 쓰지 않는다. 예: play soccer, play basketball, play tennis",
+   "비교: 악기 앞에는 the를 쓴다. 예: play the piano / play soccer",
+   "과목·학문 이름 앞에도 관사를 쓰지 않는다. 예: study math, I like history, I'm good at science.",
+   "-ics로 끝나는 학문(physics, economics, mathematics)은 s가 있어도 단수 취급 → is",
+   "특정한 경기 하나(game, match)를 가리킬 때는 관사를 쓸 수 있다. 예: The game was exciting."
+  ],
+  "examples": [
+   {
+    "en": "We play basketball after school.",
+    "ko": "우리는 방과 후에 농구를 한다."
+   },
+   {
+    "en": "I'm good at science.",
+    "ko": "나는 과학을 잘한다."
+   },
+   {
+    "en": "Mathematics is my favorite subject.",
+    "ko": "수학은 내가 가장 좋아하는 과목이다."
+   }
+  ],
+  "trap": "play the soccer ×, play soccer ○ — 운동은 무관사, 악기는 the(play the piano)로 반대이다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nLet's play ___ after lunch.",
+    "choices": [
+     "the baseball",
+     "a baseball",
+     "baseball",
+     "baseballs"
+    ],
+    "answer": 2,
+    "exp": "운동 경기 이름 앞에는 관사를 쓰지 않는다. → play baseball"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nPhysics ___ difficult for me.",
+    "choices": [
+     "are",
+     "is",
+     "were",
+     "be"
+    ],
+    "answer": 1,
+    "exp": "physics(물리학)처럼 -ics로 끝나는 학문은 단수 취급하므로 is를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "He plays the tennis well.",
+     "She is good at the math.",
+     "I play the guitar and soccer.",
+     "We study an English."
+    ],
+    "answer": 2,
+    "exp": "악기 앞에는 the(the guitar), 운동 앞에는 무관사(soccer)가 맞다. tennis, math, English 앞의 관사는 빼야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nMy favorite subject is ___.",
+    "choices": [
+     "history",
+     "a history",
+     "the history",
+     "histories"
+    ],
+    "answer": 0,
+    "exp": "과목 이름 앞에는 관사를 쓰지 않는다. → My favorite subject is history."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)My brother (B)plays (C)the volleyball (D)every Saturday.",
+    "choices": [
+     "(A) My brother",
+     "(B) plays",
+     "(C) the volleyball",
+     "(D) every Saturday"
+    ],
+    "answer": 2,
+    "exp": "운동 경기 앞에는 관사를 쓰지 않으므로 the를 빼고 plays volleyball로 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 차례대로 알맞은 것을 고르세요.\nI play ___ piano and ___ badminton.",
+    "choices": [
+     "the / the",
+     "(없음) / the",
+     "the / (없음)",
+     "a / a"
+    ],
+    "answer": 2,
+    "exp": "악기 앞에는 the(the piano), 운동 앞에는 관사 없음(badminton)."
+   },
+   {
+    "type": "ox",
+    "q": "Economics is my major.",
+    "answer": true,
+    "exp": "economics(경제학)는 -ics 학문이라 단수 취급(is)하고 관사도 쓰지 않는다."
+   },
+   {
+    "type": "ox",
+    "q": "He plays the soccer every day.",
+    "answer": false,
+    "exp": "운동 경기 앞에는 관사를 쓰지 않는다. → He plays soccer every day."
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "title": "한정사 : many vs. much",
+  "points": [
+   "many + 셀 수 있는 명사의 복수형 예: many books, many friends",
+   "much + 셀 수 없는 명사 예: much water, much time, much money",
+   "a lot of / lots of는 두 종류 모두에 쓸 수 있다. 예: a lot of books, a lot of water",
+   "much는 주로 부정문·의문문에 쓴다. 예: I don't have much time. (긍정문에는 a lot of가 자연스럽다)",
+   "How many + 복수명사 (개수) / How much + 불가산명사 (양·가격)"
+  ],
+  "examples": [
+   {
+    "en": "How many brothers do you have?",
+    "ko": "너는 형제가 몇 명 있니?"
+   },
+   {
+    "en": "I don't have much time.",
+    "ko": "나는 시간이 많지 않다."
+   },
+   {
+    "en": "There are a lot of people here.",
+    "ko": "여기에 사람이 많다."
+   }
+  ],
+  "trap": "homework, advice, money는 불가산명사라 many가 아니라 much와 쓴다(many homeworks ×).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHow ___ students are in your class?",
+    "choices": [
+     "much",
+     "many",
+     "a lot",
+     "little"
+    ],
+    "answer": 1,
+    "exp": "students는 셀 수 있는 복수명사이므로 How many를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI don't drink ___ coffee.",
+    "choices": [
+     "many",
+     "a few",
+     "much",
+     "few"
+    ],
+    "answer": 2,
+    "exp": "coffee는 불가산명사이므로 much를 쓴다. many, a few, few는 셀 수 있는 명사와 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nWe don't have ___ homework today.",
+    "choices": [
+     "a few",
+     "many",
+     "few",
+     "much"
+    ],
+    "answer": 3,
+    "exp": "homework는 불가산명사이므로 much를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "두 빈칸에 공통으로 들어갈 수 있는 것을 고르세요.\nThere is ___ water. / There are ___ apples.",
+    "choices": [
+     "many",
+     "much",
+     "a lot of",
+     "a few"
+    ],
+    "answer": 2,
+    "exp": "a lot of는 셀 수 있는 명사와 셀 수 없는 명사 모두에 쓸 수 있다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "She has many friends.",
+     "How much books do you have?",
+     "I don't have many money.",
+     "There is many milk."
+    ],
+    "answer": 0,
+    "exp": "friends는 복수명사라 many가 맞다. books는 many, money·milk는 much와 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)He (B)gave me (C)many (D)advice.",
+    "choices": [
+     "(A) He",
+     "(B) gave me",
+     "(C) many",
+     "(D) advice"
+    ],
+    "answer": 2,
+    "exp": "advice는 불가산명사라 many와 쓸 수 없다. → a lot of advice / much advice"
+   },
+   {
+    "type": "ox",
+    "q": "much는 셀 수 있는 명사의 복수형 앞에 쓴다.",
+    "answer": false,
+    "exp": "much는 셀 수 없는 명사 앞에 쓴다. 셀 수 있는 복수명사 앞에는 many를 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "There were many people at the concert.",
+    "answer": true,
+    "exp": "people은 복수이므로 many와 함께 쓸 수 있다."
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "title": "한정사 : a few vs. a little",
+  "points": [
+   "a few + 셀 수 있는 명사의 복수형 = 조금 있는(긍정) 예: a few friends",
+   "a little + 셀 수 없는 명사 = 조금 있는(긍정) 예: a little money",
+   "few + 복수명사 = 거의 없는(부정) 예: He has few friends.",
+   "little + 불가산명사 = 거의 없는(부정) 예: We have little time.",
+   "정리: a가 있으면 '조금 있다', a가 없으면 '거의 없다'"
+  ],
+  "examples": [
+   {
+    "en": "I have a few friends in Busan.",
+    "ko": "나는 부산에 친구가 몇 명 있다."
+   },
+   {
+    "en": "Add a little salt.",
+    "ko": "소금을 조금 넣어라."
+   },
+   {
+    "en": "He has little money, so he can't buy it.",
+    "ko": "그는 돈이 거의 없어서 그것을 살 수 없다."
+   }
+  ],
+  "trap": "a few/few는 셀 수 있는 명사, a little/little은 셀 수 없는 명사와 쓰고, a가 빠지면 '거의 없다'는 부정 뜻이 된다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI have ___ questions.",
+    "choices": [
+     "a little",
+     "a few",
+     "much",
+     "little"
+    ],
+    "answer": 1,
+    "exp": "questions는 셀 수 있는 복수명사이므로 a few를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nPlease put ___ sugar in my tea.",
+    "choices": [
+     "a few",
+     "few",
+     "a little",
+     "many"
+    ],
+    "answer": 2,
+    "exp": "sugar는 불가산명사이고 '조금 넣어 달라'는 뜻이므로 a little을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHe is very lonely. He has ___ friends.",
+    "choices": [
+     "a few",
+     "few",
+     "a little",
+     "little"
+    ],
+    "answer": 1,
+    "exp": "외롭다는 내용이므로 '친구가 거의 없다'는 부정의 few가 맞다. friends는 셀 수 있으므로 little은 쓸 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nHurry up! We have ___ time.",
+    "choices": [
+     "little",
+     "a few",
+     "few",
+     "many"
+    ],
+    "answer": 0,
+    "exp": "time은 불가산명사이고 '서둘러!'라고 했으니 '시간이 거의 없다'는 little이 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "There is a little milk in the bottle.의 뜻으로 알맞은 것을 고르세요.",
+    "choices": [
+     "병에 우유가 거의 없다.",
+     "병에 우유가 많다.",
+     "병에 우유가 하나도 없다.",
+     "병에 우유가 조금 있다."
+    ],
+    "answer": 3,
+    "exp": "a little은 '조금 있는'이라는 긍정의 뜻이다. '거의 없다'는 a 없이 little이다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)I (B)bought (C)a little (D)eggs at the store.",
+    "choices": [
+     "(A) I",
+     "(B) bought",
+     "(C) a little",
+     "(D) eggs"
+    ],
+    "answer": 2,
+    "exp": "eggs는 셀 수 있는 복수명사이므로 a little이 아니라 a few를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "There are a few apples on the table.",
+    "answer": true,
+    "exp": "apples는 셀 수 있는 복수명사라 a few와 함께 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "I need a few water.",
+    "answer": false,
+    "exp": "water는 셀 수 없는 명사이므로 a few가 아니라 a little을 써야 한다."
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "title": "한정사 : all vs. some vs. no",
+  "points": [
+   "all(모든) + 복수명사/불가산명사 예: All students must wear a uniform.",
+   "some(약간의, 몇몇의) + 복수명사/불가산명사, 주로 긍정문 예: I have some cookies.",
+   "no(하나도 없는) + 명사 = not ~ any 예: I have no money. = I don't have any money.",
+   "no는 그 자체가 부정이므로 not과 함께 쓰지 않는다. (I don't have no money ×)",
+   "all of the + 명사 / some of the + 명사 → 동사는 뒤 명사에 맞춘다. 예: All of the students are here. / Some of the cake is mine."
+  ],
+  "examples": [
+   {
+    "en": "All students must wear a uniform.",
+    "ko": "모든 학생은 교복을 입어야 한다."
+   },
+   {
+    "en": "I have some cookies.",
+    "ko": "나는 쿠키가 몇 개 있다."
+   },
+   {
+    "en": "There is no milk in the fridge.",
+    "ko": "냉장고에 우유가 하나도 없다."
+   }
+  ],
+  "trap": "no 자체가 부정이므로 don't와 함께 쓰면 틀린다: I have no time ○ / I don't have no time ×.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ students in my class like PE.",
+    "choices": [
+     "Every",
+     "Each",
+     "All",
+     "No any"
+    ],
+    "answer": 2,
+    "exp": "복수명사 students 앞에는 All을 쓴다. Every와 Each는 단수명사 앞에 쓰고, No any는 없는 표현이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI'm hungry. I want ___ bread.",
+    "choices": [
+     "no",
+     "some",
+     "all",
+     "any"
+    ],
+    "answer": 1,
+    "exp": "배가 고파서 빵을 '조금' 원한다는 긍정문이므로 some을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "I don't have any money.와 뜻이 같은 문장을 고르세요.",
+    "choices": [
+     "I have some money.",
+     "I have all money.",
+     "I don't have no money.",
+     "I have no money."
+    ],
+    "answer": 3,
+    "exp": "not ~ any = no. 그래서 I have no money.가 같은 뜻이다. no와 not을 함께 쓰면 틀린다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThe room is empty. There are ___ chairs in it.",
+    "choices": [
+     "all",
+     "some",
+     "many",
+     "no"
+    ],
+    "answer": 3,
+    "exp": "방이 비어 있으니 의자가 '하나도 없다' → no chairs"
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "There is no water in the bottle.",
+     "I don't have no time.",
+     "All the students was happy.",
+     "There is no any milk."
+    ],
+    "answer": 0,
+    "exp": "no + 명사가 바르게 쓰였다. no와 not을 함께 쓰거나 no any로 쓰면 틀리고, students(복수)에는 were를 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)All (B)the children (C)is (D)playing outside.",
+    "choices": [
+     "(A) All",
+     "(B) the children",
+     "(C) is",
+     "(D) playing"
+    ],
+    "answer": 2,
+    "exp": "children은 복수이므로 is가 아니라 are를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "no + 명사는 not ~ any + 명사와 같은 뜻이다.",
+    "answer": true,
+    "exp": "I have no pens. = I don't have any pens."
+   },
+   {
+    "type": "ox",
+    "q": "I didn't eat no breakfast.",
+    "answer": false,
+    "exp": "no와 not(didn't)을 함께 쓰면 안 된다. → I didn't eat any breakfast. / I ate no breakfast."
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "title": "한정사 : all vs. almost vs. most",
+  "points": [
+   "all = 전부, 모든 예: All students passed.",
+   "most + 명사 = 대부분의 ~ 예: Most students like summer.",
+   "most of + the/my 등 + 명사 = (그) ~ 중 대부분 예: Most of the students are here. (Most of students ×)",
+   "almost는 '거의'라는 부사라서 명사 바로 앞에 쓸 수 없다. (Almost students ×)",
+   "almost는 all, every 앞에 쓴다. 예: almost all students(거의 모든 학생), almost every day"
+  ],
+  "examples": [
+   {
+    "en": "Most students like summer vacation.",
+    "ko": "대부분의 학생들은 여름방학을 좋아한다."
+   },
+   {
+    "en": "Almost all of my friends have smartphones.",
+    "ko": "내 친구들 거의 모두가 스마트폰을 가지고 있다."
+   },
+   {
+    "en": "Most of the students are here.",
+    "ko": "그 학생들 대부분이 여기에 있다."
+   }
+  ],
+  "trap": "almost는 부사라 Almost students ×, Almost all students ○, Most students ○ 이다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ students in my class have a phone.",
+    "choices": [
+     "Almost",
+     "Most",
+     "Most of",
+     "Almost of"
+    ],
+    "answer": 1,
+    "exp": "명사 앞에 바로 쓸 수 있는 것은 Most이다. almost는 부사라 명사 앞에 못 쓰고, Most of 뒤에는 the/my 등이 필요하다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ all the students passed the test.",
+    "choices": [
+     "Most",
+     "Almost",
+     "Most of",
+     "All"
+    ],
+    "answer": 1,
+    "exp": "almost는 all 앞에 써서 '거의 모든'의 뜻을 만든다. → Almost all"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ of the books on the shelf are old.",
+    "choices": [
+     "Almost",
+     "All almost",
+     "Mostly",
+     "Most"
+    ],
+    "answer": 3,
+    "exp": "Most of the + 명사 = 그 ~ 중 대부분. almost, mostly는 of와 함께 쓰지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "Almost students like pizza.",
+     "Most of students like pizza.",
+     "Most students like pizza.",
+     "Almost of the students like pizza."
+    ],
+    "answer": 2,
+    "exp": "Most + 명사가 맞다. almost는 명사 앞에 못 오고, Most of 뒤에는 the가 필요하다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nI'm ___ ready. Wait one minute.",
+    "choices": [
+     "most of",
+     "most",
+     "almost",
+     "all of"
+    ],
+    "answer": 2,
+    "exp": "'거의 준비됐어'라는 뜻으로 형용사 ready를 꾸미므로 부사 almost를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)Almost (B)my friends (C)play (D)soccer.",
+    "choices": [
+     "(A) Almost",
+     "(B) my friends",
+     "(C) play",
+     "(D) soccer"
+    ],
+    "answer": 0,
+    "exp": "almost는 명사(구) 앞에 바로 쓸 수 없다. → Almost all my friends 또는 Most of my friends"
+   },
+   {
+    "type": "ox",
+    "q": "Most of the teachers are kind.",
+    "answer": true,
+    "exp": "Most of the + 복수명사에 복수 동사 are가 맞게 쓰였다."
+   },
+   {
+    "type": "ox",
+    "q": "Most of students are tired.",
+    "answer": false,
+    "exp": "most of 뒤에는 the, my 등이 필요하다. → Most of the students / Most students"
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "title": "대명사 : 인칭대명사",
+  "points": [
+   "주격(주어 자리, ~은/는): I, you, he, she, it, we, they",
+   "목적격(동사·전치사 뒤, ~을/를): me, you, him, her, it, us, them",
+   "소유격(명사 앞, ~의): my, your, his, her, its, our, their + 명사",
+   "소유대명사(~의 것, 혼자 씀): mine, yours, his, hers, ours, theirs",
+   "its(그것의) ≠ it's(= it is)"
+  ],
+  "examples": [
+   {
+    "en": "She is my sister. I love her.",
+    "ko": "그녀는 내 여동생이다. 나는 그녀를 사랑한다."
+   },
+   {
+    "en": "This bag is mine.",
+    "ko": "이 가방은 내 것이다."
+   },
+   {
+    "en": "The dog wagged its tail.",
+    "ko": "그 개가 꼬리를 흔들었다."
+   }
+  ],
+  "trap": "전치사·동사 뒤에는 목적격(for me, with them)을 쓰고, '그것의'는 it's가 아니라 its이다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis is Tom. ___ is my best friend.",
+    "choices": [
+     "Him",
+     "His",
+     "He",
+     "Hers"
+    ],
+    "answer": 2,
+    "exp": "주어 자리에는 주격을 쓴다. → He"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nCan you help ___?",
+    "choices": [
+     "we",
+     "us",
+     "our",
+     "ours"
+    ],
+    "answer": 1,
+    "exp": "동사 help 뒤 목적어 자리에는 목적격 us를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThis pen is not yours. It's ___.",
+    "choices": [
+     "my",
+     "me",
+     "I",
+     "mine"
+    ],
+    "answer": 3,
+    "exp": "뒤에 명사 없이 '내 것'을 뜻하는 소유대명사 mine을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\nThe cat is playing with ___ toy.",
+    "choices": [
+     "it's",
+     "its",
+     "it",
+     "itself"
+    ],
+    "answer": 1,
+    "exp": "명사(toy) 앞 '그것의'는 소유격 its이다. it's는 it is의 줄임말이다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "These shoes are hers.",
+     "Her is my teacher.",
+     "I like they very much.",
+     "This is them house."
+    ],
+    "answer": 0,
+    "exp": "hers(그녀의 것)가 바르게 쓰였다. 주어는 She, 목적어는 them, 명사 앞은 their로 고쳐야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)My mom (B)made (C)a cake for (D)I.",
+    "choices": [
+     "(A) My mom",
+     "(B) made",
+     "(C) a cake",
+     "(D) I"
+    ],
+    "answer": 3,
+    "exp": "전치사 for 뒤에는 목적격이 와야 한다. → for me"
+   },
+   {
+    "type": "ox",
+    "q": "Their house is bigger than our.",
+    "answer": false,
+    "exp": "뒤에 명사가 없으므로 소유대명사 ours(우리의 것)를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "소유격(my, your 등)은 혼자 쓰지 않고 뒤에 명사가 온다.",
+    "answer": true,
+    "exp": "소유격은 my book처럼 명사와 함께 쓴다. 혼자 쓰려면 mine 같은 소유대명사를 쓴다."
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "title": "대명사 : 의문대명사",
+  "points": [
+   "who = 누구(사람) 예: Who is she?",
+   "whose = 누구의 / 누구의 것 예: Whose bag is this? / Whose is this?",
+   "what = 무엇(정해지지 않은 것) 예: What is your name?",
+   "which = 어느 것(정해진 몇 개 중에서 고를 때) 예: Which do you like, A or B?",
+   "의문사가 주어일 때: 의문사 + 동사(do/does 없이) 예: Who lives here? (3인칭 단수 취급)"
+  ],
+  "examples": [
+   {
+    "en": "Who broke the window?",
+    "ko": "누가 창문을 깼니?"
+   },
+   {
+    "en": "Whose bag is this?",
+    "ko": "이건 누구의 가방이니?"
+   },
+   {
+    "en": "Which do you like better, pizza or chicken?",
+    "ko": "피자와 치킨 중 어느 것을 더 좋아하니?"
+   }
+  ],
+  "trap": "의문사가 주어인 질문은 do/does/did 없이 바로 동사를 쓴다: Who lives here? ○ / Who do live here? ×",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ is that man? — He is my uncle.",
+    "choices": [
+     "What",
+     "Who",
+     "Which",
+     "Whose"
+    ],
+    "answer": 1,
+    "exp": "사람이 '누구'인지 묻고 있으므로 Who를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ umbrella is this? — It's Mina's.",
+    "choices": [
+     "Who",
+     "Whom",
+     "Whose",
+     "What"
+    ],
+    "answer": 2,
+    "exp": "'누구의' 우산인지 묻고 있으므로 Whose를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ do you want, the red one or the blue one?",
+    "choices": [
+     "Who",
+     "Whose",
+     "Whom",
+     "Which"
+    ],
+    "answer": 3,
+    "exp": "정해진 두 개(빨강, 파랑) 중에서 고르므로 Which를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것을 고르세요.\n___ do you do on weekends? — I play tennis.",
+    "choices": [
+     "Who",
+     "Whose",
+     "What",
+     "Which"
+    ],
+    "answer": 2,
+    "exp": "'무엇'을 하는지 묻고 있고 선택지가 정해져 있지 않으므로 What을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "문법적으로 올바른 문장을 고르세요.",
+    "choices": [
+     "Who do live in this house?",
+     "Who lives in this house?",
+     "Who live in this house?",
+     "Whom lives in this house?"
+    ],
+    "answer": 1,
+    "exp": "Who가 주어이므로 do 없이 3인칭 단수 동사 lives를 쓴다. 주어 자리에 whom은 쓸 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "틀린 부분을 고르세요.\n(A)Whose (B)is (C)that tall boy (D)over there?",
+    "choices": [
+     "(A) Whose",
+     "(B) is",
+     "(C) that tall boy",
+     "(D) over there"
+    ],
+    "answer": 0,
+    "exp": "사람이 '누구'인지 묻는 문장이므로 Whose가 아니라 Who를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "Whose is this cap?",
+    "answer": true,
+    "exp": "whose는 '누구의 것'이라는 뜻으로 혼자 쓸 수 있다. (= Whose cap is this?)"
+   },
+   {
+    "type": "ox",
+    "q": "Which is your name?",
+    "answer": false,
+    "exp": "이름처럼 정해진 선택지가 없는 것을 물을 때는 What을 쓴다. → What is your name?"
+   }
+  ]
+ }
+]
