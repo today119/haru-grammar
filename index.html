@@ -99,6 +99,7 @@ b.key{color:var(--brand);text-decoration:underline}
 #gpop .gb{display:flex;gap:8px;margin-top:10px}
 #gpop .gb button{flex:1;padding:10px;border-radius:12px;background:rgba(255,255,255,.15);font-weight:900}
 .rank{width:100%;text-align:left;display:block}.rk{display:flex;align-items:center;gap:8px;padding:9px 4px;border-bottom:1px solid var(--line);font-size:17px}.rk:last-of-type{border-bottom:0}.rk.me{background:var(--brand-soft);border-radius:10px}.rk .md{width:30px;font-size:22px;text-align:center}.rk .nm{flex:1;font-weight:900}.rk .sc{text-align:right;font-size:14px}.rk .sc b{font-size:20px}.who{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}.who .chip{font-size:16px;padding:8px 12px;border:2px solid transparent;cursor:pointer;opacity:.65}.who .chip.on{opacity:1;border-color:var(--brand);background:var(--brand);color:#fff}
+.ox3{display:grid;grid-template-columns:1fr 1.3fr 1fr;gap:8px}.ox3 .big{padding-left:4px;padding-right:4px}
 .drv{text-align:center;padding:26px 14px;min-height:46vh;display:flex;flex-direction:column;justify-content:center;gap:10px}.drv .en1{font-size:44px;font-weight:900;line-height:1.2}.drv .ko1{font-size:28px;font-weight:900;color:var(--ok)}.drv .en2{font-size:22px;font-weight:700;margin-top:8px}.drv .ko2{font-size:17px;color:var(--sub)}.drv .cue{font-size:18px;font-weight:900;color:var(--brand);margin-top:8px;min-height:24px}.act.on{border-color:var(--brand)}
 .lv{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px}.lv .chip{font-size:15px;padding:9px 0;border:2px solid transparent;cursor:pointer;opacity:.6}.lv .chip.on{opacity:1;border-color:var(--brand);background:var(--brand);color:#fff}
 .chip{display:inline-block;font-size:12px;font-weight:900;padding:2px 8px;border-radius:999px;background:var(--brand-soft);color:var(--brand)}
@@ -192,7 +193,7 @@ function go(t){ if(typeof stopDrive==="function") stopDrive(); tab=t; document.q
 var DAY0="2026-10-04";
 function dayIdx(){ return Math.max(0, daysBetween(DAY0, today())); }
 /* 가족 모드 = 기초5(연우)+중급5, 고급 도전 해제 기기는 중급5+고급5 를 고를 수 있다 */
-function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var s=(dayIdx()*5)%list.length, a=[]; for(var k=0;k<5;k++){ var w=Object.assign({},list[(s+k)%list.length]); w.lv=L; a.push(w); } return a; }
+function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var s=(dayIdx()*5)%list.length, a=[]; for(var k=0;k<5;k++){ var ix=(s+k)%list.length, w=Object.assign({},list[ix]); w.lv=L; w.aid=L.charAt(0)+ix; a.push(w); } return a; }
 function todayWords(){ return getMode()==="adv" ? pick5("mid").concat(pick5("adv")) : pick5("basic").concat(pick5("mid")); }
 function todayDialogTopic(){ var p=todayPlan(); if(p) return p[1]; return (dayIdx()%60)+1; }
 function todayDialog(){ var id=todayDialogTopic(); for(var i=0;i<D.length;i++) if(D[i].id===id) return D[i]; return null; }
@@ -429,25 +430,15 @@ var W=[], D=[], G={}, WL={basic:[],mid:[],adv:[]};
 /* ── 🚗 손 안 대고 듣기 ── 시작 한 번 누르면 끝까지 자동. 영어 → 따라 말할 틈 → 뜻 → 예문 → 틈 → 해석
    전체 단어·문법 예문은 어디까지 들었는지 기억했다가 다음 출퇴근에 이어서 */
 var DRV={run:false, tok:0, lock:null};
-function speakP(text, lang, rate, tok){
-  return new Promise(function(res){
-    if(tok!==DRV.tok) return res();
-    var done=false, fin=function(){ if(!done){ done=true; clearTimeout(t); res(); } };
-    var t=setTimeout(fin, 2500+String(text).length*140);   // onend 가 안 오는 브라우저 대비
-    try{ var u=new SpeechSynthesisUtterance(text); u.lang=lang; u.rate=rate; u.onend=fin; u.onerror=fin; speechSynthesis.speak(u); }catch(e){ fin(); }
-  });
-}
-function waitP(ms, tok){ return new Promise(function(res){ var t0=Date.now(); (function tick(){ if(tok!==DRV.tok || Date.now()-t0>=ms) return res(); setTimeout(tick,150); })(); }); }
-function gapFor(s){ return Math.round((1200+String(s).length*75)*(ls("dgap")==="long"?1.6:1)); }   // 따라 말할 시간 = 문장 길이에 비례
 function driveSources(){
-  function tag(L){ return WL[L].map(function(w){ var o=Object.assign({},w); o.lv=L; return o; }); }
+  function tag(L){ return WL[L].map(function(w,ix){ var o=Object.assign({},w); o.lv=L; o.aid=L.charAt(0)+ix; return o; }); }
   var ws=getMode()==="adv"?tag("mid").concat(tag("adv")):tag("basic").concat(tag("mid"));
-  var ex=[]; T.forEach(function(t){ (t.examples||[]).forEach(function(e){ ex.push({en:e.en, ko:e.ko, tag:t.id+". "+t.title}); }); });
+  var ex=[]; T.forEach(function(t){ (t.examples||[]).forEach(function(e,k){ ex.push({en:e.en, ko:e.ko, tag:t.id+". "+t.title, aid:"g"+t.id+"-"+k}); }); });
   var dg=todayDialog();
   return [
     {id:"today", name:"📅 오늘 단어 "+todayWords().length+"개", items:todayWords().map(function(w){ return {w:w}; }), keep:false},
     {id:"words", name:"📚 단어 전체 이어 듣기", items:ws.map(function(w){ return {w:w}; }), keep:true},
-    {id:"dialog", name:"💬 오늘 대화 따라하기", items:dg?dg.lines.map(function(l){ return {en:l.en, ko:l.ko, tag:dg.title+" · "+l.s}; }):[], keep:false},
+    {id:"dialog", name:"💬 오늘 대화 따라하기", items:dg?dg.lines.map(function(l,k){ return {en:l.en, ko:l.ko, tag:dg.title+" · "+l.s, aid:"d"+dg.id+"-"+k}; }):[], keep:false},
     {id:"ex", name:"✏️ 연수 문법 예문 전체", items:ex, keep:true}
   ];
 }
@@ -457,55 +448,56 @@ function drive(){
   $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 손 안 대고 듣기</div></div>'+
     '<p class="muted" style="margin:4px 0 12px">시작만 누르면 끝까지 자동으로 넘어가요. 영어가 두 번 나오고, 그 사이에 따라 말하세요.</p>'+
     '<div class="stack">'+src.map(function(s){ var pos=+(ls("dpos_"+s.id)||0); return '<button class="act'+(s.id===cur?' on':'')+'" data-s="'+s.id+'"'+(s.items.length?'':' disabled')+'><span><b>'+s.name+'</b><small>'+(s.keep&&pos?(pos+1)+'번째부터 이어서 · 전체 '+s.items.length:'모두 '+s.items.length+'개')+'</small></span></button>'; }).join("")+'</div>'+
-    '<div class="ox" style="margin-top:12px"><button class="big ghost" id="gap">따라 말할 틈: '+(ls("dgap")==="long"?"넉넉히":"보통")+'</button><button class="big ghost" id="rt">속도: '+(ls("drate")==="slow"?"천천히":"보통")+'</button></div>';
+    '<div class="ox" style="margin-top:12px"><button class="big ghost" id="rt">속도: '+(ls("drate")==="slow"?"천천히":"보통")+'</button></div>'+
+    '<p class="small" style="margin-top:10px">🎧 음악처럼 재생돼서 블루투스 이어폰·차 스피커로 나오고, 화면을 꺼도 계속 들려요.</p>';
   document.getElementById("bk").onclick=function(){ go("home"); };
-  document.getElementById("gap").onclick=function(){ ls("dgap", ls("dgap")==="long"?"":"long"); drive(); };
   document.getElementById("rt").onclick=function(){ ls("drate", ls("drate")==="slow"?"":"slow"); drive(); };
   $app.querySelectorAll("[data-s]").forEach(function(b){ b.onclick=function(){ var s=src.filter(function(x){ return x.id===b.dataset.s; })[0]; ls("dsrc",s.id); playDrive(s); }; });
   window.scrollTo(0,0);
 }
-function stopDrive(){ DRV.tok++; DRV.run=false; try{ speechSynthesis.cancel(); }catch(e){} if(DRV.lock){ try{ DRV.lock.release(); }catch(e){} DRV.lock=null; } }
+function stopDrive(){ DRV.tok++; DRV.run=false; try{ speechSynthesis.cancel(); }catch(e){} if(DRV.audio){ DRV.audio.onended=DRV.audio.onerror=null; DRV.audio.pause(); } if(DRV.lock){ try{ DRV.lock.release(); }catch(e){} DRV.lock=null; } }
 function playDrive(s){
-  stopDrive(); var tok=DRV.tok; DRV.run=true;
-  var i=s.keep?(+(ls("dpos_"+s.id)||0))%s.items.length:0, paused=false;
+  /* 진짜 음성 파일(audio/*.m4a)을 음악처럼 이어 튼다 — 블루투스·차 스피커로 나오고, 화면이 꺼져도 계속되고, 이어폰 버튼도 먹는다 */
+  stopDrive(); DRV.run=true;
+  var A=DRV.audio||(DRV.audio=new Audio()); A.preload="auto";
+  var i=s.keep?(+(ls("dpos_"+s.id)||0))%s.items.length:0;
   try{ if(navigator.wakeLock) navigator.wakeLock.request("screen").then(function(l){ DRV.lock=l; }).catch(function(){}); }catch(e){}
-  function show(it, step){
-    var en=it.w?it.w.w:it.en, ko=it.w?it.w.ko:it.ko, ex=it.w?it.w.ex:"", exko=it.w?it.w.exko:"";
-    var tag=it.w?LVN[it.w.lv]||"":it.tag;
-    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 '+esc(s.name.replace(/^\S+\s/,""))+'</div></div>'+
-      '<div class="qh"><span>'+(i+1)+' / '+s.items.length+'</span><span>'+esc(tag)+'</span></div>'+
-      '<div class="card drv"><div class="en1">'+esc(en)+'</div><div class="ko1">'+(step>=2?esc(ko):"&nbsp;")+'</div>'+
-      (ex?'<div class="en2">'+(step>=3?esc(ex):"&nbsp;")+'</div><div class="ko2">'+(step>=5?esc(exko):"&nbsp;")+'</div>':'')+
-      '<div class="cue">'+(["🔊 들어 보세요","🗣️ 따라 말해 보세요","","🔊 예문","🗣️ 예문 따라 말하기",""][step]||"")+'</div></div>'+
-      '<div class="ox" style="margin-top:12px"><button class="big" id="pp">'+(paused?"▶ 계속":"⏸ 잠깐 멈춤")+'</button><button class="big ghost" id="nx">다음 ⏭</button></div>';
-    document.getElementById("bk").onclick=function(){ stopDrive(); drive(); };
-    document.getElementById("pp").onclick=function(){ paused=!paused; if(paused){ DRV.tok++; try{ speechSynthesis.cancel(); }catch(e){} show(it,step); } else { tok=DRV.tok; loop(); } };
-    document.getElementById("nx").onclick=function(){ DRV.tok++; try{ speechSynthesis.cancel(); }catch(e){} paused=false; i=(i+1)%s.items.length; save(); tok=DRV.tok; loop(); };
-  }
+  function it(){ var x=s.items[i]; return x.w?{en:x.w.w, ko:x.w.ko, ex:x.w.ex, exko:x.w.exko, tag:LVN[x.w.lv]||"", aid:x.w.aid}:{en:x.en, ko:x.ko, ex:"", exko:"", tag:x.tag, aid:x.aid}; }
   function save(){ if(s.keep) ls("dpos_"+s.id, i); }
-  function loop(){
-    if(tok!==DRV.tok) return;
-    var it=s.items[i], r=ls("drate")==="slow"?0.72:0.9;
-    var en=it.w?it.w.w:it.en, ko=it.w?it.w.ko:it.ko, ex=it.w?it.w.ex:"", exko=it.w?it.w.exko:"";
-    var p=Promise.resolve();
-    function st(n,f){ p=p.then(function(){ if(tok!==DRV.tok) return; show(it,n); return f(); }); }
-    st(0,function(){ return speakP(en,"en-US",r,tok); });
-    st(1,function(){ return waitP(gapFor(en),tok).then(function(){ return speakP(en,"en-US",r,tok); }).then(function(){ return waitP(gapFor(en),tok); }); });
-    st(2,function(){ return speakP(ko,"ko-KR",1,tok).then(function(){ return waitP(500,tok); }); });
-    if(ex){
-      st(3,function(){ return speakP(ex,"en-US",r,tok); });
-      st(4,function(){ return waitP(gapFor(ex),tok); });
-      st(5,function(){ return speakP(exko,"ko-KR",1,tok).then(function(){ return waitP(900,tok); }); });
-    }
-    var t0=Date.now();
-    p.then(function(){
-      if(tok!==DRV.tok) return;
-      if(curP()){ var lg=(FAM.log[curP()]||{})[today()]||{}; famLog("drive", (lg.drive||0)+Math.round((Date.now()-t0)/1000)); }
-      i++; if(i>=s.items.length){ i=0; if(!s.keep){ save(); finish(); return; } } save(); loop();
-    });
+  function show(){
+    var c=it();
+    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 '+esc(s.name.replace(/^\S+\s/,""))+'</div></div>'+
+      '<div class="qh"><span>'+(i+1)+' / '+s.items.length+'</span><span>'+esc(c.tag)+'</span></div>'+
+      '<div class="card drv"><div class="en1">'+esc(c.en)+'</div><div class="ko1">'+esc(c.ko)+'</div>'+
+      (c.ex?'<div class="en2">'+esc(c.ex)+'</div><div class="ko2">'+esc(c.exko)+'</div>':'')+
+      '<div class="cue">'+(A.paused?"⏸ 멈춤":"🗣️ 듣고 따라 말해 보세요")+'</div></div>'+
+      '<div class="ox3" style="margin-top:12px"><button class="big ghost" id="pv">⏮ 이전</button><button class="big" id="pp">'+(A.paused?"▶ 계속":"⏸ 멈춤")+'</button><button class="big ghost" id="nx">다음 ⏭</button></div>'+
+      '<div class="ox" style="margin-top:8px"><button class="big ghost" id="rt">속도: '+(ls("drate")==="slow"?"천천히":"보통")+'</button></div>'+
+      '<p class="small" style="margin-top:10px">🎧 블루투스·차 스피커로 나와요. 화면을 꺼도 계속 들려요. 이어폰 버튼으로 멈춤·다음 가능.</p>';
+    document.getElementById("bk").onclick=function(){ stopDrive(); drive(); };
+    document.getElementById("pp").onclick=function(){ if(A.paused) A.play().catch(function(){}); else A.pause(); show(); };
+    document.getElementById("nx").onclick=function(){ step(1); };
+    document.getElementById("pv").onclick=function(){ step(-1); };
+    document.getElementById("rt").onclick=function(){ ls("drate", ls("drate")==="slow"?"":"slow"); A.playbackRate=rate(); show(); };
   }
+  function rate(){ return ls("drate")==="slow"?0.8:1; }
+  function meta(){ var c=it(); try{ if("mediaSession" in navigator) navigator.mediaSession.metadata=new MediaMetadata({title:c.en, artist:c.ko, album:"하루 문법 · "+s.name.replace(/^\S+\s/,""), artwork:[{src:"icon-512.png",sizes:"512x512",type:"image/png"}]}); }catch(e){} }
+  function load(){ var c=it(); A.src="audio/"+c.aid+".m4a"; A.playbackRate=rate(); A.play().catch(function(){}); meta(); save(); show(); }
+  function step(d){ i+=d; if(i<0) i=s.items.length-1; if(i>=s.items.length){ i=0; if(!s.keep){ save(); finish(); return; } } load(); }
+  A.onended=function(){
+    if(curP() && A.duration){ var lg=(FAM.log[curP()]||{})[today()]||{}; famLog("drive", (lg.drive||0)+Math.round(A.duration/A.playbackRate)); }
+    step(1);
+  };
+  A.onerror=function(){ setTimeout(function(){ if(DRV.run) step(1); }, 300); };   // 파일 하나가 안 열려도 멈추지 않고 다음으로
+  A.onplay=A.onpause=function(){ var b=document.getElementById("pp"); if(b) b.textContent=A.paused?"▶ 계속":"⏸ 멈춤"; };
+  try{ if("mediaSession" in navigator){
+    navigator.mediaSession.setActionHandler("play",function(){ A.play(); });
+    navigator.mediaSession.setActionHandler("pause",function(){ A.pause(); });
+    navigator.mediaSession.setActionHandler("nexttrack",function(){ step(1); });
+    navigator.mediaSession.setActionHandler("previoustrack",function(){ step(-1); });
+  } }catch(e){}
   function finish(){ stopDrive(); $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 다 들었어요</div></div><div class="card" style="text-align:center;padding:30px;font-size:22px;font-weight:900">👏 수고했어요!</div><button class="big" id="ag" style="margin-top:12px">다시 듣기</button>'; document.getElementById("bk").onclick=function(){ drive(); }; document.getElementById("ag").onclick=function(){ playDrive(s); }; }
-  loop(); window.scrollTo(0,0);
+  load(); window.scrollTo(0,0);
 }
 var LVN={basic:"🐣 기초",mid:"🚶 중급",adv:"🔥 고급"}, TEST_DAY="2026-10-18";
 function ls(k,v){ try{ if(v===undefined) return localStorage.getItem("haru-grammar."+k); localStorage.setItem("haru-grammar."+k,v); }catch(e){ return null; } }
