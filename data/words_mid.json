@@ -1,0 +1,2802 @@
+[
+{
+"w": "breathe",
+"pos": "동사",
+"ko": "숨 쉬다",
+"ex": "Breathe slowly when you feel nervous.",
+"exko": "긴장될 때는 천천히 숨을 쉬어라."
+},
+{
+"w": "independent",
+"pos": "형용사",
+"ko": "독립적인, 자립한",
+"ex": "My parents want me to be more independent.",
+"exko": "부모님은 내가 더 자립적이기를 바라신다."
+},
+{
+"w": "amazing",
+"pos": "형용사",
+"ko": "놀라운, 굉장한",
+"ex": "The view from the mountain was amazing.",
+"exko": "산에서 본 경치는 정말 놀라웠다."
+},
+{
+"w": "damage",
+"pos": "동사",
+"ko": "손상시키다, 피해를 주다",
+"ex": "The strong wind damaged our neighbor's roof.",
+"exko": "강한 바람이 이웃집 지붕을 망가뜨렸다."
+},
+{
+"w": "solution",
+"pos": "명사",
+"ko": "해결책",
+"ex": "We found a solution to the parking problem.",
+"exko": "우리는 주차 문제의 해결책을 찾았다."
+},
+{
+"w": "respect",
+"pos": "동사",
+"ko": "존중하다, 존경하다",
+"ex": "We should respect other people's opinions.",
+"exko": "우리는 다른 사람의 의견을 존중해야 한다."
+},
+{
+"w": "heal",
+"pos": "동사",
+"ko": "낫다, 치유하다",
+"ex": "The cut on my knee healed in a week.",
+"exko": "무릎의 상처가 일주일 만에 나았다."
+},
+{
+"w": "pass away",
+"pos": "숙어",
+"ko": "돌아가시다",
+"ex": "My great-grandfather passed away when I was little.",
+"exko": "증조할아버지는 내가 어렸을 때 돌아가셨다."
+},
+{
+"w": "empty",
+"pos": "형용사",
+"ko": "비어 있는",
+"ex": "The fridge is almost empty, so let's go shopping.",
+"exko": "냉장고가 거의 비었으니 장 보러 가자."
+},
+{
+"w": "each other",
+"pos": "숙어",
+"ko": "서로",
+"ex": "My brother and I help each other with homework.",
+"exko": "형과 나는 숙제를 서로 도와준다."
+},
+{
+"w": "flood",
+"pos": "명사",
+"ko": "홍수",
+"ex": "The heavy rain caused a flood in the town.",
+"exko": "폭우로 마을에 홍수가 났다."
+},
+{
+"w": "while",
+"pos": "접속사",
+"ko": "~하는 동안",
+"ex": "Dad cooked dinner while we did our homework.",
+"exko": "우리가 숙제하는 동안 아빠가 저녁을 만드셨다."
+},
+{
+"w": "alive",
+"pos": "형용사",
+"ko": "살아 있는",
+"ex": "The fish in the bowl is still alive.",
+"exko": "어항 속 물고기는 아직 살아 있다."
+},
+{
+"w": "unusual",
+"pos": "형용사",
+"ko": "특이한, 흔치 않은",
+"ex": "It's unusual for Dad to come home early.",
+"exko": "아빠가 일찍 집에 오시는 건 흔치 않은 일이다."
+},
+{
+"w": "according to",
+"pos": "숙어",
+"ko": "~에 따르면",
+"ex": "According to the news, it will snow tomorrow.",
+"exko": "뉴스에 따르면 내일 눈이 올 것이다."
+},
+{
+"w": "improve",
+"pos": "동사",
+"ko": "향상시키다, 나아지다",
+"ex": "Practice every day to improve your English.",
+"exko": "영어 실력을 늘리려면 매일 연습해라."
+},
+{
+"w": "global",
+"pos": "형용사",
+"ko": "세계적인, 지구의",
+"ex": "Global warming is a problem for everyone.",
+"exko": "지구 온난화는 모두의 문제이다."
+},
+{
+"w": "cancel",
+"pos": "동사",
+"ko": "취소하다",
+"ex": "The soccer game was canceled because of rain.",
+"exko": "축구 경기가 비 때문에 취소되었다."
+},
+{
+"w": "translate",
+"pos": "동사",
+"ko": "번역하다",
+"ex": "Can you translate this sentence into Korean?",
+"exko": "이 문장을 한국어로 번역해 줄래?"
+},
+{
+"w": "unique",
+"pos": "형용사",
+"ko": "독특한, 유일한",
+"ex": "Every student in our class is unique.",
+"exko": "우리 반 학생들은 모두 저마다 특별하다."
+},
+{
+"w": "try on",
+"pos": "숙어",
+"ko": "입어 보다",
+"ex": "Can I try on this jacket, please?",
+"exko": "이 재킷 입어 봐도 될까요?"
+},
+{
+"w": "take part in",
+"pos": "숙어",
+"ko": "~에 참가하다",
+"ex": "Our whole class took part in the marathon.",
+"exko": "우리 반 전체가 마라톤에 참가했다."
+},
+{
+"w": "judge",
+"pos": "동사",
+"ko": "판단하다, 심사하다",
+"ex": "Don't judge people by their looks.",
+"exko": "사람을 겉모습으로 판단하지 마라."
+},
+{
+"w": "village",
+"pos": "명사",
+"ko": "마을",
+"ex": "My grandparents live in a small village.",
+"exko": "조부모님은 작은 마을에 사신다."
+},
+{
+"w": "whole",
+"pos": "형용사",
+"ko": "전체의, 모든",
+"ex": "Our whole family went camping last weekend.",
+"exko": "지난 주말에 우리 가족 모두가 캠핑을 갔다."
+},
+{
+"w": "encourage",
+"pos": "동사",
+"ko": "격려하다, 권장하다",
+"ex": "My parents always encourage me to try new things.",
+"exko": "부모님은 늘 새로운 것에 도전하라고 격려해 주신다."
+},
+{
+"w": "lie",
+"pos": "동사",
+"ko": "거짓말하다, 눕다",
+"ex": "Never lie to your parents about your grades.",
+"exko": "성적에 대해 부모님께 절대 거짓말하지 마."
+},
+{
+"w": "either",
+"pos": "부사",
+"ko": "(부정문에서) ~도 또한",
+"ex": "I don't like spicy food, either.",
+"exko": "나도 매운 음식을 좋아하지 않아."
+},
+{
+"w": "increase",
+"pos": "동사",
+"ko": "늘다, 증가하다",
+"ex": "The price of vegetables increased a lot this month.",
+"exko": "이번 달 채소 가격이 많이 올랐다."
+},
+{
+"w": "ignore",
+"pos": "동사",
+"ko": "무시하다",
+"ex": "Don't ignore your mom when she calls you.",
+"exko": "엄마가 부르실 때 못 들은 척하지 마."
+},
+{
+"w": "medicine",
+"pos": "명사",
+"ko": "약, 의학",
+"ex": "Take this medicine after dinner with some water.",
+"exko": "저녁 식사 후에 물과 함께 이 약을 먹어라."
+},
+{
+"w": "quality",
+"pos": "명사",
+"ko": "품질, 질",
+"ex": "These shoes are cheap but good quality.",
+"exko": "이 신발은 싸지만 품질이 좋다."
+},
+{
+"w": "describe",
+"pos": "동사",
+"ko": "묘사하다, 설명하다",
+"ex": "Can you describe your best friend in English?",
+"exko": "가장 친한 친구를 영어로 묘사할 수 있니?"
+},
+{
+"w": "support",
+"pos": "동사",
+"ko": "지지하다, 응원하다",
+"ex": "My parents always support my dreams.",
+"exko": "부모님은 항상 내 꿈을 응원해 주신다."
+},
+{
+"w": "influence",
+"pos": "명사",
+"ko": "영향",
+"ex": "My teacher had a big influence on my dream.",
+"exko": "선생님은 내 꿈에 큰 영향을 주셨다."
+},
+{
+"w": "personal",
+"pos": "형용사",
+"ko": "개인적인",
+"ex": "Don't share your personal information online.",
+"exko": "인터넷에 개인 정보를 공유하지 마라."
+},
+{
+"w": "effect",
+"pos": "명사",
+"ko": "효과, 영향",
+"ex": "Too much screen time has a bad effect on sleep.",
+"exko": "화면을 너무 오래 보면 잠에 나쁜 영향을 준다."
+},
+{
+"w": "meaning",
+"pos": "명사",
+"ko": "의미, 뜻",
+"ex": "I looked up the meaning of the word.",
+"exko": "나는 그 단어의 뜻을 찾아보았다."
+},
+{
+"w": "treat",
+"pos": "동사",
+"ko": "대하다, 다루다, 치료하다",
+"ex": "Treat others the way you want to be treated.",
+"exko": "네가 대접받고 싶은 대로 다른 사람을 대하라."
+},
+{
+"w": "observe",
+"pos": "동사",
+"ko": "관찰하다",
+"ex": "We observed the moon through a telescope last night.",
+"exko": "우리는 어젯밤 망원경으로 달을 관찰했다."
+},
+{
+"w": "pattern",
+"pos": "명사",
+"ko": "무늬, 패턴",
+"ex": "I like the flower pattern on your shirt.",
+"exko": "네 셔츠의 꽃무늬가 마음에 들어."
+},
+{
+"w": "advantage",
+"pos": "명사",
+"ko": "장점, 이점",
+"ex": "One advantage of walking is that it is free.",
+"exko": "걷기의 장점 하나는 돈이 들지 않는다는 것이다."
+},
+{
+"w": "fortunately",
+"pos": "부사",
+"ko": "다행히도",
+"ex": "Fortunately, nobody was hurt in the accident.",
+"exko": "다행히 그 사고로 다친 사람은 없었다."
+},
+{
+"w": "climate",
+"pos": "명사",
+"ko": "기후",
+"ex": "The climate in Korea has four clear seasons.",
+"exko": "한국의 기후는 사계절이 뚜렷하다."
+},
+{
+"w": "concentrate",
+"pos": "동사",
+"ko": "집중하다",
+"ex": "I can't concentrate when the TV is on.",
+"exko": "TV가 켜져 있으면 나는 집중을 못 한다."
+},
+{
+"w": "conversation",
+"pos": "명사",
+"ko": "대화",
+"ex": "We had a long conversation at the dinner table.",
+"exko": "우리는 저녁 식탁에서 긴 대화를 나눴다."
+},
+{
+"w": "situation",
+"pos": "명사",
+"ko": "상황",
+"ex": "Stay calm in a difficult situation.",
+"exko": "어려운 상황에서도 침착함을 유지해."
+},
+{
+"w": "stress",
+"pos": "명사",
+"ko": "스트레스, 압박",
+"ex": "Playing sports helps me reduce stress.",
+"exko": "운동을 하면 스트레스를 줄이는 데 도움이 된다."
+},
+{
+"w": "effort",
+"pos": "명사",
+"ko": "노력",
+"ex": "Thanks to your effort, we won the game.",
+"exko": "네 노력 덕분에 우리가 경기에서 이겼어."
+},
+{
+"w": "keep in touch with",
+"pos": "숙어",
+"ko": "~와 연락하고 지내다",
+"ex": "I still keep in touch with my old classmates.",
+"exko": "나는 아직도 옛 반 친구들과 연락하고 지낸다."
+},
+{
+"w": "private",
+"pos": "형용사",
+"ko": "사적인, 개인의",
+"ex": "This diary is private, so please don't read it.",
+"exko": "이 일기장은 사적인 거니까 읽지 마세요."
+},
+{
+"w": "temperature",
+"pos": "명사",
+"ko": "온도, 체온",
+"ex": "Mom checked my temperature because I felt sick.",
+"exko": "내가 아파서 엄마가 체온을 재 보셨다."
+},
+{
+"w": "maintain",
+"pos": "동사",
+"ko": "유지하다",
+"ex": "Dad exercises every day to maintain his health.",
+"exko": "아빠는 건강을 유지하려고 매일 운동하신다."
+},
+{
+"w": "adult",
+"pos": "명사",
+"ko": "어른, 성인",
+"ex": "Children must go with an adult to the pool.",
+"exko": "아이들은 수영장에 어른과 함께 가야 한다."
+},
+{
+"w": "limit",
+"pos": "명사",
+"ko": "한계, 제한",
+"ex": "There is a time limit for using the computer.",
+"exko": "컴퓨터 사용에는 시간제한이 있다."
+},
+{
+"w": "positive",
+"pos": "형용사",
+"ko": "긍정적인",
+"ex": "Try to keep a positive attitude every day.",
+"exko": "매일 긍정적인 태도를 유지하도록 노력해."
+},
+{
+"w": "benefit",
+"pos": "명사",
+"ko": "이익, 혜택",
+"ex": "Exercise has many benefits for your health.",
+"exko": "운동은 건강에 많은 이로움이 있다."
+},
+{
+"w": "rapidly",
+"pos": "부사",
+"ko": "빠르게, 급속히",
+"ex": "My little brother is growing rapidly these days.",
+"exko": "남동생은 요즘 빠르게 자라고 있다."
+},
+{
+"w": "success",
+"pos": "명사",
+"ko": "성공",
+"ex": "The school festival was a big success.",
+"exko": "학교 축제는 큰 성공이었다."
+},
+{
+"w": "valuable",
+"pos": "형용사",
+"ko": "귀중한, 소중한",
+"ex": "Time with family is very valuable to me.",
+"exko": "가족과 함께하는 시간은 나에게 아주 소중하다."
+},
+{
+"w": "score",
+"pos": "명사",
+"ko": "점수, 득점",
+"ex": "I got a perfect score on the spelling test.",
+"exko": "나는 철자 시험에서 만점을 받았다."
+},
+{
+"w": "especially",
+"pos": "부사",
+"ko": "특히",
+"ex": "I love fruit, especially strawberries.",
+"exko": "나는 과일, 특히 딸기를 정말 좋아한다."
+},
+{
+"w": "contain",
+"pos": "동사",
+"ko": "포함하다, 들어 있다",
+"ex": "This snack contains a lot of sugar.",
+"exko": "이 과자에는 설탕이 많이 들어 있다."
+},
+{
+"w": "in danger",
+"pos": "숙어",
+"ko": "위험에 처한",
+"ex": "Many animals are in danger because of pollution.",
+"exko": "많은 동물이 오염 때문에 위험에 처해 있다."
+},
+{
+"w": "yell",
+"pos": "동사",
+"ko": "소리치다, 고함치다",
+"ex": "Please don't yell at your little brother.",
+"exko": "남동생에게 소리 지르지 마."
+},
+{
+"w": "opportunity",
+"pos": "명사",
+"ko": "기회",
+"ex": "This camp is a great opportunity to make friends.",
+"exko": "이 캠프는 친구를 사귈 좋은 기회이다."
+},
+{
+"w": "impress",
+"pos": "동사",
+"ko": "깊은 인상을 주다, 감동시키다",
+"ex": "Your speech really impressed the whole class.",
+"exko": "네 발표가 반 전체에게 정말 깊은 인상을 남겼어."
+},
+{
+"w": "balance",
+"pos": "명사",
+"ko": "균형",
+"ex": "It is hard to keep my balance on a bike.",
+"exko": "자전거 위에서 균형을 잡기가 어렵다."
+},
+{
+"w": "work out",
+"pos": "숙어",
+"ko": "운동하다, 해결하다",
+"ex": "My parents work out at the gym together.",
+"exko": "부모님은 함께 헬스장에서 운동하신다."
+},
+{
+"w": "exactly",
+"pos": "부사",
+"ko": "정확히, 바로",
+"ex": "The movie starts at exactly seven o'clock.",
+"exko": "영화는 정확히 7시에 시작한다."
+},
+{
+"w": "memory",
+"pos": "명사",
+"ko": "기억, 추억",
+"ex": "Our trip to Jeju is my favorite memory.",
+"exko": "제주도 여행은 내가 가장 좋아하는 추억이다."
+},
+{
+"w": "negative",
+"pos": "형용사",
+"ko": "부정적인",
+"ex": "Try not to say negative things about your friends.",
+"exko": "친구들에 대해 부정적인 말을 하지 않도록 해."
+},
+{
+"w": "material",
+"pos": "명사",
+"ko": "재료, 자료",
+"ex": "We need some materials for the art project.",
+"exko": "미술 과제에 쓸 재료가 좀 필요해."
+},
+{
+"w": "pain",
+"pos": "명사",
+"ko": "고통, 통증",
+"ex": "I felt a sharp pain in my knee.",
+"exko": "나는 무릎에 날카로운 통증을 느꼈다."
+},
+{
+"w": "accept",
+"pos": "동사",
+"ko": "받아들이다, 수락하다",
+"ex": "Dad accepted my apology with a big smile.",
+"exko": "아빠는 활짝 웃으며 내 사과를 받아주셨다."
+},
+{
+"w": "frightened",
+"pos": "형용사",
+"ko": "겁먹은, 무서워하는",
+"ex": "The baby was frightened by the loud thunder.",
+"exko": "아기는 큰 천둥소리에 겁을 먹었다."
+},
+{
+"w": "persuade",
+"pos": "동사",
+"ko": "설득하다",
+"ex": "I persuaded my parents to get a puppy.",
+"exko": "나는 부모님을 설득해서 강아지를 키우게 됐다."
+},
+{
+"w": "sign up for",
+"pos": "숙어",
+"ko": "~에 등록하다, 신청하다",
+"ex": "I signed up for the school soccer club.",
+"exko": "나는 학교 축구부에 가입 신청을 했다."
+},
+{
+"w": "run into",
+"pos": "숙어",
+"ko": "우연히 만나다",
+"ex": "I ran into my teacher at the supermarket.",
+"exko": "나는 슈퍼마켓에서 선생님을 우연히 만났다."
+},
+{
+"w": "gain",
+"pos": "동사",
+"ko": "얻다, (체중이) 늘다",
+"ex": "I gained a lot of experience from volunteering.",
+"exko": "나는 봉사활동으로 많은 경험을 얻었다."
+},
+{
+"w": "such as",
+"pos": "숙어",
+"ko": "~와 같은",
+"ex": "I like fruits such as grapes and peaches.",
+"exko": "나는 포도와 복숭아 같은 과일을 좋아한다."
+},
+{
+"w": "lead",
+"pos": "동사",
+"ko": "이끌다, 안내하다",
+"ex": "Our class president will lead the meeting today.",
+"exko": "오늘 회의는 반장이 이끌 것이다."
+},
+{
+"w": "so far",
+"pos": "숙어",
+"ko": "지금까지",
+"ex": "So far, I have read three books this month.",
+"exko": "지금까지 나는 이번 달에 책 세 권을 읽었다."
+},
+{
+"w": "local",
+"pos": "형용사",
+"ko": "지역의, 현지의",
+"ex": "We buy fresh vegetables at the local market.",
+"exko": "우리는 동네 시장에서 신선한 채소를 산다."
+},
+{
+"w": "kingdom",
+"pos": "명사",
+"ko": "왕국",
+"ex": "The story is about a princess in a small kingdom.",
+"exko": "그 이야기는 작은 왕국의 공주에 관한 것이다."
+},
+{
+"w": "original",
+"pos": "형용사",
+"ko": "원래의, 독창적인",
+"ex": "Her drawing was very original and creative.",
+"exko": "그녀의 그림은 매우 독창적이고 창의적이었다."
+},
+{
+"w": "deal with",
+"pos": "숙어",
+"ko": "~을 다루다, 처리하다",
+"ex": "How do you deal with stress before exams?",
+"exko": "너는 시험 전 스트레스를 어떻게 다루니?"
+},
+{
+"w": "whether",
+"pos": "접속사",
+"ko": "~인지 아닌지",
+"ex": "I don't know whether it will rain tomorrow.",
+"exko": "내일 비가 올지 안 올지 모르겠다."
+},
+{
+"w": "accident",
+"pos": "명사",
+"ko": "사고",
+"ex": "Be careful on the road to avoid an accident.",
+"exko": "사고가 나지 않도록 길에서 조심해라."
+},
+{
+"w": "ancient",
+"pos": "형용사",
+"ko": "고대의, 아주 오래된",
+"ex": "We saw ancient pottery at the museum.",
+"exko": "우리는 박물관에서 고대 도자기를 보았다."
+},
+{
+"w": "issue",
+"pos": "명사",
+"ko": "문제, 쟁점",
+"ex": "Climate change is an important issue for our future.",
+"exko": "기후 변화는 우리 미래에 중요한 문제이다."
+},
+{
+"w": "on time",
+"pos": "숙어",
+"ko": "제시간에",
+"ex": "Please come home on time for dinner tonight.",
+"exko": "오늘 저녁 식사 시간에 맞춰 집에 오렴."
+},
+{
+"w": "take a break",
+"pos": "숙어",
+"ko": "잠깐 쉬다",
+"ex": "Let's take a break after this chapter.",
+"exko": "이 단원 끝나고 잠깐 쉬자."
+},
+{
+"w": "topic",
+"pos": "명사",
+"ko": "주제",
+"ex": "What is the topic of your speech?",
+"exko": "네 발표의 주제가 뭐야?"
+},
+{
+"w": "raise",
+"pos": "동사",
+"ko": "들어 올리다, 기르다",
+"ex": "Raise your hand if you know the answer.",
+"exko": "답을 알면 손을 들어라."
+},
+{
+"w": "challenge",
+"pos": "명사",
+"ko": "도전, 어려운 일",
+"ex": "Learning a new language is a fun challenge.",
+"exko": "새 언어를 배우는 것은 재미있는 도전이다."
+},
+{
+"w": "obvious",
+"pos": "형용사",
+"ko": "분명한, 명백한",
+"ex": "The answer to this question is pretty obvious.",
+"exko": "이 문제의 답은 꽤 분명하다."
+},
+{
+"w": "reach",
+"pos": "동사",
+"ko": "~에 도착하다, 닿다",
+"ex": "We reached the top of the mountain at noon.",
+"exko": "우리는 정오에 산 정상에 도착했다."
+},
+{
+"w": "pollution",
+"pos": "명사",
+"ko": "오염",
+"ex": "Air pollution is bad for our health.",
+"exko": "대기 오염은 우리 건강에 해롭다."
+},
+{
+"w": "order",
+"pos": "동사",
+"ko": "주문하다, 명령하다",
+"ex": "Let's order pizza for dinner this Friday.",
+"exko": "이번 금요일 저녁엔 피자를 주문하자."
+},
+{
+"w": "collect",
+"pos": "동사",
+"ko": "모으다, 수집하다",
+"ex": "My son collects stickers of famous soccer players.",
+"exko": "우리 아들은 유명 축구 선수 스티커를 모은다."
+},
+{
+"w": "as soon as",
+"pos": "접속사",
+"ko": "~하자마자",
+"ex": "Call me as soon as you get home.",
+"exko": "집에 도착하자마자 나에게 전화해."
+},
+{
+"w": "fail",
+"pos": "동사",
+"ko": "실패하다, 떨어지다",
+"ex": "Don't worry if you fail the first time.",
+"exko": "처음에 실패해도 걱정하지 마."
+},
+{
+"w": "natural",
+"pos": "형용사",
+"ko": "자연의, 자연스러운",
+"ex": "It is natural to feel nervous before a test.",
+"exko": "시험 전에 긴장하는 것은 자연스러운 일이다."
+},
+{
+"w": "lift",
+"pos": "동사",
+"ko": "들어 올리다",
+"ex": "Can you help me lift this heavy box?",
+"exko": "이 무거운 상자 드는 것 좀 도와줄래?"
+},
+{
+"w": "praise",
+"pos": "동사",
+"ko": "칭찬하다",
+"ex": "The teacher praised me for helping my classmate.",
+"exko": "선생님은 반 친구를 도운 나를 칭찬하셨다."
+},
+{
+"w": "pride",
+"pos": "명사",
+"ko": "자부심, 자랑",
+"ex": "We felt great pride in our school team.",
+"exko": "우리는 학교 팀에 큰 자부심을 느꼈다."
+},
+{
+"w": "lack",
+"pos": "명사",
+"ko": "부족, 결핍",
+"ex": "Lack of sleep makes it hard to study.",
+"exko": "잠이 부족하면 공부하기가 힘들다."
+},
+{
+"w": "reward",
+"pos": "명사",
+"ko": "보상, 상",
+"ex": "Mom gave me ice cream as a reward.",
+"exko": "엄마가 보상으로 아이스크림을 주셨다."
+},
+{
+"w": "harvest",
+"pos": "명사",
+"ko": "수확",
+"ex": "Grandpa's apple harvest was great this fall.",
+"exko": "올가을 할아버지의 사과 수확이 아주 좋았다."
+},
+{
+"w": "enter",
+"pos": "동사",
+"ko": "들어가다, 입학하다",
+"ex": "Please take off your shoes before you enter.",
+"exko": "들어오기 전에 신발을 벗어 주세요."
+},
+{
+"w": "adventure",
+"pos": "명사",
+"ko": "모험",
+"ex": "Our camping trip was a real adventure.",
+"exko": "우리의 캠핑 여행은 진짜 모험이었다."
+},
+{
+"w": "develop",
+"pos": "동사",
+"ko": "발달시키다, 개발하다",
+"ex": "Reading helps you develop your thinking skills.",
+"exko": "독서는 사고력을 기르는 데 도움이 된다."
+},
+{
+"w": "put away",
+"pos": "숙어",
+"ko": "치우다, 정리하다",
+"ex": "Put away your toys before you go to bed.",
+"exko": "자러 가기 전에 장난감을 치워라."
+},
+{
+"w": "weigh",
+"pos": "동사",
+"ko": "무게가 ~이다, 무게를 달다",
+"ex": "My new puppy weighs only two kilograms.",
+"exko": "새로 온 강아지는 겨우 2킬로그램이다."
+},
+{
+"w": "difference",
+"pos": "명사",
+"ko": "차이, 다른 점",
+"ex": "What's the difference between these two pictures?",
+"exko": "이 두 그림의 차이점은 무엇이니?"
+},
+{
+"w": "novel",
+"pos": "명사",
+"ko": "소설",
+"ex": "Mom is reading a mystery novel these days.",
+"exko": "엄마는 요즘 추리 소설을 읽고 계신다."
+},
+{
+"w": "journey",
+"pos": "명사",
+"ko": "여행, 여정",
+"ex": "The train journey to Busan took three hours.",
+"exko": "부산까지 기차 여행은 세 시간 걸렸다."
+},
+{
+"w": "nearly",
+"pos": "부사",
+"ko": "거의",
+"ex": "I nearly missed the school bus this morning.",
+"exko": "나는 오늘 아침 하마터면 스쿨버스를 놓칠 뻔했다."
+},
+{
+"w": "own",
+"pos": "형용사",
+"ko": "자기 자신의",
+"ex": "I finally have my own room this year.",
+"exko": "나는 올해 드디어 내 방이 생겼다."
+},
+{
+"w": "delay",
+"pos": "동사",
+"ko": "미루다, 지연시키다",
+"ex": "Our flight was delayed for two hours.",
+"exko": "우리 비행기가 두 시간 지연되었다."
+},
+{
+"w": "extra",
+"pos": "형용사",
+"ko": "추가의, 여분의",
+"ex": "Bring an extra jacket in case it gets cold.",
+"exko": "추워질지 모르니 여분의 재킷을 챙겨라."
+},
+{
+"w": "replace",
+"pos": "동사",
+"ko": "교체하다, 대신하다",
+"ex": "Dad replaced the old light bulb in the kitchen.",
+"exko": "아빠가 부엌의 낡은 전구를 교체하셨다."
+},
+{
+"w": "tradition",
+"pos": "명사",
+"ko": "전통",
+"ex": "Eating rice cake soup is a New Year tradition.",
+"exko": "떡국을 먹는 것은 설날 전통이다."
+},
+{
+"w": "forgive",
+"pos": "동사",
+"ko": "용서하다",
+"ex": "Please forgive me for breaking your cup.",
+"exko": "네 컵을 깬 것을 용서해 줘."
+},
+{
+"w": "by mistake",
+"pos": "숙어",
+"ko": "실수로",
+"ex": "I took my sister's umbrella by mistake.",
+"exko": "나는 실수로 여동생의 우산을 가져갔다."
+},
+{
+"w": "protect",
+"pos": "동사",
+"ko": "보호하다",
+"ex": "Wear a helmet to protect your head.",
+"exko": "머리를 보호하려면 헬멧을 써라."
+},
+{
+"w": "matter",
+"pos": "동사",
+"ko": "중요하다",
+"ex": "It doesn't matter if you win or lose.",
+"exko": "이기든 지든 상관없어."
+},
+{
+"w": "guide",
+"pos": "명사",
+"ko": "안내인, 안내서",
+"ex": "Our tour guide told us funny stories.",
+"exko": "우리 여행 가이드가 재미있는 이야기를 해 주었다."
+},
+{
+"w": "opinion",
+"pos": "명사",
+"ko": "의견",
+"ex": "What is your opinion about our trip plan?",
+"exko": "우리 여행 계획에 대한 네 의견은 뭐니?"
+},
+{
+"w": "come up with",
+"pos": "숙어",
+"ko": "(생각을) 떠올리다",
+"ex": "She came up with a great idea for the project.",
+"exko": "그녀는 그 과제를 위한 멋진 아이디어를 떠올렸다."
+},
+{
+"w": "result",
+"pos": "명사",
+"ko": "결과",
+"ex": "I was happy with the result of the test.",
+"exko": "나는 시험 결과에 만족했다."
+},
+{
+"w": "thought",
+"pos": "명사",
+"ko": "생각",
+"ex": "Thank you for sharing your thoughts with us.",
+"exko": "우리에게 네 생각을 나눠 줘서 고마워."
+},
+{
+"w": "discuss",
+"pos": "동사",
+"ko": "논의하다, 토론하다",
+"ex": "Let's discuss our summer vacation plans tonight.",
+"exko": "오늘 밤 여름휴가 계획을 의논하자."
+},
+{
+"w": "victory",
+"pos": "명사",
+"ko": "승리",
+"ex": "Our team celebrated the victory with pizza.",
+"exko": "우리 팀은 피자를 먹으며 승리를 축하했다."
+},
+{
+"w": "worth",
+"pos": "형용사",
+"ko": "~의 가치가 있는",
+"ex": "This movie is worth watching with your family.",
+"exko": "이 영화는 가족과 함께 볼 만한 가치가 있다."
+},
+{
+"w": "hang out",
+"pos": "숙어",
+"ko": "어울려 놀다",
+"ex": "I like to hang out with my friends after school.",
+"exko": "나는 방과 후에 친구들과 어울려 노는 게 좋다."
+},
+{
+"w": "report",
+"pos": "명사",
+"ko": "보고서, 보도",
+"ex": "I have to finish my science report by Friday.",
+"exko": "금요일까지 과학 보고서를 끝내야 한다."
+},
+{
+"w": "fear",
+"pos": "명사",
+"ko": "두려움, 공포",
+"ex": "My sister has a fear of big dogs.",
+"exko": "내 여동생은 큰 개를 무서워한다."
+},
+{
+"w": "culture",
+"pos": "명사",
+"ko": "문화",
+"ex": "I want to learn about Japanese culture.",
+"exko": "나는 일본 문화에 대해 배우고 싶다."
+},
+{
+"w": "goal",
+"pos": "명사",
+"ko": "목표, 골",
+"ex": "My goal this year is to read fifty books.",
+"exko": "올해 내 목표는 책 50권을 읽는 것이다."
+},
+{
+"w": "add",
+"pos": "동사",
+"ko": "더하다, 추가하다",
+"ex": "Mom added some salt to the soup.",
+"exko": "엄마가 국에 소금을 조금 넣으셨다."
+},
+{
+"w": "organize",
+"pos": "동사",
+"ko": "정리하다, 조직하다",
+"ex": "I need to organize my desk before studying.",
+"exko": "공부하기 전에 책상을 정리해야 한다."
+},
+{
+"w": "public",
+"pos": "형용사",
+"ko": "공공의, 대중의",
+"ex": "Please speak quietly in public places.",
+"exko": "공공장소에서는 조용히 말해 주세요."
+},
+{
+"w": "huge",
+"pos": "형용사",
+"ko": "거대한, 엄청난",
+"ex": "There is a huge tree in front of our school.",
+"exko": "우리 학교 앞에 거대한 나무가 있다."
+},
+{
+"w": "character",
+"pos": "명사",
+"ko": "성격, 등장인물",
+"ex": "Who is your favorite character in the story?",
+"exko": "그 이야기에서 가장 좋아하는 등장인물은 누구니?"
+},
+{
+"w": "communicate",
+"pos": "동사",
+"ko": "의사소통하다",
+"ex": "We communicate with Grandma by video call.",
+"exko": "우리는 영상 통화로 할머니와 소통한다."
+},
+{
+"w": "method",
+"pos": "명사",
+"ko": "방법",
+"ex": "This is a good method for memorizing new words.",
+"exko": "이것은 새 단어를 외우는 좋은 방법이다."
+},
+{
+"w": "complete",
+"pos": "동사",
+"ko": "완성하다, 끝마치다",
+"ex": "Please complete the form before class.",
+"exko": "수업 전에 그 양식을 작성해 주세요."
+},
+{
+"w": "take after",
+"pos": "숙어",
+"ko": "~를 닮다",
+"ex": "My little sister takes after our mom.",
+"exko": "여동생은 엄마를 닮았다."
+},
+{
+"w": "hire",
+"pos": "동사",
+"ko": "고용하다",
+"ex": "The bakery hired two new workers this month.",
+"exko": "그 빵집은 이번 달에 직원 두 명을 새로 뽑았다."
+},
+{
+"w": "schedule",
+"pos": "명사",
+"ko": "일정, 시간표",
+"ex": "My schedule is very busy this week.",
+"exko": "이번 주 내 일정은 아주 바쁘다."
+},
+{
+"w": "foreign",
+"pos": "형용사",
+"ko": "외국의",
+"ex": "Learning a foreign language opens new doors.",
+"exko": "외국어를 배우면 새로운 기회가 열린다."
+},
+{
+"w": "remove",
+"pos": "동사",
+"ko": "제거하다, 치우다",
+"ex": "Please remove your shoes before entering the house.",
+"exko": "집에 들어오기 전에 신발을 벗어 주세요."
+},
+{
+"w": "otherwise",
+"pos": "부사",
+"ko": "그렇지 않으면",
+"ex": "Hurry up, otherwise we'll miss the movie.",
+"exko": "서둘러, 그렇지 않으면 영화를 놓칠 거야."
+},
+{
+"w": "common",
+"pos": "형용사",
+"ko": "흔한, 공통의",
+"ex": "Kim is a very common family name in Korea.",
+"exko": "김씨는 한국에서 아주 흔한 성이다."
+},
+{
+"w": "do one's best",
+"pos": "숙어",
+"ko": "최선을 다하다",
+"ex": "Just do your best in the race tomorrow.",
+"exko": "내일 경주에서 그냥 최선을 다해."
+},
+{
+"w": "planet",
+"pos": "명사",
+"ko": "행성, 지구",
+"ex": "We must protect our planet for the future.",
+"exko": "우리는 미래를 위해 지구를 지켜야 한다."
+},
+{
+"w": "wisdom",
+"pos": "명사",
+"ko": "지혜",
+"ex": "Grandpa shares his wisdom with us at dinner.",
+"exko": "할아버지는 저녁 식사 때 우리에게 지혜를 나눠 주신다."
+},
+{
+"w": "indoor",
+"pos": "형용사",
+"ko": "실내의",
+"ex": "Let's play indoor games on rainy days.",
+"exko": "비 오는 날에는 실내 게임을 하자."
+},
+{
+"w": "purpose",
+"pos": "명사",
+"ko": "목적",
+"ex": "What is the purpose of your visit?",
+"exko": "방문 목적이 무엇인가요?"
+},
+{
+"w": "trust",
+"pos": "동사",
+"ko": "믿다, 신뢰하다",
+"ex": "I trust my best friend completely.",
+"exko": "나는 가장 친한 친구를 완전히 믿는다."
+},
+{
+"w": "decrease",
+"pos": "동사",
+"ko": "줄다, 감소하다",
+"ex": "The number of students is decreasing every year.",
+"exko": "학생 수가 해마다 줄고 있다."
+},
+{
+"w": "include",
+"pos": "동사",
+"ko": "포함하다",
+"ex": "The price includes breakfast for four people.",
+"exko": "그 가격에는 네 명의 아침 식사가 포함되어 있다."
+},
+{
+"w": "variety",
+"pos": "명사",
+"ko": "다양성, 여러 가지",
+"ex": "The buffet has a wide variety of food.",
+"exko": "그 뷔페에는 아주 다양한 음식이 있다."
+},
+{
+"w": "get rid of",
+"pos": "숙어",
+"ko": "~을 없애다, 버리다",
+"ex": "Let's get rid of the clothes we don't wear.",
+"exko": "안 입는 옷들은 정리해서 버리자."
+},
+{
+"w": "pack",
+"pos": "동사",
+"ko": "(짐을) 싸다",
+"ex": "Don't forget to pack your toothbrush for the trip.",
+"exko": "여행 갈 때 칫솔 챙기는 것 잊지 마."
+},
+{
+"w": "slow down",
+"pos": "숙어",
+"ko": "속도를 줄이다",
+"ex": "Slow down, you're riding your bike too fast!",
+"exko": "속도 줄여, 자전거를 너무 빨리 타고 있어!"
+},
+{
+"w": "gather",
+"pos": "동사",
+"ko": "모이다, 모으다",
+"ex": "Our family gathers for dinner every Sunday.",
+"exko": "우리 가족은 일요일마다 저녁 식사를 위해 모인다."
+},
+{
+"w": "terrible",
+"pos": "형용사",
+"ko": "끔찍한, 심한",
+"ex": "I had a terrible cold last week.",
+"exko": "나는 지난주에 지독한 감기에 걸렸다."
+},
+{
+"w": "achieve",
+"pos": "동사",
+"ko": "이루다, 성취하다",
+"ex": "You can achieve your goal if you keep trying.",
+"exko": "계속 노력하면 너는 목표를 이룰 수 있다."
+},
+{
+"w": "frequently",
+"pos": "부사",
+"ko": "자주, 흔히",
+"ex": "We frequently visit our grandparents on weekends.",
+"exko": "우리는 주말에 조부모님 댁을 자주 방문한다."
+},
+{
+"w": "measure",
+"pos": "동사",
+"ko": "재다, 측정하다",
+"ex": "The nurse measured my height and weight today.",
+"exko": "오늘 간호사 선생님이 내 키와 몸무게를 재셨다."
+},
+{
+"w": "research",
+"pos": "명사",
+"ko": "연구, 조사",
+"ex": "We did some research on ocean animals.",
+"exko": "우리는 바다 동물에 대해 조사를 했다."
+},
+{
+"w": "role",
+"pos": "명사",
+"ko": "역할",
+"ex": "I played the role of a king in the play.",
+"exko": "나는 연극에서 왕 역할을 맡았다."
+},
+{
+"w": "meal",
+"pos": "명사",
+"ko": "식사, 끼니",
+"ex": "Our family eats at least one meal together daily.",
+"exko": "우리 가족은 하루에 적어도 한 끼는 함께 먹는다."
+},
+{
+"w": "population",
+"pos": "명사",
+"ko": "인구",
+"ex": "The population of our city is growing fast.",
+"exko": "우리 도시의 인구가 빠르게 늘고 있다."
+},
+{
+"w": "blame",
+"pos": "동사",
+"ko": "탓하다, 비난하다",
+"ex": "Don't blame your brother for your mistake.",
+"exko": "네 실수를 동생 탓으로 돌리지 마."
+},
+{
+"w": "area",
+"pos": "명사",
+"ko": "지역, 구역",
+"ex": "There are many parks in this area.",
+"exko": "이 지역에는 공원이 많다."
+},
+{
+"w": "deliver",
+"pos": "동사",
+"ko": "배달하다, 전달하다",
+"ex": "The pizza was delivered in thirty minutes.",
+"exko": "피자가 30분 만에 배달되었다."
+},
+{
+"w": "strange",
+"pos": "형용사",
+"ko": "이상한, 낯선",
+"ex": "I heard a strange sound from the kitchen.",
+"exko": "부엌에서 이상한 소리가 들렸다."
+},
+{
+"w": "figure out",
+"pos": "숙어",
+"ko": "알아내다, 이해하다",
+"ex": "I can't figure out how to solve this puzzle.",
+"exko": "이 퍼즐을 어떻게 푸는지 알아낼 수가 없다."
+},
+{
+"w": "perhaps",
+"pos": "부사",
+"ko": "아마, 어쩌면",
+"ex": "Perhaps we can go hiking this weekend.",
+"exko": "어쩌면 이번 주말에 등산 갈 수 있을지도 몰라."
+},
+{
+"w": "within",
+"pos": "전치사",
+"ko": "~이내에, ~안에",
+"ex": "Please finish your homework within an hour.",
+"exko": "한 시간 안에 숙제를 끝내렴."
+},
+{
+"w": "wide",
+"pos": "형용사",
+"ko": "넓은",
+"ex": "The river near our town is very wide.",
+"exko": "우리 동네 근처의 강은 아주 넓다."
+},
+{
+"w": "rescue",
+"pos": "동사",
+"ko": "구조하다",
+"ex": "Firefighters rescued a cat from the tall tree.",
+"exko": "소방관들이 높은 나무에서 고양이를 구조했다."
+},
+{
+"w": "feed",
+"pos": "동사",
+"ko": "먹이를 주다",
+"ex": "Don't forget to feed the fish before school.",
+"exko": "학교 가기 전에 물고기 먹이 주는 걸 잊지 마."
+},
+{
+"w": "recommend",
+"pos": "동사",
+"ko": "추천하다",
+"ex": "Can you recommend a good book for me?",
+"exko": "나에게 좋은 책 한 권 추천해 줄래?"
+},
+{
+"w": "hide",
+"pos": "동사",
+"ko": "숨다, 숨기다",
+"ex": "My little sister hid behind the curtain.",
+"exko": "내 여동생이 커튼 뒤에 숨었다."
+},
+{
+"w": "discover",
+"pos": "동사",
+"ko": "발견하다",
+"ex": "We discovered a small cafe near the river.",
+"exko": "우리는 강 근처에서 작은 카페를 발견했다."
+},
+{
+"w": "connect",
+"pos": "동사",
+"ko": "연결하다",
+"ex": "Can you connect the printer to my laptop?",
+"exko": "프린터를 내 노트북에 연결해 줄 수 있니?"
+},
+{
+"w": "view",
+"pos": "명사",
+"ko": "경치, 견해",
+"ex": "The view from our balcony is amazing.",
+"exko": "우리 집 베란다에서 보는 경치는 정말 멋지다."
+},
+{
+"w": "wrap",
+"pos": "동사",
+"ko": "싸다, 포장하다",
+"ex": "Let's wrap Dad's birthday present together.",
+"exko": "아빠 생신 선물을 같이 포장하자."
+},
+{
+"w": "take place",
+"pos": "숙어",
+"ko": "열리다, 일어나다",
+"ex": "The sports day will take place next Friday.",
+"exko": "체육대회는 다음 주 금요일에 열린다."
+},
+{
+"w": "look up",
+"pos": "숙어",
+"ko": "(사전 등에서) 찾아보다",
+"ex": "Look up the new words in the dictionary.",
+"exko": "새 단어들을 사전에서 찾아봐라."
+},
+{
+"w": "upside down",
+"pos": "숙어",
+"ko": "거꾸로, 뒤집혀",
+"ex": "You are holding the map upside down!",
+"exko": "너 지도를 거꾸로 들고 있어!"
+},
+{
+"w": "apologize",
+"pos": "동사",
+"ko": "사과하다",
+"ex": "You should apologize to your sister first.",
+"exko": "너는 먼저 여동생에게 사과해야 한다."
+},
+{
+"w": "perform",
+"pos": "동사",
+"ko": "공연하다, 수행하다",
+"ex": "Our class will perform a play at the festival.",
+"exko": "우리 반은 축제에서 연극을 공연할 것이다."
+},
+{
+"w": "throw away",
+"pos": "숙어",
+"ko": "버리다",
+"ex": "Don't throw away food you can still eat.",
+"exko": "아직 먹을 수 있는 음식은 버리지 마."
+},
+{
+"w": "due to",
+"pos": "전치사",
+"ko": "~때문에",
+"ex": "The class was canceled due to heavy snow.",
+"exko": "폭설 때문에 수업이 취소되었다."
+},
+{
+"w": "turn down",
+"pos": "숙어",
+"ko": "거절하다, (소리를) 줄이다",
+"ex": "Please turn down the TV, I'm studying.",
+"exko": "공부 중이니까 TV 소리 좀 줄여 줘."
+},
+{
+"w": "gentle",
+"pos": "형용사",
+"ko": "온화한, 부드러운",
+"ex": "Be gentle when you hold the little puppy.",
+"exko": "작은 강아지를 안을 때는 살살 다뤄."
+},
+{
+"w": "bottom",
+"pos": "명사",
+"ko": "맨 아래, 바닥",
+"ex": "Write your name at the bottom of the page.",
+"exko": "페이지 맨 아래에 이름을 써라."
+},
+{
+"w": "recipe",
+"pos": "명사",
+"ko": "요리법",
+"ex": "Grandma taught me her secret kimchi recipe.",
+"exko": "할머니가 비밀 김치 요리법을 가르쳐 주셨다."
+},
+{
+"w": "ability",
+"pos": "명사",
+"ko": "능력",
+"ex": "My sister has the ability to draw very well.",
+"exko": "내 여동생은 그림을 아주 잘 그리는 능력이 있다."
+},
+{
+"w": "stay up",
+"pos": "숙어",
+"ko": "늦게까지 깨어 있다",
+"ex": "Don't stay up too late on school nights.",
+"exko": "학교 가는 전날 밤에는 너무 늦게까지 깨어 있지 마."
+},
+{
+"w": "solve",
+"pos": "동사",
+"ko": "풀다, 해결하다",
+"ex": "Can you help me solve this math problem?",
+"exko": "이 수학 문제 푸는 것 좀 도와줄래?"
+},
+{
+"w": "silent",
+"pos": "형용사",
+"ko": "조용한, 말이 없는",
+"ex": "Everyone was silent during the exam.",
+"exko": "시험 시간 동안 모두가 조용했다."
+},
+{
+"w": "disappointed",
+"pos": "형용사",
+"ko": "실망한",
+"ex": "I was disappointed when the trip was canceled.",
+"exko": "여행이 취소되었을 때 나는 실망했다."
+},
+{
+"w": "basic",
+"pos": "형용사",
+"ko": "기본적인, 기초의",
+"ex": "Let's learn some basic words in Chinese.",
+"exko": "중국어 기초 단어를 몇 개 배워 보자."
+},
+{
+"w": "produce",
+"pos": "동사",
+"ko": "생산하다, 만들어 내다",
+"ex": "This farm produces fresh strawberries every spring.",
+"exko": "이 농장은 봄마다 신선한 딸기를 생산한다."
+},
+{
+"w": "exchange",
+"pos": "동사",
+"ko": "교환하다",
+"ex": "Can I exchange this shirt for a bigger size?",
+"exko": "이 셔츠를 더 큰 사이즈로 교환할 수 있나요?"
+},
+{
+"w": "citizen",
+"pos": "명사",
+"ko": "시민",
+"ex": "Good citizens follow the rules and help others.",
+"exko": "좋은 시민은 규칙을 지키고 남을 돕는다."
+},
+{
+"w": "anxious",
+"pos": "형용사",
+"ko": "걱정하는, 불안한",
+"ex": "I felt anxious before my piano contest.",
+"exko": "나는 피아노 대회 전에 불안했다."
+},
+{
+"w": "wise",
+"pos": "형용사",
+"ko": "현명한, 지혜로운",
+"ex": "It was wise to bring an umbrella today.",
+"exko": "오늘 우산을 챙긴 건 현명했다."
+},
+{
+"w": "amount",
+"pos": "명사",
+"ko": "양, 액수",
+"ex": "Drink a large amount of water every day.",
+"exko": "매일 많은 양의 물을 마셔라."
+},
+{
+"w": "mostly",
+"pos": "부사",
+"ko": "대부분, 주로",
+"ex": "We mostly eat rice and soup for breakfast.",
+"exko": "우리는 아침으로 주로 밥과 국을 먹는다."
+},
+{
+"w": "immediately",
+"pos": "부사",
+"ko": "즉시, 곧바로",
+"ex": "Come home immediately after school today.",
+"exko": "오늘은 학교 끝나면 곧바로 집에 와."
+},
+{
+"w": "vote",
+"pos": "동사",
+"ko": "투표하다",
+"ex": "We voted for our new class president today.",
+"exko": "우리는 오늘 새 반장을 뽑는 투표를 했다."
+},
+{
+"w": "average",
+"pos": "형용사",
+"ko": "평균의, 보통의",
+"ex": "My average score in math went up this term.",
+"exko": "이번 학기에 내 수학 평균 점수가 올랐다."
+},
+{
+"w": "neighbor",
+"pos": "명사",
+"ko": "이웃",
+"ex": "Our neighbor gave us some fresh apples yesterday.",
+"exko": "어제 이웃이 우리에게 싱싱한 사과를 주셨다."
+},
+{
+"w": "emotion",
+"pos": "명사",
+"ko": "감정",
+"ex": "It's okay to show your emotions to your family.",
+"exko": "가족에게 감정을 드러내도 괜찮다."
+},
+{
+"w": "emergency",
+"pos": "명사",
+"ko": "비상(사태), 응급",
+"ex": "In an emergency, call 119 right away.",
+"exko": "비상시에는 즉시 119에 전화해라."
+},
+{
+"w": "electricity",
+"pos": "명사",
+"ko": "전기",
+"ex": "Turn off the lights to save electricity.",
+"exko": "전기를 아끼려면 불을 꺼라."
+},
+{
+"w": "graduate",
+"pos": "동사",
+"ko": "졸업하다",
+"ex": "My sister will graduate from middle school next year.",
+"exko": "언니는 내년에 중학교를 졸업한다."
+},
+{
+"w": "manner",
+"pos": "명사",
+"ko": "방식, 예절(manners)",
+"ex": "Mom always tells us to mind our table manners.",
+"exko": "엄마는 우리에게 늘 식사 예절을 지키라고 하신다."
+},
+{
+"w": "reply",
+"pos": "동사",
+"ko": "대답하다, 답장하다",
+"ex": "Please reply to Grandma's message this evening.",
+"exko": "오늘 저녁에 할머니 메시지에 답장해 드려라."
+},
+{
+"w": "nation",
+"pos": "명사",
+"ko": "국가, 국민",
+"ex": "The whole nation cheered for the soccer team.",
+"exko": "온 국민이 그 축구팀을 응원했다."
+},
+{
+"w": "lower",
+"pos": "동사",
+"ko": "낮추다, 내리다",
+"ex": "Please lower your voice in the library.",
+"exko": "도서관에서는 목소리를 낮춰 주세요."
+},
+{
+"w": "willing",
+"pos": "형용사",
+"ko": "기꺼이 ~하는",
+"ex": "I'm willing to help you clean your room.",
+"exko": "네 방 청소하는 걸 기꺼이 도와줄게."
+},
+{
+"w": "normal",
+"pos": "형용사",
+"ko": "보통의, 정상적인",
+"ex": "It's normal to make mistakes when you learn.",
+"exko": "배울 때 실수하는 것은 정상이다."
+},
+{
+"w": "face",
+"pos": "동사",
+"ko": "직면하다, 마주하다",
+"ex": "We must face our problems, not run away from them.",
+"exko": "우리는 문제를 피하지 말고 마주해야 한다."
+},
+{
+"w": "alone",
+"pos": "부사",
+"ko": "혼자, 홀로",
+"ex": "My little brother doesn't like to sleep alone.",
+"exko": "내 남동생은 혼자 자는 것을 싫어한다."
+},
+{
+"w": "last",
+"pos": "동사",
+"ko": "지속되다, 오래가다",
+"ex": "The concert lasted for two hours.",
+"exko": "그 콘서트는 두 시간 동안 계속되었다."
+},
+{
+"w": "injure",
+"pos": "동사",
+"ko": "다치게 하다, 부상을 입히다",
+"ex": "He injured his ankle during the basketball game.",
+"exko": "그는 농구 경기 중에 발목을 다쳤다."
+},
+{
+"w": "in fact",
+"pos": "숙어",
+"ko": "사실은, 실제로",
+"ex": "In fact, I made this cake by myself.",
+"exko": "사실 이 케이크는 내가 혼자 만들었어."
+},
+{
+"w": "thick",
+"pos": "형용사",
+"ko": "두꺼운, 짙은",
+"ex": "Wear a thick coat because it's freezing outside.",
+"exko": "밖이 꽁꽁 얼 만큼 추우니까 두꺼운 외투를 입어."
+},
+{
+"w": "freedom",
+"pos": "명사",
+"ko": "자유",
+"ex": "Teenagers want more freedom from their parents.",
+"exko": "십 대들은 부모로부터 더 많은 자유를 원한다."
+},
+{
+"w": "moment",
+"pos": "명사",
+"ko": "순간, 잠깐",
+"ex": "Please wait a moment while I find my keys.",
+"exko": "내가 열쇠 찾는 동안 잠깐만 기다려 줘."
+},
+{
+"w": "introduce",
+"pos": "동사",
+"ko": "소개하다",
+"ex": "Let me introduce my best friend to you.",
+"exko": "내 가장 친한 친구를 소개할게."
+},
+{
+"w": "survive",
+"pos": "동사",
+"ko": "살아남다",
+"ex": "Plants cannot survive without water and sunlight.",
+"exko": "식물은 물과 햇빛 없이는 살아남을 수 없다."
+},
+{
+"w": "destroy",
+"pos": "동사",
+"ko": "파괴하다",
+"ex": "The fire destroyed many trees in the forest.",
+"exko": "그 불로 숲의 많은 나무가 타 버렸다."
+},
+{
+"w": "grateful",
+"pos": "형용사",
+"ko": "감사하는, 고마워하는",
+"ex": "I'm grateful for my family's love and support.",
+"exko": "나는 가족의 사랑과 응원에 감사한다."
+},
+{
+"w": "historical",
+"pos": "형용사",
+"ko": "역사적인",
+"ex": "We visited a historical palace in Seoul.",
+"exko": "우리는 서울의 역사적인 궁궐을 방문했다."
+},
+{
+"w": "duty",
+"pos": "명사",
+"ko": "의무, 임무",
+"ex": "It's my duty to feed the dog every morning.",
+"exko": "매일 아침 개에게 밥을 주는 것은 내 임무다."
+},
+{
+"w": "generation",
+"pos": "명사",
+"ko": "세대",
+"ex": "Three generations live together in our house.",
+"exko": "우리 집에는 세 세대가 함께 산다."
+},
+{
+"w": "escape",
+"pos": "동사",
+"ko": "탈출하다, 벗어나다",
+"ex": "Our hamster escaped from its cage last night.",
+"exko": "어젯밤 우리 햄스터가 우리에서 탈출했다."
+},
+{
+"w": "separate",
+"pos": "동사",
+"ko": "분리하다, 나누다",
+"ex": "Please separate the paper from the plastic.",
+"exko": "종이와 플라스틱을 분리해 주세요."
+},
+{
+"w": "absent",
+"pos": "형용사",
+"ko": "결석한, 없는",
+"ex": "Minho was absent from school because of a cold.",
+"exko": "민호는 감기 때문에 학교에 결석했다."
+},
+{
+"w": "curious",
+"pos": "형용사",
+"ko": "호기심이 많은, 궁금한",
+"ex": "Kids are curious about everything around them.",
+"exko": "아이들은 주변의 모든 것에 호기심이 많다."
+},
+{
+"w": "continue",
+"pos": "동사",
+"ko": "계속하다",
+"ex": "Let's continue the game after dinner.",
+"exko": "저녁 먹고 게임을 계속하자."
+},
+{
+"w": "volunteer",
+"pos": "명사",
+"ko": "자원봉사자",
+"ex": "Mom works as a volunteer at the library.",
+"exko": "엄마는 도서관에서 자원봉사자로 일하신다."
+},
+{
+"w": "harm",
+"pos": "명사",
+"ko": "해, 피해",
+"ex": "A little rain won't do you any harm.",
+"exko": "비 조금 맞는다고 해가 되진 않는다."
+},
+{
+"w": "pour",
+"pos": "동사",
+"ko": "붓다, 따르다",
+"ex": "Dad poured hot water into the cups.",
+"exko": "아빠가 컵에 뜨거운 물을 부으셨다."
+},
+{
+"w": "talent",
+"pos": "명사",
+"ko": "재능",
+"ex": "My cousin has a talent for playing piano.",
+"exko": "사촌은 피아노 연주에 재능이 있다."
+},
+{
+"w": "actually",
+"pos": "부사",
+"ko": "사실은, 실제로",
+"ex": "I actually like vegetables more than meat.",
+"exko": "나는 사실 고기보다 채소를 더 좋아한다."
+},
+{
+"w": "familiar",
+"pos": "형용사",
+"ko": "익숙한, 친숙한",
+"ex": "This song sounds familiar to me.",
+"exko": "이 노래는 나에게 익숙하게 들린다."
+},
+{
+"w": "search",
+"pos": "동사",
+"ko": "찾다, 검색하다",
+"ex": "We searched the whole house for the remote control.",
+"exko": "우리는 리모컨을 찾으려고 온 집을 뒤졌다."
+},
+{
+"w": "pleasant",
+"pos": "형용사",
+"ko": "즐거운, 쾌적한",
+"ex": "We had a pleasant walk after dinner.",
+"exko": "우리는 저녁 식사 후 즐겁게 산책했다."
+},
+{
+"w": "divide",
+"pos": "동사",
+"ko": "나누다",
+"ex": "Mom divided the cake into eight pieces.",
+"exko": "엄마가 케이크를 여덟 조각으로 나누셨다."
+},
+{
+"w": "burn",
+"pos": "동사",
+"ko": "타다, 태우다, 데다",
+"ex": "Be careful not to burn your hand on the pan.",
+"exko": "팬에 손을 데지 않도록 조심해."
+},
+{
+"w": "shake",
+"pos": "동사",
+"ko": "흔들다",
+"ex": "Shake the bottle well before you drink it.",
+"exko": "마시기 전에 병을 잘 흔들어라."
+},
+{
+"w": "fair",
+"pos": "형용사",
+"ko": "공정한, 공평한",
+"ex": "It's not fair that he got more snacks.",
+"exko": "그 애가 간식을 더 받은 건 불공평해."
+},
+{
+"w": "likely",
+"pos": "형용사",
+"ko": "~할 것 같은",
+"ex": "It is likely to rain this afternoon.",
+"exko": "오늘 오후에 비가 올 것 같다."
+},
+{
+"w": "keep in mind",
+"pos": "숙어",
+"ko": "명심하다, 기억해 두다",
+"ex": "Keep in mind that the bus leaves at eight.",
+"exko": "버스가 8시에 출발한다는 것을 명심해."
+},
+{
+"w": "member",
+"pos": "명사",
+"ko": "구성원, 회원",
+"ex": "Every member of our team practiced very hard.",
+"exko": "우리 팀의 모든 구성원이 정말 열심히 연습했다."
+},
+{
+"w": "prevent",
+"pos": "동사",
+"ko": "막다, 예방하다",
+"ex": "Washing your hands can prevent colds.",
+"exko": "손을 씻으면 감기를 예방할 수 있다."
+},
+{
+"w": "mood",
+"pos": "명사",
+"ko": "기분",
+"ex": "Grandma is in a good mood this morning.",
+"exko": "할머니는 오늘 아침 기분이 좋으시다."
+},
+{
+"w": "create",
+"pos": "동사",
+"ko": "만들어 내다, 창조하다",
+"ex": "The students created a short movie together.",
+"exko": "학생들은 함께 짧은 영화를 만들었다."
+},
+{
+"w": "gradually",
+"pos": "부사",
+"ko": "점차, 서서히",
+"ex": "My English is gradually getting better.",
+"exko": "내 영어 실력이 점점 나아지고 있다."
+},
+{
+"w": "marry",
+"pos": "동사",
+"ko": "결혼하다",
+"ex": "My uncle will marry his girlfriend next spring.",
+"exko": "삼촌은 내년 봄에 여자 친구와 결혼할 것이다."
+},
+{
+"w": "shout",
+"pos": "동사",
+"ko": "소리치다",
+"ex": "Please don't shout in the hallway.",
+"exko": "복도에서 소리 지르지 마세요."
+},
+{
+"w": "disagree",
+"pos": "동사",
+"ko": "동의하지 않다",
+"ex": "I disagree with you, but I respect your opinion.",
+"exko": "나는 네 말에 동의하지 않지만 네 의견은 존중해."
+},
+{
+"w": "skill",
+"pos": "명사",
+"ko": "기술, 능력",
+"ex": "Cooking is a useful skill for everyone.",
+"exko": "요리는 모두에게 유용한 기술이다."
+},
+{
+"w": "repeat",
+"pos": "동사",
+"ko": "반복하다, 따라 말하다",
+"ex": "Could you repeat the question, please?",
+"exko": "질문을 다시 한번 말씀해 주시겠어요?"
+},
+{
+"w": "magazine",
+"pos": "명사",
+"ko": "잡지",
+"ex": "My sister reads a science magazine every month.",
+"exko": "우리 누나는 매달 과학 잡지를 읽는다."
+},
+{
+"w": "turn into",
+"pos": "숙어",
+"ko": "~으로 변하다",
+"ex": "The caterpillar turned into a beautiful butterfly.",
+"exko": "애벌레가 아름다운 나비로 변했다."
+},
+{
+"w": "focus on",
+"pos": "숙어",
+"ko": "~에 집중하다",
+"ex": "Focus on your homework, not your phone.",
+"exko": "휴대폰 말고 숙제에 집중해."
+},
+{
+"w": "contest",
+"pos": "명사",
+"ko": "대회, 경연",
+"ex": "She won first prize in the singing contest.",
+"exko": "그녀는 노래 대회에서 1등을 했다."
+},
+{
+"w": "shape",
+"pos": "명사",
+"ko": "모양, 형태",
+"ex": "This cookie is in the shape of a star.",
+"exko": "이 쿠키는 별 모양이다."
+},
+{
+"w": "except",
+"pos": "전치사",
+"ko": "~을 제외하고",
+"ex": "Everyone went to the beach except me.",
+"exko": "나만 빼고 모두 해변에 갔다."
+},
+{
+"w": "suffer from",
+"pos": "숙어",
+"ko": "~로 고통받다",
+"ex": "My uncle suffers from a bad back.",
+"exko": "삼촌은 허리 통증으로 고생하신다."
+},
+{
+"w": "plenty of",
+"pos": "숙어",
+"ko": "많은, 충분한",
+"ex": "We have plenty of time before the movie starts.",
+"exko": "영화가 시작하기 전까지 우리는 시간이 충분하다."
+},
+{
+"w": "compare",
+"pos": "동사",
+"ko": "비교하다",
+"ex": "Don't compare yourself with your friends.",
+"exko": "너 자신을 친구들과 비교하지 마."
+},
+{
+"w": "disappear",
+"pos": "동사",
+"ko": "사라지다",
+"ex": "The cookies disappeared from the table very quickly.",
+"exko": "쿠키가 식탁에서 순식간에 사라졌다."
+},
+{
+"w": "joy",
+"pos": "명사",
+"ko": "기쁨",
+"ex": "The new puppy brought great joy to our family.",
+"exko": "새 강아지는 우리 가족에게 큰 기쁨을 가져왔다."
+},
+{
+"w": "occur",
+"pos": "동사",
+"ko": "일어나다, 발생하다",
+"ex": "The accident occurred near our school yesterday.",
+"exko": "그 사고는 어제 우리 학교 근처에서 일어났다."
+},
+{
+"w": "afford",
+"pos": "동사",
+"ko": "~할 여유가 있다",
+"ex": "We can't afford a new car this year.",
+"exko": "우리는 올해 새 차를 살 여유가 없다."
+},
+{
+"w": "invent",
+"pos": "동사",
+"ko": "발명하다",
+"ex": "Who invented the telephone a long time ago?",
+"exko": "오래전에 누가 전화기를 발명했니?"
+},
+{
+"w": "lonely",
+"pos": "형용사",
+"ko": "외로운",
+"ex": "Grandpa feels lonely when we don't visit him.",
+"exko": "우리가 찾아뵙지 않으면 할아버지는 외로워하신다."
+},
+{
+"w": "guess",
+"pos": "동사",
+"ko": "추측하다, 알아맞히다",
+"ex": "Guess what I bought for you today!",
+"exko": "오늘 내가 너한테 뭘 사 왔는지 맞혀 봐!"
+},
+{
+"w": "no longer",
+"pos": "숙어",
+"ko": "더 이상 ~아닌",
+"ex": "My brother no longer plays computer games at night.",
+"exko": "남동생은 더 이상 밤에 컴퓨터 게임을 하지 않는다."
+},
+{
+"w": "however",
+"pos": "부사",
+"ko": "그러나, 하지만",
+"ex": "It was raining; however, we still went hiking.",
+"exko": "비가 오고 있었다. 하지만 우리는 그래도 등산을 갔다."
+},
+{
+"w": "unless",
+"pos": "접속사",
+"ko": "~하지 않으면",
+"ex": "You can't play games unless you finish your homework.",
+"exko": "숙제를 끝내지 않으면 게임을 할 수 없어."
+},
+{
+"w": "behave",
+"pos": "동사",
+"ko": "행동하다, 예의 바르게 굴다",
+"ex": "Please behave well at Grandma's house.",
+"exko": "할머니 댁에서 예의 바르게 행동하렴."
+},
+{
+"w": "ordinary",
+"pos": "형용사",
+"ko": "평범한, 보통의",
+"ex": "It was just an ordinary day at school.",
+"exko": "학교에서 그저 평범한 하루였다."
+},
+{
+"w": "get over",
+"pos": "숙어",
+"ko": "극복하다, (병에서) 회복하다",
+"ex": "It took me a week to get over my cold.",
+"exko": "감기에서 회복하는 데 일주일이 걸렸다."
+},
+{
+"w": "celebrate",
+"pos": "동사",
+"ko": "축하하다, 기념하다",
+"ex": "We celebrated Grandpa's seventieth birthday together.",
+"exko": "우리는 할아버지의 칠순을 함께 축하했다."
+},
+{
+"w": "warn",
+"pos": "동사",
+"ko": "경고하다",
+"ex": "Mom warned us not to swim after eating.",
+"exko": "엄마는 먹고 나서 바로 수영하지 말라고 경고하셨다."
+},
+{
+"w": "object",
+"pos": "명사",
+"ko": "물건, 대상",
+"ex": "There is a strange object under my bed.",
+"exko": "내 침대 밑에 이상한 물건이 있다."
+},
+{
+"w": "relationship",
+"pos": "명사",
+"ko": "관계",
+"ex": "I have a good relationship with my cousins.",
+"exko": "나는 사촌들과 사이가 좋다."
+},
+{
+"w": "succeed",
+"pos": "동사",
+"ko": "성공하다",
+"ex": "If you keep trying, you will succeed.",
+"exko": "계속 노력하면 너는 성공할 거야."
+},
+{
+"w": "jealous",
+"pos": "형용사",
+"ko": "질투하는",
+"ex": "My brother gets jealous when I get new shoes.",
+"exko": "내가 새 신발을 사면 동생이 질투한다."
+},
+{
+"w": "insist",
+"pos": "동사",
+"ko": "주장하다, 고집하다",
+"ex": "Grandma insisted on paying for our lunch.",
+"exko": "할머니는 점심값을 내시겠다고 고집하셨다."
+},
+{
+"w": "step",
+"pos": "명사",
+"ko": "걸음, 단계",
+"ex": "Follow each step of the recipe carefully.",
+"exko": "요리법의 각 단계를 주의 깊게 따라 해."
+},
+{
+"w": "reduce",
+"pos": "동사",
+"ko": "줄이다",
+"ex": "We should reduce the time we spend on phones.",
+"exko": "우리는 휴대폰 사용 시간을 줄여야 한다."
+},
+{
+"w": "trouble",
+"pos": "명사",
+"ko": "문제, 곤란",
+"ex": "I had trouble finding my classroom on the first day.",
+"exko": "나는 첫날 교실을 찾는 데 애를 먹었다."
+},
+{
+"w": "break down",
+"pos": "숙어",
+"ko": "고장 나다",
+"ex": "Our old washing machine broke down again.",
+"exko": "우리 집 낡은 세탁기가 또 고장 났다."
+},
+{
+"w": "appreciate",
+"pos": "동사",
+"ko": "고마워하다, 감상하다",
+"ex": "I really appreciate your help with my homework.",
+"exko": "숙제를 도와줘서 정말 고마워."
+},
+{
+"w": "mention",
+"pos": "동사",
+"ko": "언급하다, 말하다",
+"ex": "Did the teacher mention the test date today?",
+"exko": "오늘 선생님이 시험 날짜를 말씀하셨니?"
+},
+{
+"w": "patient",
+"pos": "형용사",
+"ko": "참을성 있는",
+"ex": "Please be patient with your little sister.",
+"exko": "여동생에게 좀 참을성 있게 대해 주렴."
+},
+{
+"w": "write down",
+"pos": "숙어",
+"ko": "적어 두다",
+"ex": "Write down the new words in your notebook.",
+"exko": "새 단어들을 공책에 적어 둬."
+},
+{
+"w": "upset",
+"pos": "형용사",
+"ko": "속상한, 화난",
+"ex": "My brother was upset because he lost his game.",
+"exko": "남동생은 게임에 져서 속상해했다."
+},
+{
+"w": "direction",
+"pos": "명사",
+"ko": "방향, 지시",
+"ex": "We walked in the wrong direction for ten minutes.",
+"exko": "우리는 10분 동안 엉뚱한 방향으로 걸었다."
+},
+{
+"w": "tough",
+"pos": "형용사",
+"ko": "힘든, 강인한",
+"ex": "It was a tough week, but we did it.",
+"exko": "힘든 한 주였지만 우리는 해냈다."
+},
+{
+"w": "point out",
+"pos": "숙어",
+"ko": "지적하다, 가리키다",
+"ex": "My friend pointed out a mistake in my essay.",
+"exko": "친구가 내 글의 실수를 지적해 주었다."
+},
+{
+"w": "tool",
+"pos": "명사",
+"ko": "도구",
+"ex": "Dad keeps his tools in a red box.",
+"exko": "아빠는 공구를 빨간 상자에 보관하신다."
+},
+{
+"w": "wonder",
+"pos": "동사",
+"ko": "궁금해하다",
+"ex": "I wonder what we'll have for dinner tonight.",
+"exko": "오늘 저녁엔 뭘 먹을지 궁금하다."
+},
+{
+"w": "run away",
+"pos": "숙어",
+"ko": "달아나다, 도망치다",
+"ex": "The puppy ran away when it heard thunder.",
+"exko": "강아지는 천둥소리를 듣고 달아났다."
+},
+{
+"w": "hand in",
+"pos": "숙어",
+"ko": "제출하다",
+"ex": "Please hand in your homework by Friday.",
+"exko": "금요일까지 숙제를 제출하세요."
+},
+{
+"w": "noise",
+"pos": "명사",
+"ko": "소음, 시끄러운 소리",
+"ex": "Please don't make noise while the baby sleeps.",
+"exko": "아기가 자는 동안 시끄럽게 하지 마세요."
+},
+{
+"w": "interrupt",
+"pos": "동사",
+"ko": "방해하다, (말을) 끊다",
+"ex": "Please don't interrupt me while I'm talking.",
+"exko": "내가 말하는 동안 끼어들지 말아 줘."
+},
+{
+"w": "peaceful",
+"pos": "형용사",
+"ko": "평화로운",
+"ex": "The park is very peaceful early in the morning.",
+"exko": "공원은 이른 아침에 아주 평화롭다."
+},
+{
+"w": "pressure",
+"pos": "명사",
+"ko": "압박, 압력",
+"ex": "I feel a lot of pressure before exams.",
+"exko": "나는 시험 전에 압박감을 많이 느낀다."
+},
+{
+"w": "social",
+"pos": "형용사",
+"ko": "사회의, 사교적인",
+"ex": "My dad is very social and loves meeting people.",
+"exko": "아빠는 아주 사교적이어서 사람 만나는 걸 좋아하신다."
+},
+{
+"w": "regret",
+"pos": "동사",
+"ko": "후회하다",
+"ex": "I regret not studying harder for the test.",
+"exko": "나는 시험공부를 더 열심히 하지 않은 것을 후회한다."
+},
+{
+"w": "bright",
+"pos": "형용사",
+"ko": "밝은, 똑똑한",
+"ex": "The moon is very bright tonight.",
+"exko": "오늘 밤 달이 아주 밝다."
+},
+{
+"w": "float",
+"pos": "동사",
+"ko": "뜨다, 떠다니다",
+"ex": "Leaves were floating on the surface of the pond.",
+"exko": "나뭇잎들이 연못 위에 떠 있었다."
+},
+{
+"w": "these days",
+"pos": "숙어",
+"ko": "요즘",
+"ex": "These days, I go to bed before ten.",
+"exko": "요즘 나는 열 시 전에 잠자리에 든다."
+},
+{
+"w": "for a while",
+"pos": "숙어",
+"ko": "잠시 동안",
+"ex": "Let's rest here for a while before we go.",
+"exko": "가기 전에 여기서 잠시 쉬자."
+},
+{
+"w": "height",
+"pos": "명사",
+"ko": "높이, 키",
+"ex": "Mom checked my height on the kitchen wall.",
+"exko": "엄마가 부엌 벽에 내 키를 재 주셨다."
+},
+{
+"w": "kindness",
+"pos": "명사",
+"ko": "친절",
+"ex": "Thank you for your kindness to my family.",
+"exko": "우리 가족에게 친절하게 대해 주셔서 감사합니다."
+},
+{
+"w": "obey",
+"pos": "동사",
+"ko": "따르다, 복종하다",
+"ex": "Students should obey the school rules.",
+"exko": "학생들은 학교 규칙을 따라야 한다."
+},
+{
+"w": "unfortunately",
+"pos": "부사",
+"ko": "불행히도, 안타깝게도",
+"ex": "Unfortunately, the picnic was canceled because of rain.",
+"exko": "안타깝게도 비 때문에 소풍이 취소되었다."
+},
+{
+"w": "once",
+"pos": "부사",
+"ko": "한 번, 한때",
+"ex": "We visit our grandparents once a month.",
+"exko": "우리는 한 달에 한 번 조부모님 댁에 간다."
+},
+{
+"w": "human",
+"pos": "명사",
+"ko": "인간, 사람",
+"ex": "Dogs can understand the feelings of humans.",
+"exko": "개는 사람의 감정을 이해할 수 있다."
+},
+{
+"w": "modern",
+"pos": "형용사",
+"ko": "현대의, 최신의",
+"ex": "Our new library has a very modern design.",
+"exko": "우리 새 도서관은 매우 현대적인 디자인이다."
+},
+{
+"w": "prize",
+"pos": "명사",
+"ko": "상, 상품",
+"ex": "My brother won first prize in the drawing contest.",
+"exko": "남동생이 그림 대회에서 일등상을 받았다."
+},
+{
+"w": "perfect",
+"pos": "형용사",
+"ko": "완벽한",
+"ex": "Today is a perfect day for a picnic.",
+"exko": "오늘은 소풍 가기에 완벽한 날이다."
+},
+{
+"w": "end up",
+"pos": "숙어",
+"ko": "결국 ~하게 되다",
+"ex": "We ended up eating ramen for dinner again.",
+"exko": "우리는 결국 저녁으로 또 라면을 먹게 되었다."
+},
+{
+"w": "secret",
+"pos": "명사",
+"ko": "비밀",
+"ex": "Can you keep a secret from your brother?",
+"exko": "너 오빠한테 비밀 지킬 수 있어?"
+},
+{
+"w": "various",
+"pos": "형용사",
+"ko": "다양한",
+"ex": "We learned various sports in PE class.",
+"exko": "우리는 체육 시간에 다양한 운동을 배웠다."
+},
+{
+"w": "realize",
+"pos": "동사",
+"ko": "깨닫다",
+"ex": "I realized I had left my phone at home.",
+"exko": "나는 휴대폰을 집에 두고 온 것을 깨달았다."
+},
+{
+"w": "be supposed to",
+"pos": "숙어",
+"ko": "~하기로 되어 있다",
+"ex": "We are supposed to meet at the gate.",
+"exko": "우리는 정문에서 만나기로 되어 있다."
+},
+{
+"w": "put up with",
+"pos": "숙어",
+"ko": "참다, 견디다",
+"ex": "I can't put up with this noise anymore.",
+"exko": "나는 더 이상 이 소음을 못 참겠어."
+},
+{
+"w": "certain",
+"pos": "형용사",
+"ko": "확실한, 어떤",
+"ex": "Are you certain that the store is open?",
+"exko": "그 가게가 문을 연 게 확실하니?"
+},
+{
+"w": "lately",
+"pos": "부사",
+"ko": "최근에",
+"ex": "Have you talked to Grandma lately?",
+"exko": "최근에 할머니와 통화했니?"
+},
+{
+"w": "earn",
+"pos": "동사",
+"ko": "(돈을) 벌다, 얻다",
+"ex": "I earned some money by washing Dad's car.",
+"exko": "나는 아빠 차를 세차해서 용돈을 벌었다."
+},
+{
+"w": "slightly",
+"pos": "부사",
+"ko": "약간, 조금",
+"ex": "This soup is slightly salty for me.",
+"exko": "이 국은 나한테 약간 짜다."
+},
+{
+"w": "tiny",
+"pos": "형용사",
+"ko": "아주 작은",
+"ex": "We found a tiny frog in the garden.",
+"exko": "우리는 정원에서 아주 작은 개구리를 발견했다."
+},
+{
+"w": "relax",
+"pos": "동사",
+"ko": "쉬다, 긴장을 풀다",
+"ex": "Let's relax on the sofa after dinner.",
+"exko": "저녁 먹고 소파에서 좀 쉬자."
+},
+{
+"w": "cheer up",
+"pos": "숙어",
+"ko": "기운을 내다, 격려하다",
+"ex": "Cheer up! You'll do better next time.",
+"exko": "힘내! 다음에는 더 잘할 거야."
+},
+{
+"w": "donate",
+"pos": "동사",
+"ko": "기부하다",
+"ex": "We donated our old toys to the children's center.",
+"exko": "우리는 안 쓰는 장난감을 아동센터에 기부했다."
+},
+{
+"w": "task",
+"pos": "명사",
+"ko": "일, 과제",
+"ex": "Cleaning my room is my daily task.",
+"exko": "방 청소는 내 매일의 일이다."
+},
+{
+"w": "rather",
+"pos": "부사",
+"ko": "차라리, 꽤",
+"ex": "I would rather stay home and read today.",
+"exko": "오늘은 차라리 집에서 책을 읽고 싶어."
+},
+{
+"w": "hold on",
+"pos": "숙어",
+"ko": "기다리다, 꽉 잡다",
+"ex": "Hold on a minute, I'll get my coat.",
+"exko": "잠깐만 기다려, 코트 가져올게."
+},
+{
+"w": "recycle",
+"pos": "동사",
+"ko": "재활용하다",
+"ex": "Our family recycles plastic bottles every week.",
+"exko": "우리 가족은 매주 플라스틱 병을 재활용한다."
+},
+{
+"w": "complain",
+"pos": "동사",
+"ko": "불평하다",
+"ex": "My brother always complains about doing the dishes.",
+"exko": "내 형은 설거지하는 것에 대해 늘 불평한다."
+},
+{
+"w": "provide",
+"pos": "동사",
+"ko": "제공하다",
+"ex": "The school provides lunch for all students.",
+"exko": "학교는 모든 학생에게 점심을 제공한다."
+},
+{
+"w": "cut down on",
+"pos": "숙어",
+"ko": "~을 줄이다",
+"ex": "Dad decided to cut down on coffee.",
+"exko": "아빠는 커피를 줄이기로 하셨다."
+},
+{
+"w": "waste",
+"pos": "동사",
+"ko": "낭비하다",
+"ex": "Don't waste your time on your phone.",
+"exko": "휴대폰으로 시간을 낭비하지 마."
+},
+{
+"w": "handle",
+"pos": "동사",
+"ko": "다루다, 처리하다",
+"ex": "Handle the glass cups carefully, please.",
+"exko": "유리컵은 조심해서 다뤄 주세요."
+},
+{
+"w": "control",
+"pos": "동사",
+"ko": "조절하다, 통제하다",
+"ex": "Try to control your anger and speak gently.",
+"exko": "화를 조절하고 부드럽게 말하도록 노력해."
+},
+{
+"w": "rare",
+"pos": "형용사",
+"ko": "드문, 희귀한",
+"ex": "It is rare to see snow in this city.",
+"exko": "이 도시에서 눈을 보는 것은 드문 일이다."
+},
+{
+"w": "at least",
+"pos": "숙어",
+"ko": "적어도, 최소한",
+"ex": "Read at least one book every month.",
+"exko": "매달 적어도 책 한 권은 읽어라."
+},
+{
+"w": "exist",
+"pos": "동사",
+"ko": "존재하다",
+"ex": "Do you think aliens really exist?",
+"exko": "너는 외계인이 정말 존재한다고 생각하니?"
+},
+{
+"w": "attention",
+"pos": "명사",
+"ko": "주의, 관심",
+"ex": "Please pay attention to the teacher.",
+"exko": "선생님 말씀에 주의를 기울이세요."
+},
+{
+"w": "make sense",
+"pos": "숙어",
+"ko": "이해가 되다, 말이 되다",
+"ex": "Your explanation really makes sense to me now.",
+"exko": "이제 네 설명이 정말 이해가 돼."
+},
+{
+"w": "remind",
+"pos": "동사",
+"ko": "상기시키다, 생각나게 하다",
+"ex": "Please remind me to call Grandma tonight.",
+"exko": "오늘 밤에 할머니께 전화하라고 나에게 알려 줘."
+},
+{
+"w": "regularly",
+"pos": "부사",
+"ko": "규칙적으로",
+"ex": "You should exercise regularly to stay healthy.",
+"exko": "건강을 유지하려면 규칙적으로 운동해야 한다."
+},
+{
+"w": "be known as",
+"pos": "숙어",
+"ko": "~로 알려져 있다",
+"ex": "Jeju is known as a beautiful island.",
+"exko": "제주는 아름다운 섬으로 알려져 있다."
+},
+{
+"w": "wild",
+"pos": "형용사",
+"ko": "야생의, 거친",
+"ex": "We saw wild deer on our hiking trip.",
+"exko": "우리는 등산 여행에서 야생 사슴을 보았다."
+},
+{
+"w": "show up",
+"pos": "숙어",
+"ko": "나타나다",
+"ex": "My friend didn't show up at the park.",
+"exko": "내 친구는 공원에 나타나지 않았다."
+},
+{
+"w": "shy",
+"pos": "형용사",
+"ko": "수줍은",
+"ex": "My sister is too shy to sing in class.",
+"exko": "여동생은 너무 수줍어서 수업 시간에 노래를 못 한다."
+},
+{
+"w": "express",
+"pos": "동사",
+"ko": "표현하다",
+"ex": "Express your feelings with words, not with anger.",
+"exko": "화 대신 말로 네 감정을 표현해."
+},
+{
+"w": "condition",
+"pos": "명사",
+"ko": "상태, 조건",
+"ex": "This used bike is still in good condition.",
+"exko": "이 중고 자전거는 아직 상태가 좋다."
+},
+{
+"w": "recently",
+"pos": "부사",
+"ko": "최근에",
+"ex": "We recently moved to a new apartment.",
+"exko": "우리는 최근에 새 아파트로 이사했다."
+},
+{
+"w": "be crowded with",
+"pos": "숙어",
+"ko": "~으로 붐비다",
+"ex": "The beach was crowded with families on Sunday.",
+"exko": "일요일에 해변은 가족들로 붐볐다."
+},
+{
+"w": "mix",
+"pos": "동사",
+"ko": "섞다",
+"ex": "Mix the flour and eggs in a big bowl.",
+"exko": "큰 그릇에 밀가루와 달걀을 섞어라."
+},
+{
+"w": "quite",
+"pos": "부사",
+"ko": "꽤, 상당히",
+"ex": "The math test was quite difficult this time.",
+"exko": "이번 수학 시험은 꽤 어려웠다."
+},
+{
+"w": "cause",
+"pos": "동사",
+"ko": "일으키다, 야기하다",
+"ex": "Playing games late at night can cause headaches.",
+"exko": "밤늦게 게임을 하면 두통이 생길 수 있다."
+},
+{
+"w": "fill out",
+"pos": "숙어",
+"ko": "(서류를) 작성하다",
+"ex": "Please fill out this form with a pen.",
+"exko": "이 양식을 펜으로 작성해 주세요."
+},
+{
+"w": "besides",
+"pos": "부사",
+"ko": "게다가, ~외에도",
+"ex": "It's too late; besides, I'm very tired.",
+"exko": "너무 늦었어. 게다가 나는 아주 피곤해."
+},
+{
+"w": "mental",
+"pos": "형용사",
+"ko": "정신의, 마음의",
+"ex": "Enough sleep is good for your mental health.",
+"exko": "충분한 잠은 정신 건강에 좋다."
+},
+{
+"w": "narrow",
+"pos": "형용사",
+"ko": "좁은",
+"ex": "The road to our school is very narrow.",
+"exko": "우리 학교로 가는 길은 아주 좁다."
+},
+{
+"w": "by the way",
+"pos": "숙어",
+"ko": "그런데, 그건 그렇고",
+"ex": "By the way, did you finish your report?",
+"exko": "그런데 너 보고서 다 끝냈니?"
+},
+{
+"w": "appear",
+"pos": "동사",
+"ko": "나타나다, ~처럼 보이다",
+"ex": "A rainbow appeared after the rain stopped.",
+"exko": "비가 그친 뒤 무지개가 나타났다."
+},
+{
+"w": "event",
+"pos": "명사",
+"ko": "행사, 사건",
+"ex": "The school sports event is next Friday.",
+"exko": "학교 체육 행사는 다음 주 금요일이다."
+},
+{
+"w": "physical",
+"pos": "형용사",
+"ko": "신체의, 육체의",
+"ex": "Physical activity helps children grow strong.",
+"exko": "신체 활동은 아이들이 튼튼하게 자라도록 돕는다."
+},
+{
+"w": "be aware of",
+"pos": "숙어",
+"ko": "~을 알고 있다",
+"ex": "Are you aware of the new school rules?",
+"exko": "너는 새 학교 규칙을 알고 있니?"
+},
+{
+"w": "rely on",
+"pos": "숙어",
+"ko": "~에 의지하다",
+"ex": "You can always rely on your family.",
+"exko": "너는 언제나 가족에게 의지할 수 있어."
+},
+{
+"w": "knock",
+"pos": "동사",
+"ko": "두드리다, 노크하다",
+"ex": "Please knock before you come into my room.",
+"exko": "내 방에 들어오기 전에 노크해 줘."
+},
+{
+"w": "century",
+"pos": "명사",
+"ko": "세기, 100년",
+"ex": "This old house was built a century ago.",
+"exko": "이 오래된 집은 100년 전에 지어졌다."
+},
+{
+"w": "product",
+"pos": "명사",
+"ko": "제품, 상품",
+"ex": "This store sells many local products.",
+"exko": "이 가게는 많은 지역 특산품을 판다."
+},
+{
+"w": "bother",
+"pos": "동사",
+"ko": "귀찮게 하다, 신경 쓰이게 하다",
+"ex": "Please don't bother me while I'm studying.",
+"exko": "내가 공부하는 동안 귀찮게 하지 말아 줘."
+},
+{
+"w": "attend",
+"pos": "동사",
+"ko": "참석하다, 다니다",
+"ex": "Our whole family attended my cousin's wedding.",
+"exko": "우리 가족 모두 사촌의 결혼식에 참석했다."
+},
+{
+"w": "spread",
+"pos": "동사",
+"ko": "퍼지다, 펴 바르다",
+"ex": "The news spread quickly around the school.",
+"exko": "그 소식은 학교에 빠르게 퍼졌다."
+},
+{
+"w": "major",
+"pos": "형용사",
+"ko": "주요한, 큰",
+"ex": "Saving water is a major goal of our club.",
+"exko": "물 절약은 우리 동아리의 주요 목표이다."
+},
+{
+"w": "degree",
+"pos": "명사",
+"ko": "(온도의) 도, 정도",
+"ex": "It is thirty degrees outside today.",
+"exko": "오늘 바깥 기온이 30도이다."
+},
+{
+"w": "in addition",
+"pos": "숙어",
+"ko": "게다가, 또한",
+"ex": "In addition, we need to buy some milk.",
+"exko": "게다가 우리는 우유도 좀 사야 해."
+}
+]

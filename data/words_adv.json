@@ -1,0 +1,2592 @@
+[
+{
+"w": "go through",
+"pos": "숙어",
+"ko": "겪다, 살펴보다",
+"ex": "She went through a hard time last year.",
+"exko": "그녀는 작년에 힘든 시기를 겪었다."
+},
+{
+"w": "negotiate",
+"pos": "동사",
+"ko": "협상하다",
+"ex": "My brother negotiated a later bedtime with Mom.",
+"exko": "남동생은 엄마와 협상해서 잠자는 시간을 늦췄다."
+},
+{
+"w": "fragile",
+"pos": "형용사",
+"ko": "깨지기 쉬운, 연약한",
+"ex": "Be careful; this box is fragile.",
+"exko": "조심해, 이 상자는 깨지기 쉬워."
+},
+{
+"w": "confront",
+"pos": "동사",
+"ko": "맞서다, 직면하다",
+"ex": "Someday you need to confront your fears.",
+"exko": "언젠가는 두려움에 맞서야 해."
+},
+{
+"w": "sophisticated",
+"pos": "형용사",
+"ko": "정교한, 세련된",
+"ex": "This robot toy uses sophisticated technology.",
+"exko": "이 로봇 장난감은 정교한 기술을 사용한다."
+},
+{
+"w": "constantly",
+"pos": "부사",
+"ko": "끊임없이, 계속",
+"ex": "My little brother is constantly asking questions.",
+"exko": "내 남동생은 끊임없이 질문을 한다."
+},
+{
+"w": "fluent",
+"pos": "형용사",
+"ko": "유창한",
+"ex": "She is fluent in English and Chinese.",
+"exko": "그녀는 영어와 중국어를 유창하게 한다."
+},
+{
+"w": "feasible",
+"pos": "형용사",
+"ko": "실현 가능한",
+"ex": "Is it feasible to finish this by tomorrow?",
+"exko": "이걸 내일까지 끝내는 게 가능할까?"
+},
+{
+"w": "diverse",
+"pos": "형용사",
+"ko": "다양한",
+"ex": "Our school has a diverse group of students.",
+"exko": "우리 학교에는 다양한 학생들이 있다."
+},
+{
+"w": "severe",
+"pos": "형용사",
+"ko": "심각한, 혹독한",
+"ex": "The severe storm closed all the schools.",
+"exko": "심한 폭풍 때문에 모든 학교가 문을 닫았다."
+},
+{
+"w": "accelerate",
+"pos": "동사",
+"ko": "가속하다, 빨라지다",
+"ex": "The car accelerated as we left the city.",
+"exko": "우리가 도시를 벗어나자 차가 속도를 냈다."
+},
+{
+"w": "acknowledge",
+"pos": "동사",
+"ko": "인정하다",
+"ex": "She acknowledged her mistake and said sorry.",
+"exko": "그녀는 자신의 실수를 인정하고 사과했다."
+},
+{
+"w": "prominent",
+"pos": "형용사",
+"ko": "유명한, 두드러진",
+"ex": "A prominent writer visited our school library.",
+"exko": "유명한 작가가 우리 학교 도서관을 방문했다."
+},
+{
+"w": "inherit",
+"pos": "동사",
+"ko": "물려받다",
+"ex": "She inherited her mother's beautiful voice.",
+"exko": "그녀는 엄마의 고운 목소리를 물려받았다."
+},
+{
+"w": "intense",
+"pos": "형용사",
+"ko": "강렬한, 치열한",
+"ex": "The final match was very intense.",
+"exko": "결승전은 아주 치열했다."
+},
+{
+"w": "demanding",
+"pos": "형용사",
+"ko": "힘든, 요구가 많은",
+"ex": "Being a nurse is a demanding job.",
+"exko": "간호사는 힘든 직업이다."
+},
+{
+"w": "temporary",
+"pos": "형용사",
+"ko": "일시적인, 임시의",
+"ex": "This is only a temporary classroom during repairs.",
+"exko": "이곳은 수리 기간 동안만 쓰는 임시 교실이다."
+},
+{
+"w": "via",
+"pos": "전치사",
+"ko": "~을 통해, ~을 경유하여",
+"ex": "I sent the photos to Grandma via email.",
+"exko": "나는 이메일로 할머니께 사진을 보냈다."
+},
+{
+"w": "cope with",
+"pos": "숙어",
+"ko": "대처하다, 극복하다",
+"ex": "How do you cope with stress during exams?",
+"exko": "시험 기간에 스트레스를 어떻게 이겨내니?"
+},
+{
+"w": "breakthrough",
+"pos": "명사",
+"ko": "돌파구, 획기적 발전",
+"ex": "The scientists made a breakthrough in cancer research.",
+"exko": "과학자들이 암 연구에서 획기적인 발전을 이루었다."
+},
+{
+"w": "competent",
+"pos": "형용사",
+"ko": "유능한, 능숙한",
+"ex": "She is a competent and kind doctor.",
+"exko": "그녀는 유능하고 친절한 의사다."
+},
+{
+"w": "alternative",
+"pos": "명사",
+"ko": "대안",
+"ex": "Walking is a healthy alternative to taking the bus.",
+"exko": "걷기는 버스를 타는 것의 건강한 대안이다."
+},
+{
+"w": "contemporary",
+"pos": "형용사",
+"ko": "현대의, 동시대의",
+"ex": "We visited a museum of contemporary art.",
+"exko": "우리는 현대 미술관에 갔다."
+},
+{
+"w": "notify",
+"pos": "동사",
+"ko": "알리다, 통지하다",
+"ex": "The school will notify parents about the schedule change.",
+"exko": "학교가 일정 변경에 대해 학부모에게 알릴 것이다."
+},
+{
+"w": "accomplish",
+"pos": "동사",
+"ko": "성취하다, 해내다",
+"ex": "We accomplished a lot during the weekend.",
+"exko": "우리는 주말 동안 많은 일을 해냈다."
+},
+{
+"w": "capable",
+"pos": "형용사",
+"ko": "~할 수 있는, 유능한",
+"ex": "You are capable of doing much better.",
+"exko": "너는 훨씬 더 잘할 수 있어."
+},
+{
+"w": "make up for",
+"pos": "숙어",
+"ko": "보상하다, 만회하다",
+"ex": "I will make up for the lost time this weekend.",
+"exko": "이번 주말에 잃어버린 시간을 만회할 거야."
+},
+{
+"w": "commit",
+"pos": "동사",
+"ko": "전념하다, 저지르다",
+"ex": "She committed herself to practicing every day.",
+"exko": "그녀는 매일 연습하는 데 전념했다."
+},
+{
+"w": "shrink",
+"pos": "동사",
+"ko": "줄어들다",
+"ex": "My favorite sweater shrank in the washing machine.",
+"exko": "내가 제일 좋아하는 스웨터가 세탁기에서 줄어들었다."
+},
+{
+"w": "mutual",
+"pos": "형용사",
+"ko": "서로의, 상호의",
+"ex": "Good friendships are built on mutual respect.",
+"exko": "좋은 우정은 서로에 대한 존중 위에 세워진다."
+},
+{
+"w": "neglect",
+"pos": "동사",
+"ko": "소홀히 하다, 방치하다",
+"ex": "Don't neglect your teeth, even when you're busy.",
+"exko": "바빠도 이를 소홀히 하지 마라."
+},
+{
+"w": "distract",
+"pos": "동사",
+"ko": "주의를 흩뜨리다",
+"ex": "Phones can distract you while you study.",
+"exko": "휴대폰은 공부할 때 집중을 방해할 수 있다."
+},
+{
+"w": "momentum",
+"pos": "명사",
+"ko": "추진력, 기세",
+"ex": "Our team gained momentum in the second half.",
+"exko": "우리 팀은 후반전에 기세를 탔다."
+},
+{
+"w": "take over",
+"pos": "숙어",
+"ko": "넘겨받다, 인수하다",
+"ex": "My brother took over the cooking when Mom was sick.",
+"exko": "엄마가 아프셨을 때 형이 요리를 맡았다."
+},
+{
+"w": "every now and then",
+"pos": "숙어",
+"ko": "가끔, 때때로",
+"ex": "We visit Grandma every now and then.",
+"exko": "우리는 가끔 할머니 댁에 간다."
+},
+{
+"w": "deficiency",
+"pos": "명사",
+"ko": "결핍, 부족",
+"ex": "Vitamin deficiency can make you feel tired.",
+"exko": "비타민이 결핍되면 피곤함을 느낄 수 있다."
+},
+{
+"w": "desperate",
+"pos": "형용사",
+"ko": "절박한, 필사적인",
+"ex": "The lost puppy was desperate for food.",
+"exko": "길 잃은 강아지는 먹을 것이 절실했다."
+},
+{
+"w": "advocate",
+"pos": "동사",
+"ko": "지지하다, 옹호하다",
+"ex": "My teacher advocates reading a little every day.",
+"exko": "우리 선생님은 매일 조금씩 읽기를 적극 권하신다."
+},
+{
+"w": "authentic",
+"pos": "형용사",
+"ko": "진짜의, 정통의",
+"ex": "This restaurant serves authentic Italian pizza.",
+"exko": "이 식당은 정통 이탈리아 피자를 판다."
+},
+{
+"w": "embarrassed",
+"pos": "형용사",
+"ko": "당황한, 창피한",
+"ex": "I was embarrassed when I fell on stage.",
+"exko": "무대에서 넘어졌을 때 나는 창피했다."
+},
+{
+"w": "qualify",
+"pos": "동사",
+"ko": "자격을 얻다",
+"ex": "Our team qualified for the city tournament.",
+"exko": "우리 팀은 시 대회 출전 자격을 얻었다."
+},
+{
+"w": "noticeable",
+"pos": "형용사",
+"ko": "눈에 띄는, 뚜렷한",
+"ex": "There is a noticeable change in your handwriting.",
+"exko": "네 글씨체에 눈에 띄는 변화가 있다."
+},
+{
+"w": "compatible",
+"pos": "형용사",
+"ko": "호환되는, 잘 맞는",
+"ex": "Is this charger compatible with my phone?",
+"exko": "이 충전기가 내 휴대폰과 호환되니?"
+},
+{
+"w": "extend",
+"pos": "동사",
+"ko": "연장하다, 늘리다",
+"ex": "The library extended its opening hours this month.",
+"exko": "도서관이 이번 달에 운영 시간을 연장했다."
+},
+{
+"w": "concede",
+"pos": "동사",
+"ko": "(마지못해) 인정하다",
+"ex": "Dad finally conceded that he was wrong.",
+"exko": "아빠가 결국 자신이 틀렸다고 인정하셨다."
+},
+{
+"w": "acquire",
+"pos": "동사",
+"ko": "얻다, 습득하다",
+"ex": "Young kids acquire new words very quickly.",
+"exko": "어린아이들은 새로운 단어를 아주 빨리 습득한다."
+},
+{
+"w": "widespread",
+"pos": "형용사",
+"ko": "널리 퍼진",
+"ex": "The flu is widespread at school this month.",
+"exko": "이번 달 학교에 독감이 널리 퍼져 있다."
+},
+{
+"w": "evaluate",
+"pos": "동사",
+"ko": "평가하다",
+"ex": "We need to evaluate both options carefully.",
+"exko": "우리는 두 가지 선택지를 신중하게 평가해야 해."
+},
+{
+"w": "stand out",
+"pos": "숙어",
+"ko": "눈에 띄다, 두드러지다",
+"ex": "Her bright red coat stood out in the crowd.",
+"exko": "그녀의 새빨간 코트가 군중 속에서 눈에 띄었다."
+},
+{
+"w": "sustainable",
+"pos": "형용사",
+"ko": "지속 가능한",
+"ex": "Using reusable bags is a sustainable habit.",
+"exko": "장바구니를 쓰는 것은 지속 가능한 습관이다."
+},
+{
+"w": "overwhelm",
+"pos": "동사",
+"ko": "압도하다, 벅차게 하다",
+"ex": "Too much homework can overwhelm young students.",
+"exko": "숙제가 너무 많으면 어린 학생들이 벅차할 수 있다."
+},
+{
+"w": "essential",
+"pos": "형용사",
+"ko": "필수적인, 본질적인",
+"ex": "Water is essential for all living things.",
+"exko": "물은 모든 생물에게 필수적이다."
+},
+{
+"w": "innovative",
+"pos": "형용사",
+"ko": "혁신적인",
+"ex": "Our school uses an innovative way of teaching math.",
+"exko": "우리 학교는 혁신적인 수학 교수법을 쓴다."
+},
+{
+"w": "property",
+"pos": "명사",
+"ko": "재산, 소유물",
+"ex": "Please respect other people's property at school.",
+"exko": "학교에서 다른 사람의 물건을 소중히 다뤄 주세요."
+},
+{
+"w": "remedy",
+"pos": "명사",
+"ko": "치료법, 해결책",
+"ex": "Honey tea is Grandma's favorite remedy for colds.",
+"exko": "꿀차는 할머니가 가장 좋아하는 감기 치료법이다."
+},
+{
+"w": "convince",
+"pos": "동사",
+"ko": "설득하다, 확신시키다",
+"ex": "I convinced my parents to get a puppy.",
+"exko": "나는 부모님을 설득해서 강아지를 들였다."
+},
+{
+"w": "migrate",
+"pos": "동사",
+"ko": "이주하다, 이동하다",
+"ex": "These birds migrate south every winter.",
+"exko": "이 새들은 매년 겨울 남쪽으로 이동한다."
+},
+{
+"w": "minimize",
+"pos": "동사",
+"ko": "최소화하다",
+"ex": "Let's minimize screen time before going to bed.",
+"exko": "자기 전에는 화면 보는 시간을 최소화하자."
+},
+{
+"w": "deserve",
+"pos": "동사",
+"ko": "~할 자격이 있다, ~을 받을 만하다",
+"ex": "You deserve a rest after working so hard.",
+"exko": "그렇게 열심히 했으니 너는 쉴 자격이 있어."
+},
+{
+"w": "insight",
+"pos": "명사",
+"ko": "통찰력, 이해",
+"ex": "Grandpa's stories gave me insight into the past.",
+"exko": "할아버지의 이야기는 과거를 이해하는 눈을 열어 주었다."
+},
+{
+"w": "keen",
+"pos": "형용사",
+"ko": "열망하는, 예리한",
+"ex": "My son is keen on learning to code.",
+"exko": "우리 아들은 코딩 배우기에 열심이다."
+},
+{
+"w": "adapt",
+"pos": "동사",
+"ko": "적응하다",
+"ex": "Our dog quickly adapted to the new house.",
+"exko": "우리 강아지는 새 집에 빨리 적응했다."
+},
+{
+"w": "notorious",
+"pos": "형용사",
+"ko": "악명 높은",
+"ex": "This road is notorious for heavy traffic jams.",
+"exko": "이 도로는 심한 교통 체증으로 악명 높다."
+},
+{
+"w": "ambitious",
+"pos": "형용사",
+"ko": "야심 찬",
+"ex": "My sister has an ambitious plan for the summer.",
+"exko": "언니는 여름을 위한 야심 찬 계획이 있다."
+},
+{
+"w": "hypothesis",
+"pos": "명사",
+"ko": "가설",
+"ex": "Our hypothesis was proven wrong by the experiment.",
+"exko": "우리의 가설은 실험으로 틀렸음이 밝혀졌다."
+},
+{
+"w": "portion",
+"pos": "명사",
+"ko": "부분, (음식의) 1인분",
+"ex": "Save a portion of your allowance every week.",
+"exko": "매주 용돈의 일부를 저축해라."
+},
+{
+"w": "dedicate",
+"pos": "동사",
+"ko": "바치다, 헌신하다",
+"ex": "He dedicated his life to helping children.",
+"exko": "그는 아이들을 돕는 데 평생을 바쳤다."
+},
+{
+"w": "ensure",
+"pos": "동사",
+"ko": "보장하다, 확실히 하다",
+"ex": "Please ensure that all the windows are closed.",
+"exko": "창문이 모두 닫혔는지 꼭 확인해 줘."
+},
+{
+"w": "participate",
+"pos": "동사",
+"ko": "참여하다",
+"ex": "All students can participate in the school festival.",
+"exko": "모든 학생이 학교 축제에 참여할 수 있다."
+},
+{
+"w": "coherent",
+"pos": "형용사",
+"ko": "일관성 있는, 논리적인",
+"ex": "Your essay needs a more coherent structure.",
+"exko": "네 글은 좀 더 논리적인 구성이 필요해."
+},
+{
+"w": "prospect",
+"pos": "명사",
+"ko": "전망, 가능성",
+"ex": "The prospect of a long vacation excited everyone.",
+"exko": "긴 휴가를 앞두고 모두가 들떴다."
+},
+{
+"w": "feel free to",
+"pos": "숙어",
+"ko": "마음껏 ~하다, 편하게 ~하다",
+"ex": "Feel free to ask me any questions.",
+"exko": "궁금한 건 뭐든 편하게 물어봐."
+},
+{
+"w": "commute",
+"pos": "동사",
+"ko": "통근하다",
+"ex": "My mom commutes to work by subway.",
+"exko": "엄마는 지하철로 출퇴근하신다."
+},
+{
+"w": "as a matter of fact",
+"pos": "숙어",
+"ko": "사실은",
+"ex": "As a matter of fact, I finished it yesterday.",
+"exko": "사실은 나 그거 어제 끝냈어."
+},
+{
+"w": "decent",
+"pos": "형용사",
+"ko": "괜찮은, 적절한",
+"ex": "He got a decent score on the test.",
+"exko": "그는 시험에서 꽤 괜찮은 점수를 받았다."
+},
+{
+"w": "hold back",
+"pos": "숙어",
+"ko": "참다, 억제하다",
+"ex": "She couldn't hold back her tears at the movie.",
+"exko": "그녀는 영화를 보다가 눈물을 참지 못했다."
+},
+{
+"w": "strategy",
+"pos": "명사",
+"ko": "전략",
+"ex": "We need a better strategy for the board game.",
+"exko": "그 보드게임을 위한 더 나은 전략이 필요하다."
+},
+{
+"w": "manipulate",
+"pos": "동사",
+"ko": "조종하다, 교묘히 다루다",
+"ex": "Some ads try to manipulate children into buying toys.",
+"exko": "어떤 광고들은 아이들이 장난감을 사도록 조종하려 한다."
+},
+{
+"w": "dispose of",
+"pos": "숙어",
+"ko": "처리하다, 버리다",
+"ex": "How should we dispose of old batteries?",
+"exko": "다 쓴 건전지는 어떻게 버려야 하지?"
+},
+{
+"w": "phenomenon",
+"pos": "명사",
+"ko": "현상",
+"ex": "A rainbow is a beautiful natural phenomenon.",
+"exko": "무지개는 아름다운 자연 현상이다."
+},
+{
+"w": "postpone",
+"pos": "동사",
+"ko": "연기하다, 미루다",
+"ex": "The picnic was postponed because of the storm.",
+"exko": "폭풍 때문에 소풍이 연기되었다."
+},
+{
+"w": "sufficient",
+"pos": "형용사",
+"ko": "충분한",
+"ex": "Eight hours of sleep is sufficient for most adults.",
+"exko": "대부분의 어른에게 8시간 수면이면 충분하다."
+},
+{
+"w": "incentive",
+"pos": "명사",
+"ko": "동기, 장려책",
+"ex": "A trip to the zoo is a great incentive.",
+"exko": "동물원 나들이는 아주 좋은 동기 부여가 된다."
+},
+{
+"w": "upcoming",
+"pos": "형용사",
+"ko": "다가오는, 곧 있을",
+"ex": "We are preparing for the upcoming school concert.",
+"exko": "우리는 다가오는 학교 음악회를 준비하고 있다."
+},
+{
+"w": "conceal",
+"pos": "동사",
+"ko": "숨기다",
+"ex": "He tried to conceal his test score from Mom.",
+"exko": "그는 엄마에게 시험 점수를 숨기려고 했다."
+},
+{
+"w": "primary",
+"pos": "형용사",
+"ko": "주된, 기본의",
+"ex": "Safety is our primary concern on the field trip.",
+"exko": "현장 학습에서 안전이 우리의 주된 관심사다."
+},
+{
+"w": "catch up with",
+"pos": "숙어",
+"ko": "따라잡다",
+"ex": "I ran fast to catch up with my friends.",
+"exko": "나는 친구들을 따라잡으려고 빨리 달렸다."
+},
+{
+"w": "priority",
+"pos": "명사",
+"ko": "우선순위",
+"ex": "Health should be your top priority.",
+"exko": "건강이 너의 최우선 순위여야 한다."
+},
+{
+"w": "therefore",
+"pos": "부사",
+"ko": "그러므로, 따라서",
+"ex": "It's late; therefore, you should go to bed now.",
+"exko": "늦었으니 이제 자러 가야 한다."
+},
+{
+"w": "live up to",
+"pos": "숙어",
+"ko": "(기대에) 부응하다",
+"ex": "The movie didn't live up to my expectations.",
+"exko": "그 영화는 내 기대에 미치지 못했다."
+},
+{
+"w": "pursue",
+"pos": "동사",
+"ko": "추구하다, 쫓다",
+"ex": "My cousin wants to pursue a career in music.",
+"exko": "내 사촌은 음악 분야의 진로를 추구하고 싶어 한다."
+},
+{
+"w": "explicit",
+"pos": "형용사",
+"ko": "명백한, 분명한",
+"ex": "The teacher gave explicit instructions for the test.",
+"exko": "선생님은 시험에 대해 분명한 지시를 주셨다."
+},
+{
+"w": "adequate",
+"pos": "형용사",
+"ko": "충분한, 적절한",
+"ex": "Make sure you get adequate sleep before the exam.",
+"exko": "시험 전에는 꼭 충분히 자도록 해."
+},
+{
+"w": "objective",
+"pos": "명사",
+"ko": "목표, 목적",
+"ex": "Our main objective this month is to save money.",
+"exko": "이번 달 우리의 주요 목표는 돈을 모으는 것이다."
+},
+{
+"w": "zone out",
+"pos": "숙어",
+"ko": "멍해지다, 딴생각하다",
+"ex": "I sometimes zone out during long meetings.",
+"exko": "나는 긴 회의 중에 가끔 멍해진다."
+},
+{
+"w": "recall",
+"pos": "동사",
+"ko": "기억해 내다, 회상하다",
+"ex": "I can't recall where I put my keys.",
+"exko": "열쇠를 어디에 두었는지 기억이 안 난다."
+},
+{
+"w": "fade",
+"pos": "동사",
+"ko": "바래다, 희미해지다",
+"ex": "The colors of my T-shirt faded after washing.",
+"exko": "빨래 후에 내 티셔츠 색이 바랬다."
+},
+{
+"w": "versatile",
+"pos": "형용사",
+"ko": "다재다능한, 다용도의",
+"ex": "This jacket is versatile enough for school and hiking.",
+"exko": "이 재킷은 학교에도 등산에도 입을 수 있을 만큼 다용도다."
+},
+{
+"w": "worthwhile",
+"pos": "형용사",
+"ko": "가치 있는, 보람 있는",
+"ex": "Learning a new language is always worthwhile.",
+"exko": "새 언어를 배우는 것은 언제나 가치 있다."
+},
+{
+"w": "stick to",
+"pos": "숙어",
+"ko": "~을 고수하다, 지키다",
+"ex": "Let's stick to our plan and go to bed early.",
+"exko": "계획대로 일찍 자자."
+},
+{
+"w": "liable",
+"pos": "형용사",
+"ko": "~하기 쉬운, 책임이 있는",
+"ex": "You're liable to slip on the icy road.",
+"exko": "빙판길에서는 미끄러지기 쉽다."
+},
+{
+"w": "readily",
+"pos": "부사",
+"ko": "쉽게, 기꺼이",
+"ex": "Fresh fruit is readily available at the market.",
+"exko": "시장에서는 신선한 과일을 쉽게 구할 수 있다."
+},
+{
+"w": "retrieve",
+"pos": "동사",
+"ko": "되찾아 오다, 회수하다",
+"ex": "Our dog retrieved the ball from the pond.",
+"exko": "우리 개가 연못에서 공을 물어 왔다."
+},
+{
+"w": "patience",
+"pos": "명사",
+"ko": "인내심",
+"ex": "Teaching my brother to ride a bike took patience.",
+"exko": "남동생에게 자전거 타기를 가르치는 데 인내심이 필요했다."
+},
+{
+"w": "mess up",
+"pos": "숙어",
+"ko": "망치다, 엉망으로 만들다",
+"ex": "I messed up my speech, but everyone still clapped.",
+"exko": "나는 발표를 망쳤지만 모두가 그래도 박수를 쳐 주었다."
+},
+{
+"w": "surroundings",
+"pos": "명사",
+"ko": "환경, 주변",
+"ex": "Our cat quickly got used to her new surroundings.",
+"exko": "우리 고양이는 새로운 환경에 빨리 적응했다."
+},
+{
+"w": "obtain",
+"pos": "동사",
+"ko": "얻다, 획득하다",
+"ex": "You must obtain permission before leaving class.",
+"exko": "수업 중에 나가기 전에 허락을 받아야 한다."
+},
+{
+"w": "thrive",
+"pos": "동사",
+"ko": "번성하다, 잘 자라다",
+"ex": "These plants thrive in sunny windows.",
+"exko": "이 식물들은 햇빛 드는 창가에서 잘 자란다."
+},
+{
+"w": "on purpose",
+"pos": "숙어",
+"ko": "일부러, 고의로",
+"ex": "My brother didn't break the vase on purpose.",
+"exko": "남동생이 일부러 꽃병을 깬 건 아니었다."
+},
+{
+"w": "tremendous",
+"pos": "형용사",
+"ko": "엄청난, 굉장한",
+"ex": "The concert was a tremendous success.",
+"exko": "그 콘서트는 엄청난 성공이었다."
+},
+{
+"w": "guarantee",
+"pos": "동사",
+"ko": "보장하다",
+"ex": "Hard work doesn't guarantee success, but it helps.",
+"exko": "노력이 성공을 보장하진 않지만 도움이 된다."
+},
+{
+"w": "justify",
+"pos": "동사",
+"ko": "정당화하다",
+"ex": "How can you justify spending so much money?",
+"exko": "그렇게 많은 돈을 쓴 걸 어떻게 정당화할 거니?"
+},
+{
+"w": "impose",
+"pos": "동사",
+"ko": "부과하다, 강요하다",
+"ex": "Don't impose your opinion on others.",
+"exko": "네 의견을 다른 사람에게 강요하지 마."
+},
+{
+"w": "wear out",
+"pos": "숙어",
+"ko": "닳다, 지치게 하다",
+"ex": "Running around all day wore the kids out.",
+"exko": "하루 종일 뛰어다녀서 아이들이 녹초가 되었다."
+},
+{
+"w": "pass out",
+"pos": "숙어",
+"ko": "기절하다, 나눠 주다",
+"ex": "The teacher passed out the test papers quietly.",
+"exko": "선생님이 조용히 시험지를 나눠 주셨다."
+},
+{
+"w": "coincidence",
+"pos": "명사",
+"ko": "우연의 일치",
+"ex": "What a coincidence to see you here!",
+"exko": "여기서 너를 만나다니 이런 우연이!"
+},
+{
+"w": "efficient",
+"pos": "형용사",
+"ko": "효율적인",
+"ex": "This new washing machine is very efficient.",
+"exko": "이 새 세탁기는 아주 효율적이다."
+},
+{
+"w": "procrastinate",
+"pos": "동사",
+"ko": "(할 일을) 미루다",
+"ex": "Stop procrastinating and finish your science project.",
+"exko": "그만 미루고 과학 과제를 끝내라."
+},
+{
+"w": "illustrate",
+"pos": "동사",
+"ko": "설명하다, 삽화를 넣다",
+"ex": "Let me illustrate my point with an example.",
+"exko": "예를 들어 내 말을 설명해 볼게."
+},
+{
+"w": "withstand",
+"pos": "동사",
+"ko": "견디다, 버티다",
+"ex": "This tent can withstand strong winds.",
+"exko": "이 텐트는 강한 바람을 견딜 수 있다."
+},
+{
+"w": "vital",
+"pos": "형용사",
+"ko": "필수적인, 매우 중요한",
+"ex": "Drinking enough water is vital in summer.",
+"exko": "여름에는 물을 충분히 마시는 것이 매우 중요하다."
+},
+{
+"w": "rigid",
+"pos": "형용사",
+"ko": "엄격한, 딱딱한",
+"ex": "Our schedule is too rigid for a vacation.",
+"exko": "우리 일정은 휴가치고 너무 빡빡하다."
+},
+{
+"w": "mediate",
+"pos": "동사",
+"ko": "중재하다",
+"ex": "Our teacher mediated the argument between the two friends.",
+"exko": "선생님이 두 친구 사이의 말다툼을 중재하셨다."
+},
+{
+"w": "eager",
+"pos": "형용사",
+"ko": "열망하는, 간절히 바라는",
+"ex": "The kids were eager to open their presents.",
+"exko": "아이들은 선물을 얼른 열어 보고 싶어 했다."
+},
+{
+"w": "curiosity",
+"pos": "명사",
+"ko": "호기심",
+"ex": "Her curiosity helps her learn new things fast.",
+"exko": "그녀의 호기심은 새로운 것을 빨리 배우게 해 준다."
+},
+{
+"w": "resemble",
+"pos": "동사",
+"ko": "닮다",
+"ex": "You really resemble your grandmother.",
+"exko": "너는 할머니를 정말 닮았구나."
+},
+{
+"w": "narrow down",
+"pos": "숙어",
+"ko": "(범위를) 좁히다",
+"ex": "We narrowed down our vacation choices to two places.",
+"exko": "우리는 휴가지 선택지를 두 곳으로 좁혔다."
+},
+{
+"w": "resource",
+"pos": "명사",
+"ko": "자원, 자료",
+"ex": "The library has many useful resources for your project.",
+"exko": "도서관에는 네 과제에 유용한 자료가 많다."
+},
+{
+"w": "compensate",
+"pos": "동사",
+"ko": "보상하다, 보충하다",
+"ex": "Nothing can compensate for the time we lost.",
+"exko": "우리가 잃어버린 시간은 그 무엇으로도 보상할 수 없다."
+},
+{
+"w": "shortage",
+"pos": "명사",
+"ko": "부족, 결핍",
+"ex": "There is a shortage of seats on the bus.",
+"exko": "버스에 좌석이 부족하다."
+},
+{
+"w": "plausible",
+"pos": "형용사",
+"ko": "그럴듯한",
+"ex": "His excuse for being late sounded plausible.",
+"exko": "그의 지각 핑계는 그럴듯하게 들렸다."
+},
+{
+"w": "wrap up",
+"pos": "숙어",
+"ko": "마무리하다",
+"ex": "Let's wrap up our homework before dinner.",
+"exko": "저녁 먹기 전에 숙제를 마무리하자."
+},
+{
+"w": "previous",
+"pos": "형용사",
+"ko": "이전의",
+"ex": "My previous school was much smaller than this one.",
+"exko": "내 이전 학교는 여기보다 훨씬 작았다."
+},
+{
+"w": "tense",
+"pos": "형용사",
+"ko": "긴장한, 팽팽한",
+"ex": "Everyone felt tense before the final exam.",
+"exko": "기말고사 전에 모두가 긴장했다."
+},
+{
+"w": "count on",
+"pos": "숙어",
+"ko": "믿다, 의지하다",
+"ex": "You can always count on your family.",
+"exko": "너는 언제나 가족을 믿고 의지할 수 있어."
+},
+{
+"w": "generous",
+"pos": "형용사",
+"ko": "관대한, 후한",
+"ex": "Grandpa is always generous with his time.",
+"exko": "할아버지는 늘 시간을 아낌없이 내주신다."
+},
+{
+"w": "vary",
+"pos": "동사",
+"ko": "다르다, 다양하다",
+"ex": "Prices vary from store to store.",
+"exko": "가격은 가게마다 다르다."
+},
+{
+"w": "simultaneously",
+"pos": "부사",
+"ko": "동시에",
+"ex": "Mom can cook and help with homework simultaneously.",
+"exko": "엄마는 요리와 숙제 도와주기를 동시에 할 수 있다."
+},
+{
+"w": "sensible",
+"pos": "형용사",
+"ko": "분별 있는, 현명한",
+"ex": "Wearing a raincoat today is a sensible idea.",
+"exko": "오늘 우비를 입는 건 현명한 생각이다."
+},
+{
+"w": "frankly",
+"pos": "부사",
+"ko": "솔직히",
+"ex": "Frankly, I didn't like the movie much.",
+"exko": "솔직히 나는 그 영화가 별로였어."
+},
+{
+"w": "underestimate",
+"pos": "동사",
+"ko": "과소평가하다",
+"ex": "Never underestimate the power of a good breakfast.",
+"exko": "좋은 아침 식사의 힘을 절대 과소평가하지 마라."
+},
+{
+"w": "account for",
+"pos": "숙어",
+"ko": "설명하다, 차지하다",
+"ex": "How do you account for this broken vase?",
+"exko": "이 깨진 꽃병은 어떻게 설명할 거니?"
+},
+{
+"w": "flexible",
+"pos": "형용사",
+"ko": "유연한, 융통성 있는",
+"ex": "My work schedule is quite flexible.",
+"exko": "내 근무 일정은 꽤 유연하다."
+},
+{
+"w": "unlikely",
+"pos": "형용사",
+"ko": "~할 것 같지 않은",
+"ex": "It's unlikely to snow this weekend.",
+"exko": "이번 주말에는 눈이 올 것 같지 않다."
+},
+{
+"w": "impact",
+"pos": "명사",
+"ko": "영향, 충격",
+"ex": "Social media has a big impact on teens.",
+"exko": "소셜 미디어는 십대에게 큰 영향을 미친다."
+},
+{
+"w": "restore",
+"pos": "동사",
+"ko": "복원하다, 회복시키다",
+"ex": "It took months to restore the old church.",
+"exko": "그 오래된 교회를 복원하는 데 몇 달이 걸렸다."
+},
+{
+"w": "relieved",
+"pos": "형용사",
+"ko": "안도한, 안심한",
+"ex": "I was relieved to find my lost phone.",
+"exko": "잃어버린 휴대폰을 찾아서 안심했다."
+},
+{
+"w": "motivate",
+"pos": "동사",
+"ko": "동기를 부여하다",
+"ex": "Grandma's praise always motivates me to study harder.",
+"exko": "할머니의 칭찬은 늘 내가 더 열심히 공부하게 만든다."
+},
+{
+"w": "burden",
+"pos": "명사",
+"ko": "부담, 짐",
+"ex": "I don't want to be a burden to you.",
+"exko": "나는 너에게 짐이 되고 싶지 않아."
+},
+{
+"w": "out of the question",
+"pos": "숙어",
+"ko": "불가능한, 논외인",
+"ex": "Playing games until midnight is out of the question.",
+"exko": "자정까지 게임하는 건 절대 안 된다."
+},
+{
+"w": "deadline",
+"pos": "명사",
+"ko": "마감 기한",
+"ex": "The deadline for the book report is Friday.",
+"exko": "독후감 마감은 금요일이다."
+},
+{
+"w": "moderate",
+"pos": "형용사",
+"ko": "적당한, 보통의",
+"ex": "Moderate exercise is good for the whole family.",
+"exko": "적당한 운동은 온 가족에게 좋다."
+},
+{
+"w": "exaggerate",
+"pos": "동사",
+"ko": "과장하다",
+"ex": "Don't exaggerate; the movie wasn't that scary.",
+"exko": "과장하지 마. 그 영화 그렇게 무섭지 않았어."
+},
+{
+"w": "eventually",
+"pos": "부사",
+"ko": "결국, 마침내",
+"ex": "Eventually, we found the right restaurant.",
+"exko": "결국 우리는 맞는 식당을 찾았다."
+},
+{
+"w": "obstacle",
+"pos": "명사",
+"ko": "장애물",
+"ex": "Fear is the biggest obstacle to trying new things.",
+"exko": "두려움은 새로운 것을 시도하는 데 가장 큰 장애물이다."
+},
+{
+"w": "vulnerable",
+"pos": "형용사",
+"ko": "취약한, 상처받기 쉬운",
+"ex": "Young children are vulnerable to colds in winter.",
+"exko": "어린아이들은 겨울에 감기에 걸리기 쉽다."
+},
+{
+"w": "rational",
+"pos": "형용사",
+"ko": "합리적인, 이성적인",
+"ex": "Let's make a rational decision, not an emotional one.",
+"exko": "감정적인 결정이 아니라 이성적인 결정을 내리자."
+},
+{
+"w": "evident",
+"pos": "형용사",
+"ko": "분명한, 명백한",
+"ex": "It was evident that she was very tired.",
+"exko": "그녀가 아주 피곤하다는 게 분명했다."
+},
+{
+"w": "judgment",
+"pos": "명사",
+"ko": "판단, 판단력",
+"ex": "Trust your own judgment in this situation.",
+"exko": "이런 상황에서는 너 자신의 판단을 믿어."
+},
+{
+"w": "imply",
+"pos": "동사",
+"ko": "암시하다, 넌지시 말하다",
+"ex": "Are you implying that I'm always late?",
+"exko": "내가 맨날 늦는다는 말이야?"
+},
+{
+"w": "deprive",
+"pos": "동사",
+"ko": "빼앗다, 박탈하다",
+"ex": "Don't deprive yourself of sleep before a test.",
+"exko": "시험 전에 스스로 잠을 빼앗지 마(잠을 거르지 마)."
+},
+{
+"w": "conduct",
+"pos": "동사",
+"ko": "수행하다, 실시하다",
+"ex": "We conducted a simple experiment in class.",
+"exko": "우리는 수업 시간에 간단한 실험을 했다."
+},
+{
+"w": "massive",
+"pos": "형용사",
+"ko": "거대한, 엄청난",
+"ex": "A massive storm hit the coast last night.",
+"exko": "어젯밤 거대한 폭풍이 해안을 덮쳤다."
+},
+{
+"w": "modify",
+"pos": "동사",
+"ko": "수정하다, 바꾸다",
+"ex": "We modified the recipe to use less sugar.",
+"exko": "우리는 설탕을 덜 쓰도록 요리법을 수정했다."
+},
+{
+"w": "submit",
+"pos": "동사",
+"ko": "제출하다",
+"ex": "Please submit your report by Friday.",
+"exko": "금요일까지 보고서를 제출해 주세요."
+},
+{
+"w": "jeopardize",
+"pos": "동사",
+"ko": "위태롭게 하다",
+"ex": "Don't jeopardize your health for a game.",
+"exko": "게임 때문에 건강을 해치지 마."
+},
+{
+"w": "loyal",
+"pos": "형용사",
+"ko": "충성스러운, 의리 있는",
+"ex": "Our dog is loyal to the whole family.",
+"exko": "우리 개는 온 가족에게 충직하다."
+},
+{
+"w": "apparent",
+"pos": "형용사",
+"ko": "명백한, 분명한",
+"ex": "It was apparent that he hadn't slept well.",
+"exko": "그가 잠을 잘 못 잤다는 게 분명했다."
+},
+{
+"w": "accurate",
+"pos": "형용사",
+"ko": "정확한",
+"ex": "Please give me an accurate answer this time.",
+"exko": "이번에는 정확한 답을 말해 줘."
+},
+{
+"w": "superficial",
+"pos": "형용사",
+"ko": "피상적인, 겉으로의",
+"ex": "Don't judge people by superficial things like clothes.",
+"exko": "옷 같은 겉모습으로 사람을 판단하지 마라."
+},
+{
+"w": "diligent",
+"pos": "형용사",
+"ko": "부지런한, 성실한",
+"ex": "A diligent student reviews notes every day.",
+"exko": "성실한 학생은 매일 필기를 복습한다."
+},
+{
+"w": "thorough",
+"pos": "형용사",
+"ko": "철저한, 꼼꼼한",
+"ex": "We gave the house a thorough cleaning on Sunday.",
+"exko": "우리는 일요일에 집을 철저히 청소했다."
+},
+{
+"w": "fulfill",
+"pos": "동사",
+"ko": "이행하다, 실현하다",
+"ex": "She fulfilled her promise to call every day.",
+"exko": "그녀는 매일 전화하겠다는 약속을 지켰다."
+},
+{
+"w": "offend",
+"pos": "동사",
+"ko": "기분 상하게 하다",
+"ex": "I'm sorry if my joke offended you.",
+"exko": "내 농담이 기분 상하게 했다면 미안해."
+},
+{
+"w": "quantity",
+"pos": "명사",
+"ko": "양, 수량",
+"ex": "Quality matters more than quantity in your writing.",
+"exko": "글에서는 양보다 질이 더 중요하다."
+},
+{
+"w": "abandon",
+"pos": "동사",
+"ko": "버리다, 포기하다",
+"ex": "They had to abandon the car in the snow.",
+"exko": "그들은 눈 속에 차를 버려두고 가야 했다."
+},
+{
+"w": "strive",
+"pos": "동사",
+"ko": "노력하다, 애쓰다",
+"ex": "We strive to be kind to everyone.",
+"exko": "우리는 모두에게 친절하려고 노력한다."
+},
+{
+"w": "misunderstanding",
+"pos": "명사",
+"ko": "오해",
+"ex": "It was just a misunderstanding, so let's make up.",
+"exko": "그건 그냥 오해였으니 화해하자."
+},
+{
+"w": "unanimous",
+"pos": "형용사",
+"ko": "만장일치의",
+"ex": "The family vote for pizza was unanimous.",
+"exko": "피자를 먹자는 가족 투표는 만장일치였다."
+},
+{
+"w": "deny",
+"pos": "동사",
+"ko": "부인하다, 거부하다",
+"ex": "He denied eating the last cookie.",
+"exko": "그는 마지막 쿠키를 먹은 것을 부인했다."
+},
+{
+"w": "awkward",
+"pos": "형용사",
+"ko": "어색한, 곤란한",
+"ex": "There was an awkward silence at the table.",
+"exko": "식탁에 어색한 침묵이 흘렀다."
+},
+{
+"w": "show off",
+"pos": "숙어",
+"ko": "자랑하다, 뽐내다",
+"ex": "He loves to show off his new sneakers.",
+"exko": "그는 새 운동화를 자랑하는 걸 좋아한다."
+},
+{
+"w": "endure",
+"pos": "동사",
+"ko": "견디다, 참다",
+"ex": "She endured the pain without complaining.",
+"exko": "그녀는 불평 없이 고통을 견뎠다."
+},
+{
+"w": "come across",
+"pos": "숙어",
+"ko": "우연히 발견하다, 마주치다",
+"ex": "I came across an old photo of Grandpa.",
+"exko": "나는 할아버지의 옛날 사진을 우연히 발견했다."
+},
+{
+"w": "anticipate",
+"pos": "동사",
+"ko": "예상하다, 기대하다",
+"ex": "We didn't anticipate so much traffic this morning.",
+"exko": "오늘 아침에 차가 이렇게 막힐 줄은 예상하지 못했다."
+},
+{
+"w": "whereas",
+"pos": "접속사",
+"ko": "반면에",
+"ex": "I love spicy food, whereas my sister hates it.",
+"exko": "나는 매운 음식을 좋아하는 반면 여동생은 싫어한다."
+},
+{
+"w": "ambiguous",
+"pos": "형용사",
+"ko": "애매한, 모호한",
+"ex": "His answer was ambiguous, so I asked again.",
+"exko": "그의 대답이 애매해서 나는 다시 물어봤다."
+},
+{
+"w": "merit",
+"pos": "명사",
+"ko": "장점, 가치",
+"ex": "Each plan for the trip has its own merits.",
+"exko": "여행 계획마다 각자의 장점이 있다."
+},
+{
+"w": "initiative",
+"pos": "명사",
+"ko": "주도(권), 자발성",
+"ex": "He took the initiative to clean the kitchen.",
+"exko": "그는 스스로 나서서 부엌을 청소했다."
+},
+{
+"w": "vague",
+"pos": "형용사",
+"ko": "막연한, 모호한",
+"ex": "I only have a vague memory of my first birthday.",
+"exko": "나는 첫 생일에 대한 기억이 희미하게만 있다."
+},
+{
+"w": "attain",
+"pos": "동사",
+"ko": "달성하다, 이루다",
+"ex": "She worked hard to attain her goal.",
+"exko": "그녀는 목표를 이루기 위해 열심히 노력했다."
+},
+{
+"w": "meticulous",
+"pos": "형용사",
+"ko": "꼼꼼한, 세심한",
+"ex": "My sister is meticulous about checking her homework.",
+"exko": "우리 언니는 숙제 검토를 아주 꼼꼼하게 한다."
+},
+{
+"w": "perspective",
+"pos": "명사",
+"ko": "관점, 시각",
+"ex": "Try to see it from your friend's perspective.",
+"exko": "친구의 관점에서 그것을 보려고 해 봐."
+},
+{
+"w": "voluntary",
+"pos": "형용사",
+"ko": "자발적인",
+"ex": "Joining the cleanup club is completely voluntary.",
+"exko": "청소 동아리 가입은 전적으로 자율이다."
+},
+{
+"w": "precaution",
+"pos": "명사",
+"ko": "예방 조치, 조심",
+"ex": "Wear a mask as a precaution against colds.",
+"exko": "감기 예방을 위해 마스크를 써라."
+},
+{
+"w": "harsh",
+"pos": "형용사",
+"ko": "가혹한, 거친",
+"ex": "The coach's words were harsh but fair.",
+"exko": "코치의 말은 가혹했지만 공정했다."
+},
+{
+"w": "outcome",
+"pos": "명사",
+"ko": "결과",
+"ex": "We were happy with the outcome of the game.",
+"exko": "우리는 경기 결과에 만족했다."
+},
+{
+"w": "enthusiastic",
+"pos": "형용사",
+"ko": "열정적인, 열렬한",
+"ex": "The fans were enthusiastic about the concert.",
+"exko": "팬들은 그 콘서트에 열광했다."
+},
+{
+"w": "affordable",
+"pos": "형용사",
+"ko": "(가격이) 적당한, 감당할 수 있는",
+"ex": "This laptop is affordable for most students.",
+"exko": "이 노트북은 대부분의 학생이 살 만한 가격이다."
+},
+{
+"w": "reinforce",
+"pos": "동사",
+"ko": "강화하다, 보강하다",
+"ex": "Reviewing every night reinforces what you learned.",
+"exko": "매일 밤 복습하면 배운 것이 강화된다."
+},
+{
+"w": "keep up with",
+"pos": "숙어",
+"ko": "따라가다, 뒤처지지 않다",
+"ex": "It's hard to keep up with the new slang.",
+"exko": "새로운 유행어를 따라가기가 힘들다."
+},
+{
+"w": "irritate",
+"pos": "동사",
+"ko": "짜증 나게 하다",
+"ex": "His constant humming irritated everyone in the car.",
+"exko": "그가 계속 흥얼거려서 차 안의 모두가 짜증이 났다."
+},
+{
+"w": "random",
+"pos": "형용사",
+"ko": "무작위의, 임의의",
+"ex": "The teacher picked a random student to answer.",
+"exko": "선생님이 무작위로 한 학생을 골라 대답하게 했다."
+},
+{
+"w": "fierce",
+"pos": "형용사",
+"ko": "사나운, 치열한",
+"ex": "There was fierce competition for the last ticket.",
+"exko": "마지막 표를 두고 치열한 경쟁이 있었다."
+},
+{
+"w": "legitimate",
+"pos": "형용사",
+"ko": "정당한, 합법적인",
+"ex": "Being sick is a legitimate reason to miss school.",
+"exko": "아픈 것은 학교에 빠질 정당한 이유다."
+},
+{
+"w": "steady",
+"pos": "형용사",
+"ko": "꾸준한, 안정된",
+"ex": "Steady practice is the key to playing piano well.",
+"exko": "꾸준한 연습이 피아노를 잘 치는 비결이다."
+},
+{
+"w": "decline",
+"pos": "동사",
+"ko": "거절하다, 감소하다",
+"ex": "She politely declined the invitation to the party.",
+"exko": "그녀는 파티 초대를 정중히 거절했다."
+},
+{
+"w": "hazard",
+"pos": "명사",
+"ko": "위험 (요소)",
+"ex": "Wet floors are a safety hazard at school.",
+"exko": "젖은 바닥은 학교에서 안전을 위협하는 요소다."
+},
+{
+"w": "in charge of",
+"pos": "숙어",
+"ko": "~을 맡은, 책임지는",
+"ex": "Who is in charge of the class party?",
+"exko": "학급 파티는 누가 맡고 있니?"
+},
+{
+"w": "diminish",
+"pos": "동사",
+"ko": "줄어들다, 약해지다",
+"ex": "The pain diminished after I took medicine.",
+"exko": "약을 먹고 나니 통증이 줄어들었다."
+},
+{
+"w": "frustrated",
+"pos": "형용사",
+"ko": "좌절한, 답답한",
+"ex": "He felt frustrated when the computer froze.",
+"exko": "컴퓨터가 멈추자 그는 답답해했다."
+},
+{
+"w": "eliminate",
+"pos": "동사",
+"ko": "제거하다, 없애다",
+"ex": "Try to eliminate sugary drinks from your diet.",
+"exko": "식단에서 단 음료를 없애도록 해 봐."
+},
+{
+"w": "reveal",
+"pos": "동사",
+"ko": "드러내다, 밝히다",
+"ex": "She finally revealed the secret at dinner.",
+"exko": "그녀는 저녁 식사 때 마침내 비밀을 밝혔다."
+},
+{
+"w": "abundant",
+"pos": "형용사",
+"ko": "풍부한",
+"ex": "Fresh fruit is abundant at the summer market.",
+"exko": "여름 시장에는 신선한 과일이 풍부하다."
+},
+{
+"w": "contribute",
+"pos": "동사",
+"ko": "기여하다, 기부하다",
+"ex": "Everyone contributed something to the class party.",
+"exko": "모두가 학급 파티에 뭔가를 보탰다."
+},
+{
+"w": "considerable",
+"pos": "형용사",
+"ko": "상당한",
+"ex": "The repair cost a considerable amount of money.",
+"exko": "수리하는 데 상당한 돈이 들었다."
+},
+{
+"w": "utilize",
+"pos": "동사",
+"ko": "활용하다, 이용하다",
+"ex": "We utilized old boxes to build a cat house.",
+"exko": "우리는 낡은 상자를 활용해 고양이 집을 만들었다."
+},
+{
+"w": "identical",
+"pos": "형용사",
+"ko": "동일한, 똑같은",
+"ex": "My twin cousins wear identical jackets.",
+"exko": "내 쌍둥이 사촌들은 똑같은 재킷을 입는다."
+},
+{
+"w": "notion",
+"pos": "명사",
+"ko": "개념, 생각",
+"ex": "My little sister has no notion of time yet.",
+"exko": "내 여동생은 아직 시간 개념이 없다."
+},
+{
+"w": "seemingly",
+"pos": "부사",
+"ko": "겉보기에, 외견상",
+"ex": "The seemingly easy puzzle took us an hour.",
+"exko": "겉보기엔 쉬운 퍼즐이 한 시간이나 걸렸다."
+},
+{
+"w": "accommodate",
+"pos": "동사",
+"ko": "수용하다, 맞추다",
+"ex": "The hotel room can accommodate our whole family.",
+"exko": "그 호텔 방은 우리 가족 전체를 수용할 수 있다."
+},
+{
+"w": "potential",
+"pos": "명사",
+"ko": "잠재력, 가능성",
+"ex": "The coach said I have great potential.",
+"exko": "코치님은 내가 큰 잠재력이 있다고 하셨다."
+},
+{
+"w": "isolated",
+"pos": "형용사",
+"ko": "고립된, 외딴",
+"ex": "The mountain village is isolated in winter.",
+"exko": "그 산골 마을은 겨울에 고립된다."
+},
+{
+"w": "scarce",
+"pos": "형용사",
+"ko": "부족한, 드문",
+"ex": "Water was scarce during the long drought.",
+"exko": "오랜 가뭄 동안 물이 부족했다."
+},
+{
+"w": "opponent",
+"pos": "명사",
+"ko": "상대, 적수",
+"ex": "She shook hands with her opponent after the match.",
+"exko": "그녀는 경기 후 상대 선수와 악수했다."
+},
+{
+"w": "cease",
+"pos": "동사",
+"ko": "그치다, 중단하다",
+"ex": "The rain finally ceased in the afternoon.",
+"exko": "오후가 되어서야 비가 마침내 그쳤다."
+},
+{
+"w": "arbitrary",
+"pos": "형용사",
+"ko": "임의의, 제멋대로인",
+"ex": "The new rule seemed arbitrary to the students.",
+"exko": "새 규칙은 학생들에게 제멋대로인 것처럼 보였다."
+},
+{
+"w": "call off",
+"pos": "숙어",
+"ko": "취소하다",
+"ex": "They called off the game because of rain.",
+"exko": "비 때문에 경기가 취소되었다."
+},
+{
+"w": "prohibit",
+"pos": "동사",
+"ko": "금지하다",
+"ex": "Phones are prohibited during the exam.",
+"exko": "시험 중에는 휴대폰 사용이 금지된다."
+},
+{
+"w": "distinct",
+"pos": "형용사",
+"ko": "뚜렷한, 별개의",
+"ex": "The two sisters have very distinct personalities.",
+"exko": "그 두 자매는 성격이 아주 뚜렷이 다르다."
+},
+{
+"w": "pay off",
+"pos": "숙어",
+"ko": "성과를 거두다, 갚다",
+"ex": "All your hard practice finally paid off today.",
+"exko": "네 모든 노력이 오늘 마침내 결실을 맺었다."
+},
+{
+"w": "reluctant",
+"pos": "형용사",
+"ko": "꺼리는, 마지못한",
+"ex": "He was reluctant to share his dessert.",
+"exko": "그는 디저트를 나누기를 꺼렸다."
+},
+{
+"w": "deteriorate",
+"pos": "동사",
+"ko": "악화되다",
+"ex": "His health deteriorated during the cold winter.",
+"exko": "추운 겨울 동안 그의 건강이 악화되었다."
+},
+{
+"w": "eligible",
+"pos": "형용사",
+"ko": "자격이 있는",
+"ex": "You are eligible for a student discount.",
+"exko": "너는 학생 할인을 받을 자격이 있어."
+},
+{
+"w": "linger",
+"pos": "동사",
+"ko": "남아 있다, 머무르다",
+"ex": "The smell of fresh bread lingered in the kitchen.",
+"exko": "갓 구운 빵 냄새가 부엌에 남아 있었다."
+},
+{
+"w": "sincere",
+"pos": "형용사",
+"ko": "진심 어린, 성실한",
+"ex": "Please accept my sincere apology.",
+"exko": "제 진심 어린 사과를 받아 주세요."
+},
+{
+"w": "persist",
+"pos": "동사",
+"ko": "지속되다, 고집하다",
+"ex": "If the cough persists, we'll see a doctor.",
+"exko": "기침이 계속되면 병원에 가자."
+},
+{
+"w": "occasionally",
+"pos": "부사",
+"ko": "가끔, 때때로",
+"ex": "We occasionally eat out on Friday nights.",
+"exko": "우리는 금요일 밤에 가끔 외식을 한다."
+},
+{
+"w": "emphasize",
+"pos": "동사",
+"ko": "강조하다",
+"ex": "The teacher emphasized the importance of reading.",
+"exko": "선생님은 독서의 중요성을 강조하셨다."
+},
+{
+"w": "nevertheless",
+"pos": "부사",
+"ko": "그럼에도 불구하고",
+"ex": "It was raining; nevertheless, we went hiking.",
+"exko": "비가 오고 있었지만 그럼에도 우리는 등산을 갔다."
+},
+{
+"w": "reflect",
+"pos": "동사",
+"ko": "반영하다, 되돌아보다",
+"ex": "Take a moment to reflect on your day.",
+"exko": "잠시 하루를 되돌아보는 시간을 가져라."
+},
+{
+"w": "ongoing",
+"pos": "형용사",
+"ko": "진행 중인",
+"ex": "The construction near our school is still ongoing.",
+"exko": "학교 근처 공사가 아직 진행 중이다."
+},
+{
+"w": "contradict",
+"pos": "동사",
+"ko": "모순되다, 반박하다",
+"ex": "Your actions contradict what you just said.",
+"exko": "네 행동은 방금 네가 한 말과 모순돼."
+},
+{
+"w": "genuine",
+"pos": "형용사",
+"ko": "진짜의, 진심의",
+"ex": "She showed genuine interest in my hobby.",
+"exko": "그녀는 내 취미에 진심으로 관심을 보였다."
+},
+{
+"w": "durable",
+"pos": "형용사",
+"ko": "내구성 있는, 오래가는",
+"ex": "These hiking boots are very durable.",
+"exko": "이 등산화는 아주 튼튼하다."
+},
+{
+"w": "undergo",
+"pos": "동사",
+"ko": "겪다, 받다",
+"ex": "Grandpa will undergo a health check next week.",
+"exko": "할아버지는 다음 주에 건강 검진을 받으실 것이다."
+},
+{
+"w": "carry out",
+"pos": "숙어",
+"ko": "수행하다, 실행하다",
+"ex": "We carried out the plan without any problems.",
+"exko": "우리는 아무 문제 없이 그 계획을 실행했다."
+},
+{
+"w": "urgent",
+"pos": "형용사",
+"ko": "긴급한",
+"ex": "Call me right away if anything urgent happens.",
+"exko": "급한 일이 생기면 바로 전화해."
+},
+{
+"w": "sensitive",
+"pos": "형용사",
+"ko": "민감한, 예민한",
+"ex": "My skin is sensitive to strong sunlight.",
+"exko": "내 피부는 강한 햇빛에 민감하다."
+},
+{
+"w": "odd",
+"pos": "형용사",
+"ko": "이상한, 홀수의",
+"ex": "There's an odd smell coming from the fridge.",
+"exko": "냉장고에서 이상한 냄새가 난다."
+},
+{
+"w": "overlook",
+"pos": "동사",
+"ko": "간과하다, 내려다보다",
+"ex": "I overlooked a small mistake on my test.",
+"exko": "나는 시험에서 작은 실수를 놓쳤다."
+},
+{
+"w": "dominant",
+"pos": "형용사",
+"ko": "지배적인, 우세한",
+"ex": "Blue is the dominant color in her room.",
+"exko": "그녀의 방에서 가장 두드러지는 색은 파란색이다."
+},
+{
+"w": "drastic",
+"pos": "형용사",
+"ko": "급격한, 과감한",
+"ex": "We need drastic changes to our study habits.",
+"exko": "우리는 공부 습관을 과감하게 바꿀 필요가 있다."
+},
+{
+"w": "unexpected",
+"pos": "형용사",
+"ko": "예상치 못한",
+"ex": "We had an unexpected visit from our cousins.",
+"exko": "사촌들이 예상치 못하게 찾아왔다."
+},
+{
+"w": "mature",
+"pos": "형용사",
+"ko": "성숙한",
+"ex": "My son has become more mature this year.",
+"exko": "우리 아들은 올해 더 성숙해졌다."
+},
+{
+"w": "consequence",
+"pos": "명사",
+"ko": "결과, 영향",
+"ex": "Every choice you make has a consequence.",
+"exko": "네가 하는 모든 선택에는 결과가 따른다."
+},
+{
+"w": "subsequent",
+"pos": "형용사",
+"ko": "그 다음의, 이후의",
+"ex": "The first lesson was hard, but subsequent ones were easier.",
+"exko": "첫 수업은 어려웠지만 이후 수업들은 더 쉬웠다."
+},
+{
+"w": "encounter",
+"pos": "동사",
+"ko": "마주치다, 맞닥뜨리다",
+"ex": "We encountered a deer on our hike.",
+"exko": "우리는 등산하다가 사슴을 마주쳤다."
+},
+{
+"w": "spontaneous",
+"pos": "형용사",
+"ko": "즉흥적인, 자발적인",
+"ex": "We took a spontaneous trip to the beach.",
+"exko": "우리는 즉흥적으로 바닷가 여행을 떠났다."
+},
+{
+"w": "precise",
+"pos": "형용사",
+"ko": "정확한, 정밀한",
+"ex": "Please give me the precise time of the meeting.",
+"exko": "회의의 정확한 시간을 알려 주세요."
+},
+{
+"w": "complement",
+"pos": "동사",
+"ko": "보완하다, 잘 어울리다",
+"ex": "The red scarf complements your coat nicely.",
+"exko": "빨간 스카프가 네 코트와 잘 어울린다."
+},
+{
+"w": "dense",
+"pos": "형용사",
+"ko": "빽빽한, 짙은",
+"ex": "We walked carefully through a dense forest.",
+"exko": "우리는 빽빽한 숲을 조심스럽게 걸어 지나갔다."
+},
+{
+"w": "literally",
+"pos": "부사",
+"ko": "문자 그대로, 정말로",
+"ex": "I literally ran all the way home.",
+"exko": "나는 정말로 집까지 내내 뛰어갔다."
+},
+{
+"w": "owe",
+"pos": "동사",
+"ko": "빚지다, 신세 지다",
+"ex": "I owe my sister five dollars for the snack.",
+"exko": "나는 간식값으로 언니에게 5달러를 빚졌다."
+},
+{
+"w": "adjust",
+"pos": "동사",
+"ko": "조정하다, 적응하다",
+"ex": "Can you adjust the seat for your sister?",
+"exko": "동생을 위해 의자 높이를 조정해 줄래?"
+},
+{
+"w": "let down",
+"pos": "숙어",
+"ko": "실망시키다",
+"ex": "I don't want to let down my team.",
+"exko": "나는 우리 팀을 실망시키고 싶지 않아."
+},
+{
+"w": "miserable",
+"pos": "형용사",
+"ko": "비참한, 몹시 괴로운",
+"ex": "I felt miserable when I had the flu.",
+"exko": "독감에 걸렸을 때 나는 몹시 괴로웠다."
+},
+{
+"w": "hesitate",
+"pos": "동사",
+"ko": "망설이다, 주저하다",
+"ex": "Don't hesitate to call me if you need help.",
+"exko": "도움이 필요하면 망설이지 말고 전화해."
+},
+{
+"w": "opt for",
+"pos": "숙어",
+"ko": "~을 선택하다",
+"ex": "We opted for the train instead of driving.",
+"exko": "우리는 운전 대신 기차를 선택했다."
+},
+{
+"w": "in the long run",
+"pos": "숙어",
+"ko": "결국, 장기적으로",
+"ex": "Saving money now helps you in the long run.",
+"exko": "지금 돈을 모으면 장기적으로 도움이 된다."
+},
+{
+"w": "trivial",
+"pos": "형용사",
+"ko": "사소한, 하찮은",
+"ex": "Let's not fight over such trivial things.",
+"exko": "그런 사소한 일로 싸우지 말자."
+},
+{
+"w": "boost",
+"pos": "동사",
+"ko": "높이다, 북돋우다",
+"ex": "A good breakfast can boost your energy.",
+"exko": "든든한 아침 식사는 기운을 북돋워 줄 수 있다."
+},
+{
+"w": "perceive",
+"pos": "동사",
+"ko": "인식하다, 지각하다",
+"ex": "Children perceive the world differently from adults.",
+"exko": "아이들은 어른과 다르게 세상을 인식한다."
+},
+{
+"w": "fundamental",
+"pos": "형용사",
+"ko": "근본적인, 기본적인",
+"ex": "Respect is fundamental to a happy family.",
+"exko": "존중은 행복한 가정의 기본이다."
+},
+{
+"w": "chronic",
+"pos": "형용사",
+"ko": "만성의",
+"ex": "Grandma suffers from chronic back pain.",
+"exko": "할머니는 만성 허리 통증을 앓고 계신다."
+},
+{
+"w": "valid",
+"pos": "형용사",
+"ko": "유효한, 타당한",
+"ex": "Your bus pass is valid until the end of the month.",
+"exko": "네 버스 카드는 이달 말까지 유효하다."
+},
+{
+"w": "overcome",
+"pos": "동사",
+"ko": "극복하다",
+"ex": "She overcame her fear of swimming this summer.",
+"exko": "그녀는 이번 여름에 수영에 대한 두려움을 극복했다."
+},
+{
+"w": "skeptical",
+"pos": "형용사",
+"ko": "회의적인, 의심하는",
+"ex": "Dad was skeptical about the new diet plan.",
+"exko": "아빠는 새 다이어트 계획에 회의적이었다."
+},
+{
+"w": "likewise",
+"pos": "부사",
+"ko": "마찬가지로",
+"ex": "Dad washed the dishes, and I did likewise.",
+"exko": "아빠가 설거지를 하셨고 나도 마찬가지로 했다."
+},
+{
+"w": "lean on",
+"pos": "숙어",
+"ko": "기대다, 의지하다",
+"ex": "You can lean on me when things get tough.",
+"exko": "힘들 때는 나에게 기대도 돼."
+},
+{
+"w": "significant",
+"pos": "형용사",
+"ko": "중요한, 상당한",
+"ex": "Reading every day makes a significant difference.",
+"exko": "매일 책을 읽으면 상당한 차이가 생긴다."
+},
+{
+"w": "candid",
+"pos": "형용사",
+"ko": "솔직한",
+"ex": "Thank you for your candid opinion about my essay.",
+"exko": "내 글에 대해 솔직한 의견을 줘서 고마워."
+},
+{
+"w": "approximately",
+"pos": "부사",
+"ko": "대략, 약",
+"ex": "The trip takes approximately two hours by car.",
+"exko": "그 여행은 차로 대략 두 시간 걸린다."
+},
+{
+"w": "numerous",
+"pos": "형용사",
+"ko": "수많은",
+"ex": "Dad has visited numerous countries for work.",
+"exko": "아빠는 일 때문에 수많은 나라를 방문했다."
+},
+{
+"w": "practical",
+"pos": "형용사",
+"ko": "실용적인, 현실적인",
+"ex": "This backpack is cheap and very practical.",
+"exko": "이 가방은 싸고 아주 실용적이다."
+},
+{
+"w": "yield",
+"pos": "동사",
+"ko": "양보하다, 산출하다",
+"ex": "Cars must yield to people at the crosswalk.",
+"exko": "차는 횡단보도에서 사람에게 양보해야 한다."
+},
+{
+"w": "ultimately",
+"pos": "부사",
+"ko": "결국, 궁극적으로",
+"ex": "Ultimately, it's your choice which club to join.",
+"exko": "결국 어느 동아리에 들어갈지는 네 선택이다."
+},
+{
+"w": "deliberately",
+"pos": "부사",
+"ko": "고의로, 일부러",
+"ex": "I'm sure he didn't break it deliberately.",
+"exko": "그가 일부러 그걸 깨뜨린 건 아닐 거야."
+},
+{
+"w": "take for granted",
+"pos": "숙어",
+"ko": "당연하게 여기다",
+"ex": "Don't take your parents' help for granted.",
+"exko": "부모님의 도움을 당연하게 여기지 마라."
+},
+{
+"w": "prompt",
+"pos": "형용사",
+"ko": "즉각적인, 신속한",
+"ex": "Thank you for your prompt reply to my email.",
+"exko": "제 이메일에 신속히 답해 주셔서 감사합니다."
+},
+{
+"w": "suppress",
+"pos": "동사",
+"ko": "억누르다, 참다",
+"ex": "I tried to suppress a laugh during class.",
+"exko": "나는 수업 중에 웃음을 참으려고 애썼다."
+},
+{
+"w": "withdraw",
+"pos": "동사",
+"ko": "인출하다, 철회하다",
+"ex": "Mom withdrew some cash from the bank.",
+"exko": "엄마가 은행에서 현금을 좀 인출했다."
+},
+{
+"w": "hostile",
+"pos": "형용사",
+"ko": "적대적인",
+"ex": "The cat was hostile toward the new puppy.",
+"exko": "고양이는 새로 온 강아지에게 적대적이었다."
+},
+{
+"w": "optimistic",
+"pos": "형용사",
+"ko": "낙관적인",
+"ex": "Mom is always optimistic, even on bad days.",
+"exko": "엄마는 힘든 날에도 늘 낙관적이다."
+},
+{
+"w": "legacy",
+"pos": "명사",
+"ko": "유산",
+"ex": "Grandpa left us a legacy of kindness.",
+"exko": "할아버지는 우리에게 친절이라는 유산을 남기셨다."
+},
+{
+"w": "predict",
+"pos": "동사",
+"ko": "예측하다",
+"ex": "Nobody can predict the weather perfectly.",
+"exko": "아무도 날씨를 완벽하게 예측할 수 없다."
+},
+{
+"w": "quote",
+"pos": "동사",
+"ko": "인용하다",
+"ex": "She quoted a famous poet in her speech.",
+"exko": "그녀는 연설에서 유명한 시인의 말을 인용했다."
+},
+{
+"w": "settle down",
+"pos": "숙어",
+"ko": "진정하다, 정착하다",
+"ex": "Please settle down and take out your books.",
+"exko": "진정하고 책을 꺼내 주세요."
+},
+{
+"w": "rule out",
+"pos": "숙어",
+"ko": "배제하다, 제외하다",
+"ex": "We can't rule out rain this afternoon.",
+"exko": "오늘 오후에 비가 올 가능성을 배제할 수 없다."
+},
+{
+"w": "capacity",
+"pos": "명사",
+"ko": "수용력, 능력",
+"ex": "The stadium has a capacity of fifty thousand.",
+"exko": "그 경기장은 5만 명을 수용할 수 있다."
+},
+{
+"w": "exhausted",
+"pos": "형용사",
+"ko": "기진맥진한, 지친",
+"ex": "I was exhausted after the long hike.",
+"exko": "긴 등산 후에 나는 기진맥진했다."
+},
+{
+"w": "subtle",
+"pos": "형용사",
+"ko": "미묘한, 은근한",
+"ex": "There is a subtle difference between these two colors.",
+"exko": "이 두 색깔 사이에는 미묘한 차이가 있다."
+},
+{
+"w": "facilitate",
+"pos": "동사",
+"ko": "촉진하다, 용이하게 하다",
+"ex": "Pictures facilitate learning for young kids.",
+"exko": "그림은 어린아이들의 학습을 쉽게 해 준다."
+},
+{
+"w": "implement",
+"pos": "동사",
+"ko": "시행하다, 실행하다",
+"ex": "The school will implement a new uniform policy.",
+"exko": "학교는 새 교복 정책을 시행할 것이다."
+},
+{
+"w": "mandatory",
+"pos": "형용사",
+"ko": "의무적인, 필수의",
+"ex": "Wearing a helmet is mandatory on the school bike trip.",
+"exko": "학교 자전거 여행에서는 헬멧 착용이 의무다."
+},
+{
+"w": "outgoing",
+"pos": "형용사",
+"ko": "외향적인, 사교적인",
+"ex": "My daughter is outgoing and makes friends easily.",
+"exko": "우리 딸은 외향적이라 친구를 쉽게 사귄다."
+},
+{
+"w": "tolerate",
+"pos": "동사",
+"ko": "참다, 용인하다",
+"ex": "Our school does not tolerate bullying.",
+"exko": "우리 학교는 괴롭힘을 용납하지 않는다."
+},
+{
+"w": "particularly",
+"pos": "부사",
+"ko": "특히",
+"ex": "I particularly enjoyed the dessert at the restaurant.",
+"exko": "나는 그 식당에서 특히 디저트가 좋았다."
+},
+{
+"w": "inevitable",
+"pos": "형용사",
+"ko": "피할 수 없는, 불가피한",
+"ex": "Some mistakes are inevitable when you learn.",
+"exko": "배울 때 어느 정도 실수는 피할 수 없다."
+},
+{
+"w": "obscure",
+"pos": "형용사",
+"ko": "모호한, 잘 알려지지 않은",
+"ex": "The meaning of the poem was a bit obscure.",
+"exko": "그 시의 의미는 조금 모호했다."
+},
+{
+"w": "reasonable",
+"pos": "형용사",
+"ko": "합리적인, (가격이) 적당한",
+"ex": "The price of this bike is quite reasonable.",
+"exko": "이 자전거 가격은 꽤 적당하다."
+},
+{
+"w": "prejudice",
+"pos": "명사",
+"ko": "편견",
+"ex": "We should not judge people with prejudice.",
+"exko": "우리는 편견을 가지고 사람을 판단해서는 안 된다."
+},
+{
+"w": "elaborate",
+"pos": "형용사",
+"ko": "정교한, 공들인",
+"ex": "Mom made an elaborate cake for my birthday.",
+"exko": "엄마가 내 생일을 위해 공들인 케이크를 만드셨다."
+},
+{
+"w": "up to",
+"pos": "숙어",
+"ko": "~에 달려 있는, ~까지",
+"ex": "It's up to you what we eat tonight.",
+"exko": "오늘 밤 뭘 먹을지는 너에게 달렸어."
+},
+{
+"w": "restrict",
+"pos": "동사",
+"ko": "제한하다",
+"ex": "Mom restricts our phone use on school nights.",
+"exko": "엄마는 학교 가는 날 밤에 휴대폰 사용을 제한한다."
+},
+{
+"w": "bold",
+"pos": "형용사",
+"ko": "대담한, 용감한",
+"ex": "It was a bold decision to change schools.",
+"exko": "전학하는 것은 대담한 결정이었다."
+},
+{
+"w": "remarkable",
+"pos": "형용사",
+"ko": "놀라운, 주목할 만한",
+"ex": "Your English has shown remarkable improvement this year.",
+"exko": "네 영어 실력이 올해 놀랍게 향상되었다."
+},
+{
+"w": "clarify",
+"pos": "동사",
+"ko": "명확히 하다",
+"ex": "Could you clarify what you mean by that?",
+"exko": "그게 무슨 뜻인지 명확히 말해 줄래?"
+},
+{
+"w": "meanwhile",
+"pos": "부사",
+"ko": "그동안에, 한편",
+"ex": "Mom cooked dinner; meanwhile, we set the table.",
+"exko": "엄마가 저녁을 요리했고, 그동안 우리는 상을 차렸다."
+},
+{
+"w": "disrupt",
+"pos": "동사",
+"ko": "방해하다, 지장을 주다",
+"ex": "The loud music disrupted our family meeting.",
+"exko": "시끄러운 음악이 우리 가족회의를 방해했다."
+},
+{
+"w": "supervise",
+"pos": "동사",
+"ko": "감독하다, 관리하다",
+"ex": "An adult must supervise children at the pool.",
+"exko": "수영장에서는 어른이 아이들을 감독해야 한다."
+},
+{
+"w": "scatter",
+"pos": "동사",
+"ko": "흩뿌리다, 흩어지다",
+"ex": "The kids scattered toys all over the floor.",
+"exko": "아이들이 바닥 여기저기에 장난감을 흩어 놓았다."
+},
+{
+"w": "collaborate",
+"pos": "동사",
+"ko": "협력하다",
+"ex": "The students collaborated on the science project.",
+"exko": "학생들은 과학 과제를 함께 협력해서 했다."
+},
+{
+"w": "determine",
+"pos": "동사",
+"ko": "결정하다, 알아내다",
+"ex": "Your effort will determine your final result.",
+"exko": "너의 노력이 최종 결과를 결정할 거야."
+},
+{
+"w": "resolve",
+"pos": "동사",
+"ko": "해결하다, 결심하다",
+"ex": "Let's resolve this problem by talking calmly.",
+"exko": "차분히 대화해서 이 문제를 해결하자."
+},
+{
+"w": "in terms of",
+"pos": "숙어",
+"ko": "~ 면에서",
+"ex": "In terms of price, this phone is better.",
+"exko": "가격 면에서는 이 휴대폰이 더 낫다."
+},
+{
+"w": "rewarding",
+"pos": "형용사",
+"ko": "보람 있는",
+"ex": "Volunteering at the shelter was a rewarding experience.",
+"exko": "보호소에서 봉사한 것은 보람 있는 경험이었다."
+},
+{
+"w": "compromise",
+"pos": "명사",
+"ko": "타협, 절충",
+"ex": "Let's reach a compromise about the TV schedule.",
+"exko": "TV 보는 시간에 대해 타협점을 찾아보자."
+},
+{
+"w": "regardless of",
+"pos": "숙어",
+"ko": "~에 상관없이",
+"ex": "We walk the dog regardless of the weather.",
+"exko": "우리는 날씨에 상관없이 개를 산책시킨다."
+},
+{
+"w": "controversial",
+"pos": "형용사",
+"ko": "논란이 많은",
+"ex": "The new school rule is quite controversial.",
+"exko": "새 학교 규칙은 꽤 논란이 많다."
+},
+{
+"w": "vanish",
+"pos": "동사",
+"ko": "사라지다",
+"ex": "The cookies vanished from the plate in minutes.",
+"exko": "쿠키가 몇 분 만에 접시에서 사라졌다."
+},
+{
+"w": "humble",
+"pos": "형용사",
+"ko": "겸손한, 소박한",
+"ex": "Despite his success, he stayed humble.",
+"exko": "성공했는데도 그는 겸손했다."
+},
+{
+"w": "consistent",
+"pos": "형용사",
+"ko": "일관된, 꾸준한",
+"ex": "Consistent practice is the key to success.",
+"exko": "꾸준한 연습이 성공의 열쇠다."
+},
+{
+"w": "resilient",
+"pos": "형용사",
+"ko": "회복력 있는, 강인한",
+"ex": "Kids are often more resilient than we think.",
+"exko": "아이들은 종종 우리가 생각하는 것보다 더 강인하다."
+},
+{
+"w": "assess",
+"pos": "동사",
+"ko": "평가하다",
+"ex": "The teacher will assess our projects next week.",
+"exko": "선생님이 다음 주에 우리 과제를 평가하실 것이다."
+},
+{
+"w": "enhance",
+"pos": "동사",
+"ko": "향상시키다, 높이다",
+"ex": "Good lighting can enhance the look of a room.",
+"exko": "좋은 조명은 방의 분위기를 더 좋게 만들 수 있다."
+},
+{
+"w": "at the expense of",
+"pos": "숙어",
+"ko": "~을 희생하여",
+"ex": "Don't play games at the expense of sleep.",
+"exko": "잠을 희생해 가면서 게임하지 마."
+},
+{
+"w": "moreover",
+"pos": "부사",
+"ko": "게다가, 더욱이",
+"ex": "The park is close; moreover, it is free.",
+"exko": "그 공원은 가깝고, 게다가 무료다."
+},
+{
+"w": "see off",
+"pos": "숙어",
+"ko": "배웅하다",
+"ex": "We went to the airport to see Dad off.",
+"exko": "우리는 아빠를 배웅하러 공항에 갔다."
+},
+{
+"w": "sacrifice",
+"pos": "명사",
+"ko": "희생",
+"ex": "Parents make many sacrifices for their children.",
+"exko": "부모는 자녀를 위해 많은 희생을 한다."
+},
+{
+"w": "biased",
+"pos": "형용사",
+"ko": "편향된, 편파적인",
+"ex": "The referee seemed biased against our team.",
+"exko": "심판이 우리 팀에 불리하게 편파적인 것 같았다."
+},
+{
+"w": "wander",
+"pos": "동사",
+"ko": "돌아다니다, 헤매다",
+"ex": "We wandered around the old town after lunch.",
+"exko": "우리는 점심 후 구시가지를 돌아다녔다."
+},
+{
+"w": "substantial",
+"pos": "형용사",
+"ko": "상당한",
+"ex": "We saved a substantial amount of money this year.",
+"exko": "우리는 올해 상당한 금액을 저축했다."
+},
+{
+"w": "substitute",
+"pos": "명사",
+"ko": "대체물, 대리인",
+"ex": "We had a substitute teacher in math class today.",
+"exko": "오늘 수학 시간에 대리 선생님이 오셨다."
+},
+{
+"w": "enormous",
+"pos": "형용사",
+"ko": "거대한, 엄청난",
+"ex": "We saw an enormous whale near the boat.",
+"exko": "우리는 배 근처에서 거대한 고래를 보았다."
+},
+{
+"w": "concise",
+"pos": "형용사",
+"ko": "간결한",
+"ex": "Keep your answer concise and clear.",
+"exko": "답은 간결하고 명확하게 해."
+},
+{
+"w": "retain",
+"pos": "동사",
+"ko": "유지하다, 보유하다",
+"ex": "Sleep helps your brain retain new information.",
+"exko": "잠은 뇌가 새 정보를 기억하는 데 도움을 준다."
+},
+{
+"w": "beneficial",
+"pos": "형용사",
+"ko": "유익한, 이로운",
+"ex": "Daily exercise is beneficial for the whole family.",
+"exko": "매일 하는 운동은 온 가족에게 이롭다."
+},
+{
+"w": "obligation",
+"pos": "명사",
+"ko": "의무",
+"ex": "Parents have an obligation to keep children safe.",
+"exko": "부모는 아이들을 안전하게 지킬 의무가 있다."
+},
+{
+"w": "renovate",
+"pos": "동사",
+"ko": "개조하다, 보수하다",
+"ex": "We are renovating the kitchen this summer.",
+"exko": "우리는 이번 여름에 부엌을 리모델링하고 있다."
+},
+{
+"w": "cherish",
+"pos": "동사",
+"ko": "소중히 여기다",
+"ex": "I will cherish these family memories forever.",
+"exko": "나는 이 가족과의 추억을 영원히 소중히 간직할 거야."
+},
+{
+"w": "exceed",
+"pos": "동사",
+"ko": "초과하다, 넘다",
+"ex": "Please don't exceed the speed limit, Dad.",
+"exko": "아빠, 제한 속도를 넘지 마세요."
+},
+{
+"w": "bring up",
+"pos": "숙어",
+"ko": "(화제를) 꺼내다, 기르다",
+"ex": "Please don't bring up that topic at dinner.",
+"exko": "저녁 먹을 때 그 얘기는 꺼내지 말아 줘."
+},
+{
+"w": "nourish",
+"pos": "동사",
+"ko": "영양분을 주다, 키우다",
+"ex": "Good food nourishes both your body and mind.",
+"exko": "좋은 음식은 몸과 마음 모두에 영양을 준다."
+},
+{
+"w": "occupy",
+"pos": "동사",
+"ko": "차지하다, 사용하다",
+"ex": "The bathroom is occupied, so please wait.",
+"exko": "화장실이 사용 중이니 기다려 주세요."
+},
+{
+"w": "cautious",
+"pos": "형용사",
+"ko": "조심스러운, 신중한",
+"ex": "Be cautious when you cross this busy road.",
+"exko": "이 붐비는 길을 건널 때는 조심해."
+},
+{
+"w": "appropriate",
+"pos": "형용사",
+"ko": "적절한",
+"ex": "Jeans are not appropriate for the wedding.",
+"exko": "청바지는 결혼식에 적절하지 않다."
+},
+{
+"w": "emerge",
+"pos": "동사",
+"ko": "나타나다, 드러나다",
+"ex": "The sun emerged from behind the clouds.",
+"exko": "구름 뒤에서 해가 나타났다."
+},
+{
+"w": "profound",
+"pos": "형용사",
+"ko": "깊은, 심오한",
+"ex": "The movie had a profound effect on me.",
+"exko": "그 영화는 나에게 깊은 영향을 주었다."
+},
+{
+"w": "barely",
+"pos": "부사",
+"ko": "간신히, 거의 ~않다",
+"ex": "I barely caught the bus this morning.",
+"exko": "나는 오늘 아침 간신히 버스를 탔다."
+},
+{
+"w": "secure",
+"pos": "형용사",
+"ko": "안전한, 안정된",
+"ex": "Keep your password in a secure place.",
+"exko": "비밀번호를 안전한 곳에 보관해라."
+},
+{
+"w": "marginal",
+"pos": "형용사",
+"ko": "미미한, 주변의",
+"ex": "The new rule made only a marginal difference.",
+"exko": "새 규칙은 아주 미미한 차이만 만들었다."
+},
+{
+"w": "circumstance",
+"pos": "명사",
+"ko": "상황, 환경",
+"ex": "Under these circumstances, we should stay at home.",
+"exko": "이런 상황에서는 집에 있는 게 좋겠다."
+},
+{
+"w": "recover",
+"pos": "동사",
+"ko": "회복하다, 되찾다",
+"ex": "Grandpa recovered quickly after his surgery.",
+"exko": "할아버지는 수술 후 빨리 회복하셨다."
+},
+{
+"w": "by no means",
+"pos": "숙어",
+"ko": "결코 ~아닌",
+"ex": "The math test was by no means easy.",
+"exko": "그 수학 시험은 결코 쉽지 않았다."
+},
+{
+"w": "assume",
+"pos": "동사",
+"ko": "추정하다, 가정하다",
+"ex": "I assumed you had already eaten lunch.",
+"exko": "난 네가 이미 점심을 먹은 줄 알았어."
+},
+{
+"w": "tend to",
+"pos": "숙어",
+"ko": "~하는 경향이 있다",
+"ex": "I tend to get sleepy after lunch.",
+"exko": "나는 점심 후에 졸린 경향이 있다."
+},
+{
+"w": "monotonous",
+"pos": "형용사",
+"ko": "단조로운",
+"ex": "The long car ride felt a bit monotonous.",
+"exko": "긴 차 여행이 조금 단조롭게 느껴졌다."
+},
+{
+"w": "crucial",
+"pos": "형용사",
+"ko": "결정적인, 매우 중요한",
+"ex": "Enough sleep is crucial for growing children.",
+"exko": "충분한 잠은 자라는 아이들에게 매우 중요하다."
+},
+{
+"w": "inspire",
+"pos": "동사",
+"ko": "영감을 주다, 고무하다",
+"ex": "Your speech inspired me to try harder.",
+"exko": "네 연설 덕분에 더 열심히 해 보고 싶어졌어."
+}
+]

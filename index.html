@@ -98,6 +98,9 @@ b.key{color:var(--brand);text-decoration:underline}
 #gpop .small{color:inherit;opacity:.75}
 #gpop .gb{display:flex;gap:8px;margin-top:10px}
 #gpop .gb button{flex:1;padding:10px;border-radius:12px;background:rgba(255,255,255,.15);font-weight:900}
+.rank{width:100%;text-align:left;display:block}.rk{display:flex;align-items:center;gap:8px;padding:9px 4px;border-bottom:1px solid var(--line);font-size:17px}.rk:last-of-type{border-bottom:0}.rk.me{background:var(--brand-soft);border-radius:10px}.rk .md{width:30px;font-size:22px;text-align:center}.rk .nm{flex:1;font-weight:900}.rk .sc{text-align:right;font-size:14px}.rk .sc b{font-size:20px}.who{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}.who .chip{font-size:16px;padding:8px 12px;border:2px solid transparent;cursor:pointer;opacity:.65}.who .chip.on{opacity:1;border-color:var(--brand);background:var(--brand);color:#fff}
+.drv{text-align:center;padding:26px 14px;min-height:46vh;display:flex;flex-direction:column;justify-content:center;gap:10px}.drv .en1{font-size:44px;font-weight:900;line-height:1.2}.drv .ko1{font-size:28px;font-weight:900;color:var(--ok)}.drv .en2{font-size:22px;font-weight:700;margin-top:8px}.drv .ko2{font-size:17px;color:var(--sub)}.drv .cue{font-size:18px;font-weight:900;color:var(--brand);margin-top:8px;min-height:24px}.act.on{border-color:var(--brand)}
+.lv{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px}.lv .chip{font-size:15px;padding:9px 0;border:2px solid transparent;cursor:pointer;opacity:.6}.lv .chip.on{opacity:1;border-color:var(--brand);background:var(--brand);color:#fff}
 .chip{display:inline-block;font-size:12px;font-weight:900;padding:2px 8px;border-radius:999px;background:var(--brand-soft);color:var(--brand)}
 </style>
 </head>
@@ -183,12 +186,14 @@ function say(t){ try{ speechSynthesis.cancel(); var u=new SpeechSynthesisUtteran
 /* ── 화면 ── */
 var tab="home";
 document.getElementById("tabs").onclick=function(e){ var b=e.target.closest("[data-t]"); if(!b) return; go(b.dataset.t); };
-function go(t){ tab=t; document.querySelectorAll("#tabs [data-t]").forEach(function(b){ b.className=b.dataset.t===t?"on":""; }); window.scrollTo(0,0); ({home:home,list:list,wrong:wrong,mock:mock})[t](); }
+function go(t){ if(typeof stopDrive==="function") stopDrive(); tab=t; document.querySelectorAll("#tabs [data-t]").forEach(function(b){ b.className=b.dataset.t===t?"on":""; }); window.scrollTo(0,0); ({home:home,list:list,wrong:wrong,mock:mock})[t](); }
 
 /* 오늘의 영단어·대화 — «날짜»로 정해져서 가족 모두 같은 게 나온다 */
 var DAY0="2026-10-04";
 function dayIdx(){ return Math.max(0, daysBetween(DAY0, today())); }
-function todayWords(){ if(!W.length) return []; var s=(dayIdx()*5)%W.length; var a=[]; for(var k=0;k<5;k++) a.push(W[(s+k)%W.length]); return a; }
+/* 가족 모드 = 기초5(연우)+중급5, 고급 도전 해제 기기는 중급5+고급5 를 고를 수 있다 */
+function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var s=(dayIdx()*5)%list.length, a=[]; for(var k=0;k<5;k++){ var w=Object.assign({},list[(s+k)%list.length]); w.lv=L; a.push(w); } return a; }
+function todayWords(){ return getMode()==="adv" ? pick5("mid").concat(pick5("adv")) : pick5("basic").concat(pick5("mid")); }
 function todayDialogTopic(){ var p=todayPlan(); if(p) return p[1]; return (dayIdx()%60)+1; }
 function todayDialog(){ var id=todayDialogTopic(); for(var i=0;i<D.length;i++) if(D[i].id===id) return D[i]; return null; }
 function todayPlan(){ var d=today(); for(var i=0;i<PLAN.length;i++) if(PLAN[i][0]===d) return PLAN[i]; return null; }
@@ -206,21 +211,22 @@ function home(){
     '<div class="hero" style="margin-top:14px">'+head+(nx?'<button class="go" id="goNext">'+(S.done[nx.id]?"다시 보기":"공부 시작")+' ▶ '+nx.id+'번</button>':'')+'</div>'+
     '<div class="stats"><div><b>'+n+'</b><span>/60 주제</span></div><div><b>'+(acc==null?"-":acc+"%")+'</b><span>정답률</span></div><div><b>'+wl+'</b><span>남은 오답</span></div></div>'+
     '<div class="bar"><i style="width:'+(n/60*100)+'%"></i></div>'+
-    morningCard()+
+    morningCard()+famCard()+
     '<h2>오늘 할 것</h2><div class="stack">'+
+    '<button class="act" data-a="drive"><span class="e">🚗</span><span><b>손 안 대고 듣기</b><small>출퇴근 차에서 — 듣고 따라 말하기, 자동으로 계속</small></span></button>'+
     '<button class="act" data-a="review"><span class="e">🔁</span><span><b>복습 문제</b><small>틀렸던 문제 중 다시 풀 때가 된 것</small></span><span class="n">'+dl+'</span></button>'+
     '<button class="act" data-a="wrong"><span class="e">📝</span><span><b>오답 노트</b><small>지금까지 틀린 문제 모아 보기</small></span><span class="n">'+wl+'</span></button>'+
     '<button class="act" data-a="mock"><span class="e">🎯</span><span><b>모의고사 20문항</b><small>'+(S.mocks.length?"최근 "+S.mocks[S.mocks.length-1].score+"점":"전 범위 랜덤, 실전처럼")+'</small></span></button>'+
     '<button class="act" data-a="sync"><span class="e">📲</span><span><b>폰 ↔ 학교 컴 진도 옮기기</b><small>기록은 기기마다 따로 저장돼요</small></span></button>'+
     '</div>';
   var g=document.getElementById("goNext"); if(g) g.onclick=function(){ topic(nx.id); };
-  bindMorning();
-  $app.querySelectorAll("[data-a]").forEach(function(b){ b.onclick=function(){ var a=b.dataset.a; if(a==="review") review(); else if(a==="sync") sync(); else go(a); }; });
+  bindMorning(); bindFam();
+  $app.querySelectorAll("[data-a]").forEach(function(b){ b.onclick=function(){ var a=b.dataset.a; if(a==="review") review(); else if(a==="sync") sync(); else if(a==="drive") drive(); else go(a); }; });
 }
 function morningCard(){
   var ws=todayWords(), dg=todayDialog(); if(!ws.length && !dg) return "";
   return '<h2>🌅 아침 영어 <span class="small">'+today().slice(5).replace("-","/")+' · 가족 모두 같은 문제</span></h2><div class="card">'+
-    (ws.length?'<div class="small" style="font-weight:900;margin-bottom:6px">오늘의 영단어 5개</div>'+ws.map(function(w,i){ return '<div class="ex"><button class="say" data-w="'+i+'">🔊</button><div style="flex:1"><div class="en">'+esc(w.w)+' <span class="small">'+esc(w.pos)+'</span></div><div class="ko wk" data-k="'+i+'">'+esc(w.ko)+'</div><div style="font-size:15px;margin-top:2px">'+tw(w.ex)+' <button class="say" data-e="'+i+'" style="width:30px;height:30px;font-size:14px;vertical-align:middle">🔊</button></div></div></div>'; }).join(""):"")+
+    (ws.length?whoBar()+modeBar()+ws.map(function(w,i){ return (i===0||ws[i-1].lv!==w.lv?'<div class="small" style="font-weight:900;margin:'+(i?'12px':'0')+' 0 4px">'+LVN[w.lv]+' 5개</div>':'')+'<div class="ex"><button class="say" data-w="'+i+'">🔊</button><div style="flex:1"><div class="en">'+esc(w.w)+' <span class="small">'+esc(w.pos)+'</span></div><div class="ko wk" data-k="'+i+'">'+esc(w.ko)+'</div><div style="font-size:15px;margin-top:2px">'+tw(w.ex)+' <button class="say" data-e="'+i+'" style="width:30px;height:30px;font-size:14px;vertical-align:middle">🔊</button></div></div></div>'; }).join(""):"")+
     '<div class="stack" style="margin-top:10px">'+(ws.length?'<button class="big" id="fam">👨‍👩‍👧 가족 단어 퀴즈</button>':'')+
     (dg?'<button class="big ghost" id="dlg">💬 오늘의 대화 — '+esc(dg.title)+'</button>':'')+'</div></div>';
 }
@@ -228,27 +234,43 @@ function bindMorning(){
   var ws=todayWords();
   $app.querySelectorAll("[data-w]").forEach(function(b){ b.onclick=function(){ say(ws[+b.dataset.w].w); }; });
   $app.querySelectorAll("[data-e]").forEach(function(b){ b.onclick=function(){ say(ws[+b.dataset.e].ex); }; });
+  $app.querySelectorAll("[data-who]").forEach(function(b){ b.onclick=function(){ ls("me",b.dataset.who); home(); }; });
+  $app.querySelectorAll("[data-mode]").forEach(function(b){ b.onclick=function(){ setMode(b.dataset.mode); home(); }; });
+  var at=document.getElementById("advT"); if(at) at.onclick=advTest;
   var f=document.getElementById("fam"); if(f) f.onclick=function(){ family(ws, false); };
   var d=document.getElementById("dlg"); if(d) d.onclick=function(){ dialog(todayDialog()); };
 }
 /* 가족 퀴즈 — 큰 글씨로 하나씩. 누르면 정답 공개 */
 function family(ws, rev){
-  var i=0, shown=false;
+  var i=0, shown=false; ws=todayWords();
   function draw(){
-    var w=ws[i];
+    var w=ws[i], key=w.lv.charAt(0)+(i%5), me=curP(), lg=me&&FAM.log[me]&&FAM.log[me][today()], mk=lg&&lg.w?lg.w[key]:undefined;
     $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">👨‍👩‍👧 가족 단어 퀴즈</div><button class="chip" id="rv" style="padding:6px 10px">'+(rev?"뜻→영어":"영어→뜻")+' ⇄</button></div>'+
-      '<div class="qh"><span>'+(i+1)+' / '+ws.length+'</span><span>누르면 정답</span></div>'+
-      '<button class="card fam" id="cd" style="width:100%;min-height:52vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px">'+
+      (FAM?'<div class="small" style="font-weight:900;margin:2px 0 4px">누가 풀어요?</div>'+whoBar():'')+
+      '<div class="qh"><span>'+(i+1)+' / '+ws.length+' · <b>'+LVN[w.lv]+'</b></span><span>'+(mk===1?"⭕ 맞혔음":mk===0?"❌ 몰랐음":"누르면 정답")+'</span></div>'+
+      '<button class="card fam" id="cd" style="width:100%;min-height:'+(FAM?"40vh":"52vh")+';display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px">'+
         '<div style="font-size:'+(rev?"30px":"46px")+';font-weight:900;line-height:1.25">'+esc(rev?w.ko:w.w)+'</div>'+
         (shown?'<div style="font-size:'+(rev?"40px":"28px")+';font-weight:900;color:var(--ok)">'+esc(rev?w.w:w.ko)+'</div><div style="font-size:19px">'+tw(w.ex)+'</div><div class="small">'+esc(w.exko)+'</div>':'<div class="small">🤔 맞혀 보세요</div>')+
       '</button>'+
-      '<div class="stack" style="margin-top:12px"><div class="ox" style="margin:0"><button class="big ghost" id="sp">🔊 단어</button><button class="big ghost" id="se">🔊 예문</button></div><button class="big" id="nx">'+(i+1<ws.length?"다음 단어 ›":"처음부터 다시")+'</button></div>';
+      '<div class="stack" style="margin-top:12px"><div class="ox" style="margin:0"><button class="big ghost" id="sp">🔊 단어</button><button class="big ghost" id="se">🔊 예문</button></div>'+(me&&shown?'<div class="ox" style="margin:0"><button class="big" id="yo" style="background:var(--ok)">⭕ 맞혔어요</button><button class="big" id="xo" style="background:var(--no)">❌ 몰랐어요</button></div>':'<button class="big" id="nx">'+(i+1<ws.length?"다음 단어 ›":"처음부터 다시")+'</button>')+'</div>';
+    $app.querySelectorAll("[data-who]").forEach(function(b){ b.onclick=function(){ ls("me",b.dataset.who); ws=todayWords(); i=0; shown=false; draw(); }; });
+    function mark(v){ famLog("w/"+key, v); if(i+1>=ws.length){ done(); return; } i++; shown=false; draw(); }
+    var yo=document.getElementById("yo"); if(yo){ yo.onclick=function(){ mark(1); }; document.getElementById("xo").onclick=function(){ mark(0); }; }
     document.getElementById("bk").onclick=function(){ go("home"); };
     document.getElementById("rv").onclick=function(){ rev=!rev; shown=false; draw(); };
     document.getElementById("cd").onclick=function(){ shown=!shown; draw(); };
     document.getElementById("sp").onclick=function(){ say(w.w); };
     document.getElementById("se").onclick=function(){ say(w.ex); };
-    document.getElementById("nx").onclick=function(){ i=(i+1)%ws.length; shown=false; draw(); };
+    var nx=document.getElementById("nx"); if(nx) nx.onclick=function(){ i=(i+1)%ws.length; shown=false; draw(); };
+  }
+  function done(){
+    var s=famStats(curP());
+    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">👏 '+esc(pName(curP()))+' 끝!</div></div>'+
+      '<div class="card" style="text-align:center;padding:26px"><div style="font-size:20px;font-weight:900">최근 7일 '+s.ok+'단어 맞힘 · 🔥 '+s.streak+'일 연속</div></div>'+
+      '<div class="stack" style="margin-top:12px"><button class="big" id="nxp">다음 사람 차례 ›</button><button class="big ghost" id="rk">🏆 순위 보기</button></div>';
+    document.getElementById("bk").onclick=function(){ go("home"); };
+    document.getElementById("rk").onclick=famView;
+    document.getElementById("nxp").onclick=function(){ var ks=Object.keys(FAM.members), k=(ks.indexOf(curP())+1)%ks.length; ls("me",ks[k]); ws=todayWords(); i=0; shown=false; draw(); window.scrollTo(0,0); };
   }
   draw(); window.scrollTo(0,0);
 }
@@ -401,13 +423,214 @@ function sync(){
   };
 }
 
-var W=[], D=[], G={};
+var W=[], D=[], G={}, WL={basic:[],mid:[],adv:[]};
+/* 단어 난이도 — 기기마다 기억(가족이 각자 폰에서 고름) */
+
+/* ── 🚗 손 안 대고 듣기 ── 시작 한 번 누르면 끝까지 자동. 영어 → 따라 말할 틈 → 뜻 → 예문 → 틈 → 해석
+   전체 단어·문법 예문은 어디까지 들었는지 기억했다가 다음 출퇴근에 이어서 */
+var DRV={run:false, tok:0, lock:null};
+function speakP(text, lang, rate, tok){
+  return new Promise(function(res){
+    if(tok!==DRV.tok) return res();
+    var done=false, fin=function(){ if(!done){ done=true; clearTimeout(t); res(); } };
+    var t=setTimeout(fin, 2500+String(text).length*140);   // onend 가 안 오는 브라우저 대비
+    try{ var u=new SpeechSynthesisUtterance(text); u.lang=lang; u.rate=rate; u.onend=fin; u.onerror=fin; speechSynthesis.speak(u); }catch(e){ fin(); }
+  });
+}
+function waitP(ms, tok){ return new Promise(function(res){ var t0=Date.now(); (function tick(){ if(tok!==DRV.tok || Date.now()-t0>=ms) return res(); setTimeout(tick,150); })(); }); }
+function gapFor(s){ return Math.round((1200+String(s).length*75)*(ls("dgap")==="long"?1.6:1)); }   // 따라 말할 시간 = 문장 길이에 비례
+function driveSources(){
+  function tag(L){ return WL[L].map(function(w){ var o=Object.assign({},w); o.lv=L; return o; }); }
+  var ws=getMode()==="adv"?tag("mid").concat(tag("adv")):tag("basic").concat(tag("mid"));
+  var ex=[]; T.forEach(function(t){ (t.examples||[]).forEach(function(e){ ex.push({en:e.en, ko:e.ko, tag:t.id+". "+t.title}); }); });
+  var dg=todayDialog();
+  return [
+    {id:"today", name:"📅 오늘 단어 "+todayWords().length+"개", items:todayWords().map(function(w){ return {w:w}; }), keep:false},
+    {id:"words", name:"📚 단어 전체 이어 듣기", items:ws.map(function(w){ return {w:w}; }), keep:true},
+    {id:"dialog", name:"💬 오늘 대화 따라하기", items:dg?dg.lines.map(function(l){ return {en:l.en, ko:l.ko, tag:dg.title+" · "+l.s}; }):[], keep:false},
+    {id:"ex", name:"✏️ 연수 문법 예문 전체", items:ex, keep:true}
+  ];
+}
+function drive(){
+  stopDrive();
+  var src=driveSources(), cur=ls("dsrc")||"today";
+  $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 손 안 대고 듣기</div></div>'+
+    '<p class="muted" style="margin:4px 0 12px">시작만 누르면 끝까지 자동으로 넘어가요. 영어가 두 번 나오고, 그 사이에 따라 말하세요.</p>'+
+    '<div class="stack">'+src.map(function(s){ var pos=+(ls("dpos_"+s.id)||0); return '<button class="act'+(s.id===cur?' on':'')+'" data-s="'+s.id+'"'+(s.items.length?'':' disabled')+'><span><b>'+s.name+'</b><small>'+(s.keep&&pos?(pos+1)+'번째부터 이어서 · 전체 '+s.items.length:'모두 '+s.items.length+'개')+'</small></span></button>'; }).join("")+'</div>'+
+    '<div class="ox" style="margin-top:12px"><button class="big ghost" id="gap">따라 말할 틈: '+(ls("dgap")==="long"?"넉넉히":"보통")+'</button><button class="big ghost" id="rt">속도: '+(ls("drate")==="slow"?"천천히":"보통")+'</button></div>';
+  document.getElementById("bk").onclick=function(){ go("home"); };
+  document.getElementById("gap").onclick=function(){ ls("dgap", ls("dgap")==="long"?"":"long"); drive(); };
+  document.getElementById("rt").onclick=function(){ ls("drate", ls("drate")==="slow"?"":"slow"); drive(); };
+  $app.querySelectorAll("[data-s]").forEach(function(b){ b.onclick=function(){ var s=src.filter(function(x){ return x.id===b.dataset.s; })[0]; ls("dsrc",s.id); playDrive(s); }; });
+  window.scrollTo(0,0);
+}
+function stopDrive(){ DRV.tok++; DRV.run=false; try{ speechSynthesis.cancel(); }catch(e){} if(DRV.lock){ try{ DRV.lock.release(); }catch(e){} DRV.lock=null; } }
+function playDrive(s){
+  stopDrive(); var tok=DRV.tok; DRV.run=true;
+  var i=s.keep?(+(ls("dpos_"+s.id)||0))%s.items.length:0, paused=false;
+  try{ if(navigator.wakeLock) navigator.wakeLock.request("screen").then(function(l){ DRV.lock=l; }).catch(function(){}); }catch(e){}
+  function show(it, step){
+    var en=it.w?it.w.w:it.en, ko=it.w?it.w.ko:it.ko, ex=it.w?it.w.ex:"", exko=it.w?it.w.exko:"";
+    var tag=it.w?LVN[it.w.lv]||"":it.tag;
+    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 '+esc(s.name.replace(/^\S+\s/,""))+'</div></div>'+
+      '<div class="qh"><span>'+(i+1)+' / '+s.items.length+'</span><span>'+esc(tag)+'</span></div>'+
+      '<div class="card drv"><div class="en1">'+esc(en)+'</div><div class="ko1">'+(step>=2?esc(ko):"&nbsp;")+'</div>'+
+      (ex?'<div class="en2">'+(step>=3?esc(ex):"&nbsp;")+'</div><div class="ko2">'+(step>=5?esc(exko):"&nbsp;")+'</div>':'')+
+      '<div class="cue">'+(["🔊 들어 보세요","🗣️ 따라 말해 보세요","","🔊 예문","🗣️ 예문 따라 말하기",""][step]||"")+'</div></div>'+
+      '<div class="ox" style="margin-top:12px"><button class="big" id="pp">'+(paused?"▶ 계속":"⏸ 잠깐 멈춤")+'</button><button class="big ghost" id="nx">다음 ⏭</button></div>';
+    document.getElementById("bk").onclick=function(){ stopDrive(); drive(); };
+    document.getElementById("pp").onclick=function(){ paused=!paused; if(paused){ DRV.tok++; try{ speechSynthesis.cancel(); }catch(e){} show(it,step); } else { tok=DRV.tok; loop(); } };
+    document.getElementById("nx").onclick=function(){ DRV.tok++; try{ speechSynthesis.cancel(); }catch(e){} paused=false; i=(i+1)%s.items.length; save(); tok=DRV.tok; loop(); };
+  }
+  function save(){ if(s.keep) ls("dpos_"+s.id, i); }
+  function loop(){
+    if(tok!==DRV.tok) return;
+    var it=s.items[i], r=ls("drate")==="slow"?0.72:0.9;
+    var en=it.w?it.w.w:it.en, ko=it.w?it.w.ko:it.ko, ex=it.w?it.w.ex:"", exko=it.w?it.w.exko:"";
+    var p=Promise.resolve();
+    function st(n,f){ p=p.then(function(){ if(tok!==DRV.tok) return; show(it,n); return f(); }); }
+    st(0,function(){ return speakP(en,"en-US",r,tok); });
+    st(1,function(){ return waitP(gapFor(en),tok).then(function(){ return speakP(en,"en-US",r,tok); }).then(function(){ return waitP(gapFor(en),tok); }); });
+    st(2,function(){ return speakP(ko,"ko-KR",1,tok).then(function(){ return waitP(500,tok); }); });
+    if(ex){
+      st(3,function(){ return speakP(ex,"en-US",r,tok); });
+      st(4,function(){ return waitP(gapFor(ex),tok); });
+      st(5,function(){ return speakP(exko,"ko-KR",1,tok).then(function(){ return waitP(900,tok); }); });
+    }
+    var t0=Date.now();
+    p.then(function(){
+      if(tok!==DRV.tok) return;
+      if(curP()){ var lg=(FAM.log[curP()]||{})[today()]||{}; famLog("drive", (lg.drive||0)+Math.round((Date.now()-t0)/1000)); }
+      i++; if(i>=s.items.length){ i=0; if(!s.keep){ save(); finish(); return; } } save(); loop();
+    });
+  }
+  function finish(){ stopDrive(); $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 다 들었어요</div></div><div class="card" style="text-align:center;padding:30px;font-size:22px;font-weight:900">👏 수고했어요!</div><button class="big" id="ag" style="margin-top:12px">다시 듣기</button>'; document.getElementById("bk").onclick=function(){ drive(); }; document.getElementById("ag").onclick=function(){ playDrive(s); }; }
+  loop(); window.scrollTo(0,0);
+}
+var LVN={basic:"🐣 기초",mid:"🚶 중급",adv:"🔥 고급"}, TEST_DAY="2026-10-18";
+function ls(k,v){ try{ if(v===undefined) return localStorage.getItem("haru-grammar."+k); localStorage.setItem("haru-grammar."+k,v); }catch(e){ return null; } }
+/* ── 우리 가족 순위 ── 가족 코드 하나로 여러 폰을 묶는다. 기록은 Firebase REST(로그인 없음, 코드가 곧 열쇠) */
+var FB="https://matchmaker-28187-default-rtdb.asia-southeast1.firebasedatabase.app/haru_family/", FAM=null;
+function famId(){ return ls("fam")||""; }
+function famLoad(){ if(!famId()) return Promise.resolve(null);
+  return fetch(FB+famId()+".json",{cache:"no-store"}).then(function(r){ return r.json(); }).then(function(d){ FAM=d||{}; FAM.members=FAM.members||{}; FAM.log=FAM.log||{}; return FAM; }).catch(function(){ return FAM; }); }
+function famW(path,val,method){ if(!famId()) return Promise.resolve(); return fetch(FB+famId()+"/"+path+".json",{method:method||"PUT",body:JSON.stringify(val)}).catch(function(){}); }
+function curP(){ var m=ls("me"); return FAM&&FAM.members[m]?m:""; }
+function pName(m){ return FAM&&FAM.members[m]?FAM.members[m].emoji+" "+FAM.members[m].name:""; }
+function famLog(key,val){   // 오늘 기록 한 칸 — 로컬에도 바로 반영해 순위가 즉시 바뀌게
+  var m=curP(); if(!m) return; var d=today();
+  FAM.log[m]=FAM.log[m]||{}; var o=FAM.log[m][d]=FAM.log[m][d]||{};
+  var parts=key.split("/"); if(parts.length===2){ o[parts[0]]=o[parts[0]]||{}; o[parts[0]][parts[1]]=val; } else o[key]=val;
+  famW("log/"+m+"/"+d+"/"+key, val);
+}
+function advOK(){ var m=curP(); return m ? !!FAM.members[m].adv : ls("advOK")==="1"; }
+function setAdvOK(){ var m=curP(); if(m){ FAM.members[m].adv=true; famW("members/"+m+"/adv", true); } else ls("advOK","1"); }
+function getMode(){ return advOK() && ls("mode_"+(curP()||"d"))!=="fam" && WL.adv.length ? "adv" : "fam"; }
+function setMode(m){ ls("mode_"+(curP()||"d"),m); }
+function famStats(m){
+  var L=(FAM.log&&FAM.log[m])||{}, d=new Date(), week={ok:0,n:0,drive:0}, days=[];
+  for(var k=0;k<7;k++){ var x=new Date(d); x.setDate(d.getDate()-k); var ds=x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0"); var o=L[ds];
+    if(o){ var w=o.w||{}; Object.keys(w).forEach(function(q){ week.n++; if(w[q]===1) week.ok++; }); week.drive+=o.drive||0; } }
+  var streak=0; for(var k2=0;k2<400;k2++){ var y=new Date(d); y.setDate(d.getDate()-k2); var ys=y.getFullYear()+"-"+String(y.getMonth()+1).padStart(2,"0")+"-"+String(y.getDate()).padStart(2,"0"); var oo=L[ys]; var act=oo&&((oo.w&&Object.keys(oo.w).length)||oo.drive);
+    if(act) streak++; else if(k2>0) break; }
+  return {ok:week.ok, n:week.n, drive:Math.round(week.drive/60), streak:streak};
+}
+function famRank(){
+  return Object.keys(FAM.members).map(function(m){ var s=famStats(m); s.m=m; return s; })
+    .sort(function(a,b){ return b.ok-a.ok || b.streak-a.streak || b.drive-a.drive; });
+}
+function famCard(){
+  if(!famId()) return '<h2>🏆 우리 가족 순위</h2><button class="act" id="famGo"><span class="e">👨‍👩‍👧‍👦</span><span><b>가족 연결하기</b><small>아빠·엄마·연아·연우 누가 더 잘하나 겨뤄 봐요</small></span></button>';
+  if(!FAM) return '<h2>🏆 우리 가족 순위</h2><div class="card small">불러오는 중…</div>';
+  var R=famRank(), medal=["🥇","🥈","🥉","4️⃣","5️⃣","6️⃣"];
+  return '<h2>🏆 우리 가족 순위 <span class="small">최근 7일</span></h2><button class="card rank" id="famGo">'+R.map(function(s,i){
+    return '<div class="rk'+(s.m===curP()?' me':'')+'"><span class="md">'+(s.ok||s.streak?medal[i]||"":"·")+'</span><span class="nm">'+esc(pName(s.m))+(FAM.members[s.m].adv?' <small>🔥</small>':'')+'</span><span class="sc"><b>'+s.ok+'</b>단어 · 🔥'+s.streak+'일'+(s.drive?' · 🚗'+s.drive+'분':'')+'</span></div>'; }).join("")+
+    '<div class="small" style="margin-top:6px;text-align:right">자세히 · 사람 바꾸기 ›</div></button>';
+}
+function bindFam(){ var b=document.getElementById("famGo"); if(b) b.onclick=famView; }
+function famView(){
+  window.scrollTo(0,0);
+  if(!famId()){
+    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">👨‍👩‍👧‍👦 가족 연결</div></div>'+
+      '<div class="card"><b>처음 한 번만</b><p class="small">한 사람이 「새 가족 만들기」를 누르고, 나온 가족 코드를 다른 폰에서 입력하면 같은 순위판을 봐요. 연우처럼 폰이 없으면 엄마·아빠 폰에서 사람만 바꿔 풀면 돼요.</p>'+
+      '<button class="big" id="mk">✨ 새 가족 만들기</button></div>'+
+      '<div class="card" style="margin-top:12px"><b>가족 코드가 있어요</b><input id="code" placeholder="가족 코드 입력" autocapitalize="off" style="width:100%;font-size:20px;padding:12px;margin:10px 0;border:2px solid var(--line);border-radius:12px"><button class="big ghost" id="jn">들어가기</button><div id="msg" class="small"></div></div>';
+    document.getElementById("bk").onclick=function(){ go("home"); };
+    document.getElementById("mk").onclick=function(){
+      var id=""; var c="abcdefghjkmnpqrstuvwxyz23456789"; for(var i=0;i<10;i++) id+=c[Math.floor(Math.random()*c.length)];
+      var mem={m1:{name:"아빠",emoji:"🧔"},m2:{name:"엄마",emoji:"👩"},m3:{name:"연아",emoji:"👧"},m4:{name:"연우",emoji:"👶"}};
+      ls("fam",id); famW("members",mem).then(function(){ return famLoad(); }).then(function(){ famView(); });
+    };
+    document.getElementById("jn").onclick=function(){
+      var id=document.getElementById("code").value.trim().toLowerCase().replace(/[^a-z0-9]/g,"");
+      fetch(FB+id+"/members.json").then(function(r){ return r.json(); }).then(function(d){
+        if(!d){ document.getElementById("msg").textContent="그런 가족 코드가 없어요. 다시 확인해 주세요."; return; }
+        ls("fam",id); famLoad().then(famView);
+      }).catch(function(){ document.getElementById("msg").textContent="인터넷 연결을 확인해 주세요."; });
+    };
+    return;
+  }
+  var R=famRank(), me=curP();
+  $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🏆 우리 가족 순위</div></div>'+
+    '<div class="card rank" style="cursor:default">'+R.map(function(s,i){ return '<div class="rk'+(s.m===me?' me':'')+'"><span class="md">'+(["🥇","🥈","🥉"][i]||(i+1))+'</span><span class="nm">'+esc(pName(s.m))+(FAM.members[s.m].adv?' <small>🔥고급</small>':'')+'</span><span class="sc"><b>'+s.ok+'</b>/'+s.n+' 맞힘<br>🔥 '+s.streak+'일 연속'+(s.drive?' · 🚗 '+s.drive+'분':'')+'</span></div>'; }).join("")+'</div>'+
+    '<p class="small">맞힌 단어 = 최근 7일 가족 퀴즈에서 ⭕ 누른 수 · 연속 = 퀴즈나 듣기를 한 날이 끊기지 않은 날 수</p>'+
+    '<h2>이 폰은 누가 써요?</h2><div class="who">'+Object.keys(FAM.members).map(function(m){ return '<button class="chip'+(m===me?' on':'')+'" data-me="'+m+'">'+esc(pName(m))+'</button>'; }).join("")+'</div>'+
+    '<h2>이름 바꾸기</h2><div class="card">'+Object.keys(FAM.members).map(function(m){ return '<div style="display:flex;gap:6px;margin-bottom:6px"><input data-em="'+m+'" value="'+esc(FAM.members[m].emoji)+'" style="width:56px;font-size:20px;text-align:center;border:2px solid var(--line);border-radius:10px"><input data-nm="'+m+'" value="'+esc(FAM.members[m].name)+'" maxlength="12" style="flex:1;font-size:18px;padding:8px;border:2px solid var(--line);border-radius:10px"></div>'; }).join("")+
+    '<button class="big ghost" id="sv">저장</button></div>'+
+    '<h2>가족 코드</h2><div class="card" style="text-align:center"><div style="font-size:30px;font-weight:900;letter-spacing:3px">'+famId()+'</div><p class="small">다른 가족 폰의 「가족 연결 → 가족 코드가 있어요」에 입력하세요.</p><button class="big ghost" id="cp">코드 복사</button></div>'+
+    '<button class="big ghost" id="out" style="margin-top:16px">이 폰에서 가족 연결 끊기</button>';
+  document.getElementById("bk").onclick=function(){ go("home"); };
+  $app.querySelectorAll("[data-me]").forEach(function(b){ b.onclick=function(){ ls("me",b.dataset.me); famView(); }; });
+  document.getElementById("sv").onclick=function(){
+    Object.keys(FAM.members).forEach(function(m){ var nm=$app.querySelector('[data-nm="'+m+'"]').value.trim().slice(0,12), em=$app.querySelector('[data-em="'+m+'"]').value.trim().slice(0,4)||"🙂";
+      if(nm){ FAM.members[m].name=nm; FAM.members[m].emoji=em; famW("members/"+m, FAM.members[m]); } });
+    famView();
+  };
+  document.getElementById("cp").onclick=function(){ try{ navigator.clipboard.writeText(famId()); this.textContent="복사했어요 ✓"; }catch(e){} };
+  document.getElementById("out").onclick=function(){ ls("fam",""); ls("me",""); FAM=null; go("home"); };
+}
+/* 퀴즈·테스트 화면 위의 「누가 풀어요?」 줄 */
+function whoBar(){ if(!FAM||!Object.keys(FAM.members).length) return ""; var me=curP();
+  return '<div class="who">'+Object.keys(FAM.members).map(function(m){ return '<button class="chip'+(m===me?' on':'')+'" data-who="'+m+'">'+esc(pName(m))+'</button>'; }).join("")+'</div>'; }
+function modeBar(){
+  if(advOK()) return '<div class="lv"><button class="chip'+(getMode()==="fam"?" on":"")+'" data-mode="fam">👨‍👩‍👧 기초+중급</button><button class="chip'+(getMode()==="adv"?" on":"")+'" data-mode="adv">🔥 중급+고급</button></div>';
+  var left=daysBetween(today(),TEST_DAY);
+  return left>0 ? '<div class="small" style="margin-bottom:10px">🔒 🔥 고급 도전 테스트는 D-'+left+'(10/18)에 열려요</div>'
+    : '<button class="big ghost" id="advT" style="margin-bottom:12px">🔥 고급 도전 테스트 (10문제 중 8개)</button>';
+}
+/* 고급 도전 — 지금까지 나온 중급 단어에서 10문제. 8개 이상이면 이 기기에서 고급 해제 */
+function advTest(){
+  var seen=WL.mid.slice(0, Math.min(WL.mid.length, (dayIdx()+1)*5)); if(seen.length<10) seen=WL.mid.slice(0,40);
+  var qs=shuffle(seen.slice()).slice(0,10), i=0, ok=0;
+  function draw(){
+    if(i>=qs.length){
+      var pass=ok>=8; if(pass){ setAdvOK(); setMode("adv"); } if(curP()) famLog("adv", ok);
+      $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🔥 고급 도전 결과</div></div><div class="card" style="text-align:center;padding:30px 16px"><div style="font-size:52px;font-weight:900">'+ok+' / 10</div><div style="font-size:20px;font-weight:900;margin-top:10px">'+(pass?"🎉 합격! "+(curP()?esc(pName(curP()))+"은(는)":"이 기기는")+" 이제 중급+고급":"아쉬워요! 중급을 조금 더 하고 다시 도전")+'</div></div><button class="big" id="hm" style="margin-top:12px">홈으로</button>';
+      document.getElementById("bk").onclick=document.getElementById("hm").onclick=function(){ go("home"); }; return;
+    }
+    var w=qs[i], others=shuffle(WL.mid.filter(function(x){ return x.ko!==w.ko; })).slice(0,3).map(function(x){ return x.ko; }), ch=shuffle([w.ko].concat(others));
+    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🔥 고급 도전 테스트'+(curP()?' · '+esc(pName(curP())):'')+'</div></div><div class="qh"><span>'+(i+1)+' / 10</span><span>맞힌 개수 '+ok+'</span></div>'+
+      '<div class="card" style="text-align:center;padding:26px 12px"><div style="font-size:40px;font-weight:900">'+esc(w.w)+'</div><button class="say" id="sp" style="margin-top:8px">🔊</button></div>'+
+      ch.map(function(c,k){ return '<button class="ch" data-k="'+k+'">'+String.fromCharCode(9312+k)+' '+esc(c)+'</button>'; }).join("");
+    document.getElementById("bk").onclick=function(){ go("home"); };
+    document.getElementById("sp").onclick=function(){ say(w.w); };
+    $app.querySelectorAll(".ch").forEach(function(b){ b.onclick=function(){
+      var right=ch[+b.dataset.k]===w.ko; if(right) ok++;
+      $app.querySelectorAll(".ch").forEach(function(x){ x.disabled=true; if(ch[+x.dataset.k]===w.ko) x.classList.add("right"); });
+      if(!right) b.classList.add("wrong");
+      setTimeout(function(){ i++; draw(); }, right?600:1400);
+    }; });
+  }
+  draw(); window.scrollTo(0,0);
+}
 Promise.all([
   fetch("data/all.json",{cache:"no-cache"}).then(function(r){ return r.json(); }),
   fetch("data/words.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
   fetch("data/dialogues.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
-  fetch("data/gloss.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return {}; })
-]).then(function(a){ T=a[0]; W=a[1]; D=a[2]; G=a[3]; go("home"); })
+  fetch("data/gloss.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return {}; }),
+  fetch("data/words_mid.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
+  fetch("data/words_adv.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; })
+]).then(function(a){ T=a[0]; WL.basic=a[1]; D=a[2]; G=a[3]; WL.mid=a[4]; WL.adv=a[5]; W=WL.basic; go("home"); famLoad().then(function(){ if(FAM && tab==="home" && $app.querySelector("#fam")) home(); }); })
   .catch(function(){ $app.innerHTML='<div class="card">자료를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</div>'; });
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function(){});
 })();
