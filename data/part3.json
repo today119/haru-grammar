@@ -5,7 +5,7 @@
   "points": [
    "셀 수 있는 명사가 하나일 때는 단수형을 쓰고, 앞에 a/an을 붙인다. 예: a book, an egg",
    "둘 이상일 때는 복수형을 쓴다. 기본은 명사 + -s 예: books, pens",
-   "-s, -x, -sh, -ch, -o로 끝나면 + -es 예: boxes, dishes, watches, potatoes",
+   "-s, -x, -sh, -ch로 끝나면 + -es 예: boxes, dishes, watches / 자음 + o는 대부분 + -es 예: potatoes, tomatoes (예외: pianos, photos)",
    "자음 + y로 끝나면 y를 i로 바꾸고 + -es 예: city → cities / 모음 + y는 그냥 + -s 예: boy → boys",
    "주어가 복수면 동사도 복수에 맞춘다. 예: The boxes are heavy."
   ],
@@ -1276,10 +1276,10 @@
      "no",
      "some",
      "all",
-     "any"
+     "many"
     ],
     "answer": 1,
-    "exp": "배가 고파서 빵을 '조금' 원한다는 긍정문이므로 some을 쓴다."
+    "exp": "배가 고파서 빵을 '조금' 원한다는 긍정문이므로 some을 쓴다. bread는 불가산명사라 many와 쓸 수 없다."
    },
    {
     "type": "mc",

@@ -143,6 +143,12 @@ var tab="home";
 document.getElementById("tabs").onclick=function(e){ var b=e.target.closest("[data-t]"); if(!b) return; go(b.dataset.t); };
 function go(t){ tab=t; document.querySelectorAll("#tabs [data-t]").forEach(function(b){ b.className=b.dataset.t===t?"on":""; }); window.scrollTo(0,0); ({home:home,list:list,wrong:wrong,mock:mock})[t](); }
 
+/* 오늘의 영단어·대화 — «날짜»로 정해져서 가족 모두 같은 게 나온다 */
+var DAY0="2026-10-04";
+function dayIdx(){ return Math.max(0, daysBetween(DAY0, today())); }
+function todayWords(){ if(!W.length) return []; var s=(dayIdx()*5)%W.length; var a=[]; for(var k=0;k<5;k++) a.push(W[(s+k)%W.length]); return a; }
+function todayDialogTopic(){ var p=todayPlan(); if(p) return p[1]; return (dayIdx()%60)+1; }
+function todayDialog(){ var id=todayDialogTopic(); for(var i=0;i<D.length;i++) if(D[i].id===id) return D[i]; return null; }
 function todayPlan(){ var d=today(); for(var i=0;i<PLAN.length;i++) if(PLAN[i][0]===d) return PLAN[i]; return null; }
 function nextTopic(){ for(var i=0;i<T.length;i++) if(!S.done[T[i].id]) return T[i]; return null; }
 
@@ -158,6 +164,7 @@ function home(){
     '<div class="hero" style="margin-top:14px">'+head+(nx?'<button class="go" id="goNext">'+(S.done[nx.id]?"다시 보기":"공부 시작")+' ▶ '+nx.id+'번</button>':'')+'</div>'+
     '<div class="stats"><div><b>'+n+'</b><span>/60 주제</span></div><div><b>'+(acc==null?"-":acc+"%")+'</b><span>정답률</span></div><div><b>'+wl+'</b><span>남은 오답</span></div></div>'+
     '<div class="bar"><i style="width:'+(n/60*100)+'%"></i></div>'+
+    morningCard()+
     '<h2>오늘 할 것</h2><div class="stack">'+
     '<button class="act" data-a="review"><span class="e">🔁</span><span><b>복습 문제</b><small>틀렸던 문제 중 다시 풀 때가 된 것</small></span><span class="n">'+dl+'</span></button>'+
     '<button class="act" data-a="wrong"><span class="e">📝</span><span><b>오답 노트</b><small>지금까지 틀린 문제 모아 보기</small></span><span class="n">'+wl+'</span></button>'+
@@ -165,8 +172,63 @@ function home(){
     '<button class="act" data-a="sync"><span class="e">📲</span><span><b>폰 ↔ 학교 컴 진도 옮기기</b><small>기록은 기기마다 따로 저장돼요</small></span></button>'+
     '</div>';
   var g=document.getElementById("goNext"); if(g) g.onclick=function(){ topic(nx.id); };
+  bindMorning();
   $app.querySelectorAll("[data-a]").forEach(function(b){ b.onclick=function(){ var a=b.dataset.a; if(a==="review") review(); else if(a==="sync") sync(); else go(a); }; });
 }
+function morningCard(){
+  var ws=todayWords(), dg=todayDialog(); if(!ws.length && !dg) return "";
+  return '<h2>🌅 아침 영어 <span class="small">'+today().slice(5).replace("-","/")+' · 가족 모두 같은 문제</span></h2><div class="card">'+
+    (ws.length?'<div class="small" style="font-weight:900;margin-bottom:6px">오늘의 영단어 5개</div>'+ws.map(function(w,i){ return '<div class="ex"><button class="say" data-w="'+i+'">🔊</button><div style="flex:1"><div class="en">'+esc(w.w)+' <span class="small">'+esc(w.pos)+'</span></div><div class="ko wk" data-k="'+i+'">'+esc(w.ko)+'</div></div></div>'; }).join(""):"")+
+    '<div class="stack" style="margin-top:10px">'+(ws.length?'<button class="big" id="fam">👨‍👩‍👧 가족 단어 퀴즈</button>':'')+
+    (dg?'<button class="big ghost" id="dlg">💬 오늘의 대화 — '+esc(dg.title)+'</button>':'')+'</div></div>';
+}
+function bindMorning(){
+  var ws=todayWords();
+  $app.querySelectorAll("[data-w]").forEach(function(b){ b.onclick=function(){ say(ws[+b.dataset.w].w); }; });
+  var f=document.getElementById("fam"); if(f) f.onclick=function(){ family(ws, false); };
+  var d=document.getElementById("dlg"); if(d) d.onclick=function(){ dialog(todayDialog()); };
+}
+/* 가족 퀴즈 — 큰 글씨로 하나씩. 누르면 정답 공개 */
+function family(ws, rev){
+  var i=0, shown=false;
+  function draw(){
+    var w=ws[i];
+    $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">👨‍👩‍👧 가족 단어 퀴즈</div><button class="chip" id="rv" style="padding:6px 10px">'+(rev?"뜻→영어":"영어→뜻")+' ⇄</button></div>'+
+      '<div class="qh"><span>'+(i+1)+' / '+ws.length+'</span><span>누르면 정답</span></div>'+
+      '<button class="card fam" id="cd" style="width:100%;min-height:52vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px">'+
+        '<div style="font-size:'+(rev?"30px":"46px")+';font-weight:900;line-height:1.25">'+esc(rev?w.ko:w.w)+'</div>'+
+        (shown?'<div style="font-size:'+(rev?"40px":"28px")+';font-weight:900;color:var(--ok)">'+esc(rev?w.w:w.ko)+'</div><div style="font-size:18px">'+esc(w.ex)+'</div><div class="small">'+esc(w.exko)+'</div>':'<div class="small">🤔 맞혀 보세요</div>')+
+      '</button>'+
+      '<div class="stack" style="margin-top:12px"><button class="big ghost" id="sp">🔊 발음 듣기</button><button class="big" id="nx">'+(i+1<ws.length?"다음 단어 ›":"처음부터 다시")+'</button></div>';
+    document.getElementById("bk").onclick=function(){ go("home"); };
+    document.getElementById("rv").onclick=function(){ rev=!rev; shown=false; draw(); };
+    document.getElementById("cd").onclick=function(){ shown=!shown; draw(); };
+    document.getElementById("sp").onclick=function(){ say(w.w); };
+    document.getElementById("nx").onclick=function(){ i=(i+1)%ws.length; shown=false; draw(); };
+  }
+  draw(); window.scrollTo(0,0);
+}
+/* 오늘의 대화 — A/B 역할 읽기, 한 줄씩 듣기, 전체 듣기 */
+function dialog(dg){
+  if(!dg) return;
+  var role="", hideKo=false;
+  function mark(en){ var s=esc(en); (dg.key||[]).forEach(function(k){ var e=esc(k); s=s.split(e).join('<b style="color:var(--brand);text-decoration:underline">'+e+'</b>'); }); return s; }
+  function draw(){
+    $app.innerHTML='<div class="top"><button class="back" id="bk">‹</button><div class="ti">💬 '+esc(dg.title)+'</div></div>'+
+      '<div class="card" style="margin-bottom:10px"><span class="chip">'+dg.id+'번 문법</span> <span class="small">'+esc(dg.focus)+'</span></div>'+
+      '<div class="ox" style="margin:0 0 10px"><button class="ch'+(role==="A"?" right":"")+'" data-r="A" style="font-size:17px">A 역할</button><button class="ch'+(role==="B"?" right":"")+'" data-r="B" style="font-size:17px">B 역할</button></div>'+
+      '<div class="stack">'+dg.lines.map(function(l,k){ var mine=role&&l.s===role; return '<div class="card" style="display:flex;gap:10px;align-items:flex-start;'+(l.s==="B"?"margin-left:24px;":"margin-right:24px;")+(mine?"outline:2px solid var(--hi);":"")+'"><button class="say" data-l="'+k+'">'+l.s+'</button><div><div class="en">'+mark(l.en)+'</div>'+(hideKo?'':'<div class="ko">'+esc(l.ko)+'</div>')+'</div></div>'; }).join("")+'</div>'+
+      '<div class="stack" style="margin-top:12px"><button class="big" id="all">▶ 대화 전체 듣기</button><button class="big ghost" id="hk">'+(hideKo?"해석 보이기":"해석 가리기(영어만 보고 읽기)")+'</button></div>';
+    document.getElementById("bk").onclick=function(){ go("home"); };
+    $app.querySelectorAll("[data-r]").forEach(function(b){ b.onclick=function(){ role=role===b.dataset.r?"":b.dataset.r; draw(); }; });
+    $app.querySelectorAll("[data-l]").forEach(function(b){ b.onclick=function(){ sayAs(dg.lines[+b.dataset.l]); }; });
+    document.getElementById("hk").onclick=function(){ hideKo=!hideKo; draw(); };
+    document.getElementById("all").onclick=function(){ try{ speechSynthesis.cancel(); }catch(e){} dg.lines.forEach(function(l){ sayAs(l, true); }); };
+  }
+  draw(); window.scrollTo(0,0);
+}
+/* A·B 목소리를 다르게(높낮이) */
+function sayAs(l, queue){ try{ if(!queue) speechSynthesis.cancel(); var u=new SpeechSynthesisUtterance(l.en); u.lang="en-US"; u.rate=.9; u.pitch=l.s==="A"?0.9:1.25; speechSynthesis.speak(u); }catch(e){} }
 function accuracy(){ var a=0,b=0; Object.keys(S.done).forEach(function(k){ a+=S.done[k].best; b+=S.done[k].of; }); return b?Math.round(a/b*100):null; }
 
 function group(title){ var m=title.split(" : "); return m.length>1?m[0]:(/형식/.test(title)?"문장 구조":"동사"); }
@@ -292,7 +354,12 @@ function sync(){
   };
 }
 
-fetch("data/all.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).then(function(d){ T=d; go("home"); })
+var W=[], D=[];
+Promise.all([
+  fetch("data/all.json",{cache:"no-cache"}).then(function(r){ return r.json(); }),
+  fetch("data/words.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
+  fetch("data/dialogues.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; })
+]).then(function(a){ T=a[0]; W=a[1]; D=a[2]; go("home"); })
   .catch(function(){ $app.innerHTML='<div class="card">자료를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</div>'; });
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function(){});
 })();

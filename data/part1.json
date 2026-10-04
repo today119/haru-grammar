@@ -1,407 +1,1682 @@
 [
-{
-"id": 1,
-"title": "1, 2 형식 문장 구조",
-"points": [
-"1형식: 주어 + 동사 (+ 수식어). 동사만으로 뜻이 완성된다. 예: Birds fly.",
-"1형식 문장 뒤에 붙는 장소·시간 표현(in the park, at 7)은 수식어일 뿐 문장의 필수 성분이 아니다.",
-"2형식: 주어 + 동사 + 보어. 보어(명사·형용사)는 주어가 '누구인지, 어떤 상태인지' 설명한다.",
-"2형식 대표 동사: be, become, get, seem + 감각동사 look, feel, sound, smell, taste",
-"감각동사 뒤에는 부사가 아니라 형용사가 온다. 예: She looks happy. (happily X)"
-],
-"examples": [
-{"en": "The baby sleeps in the room.", "ko": "아기가 방에서 잔다."},
-{"en": "He became a teacher.", "ko": "그는 선생님이 되었다."},
-{"en": "This soup tastes good.", "ko": "이 수프는 맛이 좋다."}
-],
-"trap": "감각동사(look, sound, smell, taste, feel) 뒤에 부사를 쓰면 틀린다 — looks sadly(X) → looks sad(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? She looks ___ today.", "choices": ["happily", "to happy", "happiness", "happy"], "answer": 3, "exp": "look은 2형식 감각동사라 뒤에 형용사 보어가 온다. happily는 부사라 보어가 될 수 없다."},
-{"type": "mc", "q": "다음 중 1형식 문장은?", "choices": ["He is a doctor.", "The sun rises in the east.", "She feels tired.", "They became friends."], "answer": 1, "exp": "rises는 보어·목적어 없이 뜻이 완성되고 in the east는 수식어이므로 1형식이다. 나머지는 보어가 있는 2형식이다."},
-{"type": "mc", "q": "다음 중 2형식 문장은?", "choices": ["The children ran fast.", "My dog barks at night.", "This cake smells sweet.", "He lives in Seoul."], "answer": 2, "exp": "smells 뒤의 sweet는 주어의 상태를 설명하는 형용사 보어이므로 2형식이다. 나머지는 모두 1형식(주어+동사+수식어)이다."},
-{"type": "mc", "q": "어법상 틀린 부분은? The music ① sounds ② beautifully ③ to ④ me.", "choices": ["① sounds", "② beautifully", "③ to", "④ me"], "answer": 1, "exp": "sound는 감각동사이므로 부사 beautifully가 아니라 형용사 beautiful을 써야 한다."},
-{"type": "mc", "q": "다음 문장에서 보어는? My brother became a nurse.", "choices": ["My", "brother", "became", "a nurse"], "answer": 3, "exp": "become은 2형식 동사이고, a nurse가 주어(My brother)가 무엇이 되었는지 설명하는 보어이다."},
-{"type": "mc", "q": "빈칸에 들어갈 수 없는 것은? He ___ angry.", "choices": ["got", "looked", "seemed", "saw"], "answer": 3, "exp": "got, looked, seemed는 형용사 보어를 받는 2형식 동사다. saw(보았다)는 2형식 동사가 아니므로 angry를 보어로 쓸 수 없다."},
-{"type": "ox", "q": "The flower smells nicely.", "answer": false, "exp": "smell은 감각동사이므로 부사 nicely가 아니라 형용사 nice를 써야 한다."},
-{"type": "ox", "q": "1형식 문장은 주어와 동사만으로 뜻이 완성되며, 뒤에 오는 장소 표현은 수식어이다.", "answer": true, "exp": "1형식은 주어+동사가 핵심이고, in the park 같은 표현은 빼도 문장이 성립하는 수식어다."}
-]
-},
-{
-"id": 2,
-"title": "3, 4 형식 문장 구조",
-"points": [
-"3형식: 주어 + 동사 + 목적어. 목적어는 '~을/를'로 해석한다. 예: I like soccer.",
-"4형식: 주어 + 동사 + 간접목적어(~에게) + 직접목적어(~을). 예: He gave me a book.",
-"4형식 동사(수여동사): give, send, show, tell, teach, buy, make, cook, ask",
-"4형식 → 3형식 전환: 주어 + 동사 + 직접목적어 + 전치사 + 간접목적어",
-"전치사 구분 — to: give, send, show, tell, teach / for: buy, make, cook / of: ask"
-],
-"examples": [
-{"en": "I like soccer.", "ko": "나는 축구를 좋아한다."},
-{"en": "My mom made me a sandwich.", "ko": "엄마가 나에게 샌드위치를 만들어 주셨다."},
-{"en": "She sent a letter to her friend.", "ko": "그녀는 친구에게 편지를 보냈다."}
-],
-"trap": "3형식으로 바꿀 때 buy, make, cook은 to가 아니라 for를 쓴다 — bought a bag for me(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 전치사는? He showed his photos ___ me.", "choices": ["to", "for", "of", "at"], "answer": 0, "exp": "show는 3형식으로 바꿀 때 간접목적어 앞에 to를 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 전치사는? Dad bought a bike ___ me.", "choices": ["to", "for", "of", "with"], "answer": 1, "exp": "buy는 3형식으로 바꿀 때 간접목적어 앞에 for를 쓴다."},
-{"type": "mc", "q": "다음 중 4형식 문장은?", "choices": ["I play tennis.", "They live here.", "He looks tired.", "She teaches us English."], "answer": 3, "exp": "teaches 뒤에 간접목적어(us, ~에게)와 직접목적어(English, ~을)가 차례로 왔으므로 4형식이다."},
-{"type": "mc", "q": "She told me the truth.를 3형식으로 바르게 바꾼 것은?", "choices": ["She told the truth for me.", "She told to me the truth.", "She told the truth to me.", "She told me to the truth."], "answer": 2, "exp": "3형식은 '동사 + 직접목적어 + 전치사 + 간접목적어' 순서이고, tell은 전치사 to를 쓴다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["He gave me a pen.", "I sent a card to her.", "She made a cake to me.", "Mom cooked dinner for us."], "answer": 2, "exp": "make는 3형식으로 쓸 때 to가 아니라 for를 쓴다. → She made a cake for me."},
-{"type": "mc", "q": "다음 문장에서 간접목적어(~에게)는? The teacher gave the students homework.", "choices": ["homework", "the students", "gave", "The teacher"], "answer": 1, "exp": "4형식에서 동사 바로 뒤의 the students가 '~에게'에 해당하는 간접목적어이고, homework는 직접목적어이다."},
-{"type": "ox", "q": "I gave to him a gift.", "answer": false, "exp": "4형식에서는 간접목적어 앞에 전치사를 쓰지 않는다. I gave him a gift. 또는 I gave a gift to him.이 맞다."},
-{"type": "ox", "q": "He asked me a question.을 3형식으로 바꾸면 He asked a question of me.가 된다.", "answer": true, "exp": "ask는 3형식으로 바꿀 때 전치사 of를 쓴다."}
-]
-},
-{
-"id": 3,
-"title": "5 형식 문장 구조",
-"points": [
-"5형식: 주어 + 동사 + 목적어 + 목적격보어. 목적격보어는 목적어의 이름·상태·행동을 설명한다.",
-"명사 보어: call, name, elect, make — We call him Tom. (목적어 = 보어 관계)",
-"형용사 보어: make, keep, find, leave — The news made me sad.",
-"to부정사 보어: want, ask, tell, expect, allow — I want you to come.",
-"목적격보어 자리에 부사는 올 수 없다. keep the room clean(O) / cleanly(X)"
-],
-"examples": [
-{"en": "They named the dog Max.", "ko": "그들은 그 개를 맥스라고 이름 지었다."},
-{"en": "Exercise keeps me healthy.", "ko": "운동은 나를 건강하게 유지해 준다."},
-{"en": "My teacher told me to study hard.", "ko": "선생님은 나에게 열심히 공부하라고 말씀하셨다."}
-],
-"trap": "want, tell, ask 뒤의 목적격보어는 동사원형이 아니라 to부정사 — want you go(X) → want you to go(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? The movie made me ___.", "choices": ["sadly", "sad", "sadden", "to sadly"], "answer": 1, "exp": "make + 목적어 + 형용사(목적격보어) 구조이다. 부사 sadly는 보어가 될 수 없다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? My mom wants me ___ my room.", "choices": ["to clean", "clean", "cleaning", "cleaned"], "answer": 0, "exp": "want + 목적어 + to부정사 구조이므로 to clean이 알맞다."},
-{"type": "mc", "q": "다음 중 5형식 문장은?", "choices": ["She gave me a cup.", "He sent her a letter.", "I bought my son shoes.", "We elected him captain."], "answer": 3, "exp": "him = captain(그가 주장)이 성립하므로 captain은 목적격보어, 5형식이다. 나머지는 '~에게 ~을' 구조의 4형식이다."},
-{"type": "mc", "q": "어법상 틀린 부분은? Please ① keep ② the door ③ openly ④ for me.", "choices": ["① keep", "② the door", "③ openly", "④ for me"], "answer": 2, "exp": "keep + 목적어 + 형용사 구조이므로 부사 openly가 아니라 형용사 open을 써야 한다."},
-{"type": "mc", "q": "다음 문장에서 목적격보어는? People call the city the Big Apple.", "choices": ["People", "call", "the city", "the Big Apple"], "answer": 3, "exp": "the city = the Big Apple 관계로, 목적어(the city)를 설명하는 목적격보어이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? The doctor told him ___ more water.", "choices": ["drink", "drinks", "to drink", "drank"], "answer": 2, "exp": "tell + 목적어 + to부정사 구조이므로 to drink가 알맞다."},
-{"type": "ox", "q": "I found the book easy.는 5형식 문장이다.", "answer": true, "exp": "find + 목적어(the book) + 형용사 보어(easy) 구조로 '그 책이 쉽다는 것을 알았다'는 5형식이다."},
-{"type": "ox", "q": "She asked me help her.", "answer": false, "exp": "ask + 목적어 + to부정사이므로 She asked me to help her.가 맞다."}
-]
-},
-{
-"id": 4,
-"title": "시제 : 현재, 과거, 미래 시제",
-"points": [
-"현재시제: 습관·반복·현재의 사실. 주어가 3인칭 단수면 동사 + -s/-es (He plays).",
-"과거시제: 이미 끝난 일. 동사 + -ed 또는 불규칙형(go→went, eat→ate). yesterday, last ~, ~ ago와 함께 쓴다.",
-"미래시제: will + 동사원형 / be going to + 동사원형. tomorrow, next ~와 함께 쓴다.",
-"부정문·의문문: do/does/did + 동사원형 (He doesn't play. / Did you eat?)",
-"변하지 않는 진리·과학적 사실은 항상 현재시제: The earth goes around the sun."
-],
-"examples": [
-{"en": "She walks to school every day.", "ko": "그녀는 매일 걸어서 학교에 간다."},
-{"en": "I watched a soccer game last night.", "ko": "나는 어젯밤에 축구 경기를 봤다."},
-{"en": "We will visit Busan next week.", "ko": "우리는 다음 주에 부산을 방문할 것이다."}
-],
-"trap": "does, did, will 뒤에는 반드시 동사원형 — Did you went?(X) → Did you go?(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? My father ___ coffee every morning.", "choices": ["drink", "drinks", "drinking", "will drinking"], "answer": 1, "exp": "every morning은 습관을 나타내므로 현재시제, 주어가 3인칭 단수라 drinks가 맞다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? I ___ to the park yesterday.", "choices": ["go", "goes", "went", "will go"], "answer": 2, "exp": "yesterday는 과거 표현이므로 go의 과거형 went를 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? We ___ a test tomorrow.", "choices": ["had", "will have", "has", "having"], "answer": 1, "exp": "tomorrow는 미래이므로 will + 동사원형을 쓴다. had는 과거, has는 주어 We와 맞지 않는다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["Did she call you?", "He doesn't like milk.", "Will you come tomorrow?", "She didn't went home."], "answer": 3, "exp": "didn't 뒤에는 동사원형이 와야 하므로 She didn't go home.이 맞다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? Water ___ at 100°C.", "choices": ["boils", "boil", "boiled", "will boiling"], "answer": 0, "exp": "물이 100도에서 끓는 것은 변하지 않는 과학적 사실이므로 현재시제 boils를 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? I am going to ___ my grandma this weekend.", "choices": ["visits", "visiting", "visited", "visit"], "answer": 3, "exp": "be going to 뒤에는 동사원형이 온다."},
-{"type": "ox", "q": "He studied English two years ago.", "answer": true, "exp": "two years ago는 과거 표현이므로 과거시제 studied가 맞다."},
-{"type": "ox", "q": "She will goes shopping tomorrow.", "answer": false, "exp": "will 뒤에는 동사원형이 오므로 She will go shopping tomorrow.가 맞다."}
-]
-},
-{
-"id": 5,
-"title": "시제 : 현재, 과거, 미래진행형",
-"points": [
-"현재진행: am/is/are + 동사-ing — 지금 하고 있는 일 (~하고 있다).",
-"과거진행: was/were + 동사-ing — 과거 어느 순간에 하고 있던 일 (~하고 있었다).",
-"미래진행: will be + 동사-ing — 미래 어느 순간에 하고 있을 일 (~하고 있을 것이다).",
-"-ing 만들기: make→making(e 빼기), run→running(자음 하나 더), lie→lying(ie→y)",
-"상태동사(know, like, want, believe, have(소유))는 보통 진행형으로 쓰지 않는다."
-],
-"examples": [
-{"en": "She is reading a book now.", "ko": "그녀는 지금 책을 읽고 있다."},
-{"en": "I was taking a shower when you called.", "ko": "네가 전화했을 때 나는 샤워를 하고 있었다."},
-{"en": "This time tomorrow, I will be playing soccer.", "ko": "내일 이맘때 나는 축구를 하고 있을 것이다."}
-],
-"trap": "상태동사는 진행형 불가 — I am knowing him.(X) → I know him.(O)",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? Look! The kids ___ in the pool.", "choices": ["swim", "swam", "were swimming", "are swimming"], "answer": 3, "exp": "Look!은 지금 눈앞에서 일어나는 일이므로 현재진행형 are swimming을 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? When I called him, he ___ dinner.", "choices": ["is eating", "eats", "was eating", "will be eating"], "answer": 2, "exp": "과거의 한 순간(전화했을 때) 하고 있던 일은 과거진행형 was eating으로 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? At 9 a.m. tomorrow, I ___ on the plane.", "choices": ["was sitting", "will be sitting", "sat", "am sat"], "answer": 1, "exp": "미래의 특정 시점(내일 오전 9시)에 하고 있을 일은 미래진행형 will be sitting으로 쓴다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["He is running now.", "They were playing chess.", "She will be working late.", "I am knowing the answer."], "answer": 3, "exp": "know는 상태동사라 진행형으로 쓰지 않는다. → I know the answer."},
-{"type": "mc", "q": "-ing 형태가 잘못된 것은?", "choices": ["make - making", "sit - sitting", "die - dieing", "play - playing"], "answer": 2, "exp": "ie로 끝나는 동사는 ie를 y로 바꾸고 -ing를 붙인다. die → dying"},
-{"type": "mc", "q": "빈칸에 알맞은 것은? They ___ TV when the lights went out.", "choices": ["were watching", "are watching", "watch", "will be watching"], "answer": 0, "exp": "전기가 나간 과거 순간에 하고 있던 일이므로 과거진행형 were watching을 쓴다."},
-{"type": "ox", "q": "'나는 새 휴대폰을 가지고 있다'를 I am having a new phone.으로 써도 된다.", "answer": false, "exp": "'가지고 있다(소유)'의 have는 상태동사라 진행형으로 쓰지 않는다. → I have a new phone."},
-{"type": "ox", "q": "It was raining when I left home.", "answer": true, "exp": "집을 나선 과거 순간에 비가 오고 있었으므로 과거진행형 was raining이 맞다."}
-]
-},
-{
-"id": 6,
-"title": "시제 : 완료 시제 (현재완료)",
-"points": [
-"형태: have/has + 과거분사(p.p.). 과거에 시작된 일이 현재와 연결될 때 쓴다.",
-"4가지 용법 — 경험(ever, never, before), 계속(for, since), 완료(just, already, yet), 결과(lost, gone 등)",
-"for + 기간(for three years) / since + 시작 시점(since 2020)",
-"명백한 과거 표현(yesterday, ~ ago, last ~, when)과는 함께 쓸 수 없다.",
-"have been to = ~에 가 본 적이 있다(경험) / have gone to = ~에 가 버렸다(결과, 지금 여기 없음)"
-],
-"examples": [
-{"en": "I have visited Jeju three times.", "ko": "나는 제주도에 세 번 가 봤다."},
-{"en": "She has lived here since 2015.", "ko": "그녀는 2015년부터 여기에 살고 있다."},
-{"en": "He has just finished his homework.", "ko": "그는 방금 숙제를 끝냈다."}
-],
-"trap": "현재완료는 yesterday, ago, last ~, when과 같이 쓰면 틀린다 — I have seen him yesterday.(X)",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? I ___ in this town for ten years.", "choices": ["have lived", "live", "lived", "am live"], "answer": 0, "exp": "for ten years(10년 동안)와 함께 과거부터 지금까지 계속된 일은 현재완료(계속)로 쓴다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["She has already eaten lunch.", "Have you ever seen a whale?", "I have met him last year.", "They have known each other since 2010."], "answer": 2, "exp": "last year는 명백한 과거 표현이라 현재완료와 쓸 수 없다. → I met him last year."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? He has worked here ___ 2019.", "choices": ["for", "since", "ago", "during"], "answer": 1, "exp": "2019는 시작 시점이므로 since를 쓴다. for는 기간(for 5 years) 앞에 쓴다."},
-{"type": "mc", "q": "다음 현재완료의 용법은? I have never eaten Indian food.", "choices": ["경험", "계속", "완료", "결과"], "answer": 0, "exp": "never와 함께 '~해 본 적이 없다'는 뜻이므로 경험 용법이다."},
-{"type": "mc", "q": "Tom has gone to London.의 뜻으로 알맞은 것은?", "choices": ["톰은 런던에 가 본 적이 있다.", "톰은 런던에 가 버려서 지금 여기 없다.", "톰은 런던에 갈 것이다.", "톰은 런던에 살았었다."], "answer": 1, "exp": "have gone to는 '가 버려서 지금 없다'는 결과 용법이다. '가 본 적 있다'는 have been to이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? Have you finished your homework ___?", "choices": ["ago", "since", "last", "yet"], "answer": 3, "exp": "현재완료 의문문에서 '벌써, 이제' 뜻으로 yet을 쓴다. ago, last는 과거 표현이라 현재완료와 쓸 수 없다."},
-{"type": "ox", "q": "I have been to Japan twice.는 '일본에 두 번 가 본 적이 있다'는 경험을 나타낸다.", "answer": true, "exp": "have been to + 횟수는 경험 용법이다."},
-{"type": "ox", "q": "When have you arrived?", "answer": false, "exp": "when은 특정 과거 시점을 묻기 때문에 현재완료와 쓸 수 없다. → When did you arrive?"}
-]
-},
-{
-"id": 7,
-"title": "조동사 : can과 may를 활용한 가능성과 허락의 표현",
-"points": [
-"can + 동사원형: ~할 수 있다(능력·가능). = be able to + 동사원형",
-"can / may + 동사원형: ~해도 된다(허락). Can I ~? / May I ~? (May가 더 공손함)",
-"could: can의 과거(~할 수 있었다) 또는 공손한 부탁(Could you ~?)",
-"조동사 뒤에는 항상 동사원형. 주어가 3인칭 단수여도 can에 -s를 붙이지 않는다.",
-"부정: cannot(can't) = ~할 수 없다 / may not = ~하면 안 된다. 미래의 능력은 will be able to."
-],
-"examples": [
-{"en": "She can speak three languages.", "ko": "그녀는 세 개의 언어를 말할 수 있다."},
-{"en": "May I use your pen?", "ko": "펜을 써도 될까요?"},
-{"en": "You may not take photos here.", "ko": "여기서 사진을 찍으면 안 됩니다."}
-],
-"trap": "조동사 두 개를 연달아 쓸 수 없다 — will can(X) → will be able to(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? He ___ swim very well.", "choices": ["cans", "is can", "can to", "can"], "answer": 3, "exp": "조동사 can은 주어와 상관없이 형태가 변하지 않고 바로 뒤에 동사원형이 온다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? You will ___ ride a bike soon.", "choices": ["can", "able to", "be able to", "could"], "answer": 2, "exp": "will 뒤에 조동사 can을 또 쓸 수 없으므로 be able to를 쓴다."},
-{"type": "mc", "q": "밑줄 친 can의 의미가 나머지와 다른 것은?", "choices": ["I can play the piano.", "She can run fast.", "Can I go to the restroom?", "He can lift this box."], "answer": 2, "exp": "Can I go ~?는 '가도 되나요?'라는 허락의 의미이고, 나머지는 '~할 수 있다'는 능력이다."},
-{"type": "mc", "q": "다음 중 어법상 올바른 문장은?", "choices": ["She can sings well.", "May I to come in?", "He could not find his bag.", "You can't to park here."], "answer": 2, "exp": "조동사 뒤에는 to 없이 동사원형이 온다. could not find가 맞고, 나머지는 sings, to come, to park가 틀렸다."},
-{"type": "mc", "q": "선생님께 '창문을 열어도 될까요?'라고 공손하게 허락을 구하는 표현은?", "choices": ["May I open the window?", "Must I open the window?", "Should I open the window?", "Will I open the window?"], "answer": 0, "exp": "May I ~?는 '~해도 될까요?'라는 공손한 허락 요청이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? When I was five, I ___ read.", "choices": ["can", "could", "may", "will"], "answer": 1, "exp": "다섯 살 때(과거)의 능력이므로 can의 과거형 could를 쓴다."},
-{"type": "ox", "q": "Can I borrow your book?에서 can은 '능력'을 나타낸다.", "answer": false, "exp": "Can I ~?는 '~해도 될까요?'라는 허락을 구하는 표현이다."},
-{"type": "ox", "q": "You may not use your phone during the test.는 '시험 중에 휴대폰을 사용하면 안 된다'는 뜻이다.", "answer": true, "exp": "may not은 '~하면 안 된다'는 불허(금지)를 나타낸다."}
-]
-},
-{
-"id": 8,
-"title": "조동사 : should와 have to를 활용한 의무 표현",
-"points": [
-"should + 동사원형: ~해야 한다, ~하는 게 좋다(충고·권유). 부정은 should not(shouldn't).",
-"must / have to + 동사원형: ~해야 한다(강한 의무). 주어가 3인칭 단수면 has to.",
-"have to의 과거는 had to, 미래는 will have to. (must는 과거형이 없다)",
-"don't have to = ~할 필요가 없다 / must not = ~하면 안 된다(금지). 뜻이 완전히 다르다.",
-"의문문: Do I have to ~? / Should I ~?"
-],
-"examples": [
-{"en": "You should wear a helmet.", "ko": "너는 헬멧을 쓰는 게 좋겠다."},
-{"en": "She has to get up early tomorrow.", "ko": "그녀는 내일 일찍 일어나야 한다."},
-{"en": "You don't have to bring lunch.", "ko": "점심을 가져올 필요는 없다."}
-],
-"trap": "don't have to(~할 필요 없다)와 must not(~하면 안 된다)을 같은 뜻으로 착각하기 쉽다.",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? He ___ finish the report by Friday.", "choices": ["has to", "have to", "having to", "haves to"], "answer": 0, "exp": "주어 He가 3인칭 단수이므로 has to를 쓴다."},
-{"type": "mc", "q": "'오늘은 일요일이라 학교에 갈 필요가 없다.' Today is Sunday, so I ___ go to school.", "choices": ["must not", "don't have to", "should", "has to"], "answer": 1, "exp": "'~할 필요가 없다'는 don't have to이다. must not은 '가면 안 된다'는 금지라 뜻이 다르다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? Yesterday I ___ stay home because I was sick.", "choices": ["must", "have to", "had to", "should"], "answer": 2, "exp": "yesterday(과거)의 의무는 have to의 과거형 had to로 쓴다. must는 과거형이 없다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["You should eat more vegetables.", "She doesn't have to wait.", "We must to follow the rules.", "Do I have to pay now?"], "answer": 2, "exp": "must는 조동사라 뒤에 to 없이 동사원형이 온다. → We must follow the rules."},
-{"type": "mc", "q": "You must not run in the hallway.의 뜻은?", "choices": ["복도에서 뛸 필요가 없다.", "복도에서 뛰어야 한다.", "복도에서 뛸 수 있다.", "복도에서 뛰면 안 된다."], "answer": 3, "exp": "must not은 '~하면 안 된다'는 강한 금지를 나타낸다."},
-{"type": "mc", "q": "문맥상 빈칸에 알맞은 것은? You look tired. You ___ go to bed early.", "choices": ["must not", "should", "don't have to", "had to"], "answer": 1, "exp": "피곤해 보이는 사람에게 '일찍 자는 게 좋겠다'고 충고하는 것이므로 should가 알맞다."},
-{"type": "ox", "q": "She will have to work this weekend.", "answer": true, "exp": "미래의 의무는 will have to + 동사원형으로 쓴다. (will must는 불가)"},
-{"type": "ox", "q": "must not과 don't have to는 같은 뜻이다.", "answer": false, "exp": "must not은 '~하면 안 된다(금지)', don't have to는 '~할 필요가 없다(불필요)'로 뜻이 다르다."}
-]
-},
-{
-"id": 9,
-"title": "조동사 : may와 must를 활용한 추측 표현",
-"points": [
-"may / might + 동사원형: ~일지도 모른다 (약한 추측, 반반 정도의 확신).",
-"must + 동사원형: ~임에 틀림없다 (강한 확신의 추측).",
-"can't + 동사원형: ~일 리가 없다 (강한 부정 추측, must의 반대).",
-"추측의 must 뒤에는 be가 자주 온다: He must be tired.",
-"must가 '의무(~해야 한다)'인지 '추측(~임에 틀림없다)'인지는 문맥으로 구분한다."
-],
-"examples": [
-{"en": "It may rain this afternoon.", "ko": "오늘 오후에 비가 올지도 모른다."},
-{"en": "She has worked all day. She must be tired.", "ko": "그녀는 하루 종일 일했다. 피곤한 게 틀림없다."},
-{"en": "That can't be true.", "ko": "그게 사실일 리가 없다."}
-],
-"trap": "'~일 리가 없다'는 must not이 아니라 can't로 쓰는 것이 기본이다.",
-"quiz": [
-{"type": "mc", "q": "문맥상 빈칸에 알맞은 것은? He has been running for two hours. He ___ be very thirsty.", "choices": ["can't", "may not", "doesn't have to", "must"], "answer": 3, "exp": "두 시간이나 달렸으니 '목마른 게 틀림없다'는 강한 확신이므로 must가 알맞다."},
-{"type": "mc", "q": "문맥상 빈칸에 알맞은 것은? I'm not sure, but she ___ be at home.", "choices": ["must", "can't", "may", "has to"], "answer": 2, "exp": "'확실하지 않지만'이라고 했으므로 약한 추측 may(~일지도 모른다)가 알맞다."},
-{"type": "mc", "q": "'그가 범인일 리가 없다.' He ___ be the thief.", "choices": ["can't", "must", "may", "has to"], "answer": 0, "exp": "'~일 리가 없다'는 강한 부정 추측이므로 can't를 쓴다."},
-{"type": "mc", "q": "밑줄 친 must의 의미가 나머지와 다른 것은?", "choices": ["She must be hungry.", "He must be a doctor.", "You must wear a seat belt.", "They must be at the gym."], "answer": 2, "exp": "You must wear ~는 '~해야 한다'는 의무이고, 나머지는 '~임에 틀림없다'는 추측이다."},
-{"type": "mc", "q": "문맥상 빈칸에 알맞은 것은? The lights are off. They ___ be at home.", "choices": ["must", "can't", "should", "have to"], "answer": 1, "exp": "불이 꺼져 있으니 '집에 있을 리가 없다'는 강한 부정 추측 can't가 알맞다."},
-{"type": "mc", "q": "It might snow tonight.의 뜻은?", "choices": ["오늘 밤 눈이 와야 한다.", "오늘 밤 눈이 올지도 모른다.", "오늘 밤 눈이 올 리가 없다.", "오늘 밤 눈이 왔다."], "answer": 1, "exp": "might는 may처럼 '~일지도 모른다'는 약한 추측을 나타낸다."},
-{"type": "ox", "q": "'~일 리가 없다'는 강한 부정 추측은 보통 can't를 써서 나타낸다.", "answer": true, "exp": "must(틀림없다)의 반대 의미는 can't(~일 리 없다)로 표현한다."},
-{"type": "ox", "q": "She may knows the answer.", "answer": false, "exp": "조동사 may 뒤에는 동사원형이 와야 하므로 She may know the answer.가 맞다."}
-]
-},
-{
-"id": 10,
-"title": "조동사 : 뜻을 주의해야 하는 조동사",
-"points": [
-"had better + 동사원형: ~하는 게 좋겠다(강한 충고). 부정은 had better not + 동사원형.",
-"used to + 동사원형: (예전에) ~하곤 했다, ~였다 — 지금은 그렇지 않다는 뜻을 담는다.",
-"would like to + 동사원형: ~하고 싶다(want to의 공손한 표현). would like + 명사: ~을 원하다.",
-"would rather A (than B): (B하느니) 차라리 A하겠다. A, B 모두 동사원형.",
-"be used to + 동사-ing(~에 익숙하다)는 used to + 동사원형(~하곤 했다)과 다른 표현이다."
-],
-"examples": [
-{"en": "You had better see a doctor.", "ko": "너는 병원에 가 보는 게 좋겠다."},
-{"en": "I used to live in Busan.", "ko": "나는 예전에 부산에 살았다."},
-{"en": "I would like to order a pizza.", "ko": "피자를 주문하고 싶습니다."}
-],
-"trap": "had better의 부정은 had not better(X)가 아니라 had better not(O)이고, 뒤에 to를 붙이지 않는다.",
-"quiz": [
-{"type": "mc", "q": "문맥상 빈칸에 알맞은 것은? You ___ take an umbrella. It's going to rain.", "choices": ["had better", "had better to", "used to", "would like"], "answer": 0, "exp": "비가 올 것이니 '우산을 가져가는 게 좋겠다'는 충고이므로 had better + 동사원형이 알맞다."},
-{"type": "mc", "q": "had better의 부정형으로 올바른 것은?", "choices": ["You had not better go.", "You had better not to go.", "You had better not go.", "You not had better go."], "answer": 2, "exp": "had better의 부정은 had better not + 동사원형이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? I ___ play soccer every day, but now I don't.", "choices": ["would like to", "used to", "had better", "would rather"], "answer": 1, "exp": "'예전엔 매일 했지만 지금은 안 한다'는 과거의 습관이므로 used to가 알맞다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["I would rather to stay home.", "I would like a glass of water.", "I would like to visit Paris.", "She used to be shy."], "answer": 0, "exp": "would rather 뒤에는 to 없이 동사원형이 온다. → I would rather stay home."},
-{"type": "mc", "q": "There used to be a big tree here.의 뜻은?", "choices": ["여기에 큰 나무가 있는 게 좋겠다.", "여기에 큰 나무가 있음에 틀림없다.", "여기에 큰 나무가 있을지도 모른다.", "예전에 여기에 큰 나무가 있었다(지금은 없다)."], "answer": 3, "exp": "used to는 '예전에는 ~였다(지금은 아니다)'라는 과거의 상태를 나타낸다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? I would rather walk ___ take a taxi.", "choices": ["to", "and", "than", "of"], "answer": 2, "exp": "would rather A than B는 'B하느니 차라리 A하겠다'는 뜻으로 than을 쓴다."},
-{"type": "ox", "q": "I would like to drink some juice.는 '주스를 좀 마시고 싶다'는 공손한 표현이다.", "answer": true, "exp": "would like to + 동사원형은 want to보다 공손한 '~하고 싶다' 표현이다."},
-{"type": "ox", "q": "He used to getting up early.", "answer": false, "exp": "'~하곤 했다'는 used to + 동사원형이므로 He used to get up early.가 맞다. (be used to -ing는 '~에 익숙하다')"}
-]
-},
-{
-"id": 11,
-"title": "부정사 : to 부정사의 명사적 용법",
-"points": [
-"to + 동사원형이 명사처럼 쓰여 '~하는 것, ~하기'로 해석된다.",
-"주어 역할: To exercise every day is good. → 보통 가주어 it을 써서 It is good to exercise every day.",
-"목적어 역할: want, hope, plan, decide + to부정사 (I want to be a teacher.)",
-"보어 역할: My dream is to travel the world. (주어 = 보어)",
-"의문사 + to부정사: what to do(무엇을 할지), how to swim(수영하는 방법), where to go(어디로 갈지)"
-],
-"examples": [
-{"en": "To learn English is fun.", "ko": "영어를 배우는 것은 재미있다."},
-{"en": "I hope to see you again.", "ko": "다시 만나기를 바란다."},
-{"en": "Do you know how to use this machine?", "ko": "이 기계를 사용하는 방법을 아니?"}
-],
-"trap": "to부정사 주어는 단수 취급 — To read books are fun.(X) → is fun.(O)",
-"quiz": [
-{"type": "mc", "q": "to부정사가 '주어' 역할을 하는 문장은?", "choices": ["I want to sleep.", "To swim in the sea is exciting.", "Her job is to teach children.", "He decided to leave."], "answer": 1, "exp": "To swim in the sea가 문장의 주어(~하는 것은)이다. 나머지는 목적어 또는 보어 역할이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? It is important ___ breakfast.", "choices": ["to eat", "eat", "eats", "ate"], "answer": 0, "exp": "It은 가주어이고 진짜 주어는 to부정사 to eat breakfast이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? To play games with friends ___ fun.", "choices": ["are", "be", "were", "is"], "answer": 3, "exp": "to부정사 주어는 단수 취급하므로 is를 쓴다."},
-{"type": "mc", "q": "'나는 이 컴퓨터를 사용하는 방법을 모른다.' I don't know ___ use this computer.", "choices": ["what to", "how to", "where to", "when to"], "answer": 1, "exp": "'~하는 방법'은 how + to부정사로 나타낸다."},
-{"type": "mc", "q": "to부정사가 '보어' 역할을 하는 문장은?", "choices": ["My plan is to buy a new bike.", "I like to cook.", "To walk is good exercise.", "She hopes to win."], "answer": 0, "exp": "be동사 뒤의 to buy a new bike가 주어 My plan이 무엇인지 설명하는 보어이다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["I plan to visit my uncle.", "It is easy to make friends.", "She wants to becomes a singer.", "My goal is to pass the test."], "answer": 2, "exp": "to 뒤에는 동사원형이 와야 하므로 to become이 맞다."},
-{"type": "ox", "q": "It is fun to ride a bike.에서 It은 가주어이고 진짜 주어는 to ride a bike이다.", "answer": true, "exp": "긴 to부정사 주어를 뒤로 보내고 그 자리에 가주어 it을 쓴 문장이다."},
-{"type": "ox", "q": "I decided buy a new phone.", "answer": false, "exp": "decide는 목적어로 to부정사를 쓰므로 I decided to buy a new phone.이 맞다."}
-]
-},
-{
-"id": 12,
-"title": "부정사 : to 부정사의 형용사적 용법",
-"points": [
-"to부정사가 명사 뒤에서 명사를 꾸며 '~할, ~하는'으로 해석된다. 형태: 명사 + to부정사",
-"-thing 대명사(something, anything, nothing) 뒤에도 온다: something to eat(먹을 것)",
-"-thing + 형용사 + to부정사 순서: something cold to drink(차가운 마실 것)",
-"꾸밈 받는 명사가 전치사의 목적어이면 전치사를 꼭 남긴다: a chair to sit on, a friend to talk with, a house to live in",
-"자주 쓰는 표현: time to go(갈 시간), a book to read(읽을 책), homework to do(할 숙제)"
-],
-"examples": [
-{"en": "I have a lot of homework to do.", "ko": "나는 해야 할 숙제가 많다."},
-{"en": "Give me something to drink.", "ko": "마실 것 좀 줘."},
-{"en": "She needs a friend to talk with.", "ko": "그녀는 함께 이야기할 친구가 필요하다."}
-],
-"trap": "전치사를 빠뜨리기 쉽다 — a house to live(X) → a house to live in(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? I need a chair to sit ___.", "choices": ["at", "to", "for", "on"], "answer": 3, "exp": "sit on a chair(의자에 앉다)이므로 to부정사 뒤에 전치사 on을 남겨야 한다."},
-{"type": "mc", "q": "빈칸에 알맞은 어순은? Can I have ___?", "choices": ["something cold to drink", "cold something to drink", "something to drink cold", "to drink something cold"], "answer": 0, "exp": "-thing으로 끝나는 대명사는 '-thing + 형용사 + to부정사' 순서로 꾸민다."},
-{"type": "mc", "q": "to부정사가 형용사적 용법(명사 수식)으로 쓰인 문장은?", "choices": ["I want to go home.", "It's time to go to bed.", "To read is fun.", "He came here to see me."], "answer": 1, "exp": "to go to bed가 앞의 명사 time을 꾸며 '잘 시간'이라는 뜻이다. 나머지는 명사적·부사적 용법이다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["I have no time to rest.", "She has many friends to help her.", "He bought a house to live.", "Give me a pen to write with."], "answer": 2, "exp": "live in a house이므로 a house to live in처럼 전치사 in이 필요하다."},
-{"type": "mc", "q": "There is nothing to worry about.의 뜻은?", "choices": ["걱정하기 위해 아무것도 없다.", "걱정하는 것은 아무것도 아니다.", "걱정할 사람이 아무도 없다.", "걱정할 것이 아무것도 없다."], "answer": 3, "exp": "to worry about이 nothing을 꾸며 '걱정할 것'이라는 뜻이 된다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? Do you have anything ___?", "choices": ["read", "reading to", "to read", "for read"], "answer": 2, "exp": "anything 뒤에서 to부정사가 꾸며 '읽을 것'이 된다."},
-{"type": "ox", "q": "I want someone to play with.", "answer": true, "exp": "play with someone이므로 someone to play with처럼 전치사 with를 남긴 올바른 문장이다."},
-{"type": "ox", "q": "'읽을 책'을 영어로 to read a book이라고 쓴다.", "answer": false, "exp": "형용사적 용법은 '명사 + to부정사' 순서이므로 a book to read가 맞다."}
-]
-},
-{
-"id": 13,
-"title": "부정사 : to 부정사의 부사적 용법",
-"points": [
-"to부정사가 동사·형용사·문장 전체를 꾸며 목적, 감정의 원인, 결과, 판단의 근거 등을 나타낸다.",
-"목적(~하기 위해): I went to the library to study. = in order to study",
-"감정의 원인(~해서): 감정 형용사(happy, glad, sad, sorry, surprised) + to부정사. I'm glad to meet you.",
-"결과(~해서 결국 …하다): He grew up to be a doctor. / 판단의 근거(~하다니): He must be smart to solve it.",
-"형용사 수식(~하기에): easy to read, hard to answer"
-],
-"examples": [
-{"en": "She got up early to catch the first bus.", "ko": "그녀는 첫 버스를 타기 위해 일찍 일어났다."},
-{"en": "I was surprised to hear the news.", "ko": "나는 그 소식을 듣고 놀랐다."},
-{"en": "This book is easy to understand.", "ko": "이 책은 이해하기 쉽다."}
-],
-"trap": "목적을 나타낼 때 for + 동사원형을 쓰면 틀린다 — for buy(X) → to buy(O).",
-"quiz": [
-{"type": "mc", "q": "to부정사가 '목적(~하기 위해)'을 나타내는 문장은?", "choices": ["I'm happy to see you.", "He went to the store to buy milk.", "She grew up to be a pianist.", "This water is safe to drink."], "answer": 1, "exp": "to buy milk는 '우유를 사기 위해' 가게에 간 목적을 나타낸다."},
-{"type": "mc", "q": "I was sad to hear the news.에서 to hear의 쓰임은?", "choices": ["목적", "결과", "감정의 원인", "형용사 수식"], "answer": 2, "exp": "감정 형용사 sad 뒤의 to부정사는 '~해서' 슬펐다는 감정의 원인을 나타낸다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? He studied hard ___ pass the exam.", "choices": ["for", "so", "because", "in order to"], "answer": 3, "exp": "'~하기 위해'라는 목적은 to부정사 또는 in order to + 동사원형으로 나타낸다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["I came here for meet you.", "She was glad to win the game.", "The question is hard to answer.", "He studies hard to be a doctor."], "answer": 0, "exp": "목적은 for + 동사원형이 아니라 to부정사로 쓴다. → I came here to meet you."},
-{"type": "mc", "q": "He grew up to be a famous singer.의 뜻은?", "choices": ["그는 유명한 가수가 되기 위해 자랐다.", "그는 자라서 유명한 가수가 되었다.", "그는 유명한 가수가 되어 기뻤다.", "그는 유명한 가수가 되고 싶었다."], "answer": 1, "exp": "grow up to be는 '자라서 ~이 되었다'는 결과 용법이다."},
-{"type": "mc", "q": "to부정사의 쓰임이 나머지와 다른 것은?", "choices": ["I saved money to buy a bike.", "She called me to say sorry.", "He ran to catch the bus.", "We need water to drink."], "answer": 3, "exp": "water to drink는 명사 water를 꾸미는 형용사적 용법('마실 물')이고, 나머지는 '~하기 위해'라는 부사적 용법(목적)이다."},
-{"type": "ox", "q": "I'm sorry to be late.에서 to be late는 감정의 원인을 나타낸다.", "answer": true, "exp": "감정 형용사 sorry 뒤의 to부정사는 '늦어서' 미안하다는 원인을 나타낸다."},
-{"type": "ox", "q": "She went to the park for walk her dog.", "answer": false, "exp": "목적은 to부정사로 나타내므로 She went to the park to walk her dog.가 맞다."}
-]
-},
-{
-"id": 14,
-"title": "부정사 : 부정사만 동반되는 동사",
-"points": [
-"어떤 동사는 목적어로 to부정사만 쓰고 동명사(-ing)는 쓰지 않는다. 형태: 주어 + 동사 + to + 동사원형",
-"대표 동사: want, hope, wish, plan, decide, expect, promise, agree, refuse, learn, need, choose, afford",
-"대부분 '앞으로 할 일(미래·계획·의지)'의 느낌이 있다: 원하다, 계획하다, 결심하다, 약속하다",
-"부정은 to 바로 앞에 not: He decided not to go.",
-"반대로 enjoy, finish, mind, give up 등은 동명사(-ing)만 목적어로 쓴다 — 헷갈리지 말 것."
-],
-"examples": [
-{"en": "I hope to win the race.", "ko": "나는 경주에서 이기기를 바란다."},
-{"en": "We decided to take a taxi.", "ko": "우리는 택시를 타기로 결정했다."},
-{"en": "He promised not to be late again.", "ko": "그는 다시는 늦지 않겠다고 약속했다."}
-],
-"trap": "want, hope, decide, plan 뒤에 -ing를 쓰면 틀린다 — decide going(X) → decide to go(O).",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? She decided ___ abroad.", "choices": ["study", "studying", "to study", "studied"], "answer": 2, "exp": "decide는 목적어로 to부정사만 쓴다."},
-{"type": "mc", "q": "빈칸에 들어갈 수 없는 동사는? I ___ to visit Jeju this summer.", "choices": ["plan", "hope", "want", "enjoy"], "answer": 3, "exp": "enjoy는 동명사(-ing)만 목적어로 쓰므로 to visit과 함께 쓸 수 없다."},
-{"type": "mc", "q": "다음 중 어법상 틀린 문장은?", "choices": ["He refused to answer.", "They expect winning the game.", "We agreed to help them.", "I learned to ride a horse."], "answer": 1, "exp": "expect는 to부정사를 목적어로 쓴다. → They expect to win the game."},
-{"type": "mc", "q": "'그는 다시는 늦지 않겠다고 약속했다.' He promised ___ late again.", "choices": ["not to be", "to not being", "not being", "don't be"], "answer": 0, "exp": "to부정사의 부정은 to 앞에 not을 붙여 not to + 동사원형으로 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? I can't afford ___ a new car.", "choices": ["buy", "buying", "bought", "to buy"], "answer": 3, "exp": "afford(~할 여유가 있다)는 to부정사를 목적어로 쓴다."},
-{"type": "mc", "q": "목적어로 to부정사를 쓰는 동사끼리 짝지어진 것은?", "choices": ["want - enjoy", "hope - finish", "decide - plan", "mind - wish"], "answer": 2, "exp": "decide와 plan은 모두 to부정사를 목적어로 쓴다. enjoy, finish, mind는 동명사를 쓰는 동사이다."},
-{"type": "ox", "q": "I hope seeing you soon.", "answer": false, "exp": "hope는 to부정사를 목적어로 쓰므로 I hope to see you soon.이 맞다."},
-{"type": "ox", "q": "He wants to be a soccer player.", "answer": true, "exp": "want + to부정사로 '~이 되고 싶다'는 올바른 문장이다."}
-]
-},
-{
-"id": 15,
-"title": "부정사 : 중요 부정사 구문",
-"points": [
-"too + 형용사/부사 + to부정사: 너무 ~해서 …할 수 없다 = so + 형용사 + that + 주어 + can't",
-"형용사/부사 + enough + to부정사: …할 만큼 충분히 ~하다 (enough는 형용사 뒤에 온다)",
-"의미상 주어: It is + 형용사 + for + 사람 + to부정사 (easy, hard, important 등)",
-"사람의 성격·태도 형용사(kind, nice, smart, foolish)는 for 대신 of + 사람: It is kind of you to help me.",
-"seem to + 동사원형: ~인 것 같다 (He seems to be happy. = It seems that he is happy.)"
-],
-"examples": [
-{"en": "This bag is too heavy for me to carry.", "ko": "이 가방은 너무 무거워서 내가 들 수 없다."},
-{"en": "He is tall enough to touch the ceiling.", "ko": "그는 천장에 닿을 만큼 키가 크다."},
-{"en": "It was kind of you to help me.", "ko": "저를 도와주시다니 친절하시군요."}
-],
-"trap": "enough는 형용사 뒤(tall enough)에 오고, kind·nice 같은 성격 형용사의 의미상 주어는 for가 아니라 of를 쓴다.",
-"quiz": [
-{"type": "mc", "q": "빈칸에 알맞은 것은? The coffee is ___ hot to drink.", "choices": ["very", "too", "enough", "so"], "answer": 1, "exp": "too + 형용사 + to부정사는 '너무 ~해서 …할 수 없다'는 뜻이다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? She is ___ to drive a car.", "choices": ["enough old", "too old enough", "old enough", "so old"], "answer": 2, "exp": "enough는 형용사 뒤에 와서 '형용사 + enough + to부정사' 순서가 된다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? It is kind ___ you to help me.", "choices": ["for", "to", "with", "of"], "answer": 3, "exp": "kind처럼 사람의 성격을 나타내는 형용사 뒤에서는 의미상 주어를 of + 사람으로 쓴다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? It is hard ___ me to wake up early.", "choices": ["for", "of", "to", "by"], "answer": 0, "exp": "hard처럼 성격이 아닌 일반 형용사는 의미상 주어를 for + 사람으로 쓴다."},
-{"type": "mc", "q": "He is too young to go to school alone.과 뜻이 같은 문장은?", "choices": ["He is so young that he can go to school alone.", "He is so young that he can't go to school alone.", "He is young enough to go to school alone.", "He is not young to go to school alone."], "answer": 1, "exp": "too ~ to는 '너무 ~해서 …할 수 없다'이므로 so ~ that + 주어 + can't로 바꿀 수 있다."},
-{"type": "mc", "q": "빈칸에 알맞은 것은? He seems ___ happy these days.", "choices": ["be", "being", "to be", "to being"], "answer": 2, "exp": "seem to + 동사원형은 '~인 것 같다'는 뜻이다."},
-{"type": "ox", "q": "The box was light enough for me to lift.", "answer": true, "exp": "'형용사 + enough + for 사람 + to부정사' 순서가 맞다. '그 상자는 내가 들 수 있을 만큼 가벼웠다.'"},
-{"type": "ox", "q": "It was nice for you to invite me.", "answer": false, "exp": "nice는 사람의 성격·태도를 나타내는 형용사라 for가 아니라 of를 쓴다. → It was nice of you to invite me."}
-]
-}
+ {
+  "id": 1,
+  "title": "1, 2 형식 문장 구조",
+  "points": [
+   "1형식: 주어 + 동사 (+ 수식어). 동사만으로 뜻이 완성된다. 예: Birds fly.",
+   "1형식 문장 뒤에 붙는 장소·시간 표현(in the park, at 7)은 수식어일 뿐 문장의 필수 성분이 아니다.",
+   "2형식: 주어 + 동사 + 보어. 보어(명사·형용사)는 주어가 '누구인지, 어떤 상태인지' 설명한다.",
+   "2형식 대표 동사: be, become, get, seem + 감각동사 look, feel, sound, smell, taste",
+   "감각동사 뒤에는 부사가 아니라 형용사가 온다. 예: She looks happy. (happily X)"
+  ],
+  "examples": [
+   {
+    "en": "The baby sleeps in the room.",
+    "ko": "아기가 방에서 잔다."
+   },
+   {
+    "en": "He became a teacher.",
+    "ko": "그는 선생님이 되었다."
+   },
+   {
+    "en": "This soup tastes good.",
+    "ko": "이 수프는 맛이 좋다."
+   }
+  ],
+  "trap": "감각동사(look, sound, smell, taste, feel) 뒤에 부사를 쓰면 틀린다 — looks sadly(X) → looks sad(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? She looks ___ today.",
+    "choices": [
+     "happily",
+     "to happy",
+     "happiness",
+     "happy"
+    ],
+    "answer": 3,
+    "exp": "look은 2형식 감각동사라 뒤에 형용사 보어가 온다. happily는 부사라 보어가 될 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 1형식 문장은?",
+    "choices": [
+     "He is a doctor.",
+     "The sun rises in the east.",
+     "She feels tired.",
+     "They became friends."
+    ],
+    "answer": 1,
+    "exp": "rises는 보어·목적어 없이 뜻이 완성되고 in the east는 수식어이므로 1형식이다. 나머지는 보어가 있는 2형식이다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 2형식 문장은?",
+    "choices": [
+     "The children ran fast.",
+     "My dog barks at night.",
+     "This cake smells sweet.",
+     "He lives in Seoul."
+    ],
+    "answer": 2,
+    "exp": "smells 뒤의 sweet는 주어의 상태를 설명하는 형용사 보어이므로 2형식이다. 나머지는 모두 1형식(주어+동사+수식어)이다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 부분은? The music ① sounds ② beautifully ③ to ④ me.",
+    "choices": [
+     "① sounds",
+     "② beautifully",
+     "③ to",
+     "④ me"
+    ],
+    "answer": 1,
+    "exp": "sound는 감각동사이므로 부사 beautifully가 아니라 형용사 beautiful을 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장에서 보어는? My brother became a nurse.",
+    "choices": [
+     "My",
+     "brother",
+     "became",
+     "a nurse"
+    ],
+    "answer": 3,
+    "exp": "become은 2형식 동사이고, a nurse가 주어(My brother)가 무엇이 되었는지 설명하는 보어이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 들어갈 수 없는 것은? He ___ angry.",
+    "choices": [
+     "got",
+     "looked",
+     "seemed",
+     "saw"
+    ],
+    "answer": 3,
+    "exp": "got, looked, seemed는 형용사 보어를 받는 2형식 동사다. saw(보았다)는 2형식 동사가 아니므로 angry를 보어로 쓸 수 없다."
+   },
+   {
+    "type": "ox",
+    "q": "The flower smells nicely.",
+    "answer": false,
+    "exp": "smell은 감각동사이므로 부사 nicely가 아니라 형용사 nice를 써야 한다."
+   },
+   {
+    "type": "ox",
+    "q": "1형식 문장은 주어와 동사만으로 뜻이 완성되며, 뒤에 오는 장소 표현은 수식어이다.",
+    "answer": true,
+    "exp": "1형식은 주어+동사가 핵심이고, in the park 같은 표현은 빼도 문장이 성립하는 수식어다."
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "title": "3, 4 형식 문장 구조",
+  "points": [
+   "3형식: 주어 + 동사 + 목적어. 목적어는 '~을/를'로 해석한다. 예: I like soccer.",
+   "4형식: 주어 + 동사 + 간접목적어(~에게) + 직접목적어(~을). 예: He gave me a book.",
+   "4형식 동사(수여동사): give, send, show, tell, teach, buy, make, cook, ask",
+   "4형식 → 3형식 전환: 주어 + 동사 + 직접목적어 + 전치사 + 간접목적어",
+   "전치사 구분 — to: give, send, show, tell, teach / for: buy, make, cook / of: ask"
+  ],
+  "examples": [
+   {
+    "en": "I like soccer.",
+    "ko": "나는 축구를 좋아한다."
+   },
+   {
+    "en": "My mom made me a sandwich.",
+    "ko": "엄마가 나에게 샌드위치를 만들어 주셨다."
+   },
+   {
+    "en": "She sent a letter to her friend.",
+    "ko": "그녀는 친구에게 편지를 보냈다."
+   }
+  ],
+  "trap": "3형식으로 바꿀 때 buy, make, cook은 to가 아니라 for를 쓴다 — bought a bag for me(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 전치사는? He showed his photos ___ me.",
+    "choices": [
+     "to",
+     "for",
+     "of",
+     "at"
+    ],
+    "answer": 0,
+    "exp": "show는 3형식으로 바꿀 때 간접목적어 앞에 to를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 전치사는? Dad bought a bike ___ me.",
+    "choices": [
+     "to",
+     "for",
+     "of",
+     "with"
+    ],
+    "answer": 1,
+    "exp": "buy는 3형식으로 바꿀 때 간접목적어 앞에 for를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 4형식 문장은?",
+    "choices": [
+     "I play tennis.",
+     "They live here.",
+     "He looks tired.",
+     "She teaches us English."
+    ],
+    "answer": 3,
+    "exp": "teaches 뒤에 간접목적어(us, ~에게)와 직접목적어(English, ~을)가 차례로 왔으므로 4형식이다."
+   },
+   {
+    "type": "mc",
+    "q": "She told me the truth.를 3형식으로 바르게 바꾼 것은?",
+    "choices": [
+     "She told the truth for me.",
+     "She told to me the truth.",
+     "She told the truth to me.",
+     "She told me to the truth."
+    ],
+    "answer": 2,
+    "exp": "3형식은 '동사 + 직접목적어 + 전치사 + 간접목적어' 순서이고, tell은 전치사 to를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "He gave me a pen.",
+     "I sent a card to her.",
+     "She made a cake to me.",
+     "Mom cooked dinner for us."
+    ],
+    "answer": 2,
+    "exp": "make는 3형식으로 쓸 때 to가 아니라 for를 쓴다. → She made a cake for me."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장에서 간접목적어(~에게)는? The teacher gave the students homework.",
+    "choices": [
+     "homework",
+     "the students",
+     "gave",
+     "The teacher"
+    ],
+    "answer": 1,
+    "exp": "4형식에서 동사 바로 뒤의 the students가 '~에게'에 해당하는 간접목적어이고, homework는 직접목적어이다."
+   },
+   {
+    "type": "ox",
+    "q": "I gave to him a gift.",
+    "answer": false,
+    "exp": "4형식에서는 간접목적어 앞에 전치사를 쓰지 않는다. I gave him a gift. 또는 I gave a gift to him.이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "He asked me a question.을 3형식으로 바꾸면 He asked a question of me.가 된다.",
+    "answer": true,
+    "exp": "ask는 3형식으로 바꿀 때 전치사 of를 쓴다."
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "title": "5 형식 문장 구조",
+  "points": [
+   "5형식: 주어 + 동사 + 목적어 + 목적격보어. 목적격보어는 목적어의 이름·상태·행동을 설명한다.",
+   "명사 보어: call, name, elect, make — We call him Tom. (목적어 = 보어 관계)",
+   "형용사 보어: make, keep, find, leave — The news made me sad.",
+   "to부정사 보어: want, ask, tell, expect, allow — I want you to come.",
+   "목적격보어 자리에 부사는 올 수 없다. keep the room clean(O) / cleanly(X)"
+  ],
+  "examples": [
+   {
+    "en": "They named the dog Max.",
+    "ko": "그들은 그 개를 맥스라고 이름 지었다."
+   },
+   {
+    "en": "Exercise keeps me healthy.",
+    "ko": "운동은 나를 건강하게 유지해 준다."
+   },
+   {
+    "en": "My teacher told me to study hard.",
+    "ko": "선생님은 나에게 열심히 공부하라고 말씀하셨다."
+   }
+  ],
+  "trap": "want, tell, ask 뒤의 목적격보어는 동사원형이 아니라 to부정사 — want you go(X) → want you to go(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? The movie made me ___.",
+    "choices": [
+     "sadly",
+     "sad",
+     "sadden",
+     "to sadly"
+    ],
+    "answer": 1,
+    "exp": "make + 목적어 + 형용사(목적격보어) 구조이다. 부사 sadly는 보어가 될 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? My mom wants me ___ my room.",
+    "choices": [
+     "to clean",
+     "clean",
+     "cleaning",
+     "cleaned"
+    ],
+    "answer": 0,
+    "exp": "want + 목적어 + to부정사 구조이므로 to clean이 알맞다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 5형식 문장은?",
+    "choices": [
+     "She gave me a cup.",
+     "He sent her a letter.",
+     "I bought my son shoes.",
+     "We elected him captain."
+    ],
+    "answer": 3,
+    "exp": "him = captain(그가 주장)이 성립하므로 captain은 목적격보어, 5형식이다. 나머지는 '~에게 ~을' 구조의 4형식이다."
+   },
+   {
+    "type": "mc",
+    "q": "어법상 틀린 부분은? Please ① keep ② the door ③ openly ④ for me.",
+    "choices": [
+     "① keep",
+     "② the door",
+     "③ openly",
+     "④ for me"
+    ],
+    "answer": 2,
+    "exp": "keep + 목적어 + 형용사 구조이므로 부사 openly가 아니라 형용사 open을 써야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 문장에서 목적격보어는? People call the city the Big Apple.",
+    "choices": [
+     "People",
+     "call",
+     "the city",
+     "the Big Apple"
+    ],
+    "answer": 3,
+    "exp": "the city = the Big Apple 관계로, 목적어(the city)를 설명하는 목적격보어이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? The doctor told him ___ more water.",
+    "choices": [
+     "drink",
+     "drinks",
+     "to drink",
+     "drank"
+    ],
+    "answer": 2,
+    "exp": "tell + 목적어 + to부정사 구조이므로 to drink가 알맞다."
+   },
+   {
+    "type": "ox",
+    "q": "I found the book easy.는 5형식 문장이다.",
+    "answer": true,
+    "exp": "find + 목적어(the book) + 형용사 보어(easy) 구조로 '그 책이 쉽다는 것을 알았다'는 5형식이다."
+   },
+   {
+    "type": "ox",
+    "q": "She asked me help her.",
+    "answer": false,
+    "exp": "ask + 목적어 + to부정사이므로 She asked me to help her.가 맞다."
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "title": "시제 : 현재, 과거, 미래 시제",
+  "points": [
+   "현재시제: 습관·반복·현재의 사실. 주어가 3인칭 단수면 동사 + -s/-es (He plays).",
+   "과거시제: 이미 끝난 일. 동사 + -ed 또는 불규칙형(go→went, eat→ate). yesterday, last ~, ~ ago와 함께 쓴다.",
+   "미래시제: will + 동사원형 / be going to + 동사원형. tomorrow, next ~와 함께 쓴다.",
+   "부정문·의문문: do/does/did + 동사원형 (He doesn't play. / Did you eat?)",
+   "변하지 않는 진리·과학적 사실은 항상 현재시제: The earth goes around the sun."
+  ],
+  "examples": [
+   {
+    "en": "She walks to school every day.",
+    "ko": "그녀는 매일 걸어서 학교에 간다."
+   },
+   {
+    "en": "I watched a soccer game last night.",
+    "ko": "나는 어젯밤에 축구 경기를 봤다."
+   },
+   {
+    "en": "We will visit Busan next week.",
+    "ko": "우리는 다음 주에 부산을 방문할 것이다."
+   }
+  ],
+  "trap": "does, did, will 뒤에는 반드시 동사원형 — Did you went?(X) → Did you go?(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? My father ___ coffee every morning.",
+    "choices": [
+     "drink",
+     "drinks",
+     "drinking",
+     "will drinking"
+    ],
+    "answer": 1,
+    "exp": "every morning은 습관을 나타내므로 현재시제, 주어가 3인칭 단수라 drinks가 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I ___ to the park yesterday.",
+    "choices": [
+     "go",
+     "goes",
+     "went",
+     "will go"
+    ],
+    "answer": 2,
+    "exp": "yesterday는 과거 표현이므로 go의 과거형 went를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? We ___ a test tomorrow.",
+    "choices": [
+     "had",
+     "will have",
+     "has",
+     "having"
+    ],
+    "answer": 1,
+    "exp": "tomorrow는 미래이므로 will + 동사원형을 쓴다. had는 과거, has는 주어 We와 맞지 않는다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "Did she call you?",
+     "He doesn't like milk.",
+     "Will you come tomorrow?",
+     "She didn't went home."
+    ],
+    "answer": 3,
+    "exp": "didn't 뒤에는 동사원형이 와야 하므로 She didn't go home.이 맞다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? Water ___ at 100°C.",
+    "choices": [
+     "boils",
+     "boil",
+     "boiled",
+     "will boiling"
+    ],
+    "answer": 0,
+    "exp": "물이 100도에서 끓는 것은 변하지 않는 과학적 사실이므로 현재시제 boils를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I am going to ___ my grandma this weekend.",
+    "choices": [
+     "visits",
+     "visiting",
+     "visited",
+     "visit"
+    ],
+    "answer": 3,
+    "exp": "be going to 뒤에는 동사원형이 온다."
+   },
+   {
+    "type": "ox",
+    "q": "He studied English two years ago.",
+    "answer": true,
+    "exp": "two years ago는 과거 표현이므로 과거시제 studied가 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "She will goes shopping tomorrow.",
+    "answer": false,
+    "exp": "will 뒤에는 동사원형이 오므로 She will go shopping tomorrow.가 맞다."
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "title": "시제 : 현재, 과거, 미래진행형",
+  "points": [
+   "현재진행: am/is/are + 동사-ing — 지금 하고 있는 일 (~하고 있다).",
+   "과거진행: was/were + 동사-ing — 과거 어느 순간에 하고 있던 일 (~하고 있었다).",
+   "미래진행: will be + 동사-ing — 미래 어느 순간에 하고 있을 일 (~하고 있을 것이다).",
+   "-ing 만들기: make→making(e 빼기), run→running(자음 하나 더), lie→lying(ie→y)",
+   "상태동사(know, like, want, believe, have(소유))는 보통 진행형으로 쓰지 않는다."
+  ],
+  "examples": [
+   {
+    "en": "She is reading a book now.",
+    "ko": "그녀는 지금 책을 읽고 있다."
+   },
+   {
+    "en": "I was taking a shower when you called.",
+    "ko": "네가 전화했을 때 나는 샤워를 하고 있었다."
+   },
+   {
+    "en": "This time tomorrow, I will be playing soccer.",
+    "ko": "내일 이맘때 나는 축구를 하고 있을 것이다."
+   }
+  ],
+  "trap": "상태동사는 진행형 불가 — I am knowing him.(X) → I know him.(O)",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? Look! The kids ___ in the pool.",
+    "choices": [
+     "swim",
+     "swam",
+     "were swimming",
+     "are swimming"
+    ],
+    "answer": 3,
+    "exp": "Look!은 지금 눈앞에서 일어나는 일이므로 현재진행형 are swimming을 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? When I called him, he ___ dinner.",
+    "choices": [
+     "is eating",
+     "eats",
+     "was eating",
+     "will be eating"
+    ],
+    "answer": 2,
+    "exp": "과거의 한 순간(전화했을 때) 하고 있던 일은 과거진행형 was eating으로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? At 9 a.m. tomorrow, I ___ on the plane.",
+    "choices": [
+     "was sitting",
+     "will be sitting",
+     "sat",
+     "will sitting"
+    ],
+    "answer": 1,
+    "exp": "미래의 특정 시점(내일 오전 9시)에 하고 있을 일은 미래진행형 will be sitting으로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "He is running now.",
+     "They were playing chess.",
+     "She will be working late.",
+     "I am knowing the answer."
+    ],
+    "answer": 3,
+    "exp": "know는 상태동사라 진행형으로 쓰지 않는다. → I know the answer."
+   },
+   {
+    "type": "mc",
+    "q": "-ing 형태가 잘못된 것은?",
+    "choices": [
+     "make - making",
+     "sit - sitting",
+     "die - dieing",
+     "play - playing"
+    ],
+    "answer": 2,
+    "exp": "ie로 끝나는 동사는 ie를 y로 바꾸고 -ing를 붙인다. die → dying"
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? They ___ TV when the lights went out.",
+    "choices": [
+     "were watching",
+     "are watching",
+     "watch",
+     "will be watching"
+    ],
+    "answer": 0,
+    "exp": "전기가 나간 과거 순간에 하고 있던 일이므로 과거진행형 were watching을 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "'나는 새 휴대폰을 가지고 있다'를 I am having a new phone.으로 써도 된다.",
+    "answer": false,
+    "exp": "'가지고 있다(소유)'의 have는 상태동사라 진행형으로 쓰지 않는다. → I have a new phone."
+   },
+   {
+    "type": "ox",
+    "q": "It was raining when I left home.",
+    "answer": true,
+    "exp": "집을 나선 과거 순간에 비가 오고 있었으므로 과거진행형 was raining이 맞다."
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "title": "시제 : 완료 시제 (현재완료)",
+  "points": [
+   "형태: have/has + 과거분사(p.p.). 과거에 시작된 일이 현재와 연결될 때 쓴다.",
+   "4가지 용법 — 경험(ever, never, before), 계속(for, since), 완료(just, already, yet), 결과(lost, gone 등)",
+   "for + 기간(for three years) / since + 시작 시점(since 2020)",
+   "명백한 과거 표현(yesterday, ~ ago, last ~, when)과는 함께 쓸 수 없다.",
+   "have been to = ~에 가 본 적이 있다(경험) / have gone to = ~에 가 버렸다(결과, 지금 여기 없음)"
+  ],
+  "examples": [
+   {
+    "en": "I have visited Jeju three times.",
+    "ko": "나는 제주도에 세 번 가 봤다."
+   },
+   {
+    "en": "She has lived here since 2015.",
+    "ko": "그녀는 2015년부터 여기에 살고 있다."
+   },
+   {
+    "en": "He has just finished his homework.",
+    "ko": "그는 방금 숙제를 끝냈다."
+   }
+  ],
+  "trap": "현재완료는 yesterday, ago, last ~, when과 같이 쓰면 틀린다 — I have seen him yesterday.(X)",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I ___ in this town for ten years.",
+    "choices": [
+     "have lived",
+     "live",
+     "lived",
+     "am live"
+    ],
+    "answer": 0,
+    "exp": "for ten years(10년 동안)와 함께 과거부터 지금까지 계속된 일은 현재완료(계속)로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "She has already eaten lunch.",
+     "Have you ever seen a whale?",
+     "I have met him last year.",
+     "They have known each other since 2010."
+    ],
+    "answer": 2,
+    "exp": "last year는 명백한 과거 표현이라 현재완료와 쓸 수 없다. → I met him last year."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? He has worked here ___ 2019.",
+    "choices": [
+     "for",
+     "since",
+     "ago",
+     "during"
+    ],
+    "answer": 1,
+    "exp": "2019는 시작 시점이므로 since를 쓴다. for는 기간(for 5 years) 앞에 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 현재완료의 용법은? I have never eaten Indian food.",
+    "choices": [
+     "경험",
+     "계속",
+     "완료",
+     "결과"
+    ],
+    "answer": 0,
+    "exp": "never와 함께 '~해 본 적이 없다'는 뜻이므로 경험 용법이다."
+   },
+   {
+    "type": "mc",
+    "q": "Tom has gone to London.의 뜻으로 알맞은 것은?",
+    "choices": [
+     "톰은 런던에 가 본 적이 있다.",
+     "톰은 런던에 가 버려서 지금 여기 없다.",
+     "톰은 런던에 갈 것이다.",
+     "톰은 런던에 살았었다."
+    ],
+    "answer": 1,
+    "exp": "have gone to는 '가 버려서 지금 없다'는 결과 용법이다. '가 본 적 있다'는 have been to이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? Have you finished your homework ___?",
+    "choices": [
+     "ago",
+     "since",
+     "last",
+     "yet"
+    ],
+    "answer": 3,
+    "exp": "현재완료 의문문에서 '벌써, 이제' 뜻으로 yet을 쓴다. ago, last는 과거 표현이라 현재완료와 쓸 수 없다."
+   },
+   {
+    "type": "ox",
+    "q": "I have been to Japan twice.는 '일본에 두 번 가 본 적이 있다'는 경험을 나타낸다.",
+    "answer": true,
+    "exp": "have been to + 횟수는 경험 용법이다."
+   },
+   {
+    "type": "ox",
+    "q": "When have you arrived?",
+    "answer": false,
+    "exp": "when은 특정 과거 시점을 묻기 때문에 현재완료와 쓸 수 없다. → When did you arrive?"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "title": "조동사 : can과 may를 활용한 가능성과 허락의 표현",
+  "points": [
+   "can + 동사원형: ~할 수 있다(능력·가능). = be able to + 동사원형",
+   "can / may + 동사원형: ~해도 된다(허락). Can I ~? / May I ~? (May가 더 공손함)",
+   "could: can의 과거(~할 수 있었다) 또는 공손한 부탁(Could you ~?)",
+   "조동사 뒤에는 항상 동사원형. 주어가 3인칭 단수여도 can에 -s를 붙이지 않는다.",
+   "부정: cannot(can't) = ~할 수 없다 / may not = ~하면 안 된다. 미래의 능력은 will be able to."
+  ],
+  "examples": [
+   {
+    "en": "She can speak three languages.",
+    "ko": "그녀는 세 개의 언어를 말할 수 있다."
+   },
+   {
+    "en": "May I use your pen?",
+    "ko": "펜을 써도 될까요?"
+   },
+   {
+    "en": "You may not take photos here.",
+    "ko": "여기서 사진을 찍으면 안 됩니다."
+   }
+  ],
+  "trap": "조동사 두 개를 연달아 쓸 수 없다 — will can(X) → will be able to(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? He ___ swim very well.",
+    "choices": [
+     "cans",
+     "is can",
+     "can to",
+     "can"
+    ],
+    "answer": 3,
+    "exp": "조동사 can은 주어와 상관없이 형태가 변하지 않고 바로 뒤에 동사원형이 온다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? You will ___ ride a bike soon.",
+    "choices": [
+     "can",
+     "able to",
+     "be able to",
+     "could"
+    ],
+    "answer": 2,
+    "exp": "will 뒤에 조동사 can을 또 쓸 수 없으므로 be able to를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "밑줄 친 can의 의미가 나머지와 다른 것은?",
+    "choices": [
+     "I can play the piano.",
+     "She can run fast.",
+     "Can I go to the restroom?",
+     "He can lift this box."
+    ],
+    "answer": 2,
+    "exp": "Can I go ~?는 '가도 되나요?'라는 허락의 의미이고, 나머지는 '~할 수 있다'는 능력이다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 올바른 문장은?",
+    "choices": [
+     "She can sings well.",
+     "May I to come in?",
+     "He could not find his bag.",
+     "You can't to park here."
+    ],
+    "answer": 2,
+    "exp": "조동사 뒤에는 to 없이 동사원형이 온다. could not find가 맞고, 나머지는 sings, to come, to park가 틀렸다."
+   },
+   {
+    "type": "mc",
+    "q": "선생님께 '창문을 열어도 될까요?'라고 공손하게 허락을 구하는 표현은?",
+    "choices": [
+     "May I open the window?",
+     "Must I open the window?",
+     "Should I open the window?",
+     "Will I open the window?"
+    ],
+    "answer": 0,
+    "exp": "May I ~?는 '~해도 될까요?'라는 공손한 허락 요청이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? When I was five, I ___ read.",
+    "choices": [
+     "can",
+     "could",
+     "may",
+     "will"
+    ],
+    "answer": 1,
+    "exp": "다섯 살 때(과거)의 능력이므로 can의 과거형 could를 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "Can I borrow your book?에서 can은 '능력'을 나타낸다.",
+    "answer": false,
+    "exp": "Can I ~?는 '~해도 될까요?'라는 허락을 구하는 표현이다."
+   },
+   {
+    "type": "ox",
+    "q": "You may not use your phone during the test.는 '시험 중에 휴대폰을 사용하면 안 된다'는 뜻이다.",
+    "answer": true,
+    "exp": "may not은 '~하면 안 된다'는 불허(금지)를 나타낸다."
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "title": "조동사 : should와 have to를 활용한 의무 표현",
+  "points": [
+   "should + 동사원형: ~해야 한다, ~하는 게 좋다(충고·권유). 부정은 should not(shouldn't).",
+   "must / have to + 동사원형: ~해야 한다(강한 의무). 주어가 3인칭 단수면 has to.",
+   "have to의 과거는 had to, 미래는 will have to. (must는 과거형이 없다)",
+   "don't have to = ~할 필요가 없다 / must not = ~하면 안 된다(금지). 뜻이 완전히 다르다.",
+   "의문문: Do I have to ~? / Should I ~?"
+  ],
+  "examples": [
+   {
+    "en": "You should wear a helmet.",
+    "ko": "너는 헬멧을 쓰는 게 좋겠다."
+   },
+   {
+    "en": "She has to get up early tomorrow.",
+    "ko": "그녀는 내일 일찍 일어나야 한다."
+   },
+   {
+    "en": "You don't have to bring lunch.",
+    "ko": "점심을 가져올 필요는 없다."
+   }
+  ],
+  "trap": "don't have to(~할 필요 없다)와 must not(~하면 안 된다)을 같은 뜻으로 착각하기 쉽다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? He ___ finish the report by Friday.",
+    "choices": [
+     "has to",
+     "have to",
+     "having to",
+     "haves to"
+    ],
+    "answer": 0,
+    "exp": "주어 He가 3인칭 단수이므로 has to를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "'오늘은 일요일이라 학교에 갈 필요가 없다.' Today is Sunday, so I ___ go to school.",
+    "choices": [
+     "must not",
+     "don't have to",
+     "should",
+     "has to"
+    ],
+    "answer": 1,
+    "exp": "'~할 필요가 없다'는 don't have to이다. must not은 '가면 안 된다'는 금지라 뜻이 다르다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? Yesterday I ___ stay home because I was sick.",
+    "choices": [
+     "must",
+     "have to",
+     "had to",
+     "should"
+    ],
+    "answer": 2,
+    "exp": "yesterday(과거)의 의무는 have to의 과거형 had to로 쓴다. must는 과거형이 없다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "You should eat more vegetables.",
+     "She doesn't have to wait.",
+     "We must to follow the rules.",
+     "Do I have to pay now?"
+    ],
+    "answer": 2,
+    "exp": "must는 조동사라 뒤에 to 없이 동사원형이 온다. → We must follow the rules."
+   },
+   {
+    "type": "mc",
+    "q": "You must not run in the hallway.의 뜻은?",
+    "choices": [
+     "복도에서 뛸 필요가 없다.",
+     "복도에서 뛰어야 한다.",
+     "복도에서 뛸 수 있다.",
+     "복도에서 뛰면 안 된다."
+    ],
+    "answer": 3,
+    "exp": "must not은 '~하면 안 된다'는 강한 금지를 나타낸다."
+   },
+   {
+    "type": "mc",
+    "q": "문맥상 빈칸에 알맞은 것은? You look tired. You ___ go to bed early.",
+    "choices": [
+     "must not",
+     "should",
+     "don't have to",
+     "had to"
+    ],
+    "answer": 1,
+    "exp": "피곤해 보이는 사람에게 '일찍 자는 게 좋겠다'고 충고하는 것이므로 should가 알맞다."
+   },
+   {
+    "type": "ox",
+    "q": "She will have to work this weekend.",
+    "answer": true,
+    "exp": "미래의 의무는 will have to + 동사원형으로 쓴다. (will must는 불가)"
+   },
+   {
+    "type": "ox",
+    "q": "must not과 don't have to는 같은 뜻이다.",
+    "answer": false,
+    "exp": "must not은 '~하면 안 된다(금지)', don't have to는 '~할 필요가 없다(불필요)'로 뜻이 다르다."
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "title": "조동사 : may와 must를 활용한 추측 표현",
+  "points": [
+   "may / might + 동사원형: ~일지도 모른다 (약한 추측, 반반 정도의 확신).",
+   "must + 동사원형: ~임에 틀림없다 (강한 확신의 추측).",
+   "can't + 동사원형: ~일 리가 없다 (강한 부정 추측, must의 반대).",
+   "추측의 must 뒤에는 be가 자주 온다: He must be tired.",
+   "must가 '의무(~해야 한다)'인지 '추측(~임에 틀림없다)'인지는 문맥으로 구분한다."
+  ],
+  "examples": [
+   {
+    "en": "It may rain this afternoon.",
+    "ko": "오늘 오후에 비가 올지도 모른다."
+   },
+   {
+    "en": "She has worked all day. She must be tired.",
+    "ko": "그녀는 하루 종일 일했다. 피곤한 게 틀림없다."
+   },
+   {
+    "en": "That can't be true.",
+    "ko": "그게 사실일 리가 없다."
+   }
+  ],
+  "trap": "'~일 리가 없다'는 must not이 아니라 can't로 쓰는 것이 기본이다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "문맥상 빈칸에 알맞은 것은? He has been running for two hours. He ___ be very thirsty.",
+    "choices": [
+     "can't",
+     "may not",
+     "doesn't have to",
+     "must"
+    ],
+    "answer": 3,
+    "exp": "두 시간이나 달렸으니 '목마른 게 틀림없다'는 강한 확신이므로 must가 알맞다."
+   },
+   {
+    "type": "mc",
+    "q": "문맥상 빈칸에 알맞은 것은? I'm not sure, but she ___ be at home.",
+    "choices": [
+     "must",
+     "can't",
+     "may",
+     "has to"
+    ],
+    "answer": 2,
+    "exp": "'확실하지 않지만'이라고 했으므로 약한 추측 may(~일지도 모른다)가 알맞다."
+   },
+   {
+    "type": "mc",
+    "q": "'그가 범인일 리가 없다.' He ___ be the thief.",
+    "choices": [
+     "can't",
+     "must",
+     "may",
+     "has to"
+    ],
+    "answer": 0,
+    "exp": "'~일 리가 없다'는 강한 부정 추측이므로 can't를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "밑줄 친 must의 의미가 나머지와 다른 것은?",
+    "choices": [
+     "She must be hungry.",
+     "He must be a doctor.",
+     "You must wear a seat belt.",
+     "They must be at the gym."
+    ],
+    "answer": 2,
+    "exp": "You must wear ~는 '~해야 한다'는 의무이고, 나머지는 '~임에 틀림없다'는 추측이다."
+   },
+   {
+    "type": "mc",
+    "q": "문맥상 빈칸에 알맞은 것은? The lights are off. They ___ be at home.",
+    "choices": [
+     "must",
+     "can't",
+     "should",
+     "have to"
+    ],
+    "answer": 1,
+    "exp": "불이 꺼져 있으니 '집에 있을 리가 없다'는 강한 부정 추측 can't가 알맞다."
+   },
+   {
+    "type": "mc",
+    "q": "It might snow tonight.의 뜻은?",
+    "choices": [
+     "오늘 밤 눈이 와야 한다.",
+     "오늘 밤 눈이 올지도 모른다.",
+     "오늘 밤 눈이 올 리가 없다.",
+     "오늘 밤 눈이 왔다."
+    ],
+    "answer": 1,
+    "exp": "might는 may처럼 '~일지도 모른다'는 약한 추측을 나타낸다."
+   },
+   {
+    "type": "ox",
+    "q": "'~일 리가 없다'는 강한 부정 추측은 보통 can't를 써서 나타낸다.",
+    "answer": true,
+    "exp": "must(틀림없다)의 반대 의미는 can't(~일 리 없다)로 표현한다."
+   },
+   {
+    "type": "ox",
+    "q": "She may knows the answer.",
+    "answer": false,
+    "exp": "조동사 may 뒤에는 동사원형이 와야 하므로 She may know the answer.가 맞다."
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "title": "조동사 : 뜻을 주의해야 하는 조동사",
+  "points": [
+   "had better + 동사원형: ~하는 게 좋겠다(강한 충고). 부정은 had better not + 동사원형.",
+   "used to + 동사원형: (예전에) ~하곤 했다, ~였다 — 지금은 그렇지 않다는 뜻을 담는다.",
+   "would like to + 동사원형: ~하고 싶다(want to의 공손한 표현). would like + 명사: ~을 원하다.",
+   "would rather A (than B): (B하느니) 차라리 A하겠다. A, B 모두 동사원형.",
+   "be used to + 동사-ing(~에 익숙하다)는 used to + 동사원형(~하곤 했다)과 다른 표현이다."
+  ],
+  "examples": [
+   {
+    "en": "You had better see a doctor.",
+    "ko": "너는 병원에 가 보는 게 좋겠다."
+   },
+   {
+    "en": "I used to live in Busan.",
+    "ko": "나는 예전에 부산에 살았다."
+   },
+   {
+    "en": "I would like to order a pizza.",
+    "ko": "피자를 주문하고 싶습니다."
+   }
+  ],
+  "trap": "had better의 부정은 had not better(X)가 아니라 had better not(O)이고, 뒤에 to를 붙이지 않는다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "문맥상 빈칸에 알맞은 것은? You ___ take an umbrella. It's going to rain.",
+    "choices": [
+     "had better",
+     "had better to",
+     "used to",
+     "would like"
+    ],
+    "answer": 0,
+    "exp": "비가 올 것이니 '우산을 가져가는 게 좋겠다'는 충고이므로 had better + 동사원형이 알맞다."
+   },
+   {
+    "type": "mc",
+    "q": "had better의 부정형으로 올바른 것은?",
+    "choices": [
+     "You had not better go.",
+     "You had better not to go.",
+     "You had better not go.",
+     "You not had better go."
+    ],
+    "answer": 2,
+    "exp": "had better의 부정은 had better not + 동사원형이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I ___ play soccer every day, but now I don't.",
+    "choices": [
+     "would like to",
+     "used to",
+     "had better",
+     "would rather"
+    ],
+    "answer": 1,
+    "exp": "'예전엔 매일 했지만 지금은 안 한다'는 과거의 습관이므로 used to가 알맞다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "I would rather to stay home.",
+     "I would like a glass of water.",
+     "I would like to visit Paris.",
+     "She used to be shy."
+    ],
+    "answer": 0,
+    "exp": "would rather 뒤에는 to 없이 동사원형이 온다. → I would rather stay home."
+   },
+   {
+    "type": "mc",
+    "q": "There used to be a big tree here.의 뜻은?",
+    "choices": [
+     "여기에 큰 나무가 있는 게 좋겠다.",
+     "여기에 큰 나무가 있음에 틀림없다.",
+     "여기에 큰 나무가 있을지도 모른다.",
+     "예전에 여기에 큰 나무가 있었다(지금은 없다)."
+    ],
+    "answer": 3,
+    "exp": "used to는 '예전에는 ~였다(지금은 아니다)'라는 과거의 상태를 나타낸다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I would rather walk ___ take a taxi.",
+    "choices": [
+     "to",
+     "and",
+     "than",
+     "of"
+    ],
+    "answer": 2,
+    "exp": "would rather A than B는 'B하느니 차라리 A하겠다'는 뜻으로 than을 쓴다."
+   },
+   {
+    "type": "ox",
+    "q": "I would like to drink some juice.는 '주스를 좀 마시고 싶다'는 공손한 표현이다.",
+    "answer": true,
+    "exp": "would like to + 동사원형은 want to보다 공손한 '~하고 싶다' 표현이다."
+   },
+   {
+    "type": "ox",
+    "q": "He used to getting up early.",
+    "answer": false,
+    "exp": "'~하곤 했다'는 used to + 동사원형이므로 He used to get up early.가 맞다. (be used to -ing는 '~에 익숙하다')"
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "title": "부정사 : to 부정사의 명사적 용법",
+  "points": [
+   "to + 동사원형이 명사처럼 쓰여 '~하는 것, ~하기'로 해석된다.",
+   "주어 역할: To exercise every day is good. → 보통 가주어 it을 써서 It is good to exercise every day.",
+   "목적어 역할: want, hope, plan, decide + to부정사 (I want to be a teacher.)",
+   "보어 역할: My dream is to travel the world. (주어 = 보어)",
+   "의문사 + to부정사: what to do(무엇을 할지), how to swim(수영하는 방법), where to go(어디로 갈지)"
+  ],
+  "examples": [
+   {
+    "en": "To learn English is fun.",
+    "ko": "영어를 배우는 것은 재미있다."
+   },
+   {
+    "en": "I hope to see you again.",
+    "ko": "다시 만나기를 바란다."
+   },
+   {
+    "en": "Do you know how to use this machine?",
+    "ko": "이 기계를 사용하는 방법을 아니?"
+   }
+  ],
+  "trap": "to부정사 주어는 단수 취급 — To read books are fun.(X) → is fun.(O)",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "to부정사가 '주어' 역할을 하는 문장은?",
+    "choices": [
+     "I want to sleep.",
+     "To swim in the sea is exciting.",
+     "Her job is to teach children.",
+     "He decided to leave."
+    ],
+    "answer": 1,
+    "exp": "To swim in the sea가 문장의 주어(~하는 것은)이다. 나머지는 목적어 또는 보어 역할이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? It is important ___ breakfast.",
+    "choices": [
+     "to eat",
+     "eat",
+     "eats",
+     "ate"
+    ],
+    "answer": 0,
+    "exp": "It은 가주어이고 진짜 주어는 to부정사 to eat breakfast이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? To play games with friends ___ fun.",
+    "choices": [
+     "are",
+     "be",
+     "were",
+     "is"
+    ],
+    "answer": 3,
+    "exp": "to부정사 주어는 단수 취급하므로 is를 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "'나는 이 컴퓨터를 사용하는 방법을 모른다.' I don't know ___ use this computer.",
+    "choices": [
+     "what to",
+     "how to",
+     "where to",
+     "when to"
+    ],
+    "answer": 1,
+    "exp": "'~하는 방법'은 how + to부정사로 나타낸다."
+   },
+   {
+    "type": "mc",
+    "q": "to부정사가 '보어' 역할을 하는 문장은?",
+    "choices": [
+     "My plan is to buy a new bike.",
+     "I like to cook.",
+     "To walk is good exercise.",
+     "She hopes to win."
+    ],
+    "answer": 0,
+    "exp": "be동사 뒤의 to buy a new bike가 주어 My plan이 무엇인지 설명하는 보어이다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "I plan to visit my uncle.",
+     "It is easy to make friends.",
+     "She wants to becomes a singer.",
+     "My goal is to pass the test."
+    ],
+    "answer": 2,
+    "exp": "to 뒤에는 동사원형이 와야 하므로 to become이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "It is fun to ride a bike.에서 It은 가주어이고 진짜 주어는 to ride a bike이다.",
+    "answer": true,
+    "exp": "긴 to부정사 주어를 뒤로 보내고 그 자리에 가주어 it을 쓴 문장이다."
+   },
+   {
+    "type": "ox",
+    "q": "I decided buy a new phone.",
+    "answer": false,
+    "exp": "decide는 목적어로 to부정사를 쓰므로 I decided to buy a new phone.이 맞다."
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "title": "부정사 : to 부정사의 형용사적 용법",
+  "points": [
+   "to부정사가 명사 뒤에서 명사를 꾸며 '~할, ~하는'으로 해석된다. 형태: 명사 + to부정사",
+   "-thing 대명사(something, anything, nothing) 뒤에도 온다: something to eat(먹을 것)",
+   "-thing + 형용사 + to부정사 순서: something cold to drink(차가운 마실 것)",
+   "꾸밈 받는 명사가 전치사의 목적어이면 전치사를 꼭 남긴다: a chair to sit on, a friend to talk with, a house to live in",
+   "자주 쓰는 표현: time to go(갈 시간), a book to read(읽을 책), homework to do(할 숙제)"
+  ],
+  "examples": [
+   {
+    "en": "I have a lot of homework to do.",
+    "ko": "나는 해야 할 숙제가 많다."
+   },
+   {
+    "en": "Give me something to drink.",
+    "ko": "마실 것 좀 줘."
+   },
+   {
+    "en": "She needs a friend to talk with.",
+    "ko": "그녀는 함께 이야기할 친구가 필요하다."
+   }
+  ],
+  "trap": "전치사를 빠뜨리기 쉽다 — a house to live(X) → a house to live in(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I need a chair to sit ___.",
+    "choices": [
+     "at",
+     "to",
+     "for",
+     "on"
+    ],
+    "answer": 3,
+    "exp": "sit on a chair(의자에 앉다)이므로 to부정사 뒤에 전치사 on을 남겨야 한다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 어순은? Can I have ___?",
+    "choices": [
+     "something cold to drink",
+     "cold something to drink",
+     "something to drink cold",
+     "to drink something cold"
+    ],
+    "answer": 0,
+    "exp": "-thing으로 끝나는 대명사는 '-thing + 형용사 + to부정사' 순서로 꾸민다."
+   },
+   {
+    "type": "mc",
+    "q": "to부정사가 형용사적 용법(명사 수식)으로 쓰인 문장은?",
+    "choices": [
+     "I want to go home.",
+     "It's time to go to bed.",
+     "To read is fun.",
+     "He came here to see me."
+    ],
+    "answer": 1,
+    "exp": "to go to bed가 앞의 명사 time을 꾸며 '잘 시간'이라는 뜻이다. 나머지는 명사적·부사적 용법이다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "I have no time to rest.",
+     "She has many friends to help her.",
+     "He bought a house to live.",
+     "Give me a pen to write with."
+    ],
+    "answer": 2,
+    "exp": "live in a house이므로 a house to live in처럼 전치사 in이 필요하다."
+   },
+   {
+    "type": "mc",
+    "q": "There is nothing to worry about.의 뜻은?",
+    "choices": [
+     "걱정하기 위해 아무것도 없다.",
+     "걱정하는 것은 아무것도 아니다.",
+     "걱정할 사람이 아무도 없다.",
+     "걱정할 것이 아무것도 없다."
+    ],
+    "answer": 3,
+    "exp": "to worry about이 nothing을 꾸며 '걱정할 것'이라는 뜻이 된다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? Do you have anything ___?",
+    "choices": [
+     "read",
+     "reading to",
+     "to read",
+     "for read"
+    ],
+    "answer": 2,
+    "exp": "anything 뒤에서 to부정사가 꾸며 '읽을 것'이 된다."
+   },
+   {
+    "type": "ox",
+    "q": "I want someone to play with.",
+    "answer": true,
+    "exp": "play with someone이므로 someone to play with처럼 전치사 with를 남긴 올바른 문장이다."
+   },
+   {
+    "type": "ox",
+    "q": "'읽을 책'을 영어로 to read a book이라고 쓴다.",
+    "answer": false,
+    "exp": "형용사적 용법은 '명사 + to부정사' 순서이므로 a book to read가 맞다."
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "title": "부정사 : to 부정사의 부사적 용법",
+  "points": [
+   "to부정사가 동사·형용사·문장 전체를 꾸며 목적, 감정의 원인, 결과, 판단의 근거 등을 나타낸다.",
+   "목적(~하기 위해): I went to the library to study. = in order to study",
+   "감정의 원인(~해서): 감정 형용사(happy, glad, sad, sorry, surprised) + to부정사. I'm glad to meet you.",
+   "결과(~해서 결국 …하다): He grew up to be a doctor. / 판단의 근거(~하다니): He must be smart to solve it.",
+   "형용사 수식(~하기에): easy to read, hard to answer"
+  ],
+  "examples": [
+   {
+    "en": "She got up early to catch the first bus.",
+    "ko": "그녀는 첫 버스를 타기 위해 일찍 일어났다."
+   },
+   {
+    "en": "I was surprised to hear the news.",
+    "ko": "나는 그 소식을 듣고 놀랐다."
+   },
+   {
+    "en": "This book is easy to understand.",
+    "ko": "이 책은 이해하기 쉽다."
+   }
+  ],
+  "trap": "목적을 나타낼 때 for + 동사원형을 쓰면 틀린다 — for buy(X) → to buy(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "to부정사가 '목적(~하기 위해)'을 나타내는 문장은?",
+    "choices": [
+     "I'm happy to see you.",
+     "He went to the store to buy milk.",
+     "She grew up to be a pianist.",
+     "This water is safe to drink."
+    ],
+    "answer": 1,
+    "exp": "to buy milk는 '우유를 사기 위해' 가게에 간 목적을 나타낸다."
+   },
+   {
+    "type": "mc",
+    "q": "I was sad to hear the news.에서 to hear의 쓰임은?",
+    "choices": [
+     "목적",
+     "결과",
+     "감정의 원인",
+     "형용사 수식"
+    ],
+    "answer": 2,
+    "exp": "감정 형용사 sad 뒤의 to부정사는 '~해서' 슬펐다는 감정의 원인을 나타낸다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? He studied hard ___ pass the exam.",
+    "choices": [
+     "for",
+     "so",
+     "because",
+     "in order to"
+    ],
+    "answer": 3,
+    "exp": "'~하기 위해'라는 목적은 to부정사 또는 in order to + 동사원형으로 나타낸다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "I came here for meet you.",
+     "She was glad to win the game.",
+     "The question is hard to answer.",
+     "He studies hard to be a doctor."
+    ],
+    "answer": 0,
+    "exp": "목적은 for + 동사원형이 아니라 to부정사로 쓴다. → I came here to meet you."
+   },
+   {
+    "type": "mc",
+    "q": "He grew up to be a famous singer.의 뜻은?",
+    "choices": [
+     "그는 유명한 가수가 되기 위해 자랐다.",
+     "그는 자라서 유명한 가수가 되었다.",
+     "그는 유명한 가수가 되어 기뻤다.",
+     "그는 유명한 가수가 되고 싶었다."
+    ],
+    "answer": 1,
+    "exp": "grow up to be는 '자라서 ~이 되었다'는 결과 용법이다."
+   },
+   {
+    "type": "mc",
+    "q": "to부정사의 쓰임이 나머지와 다른 것은?",
+    "choices": [
+     "I saved money to buy a bike.",
+     "She called me to say sorry.",
+     "He ran to catch the bus.",
+     "We need water to drink."
+    ],
+    "answer": 3,
+    "exp": "water to drink는 명사 water를 꾸미는 형용사적 용법('마실 물')이고, 나머지는 '~하기 위해'라는 부사적 용법(목적)이다."
+   },
+   {
+    "type": "ox",
+    "q": "I'm sorry to be late.에서 to be late는 감정의 원인을 나타낸다.",
+    "answer": true,
+    "exp": "감정 형용사 sorry 뒤의 to부정사는 '늦어서' 미안하다는 원인을 나타낸다."
+   },
+   {
+    "type": "ox",
+    "q": "She went to the park for walk her dog.",
+    "answer": false,
+    "exp": "목적은 to부정사로 나타내므로 She went to the park to walk her dog.가 맞다."
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "title": "부정사 : 부정사만 동반되는 동사",
+  "points": [
+   "어떤 동사는 목적어로 to부정사만 쓰고 동명사(-ing)는 쓰지 않는다. 형태: 주어 + 동사 + to + 동사원형",
+   "대표 동사: want, hope, wish, plan, decide, expect, promise, agree, refuse, learn, choose, afford",
+   "대부분 '앞으로 할 일(미래·계획·의지)'의 느낌이 있다: 원하다, 계획하다, 결심하다, 약속하다",
+   "부정은 to 바로 앞에 not: He decided not to go.",
+   "반대로 enjoy, finish, mind, give up 등은 동명사(-ing)만 목적어로 쓴다 — 헷갈리지 말 것."
+  ],
+  "examples": [
+   {
+    "en": "I hope to win the race.",
+    "ko": "나는 경주에서 이기기를 바란다."
+   },
+   {
+    "en": "We decided to take a taxi.",
+    "ko": "우리는 택시를 타기로 결정했다."
+   },
+   {
+    "en": "He promised not to be late again.",
+    "ko": "그는 다시는 늦지 않겠다고 약속했다."
+   }
+  ],
+  "trap": "want, hope, decide, plan 뒤에 -ing를 쓰면 틀린다 — decide going(X) → decide to go(O).",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? She decided ___ abroad.",
+    "choices": [
+     "study",
+     "studying",
+     "to study",
+     "studied"
+    ],
+    "answer": 2,
+    "exp": "decide는 목적어로 to부정사만 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 들어갈 수 없는 동사는? I ___ to visit Jeju this summer.",
+    "choices": [
+     "plan",
+     "hope",
+     "want",
+     "enjoy"
+    ],
+    "answer": 3,
+    "exp": "enjoy는 동명사(-ing)만 목적어로 쓰므로 to visit과 함께 쓸 수 없다."
+   },
+   {
+    "type": "mc",
+    "q": "다음 중 어법상 틀린 문장은?",
+    "choices": [
+     "He refused to answer.",
+     "They expect winning the game.",
+     "We agreed to help them.",
+     "I learned to ride a horse."
+    ],
+    "answer": 1,
+    "exp": "expect는 to부정사를 목적어로 쓴다. → They expect to win the game."
+   },
+   {
+    "type": "mc",
+    "q": "'그는 다시는 늦지 않겠다고 약속했다.' He promised ___ late again.",
+    "choices": [
+     "not to be",
+     "to not being",
+     "not being",
+     "don't be"
+    ],
+    "answer": 0,
+    "exp": "to부정사의 부정은 to 앞에 not을 붙여 not to + 동사원형으로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? I can't afford ___ a new car.",
+    "choices": [
+     "buy",
+     "buying",
+     "bought",
+     "to buy"
+    ],
+    "answer": 3,
+    "exp": "afford(~할 여유가 있다)는 to부정사를 목적어로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "목적어로 to부정사를 쓰는 동사끼리 짝지어진 것은?",
+    "choices": [
+     "want - enjoy",
+     "hope - finish",
+     "decide - plan",
+     "mind - wish"
+    ],
+    "answer": 2,
+    "exp": "decide와 plan은 모두 to부정사를 목적어로 쓴다. enjoy, finish, mind는 동명사를 쓰는 동사이다."
+   },
+   {
+    "type": "ox",
+    "q": "I hope seeing you soon.",
+    "answer": false,
+    "exp": "hope는 to부정사를 목적어로 쓰므로 I hope to see you soon.이 맞다."
+   },
+   {
+    "type": "ox",
+    "q": "He wants to be a soccer player.",
+    "answer": true,
+    "exp": "want + to부정사로 '~이 되고 싶다'는 올바른 문장이다."
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "title": "부정사 : 중요 부정사 구문",
+  "points": [
+   "too + 형용사/부사 + to부정사: 너무 ~해서 …할 수 없다 = so + 형용사 + that + 주어 + can't",
+   "형용사/부사 + enough + to부정사: …할 만큼 충분히 ~하다 (enough는 형용사 뒤에 온다)",
+   "의미상 주어: It is + 형용사 + for + 사람 + to부정사 (easy, hard, important 등)",
+   "사람의 성격·태도 형용사(kind, nice, smart, foolish)는 for 대신 of + 사람: It is kind of you to help me.",
+   "seem to + 동사원형: ~인 것 같다 (He seems to be happy. = It seems that he is happy.)"
+  ],
+  "examples": [
+   {
+    "en": "This bag is too heavy for me to carry.",
+    "ko": "이 가방은 너무 무거워서 내가 들 수 없다."
+   },
+   {
+    "en": "He is tall enough to touch the ceiling.",
+    "ko": "그는 천장에 닿을 만큼 키가 크다."
+   },
+   {
+    "en": "It was kind of you to help me.",
+    "ko": "저를 도와주시다니 친절하시군요."
+   }
+  ],
+  "trap": "enough는 형용사 뒤(tall enough)에 오고, kind·nice 같은 성격 형용사의 의미상 주어는 for가 아니라 of를 쓴다.",
+  "quiz": [
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? The coffee is ___ hot to drink.",
+    "choices": [
+     "very",
+     "too",
+     "enough",
+     "so"
+    ],
+    "answer": 1,
+    "exp": "too + 형용사 + to부정사는 '너무 ~해서 …할 수 없다'는 뜻이다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? She is ___ to drive a car.",
+    "choices": [
+     "enough old",
+     "too old enough",
+     "old enough",
+     "so old"
+    ],
+    "answer": 2,
+    "exp": "enough는 형용사 뒤에 와서 '형용사 + enough + to부정사' 순서가 된다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? It is kind ___ you to help me.",
+    "choices": [
+     "for",
+     "to",
+     "with",
+     "of"
+    ],
+    "answer": 3,
+    "exp": "kind처럼 사람의 성격을 나타내는 형용사 뒤에서는 의미상 주어를 of + 사람으로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? It is hard ___ me to wake up early.",
+    "choices": [
+     "for",
+     "of",
+     "to",
+     "by"
+    ],
+    "answer": 0,
+    "exp": "hard처럼 성격이 아닌 일반 형용사는 의미상 주어를 for + 사람으로 쓴다."
+   },
+   {
+    "type": "mc",
+    "q": "He is too young to go to school alone.과 뜻이 같은 문장은?",
+    "choices": [
+     "He is so young that he can go to school alone.",
+     "He is so young that he can't go to school alone.",
+     "He is young enough to go to school alone.",
+     "He is not young to go to school alone."
+    ],
+    "answer": 1,
+    "exp": "too ~ to는 '너무 ~해서 …할 수 없다'이므로 so ~ that + 주어 + can't로 바꿀 수 있다."
+   },
+   {
+    "type": "mc",
+    "q": "빈칸에 알맞은 것은? He seems ___ happy these days.",
+    "choices": [
+     "be",
+     "being",
+     "to be",
+     "to being"
+    ],
+    "answer": 2,
+    "exp": "seem to + 동사원형은 '~인 것 같다'는 뜻이다."
+   },
+   {
+    "type": "ox",
+    "q": "The box was light enough for me to lift.",
+    "answer": true,
+    "exp": "'형용사 + enough + for 사람 + to부정사' 순서가 맞다. '그 상자는 내가 들 수 있을 만큼 가벼웠다.'"
+   },
+   {
+    "type": "ox",
+    "q": "It was nice for you to invite me.",
+    "answer": false,
+    "exp": "nice는 사람의 성격·태도를 나타내는 형용사라 for가 아니라 of를 쓴다. → It was nice of you to invite me."
+   }
+  ]
+ }
 ]

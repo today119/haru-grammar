@@ -65,13 +65,13 @@
     "type": "mc",
     "q": "대답의 빈칸에 알맞은 것을 고르세요.\nA: Is that your bag?\nB: Yes, ___ is.",
     "choices": [
-     "that",
+     "they",
      "it",
      "this",
      "these"
     ],
     "answer": 1,
-    "exp": "this/that으로 물으면 대답에서는 it으로 받는다."
+    "exp": "this/that으로 물으면 대답에서는 it으로 받는다. 가방 하나(단수)이고 동사가 is이므로 they는 맞지 않는다."
    },
    {
     "type": "mc",
@@ -230,7 +230,7 @@
    "some은 주로 긍정문, any는 주로 부정문·의문문에 쓴다. 예: I have some money. / I don't have any money.",
    "each(각각의)와 every(모든)는 뒤에 단수명사 + 단수동사가 온다. 예: Every student has a book.",
    "each of + the 복수명사 + 단수동사. 예: Each of the rooms has a window.",
-   "all(모두)과 both(둘 다)는 복수 취급한다. 예: All of the students are here. / Both of them are kind."
+   "both(둘 다)는 항상 복수 취급하고, all of + 복수명사도 복수 취급한다. 예: Both of them are kind. / All of the students are here. (all of + 불가산명사는 단수: All of the water is gone.)"
   ],
   "examples": [
    {
@@ -1172,7 +1172,7 @@
     "choices": [
      "enough",
      "too",
-     "very",
+     "such",
      "much"
     ],
     "answer": 1,
@@ -1255,7 +1255,7 @@
   "quiz": [
    {
     "type": "mc",
-    "q": "빈칸에 알맞은 것을 고르세요.\nI met him three days ___.",
+    "q": "빈칸에 알맞은 것을 고르세요. (지금부터 3일 전에)\nI met him three days ___.",
     "choices": [
      "before",
      "ago",
@@ -1263,7 +1263,7 @@
      "since"
     ],
     "answer": 1,
-    "exp": "지금부터 3일 전이므로 '기간 + ago'를 쓴다."
+    "exp": "지금을 기준으로 '3일 전'이므로 '기간 + ago'를 쓴다. 기간 + before는 과거의 어느 때를 기준으로 그보다 전일 때 쓴다."
    },
    {
     "type": "mc",
@@ -1344,7 +1344,7 @@
   "title": "비교 : 동등 비교",
   "points": [
    "as + 원급(형용사/부사 원래 모양) + as: ~만큼 …한/하게",
-   "not as(so) + 원급 + as: ~만큼 …하지 않은 (= 더 …하지 않다)",
+   "not as(so) + 원급 + as: ~만큼 …하지 않은 (= 덜 …하다) 예: My bag is not as heavy as yours. (내 가방이 더 가볍다)",
    "as + 원급 + as possible: 가능한 한 …하게. 예: as soon as possible",
    "배수 + as + 원급 + as: ~보다 몇 배 …한. 예: twice as big as (두 배 큰)"
   ],
