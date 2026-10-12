@@ -1,0 +1,5898 @@
+[
+{
+"id": "g1-0",
+"en": "The baby sleeps in the room.",
+"ko": "아기가 방에서 잔다.",
+"ch": [
+{
+"e": "The baby sleeps",
+"k": "아기가 잔다"
+},
+{
+"e": "in the room.",
+"k": "방에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g2-1",
+"en": "My mom made me a sandwich.",
+"ko": "엄마가 나에게 샌드위치를 만들어 주셨다.",
+"ch": [
+{
+"e": "My mom",
+"k": "엄마가"
+},
+{
+"e": "made me",
+"k": "나에게 만들어 주셨다"
+},
+{
+"e": "a sandwich.",
+"k": "샌드위치를"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g2-2",
+"en": "She sent a letter to her friend.",
+"ko": "그녀는 친구에게 편지를 보냈다.",
+"ch": [
+{
+"e": "She sent a letter",
+"k": "그녀는 편지를 보냈다"
+},
+{
+"e": "to her friend.",
+"k": "그녀의 친구에게"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g3-2",
+"en": "My teacher told me to study hard.",
+"ko": "선생님은 나에게 열심히 공부하라고 말씀하셨다.",
+"ch": [
+{
+"e": "My teacher told me",
+"k": "선생님은 나에게 말씀하셨다"
+},
+{
+"e": "to study hard.",
+"k": "열심히 공부하라고"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g4-0",
+"en": "She walks to school every day.",
+"ko": "그녀는 매일 걸어서 학교에 간다.",
+"ch": [
+{
+"e": "She walks",
+"k": "그녀는 걸어간다"
+},
+{
+"e": "to school",
+"k": "학교에"
+},
+{
+"e": "every day.",
+"k": "매일"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g4-1",
+"en": "I watched a soccer game last night.",
+"ko": "나는 어젯밤에 축구 경기를 봤다.",
+"ch": [
+{
+"e": "I",
+"k": "나는"
+},
+{
+"e": "watched a soccer game",
+"k": "축구 경기를 봤다"
+},
+{
+"e": "last night.",
+"k": "어젯밤에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g4-2",
+"en": "We will visit Busan next week.",
+"ko": "우리는 다음 주에 부산을 방문할 것이다.",
+"ch": [
+{
+"e": "We",
+"k": "우리는"
+},
+{
+"e": "will visit Busan",
+"k": "부산을 방문할 것이다"
+},
+{
+"e": "next week.",
+"k": "다음 주에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g5-0",
+"en": "She is reading a book now.",
+"ko": "그녀는 지금 책을 읽고 있다.",
+"ch": [
+{
+"e": "She",
+"k": "그녀는"
+},
+{
+"e": "is reading a book",
+"k": "책을 읽고 있다"
+},
+{
+"e": "now.",
+"k": "지금"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g5-1",
+"en": "I was taking a shower when you called.",
+"ko": "네가 전화했을 때 나는 샤워를 하고 있었다.",
+"ch": [
+{
+"e": "I was taking a shower",
+"k": "나는 샤워를 하고 있었다"
+},
+{
+"e": "when you called.",
+"k": "네가 전화했을 때"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "g5-2",
+"en": "This time tomorrow, I will be playing soccer.",
+"ko": "내일 이맘때 나는 축구를 하고 있을 것이다.",
+"ch": [
+{
+"e": "This time tomorrow,",
+"k": "내일 이맘때"
+},
+{
+"e": "I will be playing soccer.",
+"k": "나는 축구를 하고 있을 것이다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g6-0",
+"en": "I have visited Jeju three times.",
+"ko": "나는 제주도에 세 번 가 봤다.",
+"ch": [
+{
+"e": "I",
+"k": "나는"
+},
+{
+"e": "have visited Jeju",
+"k": "제주도에 가 봤다"
+},
+{
+"e": "three times.",
+"k": "세 번"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g6-1",
+"en": "She has lived here since 2015.",
+"ko": "그녀는 2015년부터 여기에 살고 있다.",
+"ch": [
+{
+"e": "She has lived here",
+"k": "그녀는 여기에 살고 있다"
+},
+{
+"e": "since 2015.",
+"k": "2015년부터"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g6-2",
+"en": "He has just finished his homework.",
+"ko": "그는 방금 숙제를 끝냈다.",
+"ch": [
+{
+"e": "He",
+"k": "그는"
+},
+{
+"e": "has just finished his homework.",
+"k": "방금 숙제를 끝냈다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g7-2",
+"en": "You may not take photos here.",
+"ko": "여기서 사진을 찍으면 안 됩니다.",
+"ch": [
+{
+"e": "You",
+"k": "당신은"
+},
+{
+"e": "may not take photos",
+"k": "사진을 찍으면 안 된다"
+},
+{
+"e": "here.",
+"k": "여기서"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g8-1",
+"en": "She has to get up early tomorrow.",
+"ko": "그녀는 내일 일찍 일어나야 한다.",
+"ch": [
+{
+"e": "She",
+"k": "그녀는"
+},
+{
+"e": "has to get up early",
+"k": "일찍 일어나야 한다"
+},
+{
+"e": "tomorrow.",
+"k": "내일"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g8-2",
+"en": "You don't have to bring lunch.",
+"ko": "점심을 가져올 필요는 없다.",
+"ch": [
+{
+"e": "You",
+"k": "너는"
+},
+{
+"e": "don't have to bring lunch.",
+"k": "점심을 가져올 필요가 없다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g9-1",
+"en": "She has worked all day. She must be tired.",
+"ko": "그녀는 하루 종일 일했다. 피곤한 게 틀림없다.",
+"ch": [
+{
+"e": "She has worked all day.",
+"k": "그녀는 하루 종일 일했다."
+},
+{
+"e": "She must be tired.",
+"k": "그녀는 피곤한 게 틀림없다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g10-0",
+"en": "You had better see a doctor.",
+"ko": "너는 병원에 가 보는 게 좋겠다.",
+"ch": [
+{
+"e": "You",
+"k": "너는"
+},
+{
+"e": "had better see a doctor.",
+"k": "병원에 가 보는 게 좋겠다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g10-1",
+"en": "I used to live in Busan.",
+"ko": "나는 예전에 부산에 살았다.",
+"ch": [
+{
+"e": "I used to live",
+"k": "나는 예전에 살았다"
+},
+{
+"e": "in Busan.",
+"k": "부산에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g10-2",
+"en": "I would like to order a pizza.",
+"ko": "피자를 주문하고 싶습니다.",
+"ch": [
+{
+"e": "I would like",
+"k": "나는 ~하고 싶다"
+},
+{
+"e": "to order a pizza.",
+"k": "피자를 주문하기를"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g11-1",
+"en": "I hope to see you again.",
+"ko": "다시 만나기를 바란다.",
+"ch": [
+{
+"e": "I hope",
+"k": "나는 바란다"
+},
+{
+"e": "to see you again.",
+"k": "너를 다시 만나기를"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g11-2",
+"en": "Do you know how to use this machine?",
+"ko": "이 기계를 사용하는 방법을 아니?",
+"ch": [
+{
+"e": "Do you know",
+"k": "너는 아니?"
+},
+{
+"e": "how to use",
+"k": "사용하는 방법을"
+},
+{
+"e": "this machine?",
+"k": "이 기계를"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g12-0",
+"en": "I have a lot of homework to do.",
+"ko": "나는 해야 할 숙제가 많다.",
+"ch": [
+{
+"e": "I have a lot of homework",
+"k": "나는 숙제가 많다"
+},
+{
+"e": "to do.",
+"k": "해야 할"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g12-2",
+"en": "She needs a friend to talk with.",
+"ko": "그녀는 함께 이야기할 친구가 필요하다.",
+"ch": [
+{
+"e": "She needs a friend",
+"k": "그녀는 친구가 필요하다"
+},
+{
+"e": "to talk with.",
+"k": "함께 이야기할"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g13-0",
+"en": "She got up early to catch the first bus.",
+"ko": "그녀는 첫 버스를 타기 위해 일찍 일어났다.",
+"ch": [
+{
+"e": "She got up early",
+"k": "그녀는 일찍 일어났다"
+},
+{
+"e": "to catch the first bus.",
+"k": "첫 버스를 타기 위해"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g13-1",
+"en": "I was surprised to hear the news.",
+"ko": "나는 그 소식을 듣고 놀랐다.",
+"ch": [
+{
+"e": "I was surprised",
+"k": "나는 놀랐다"
+},
+{
+"e": "to hear the news.",
+"k": "그 소식을 듣고"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g13-2",
+"en": "This book is easy to understand.",
+"ko": "이 책은 이해하기 쉽다.",
+"ch": [
+{
+"e": "This book is easy",
+"k": "이 책은 쉽다"
+},
+{
+"e": "to understand.",
+"k": "이해하기에"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g14-0",
+"en": "I hope to win the race.",
+"ko": "나는 경주에서 이기기를 바란다.",
+"ch": [
+{
+"e": "I hope",
+"k": "나는 바란다"
+},
+{
+"e": "to win the race.",
+"k": "경주에서 이기기를"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g14-1",
+"en": "We decided to take a taxi.",
+"ko": "우리는 택시를 타기로 결정했다.",
+"ch": [
+{
+"e": "We decided",
+"k": "우리는 결정했다"
+},
+{
+"e": "to take a taxi.",
+"k": "택시를 타기로"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g14-2",
+"en": "He promised not to be late again.",
+"ko": "그는 다시는 늦지 않겠다고 약속했다.",
+"ch": [
+{
+"e": "He promised",
+"k": "그는 약속했다"
+},
+{
+"e": "not to be late again.",
+"k": "다시는 늦지 않겠다고"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g15-0",
+"en": "This bag is too heavy for me to carry.",
+"ko": "이 가방은 너무 무거워서 내가 들 수 없다.",
+"ch": [
+{
+"e": "This bag is too heavy",
+"k": "이 가방은 너무 무겁다"
+},
+{
+"e": "for me",
+"k": "나에게는"
+},
+{
+"e": "to carry.",
+"k": "들기에"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g15-1",
+"en": "He is tall enough to touch the ceiling.",
+"ko": "그는 천장에 닿을 만큼 키가 크다.",
+"ch": [
+{
+"e": "He is tall enough",
+"k": "그는 충분히 키가 크다"
+},
+{
+"e": "to touch the ceiling.",
+"k": "천장에 닿을 만큼"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g15-2",
+"en": "It was kind of you to help me.",
+"ko": "저를 도와주시다니 친절하시군요.",
+"ch": [
+{
+"e": "It was kind of you",
+"k": "당신은 친절했다"
+},
+{
+"e": "to help me.",
+"k": "나를 도와주다니"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g16-0",
+"en": "Running every morning keeps me healthy.",
+"ko": "매일 아침 달리는 것은 나를 건강하게 해 준다.",
+"ch": [
+{
+"e": "Running every morning",
+"k": "매일 아침 달리는 것은"
+},
+{
+"e": "keeps me healthy.",
+"k": "나를 건강하게 유지해 준다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g17-2",
+"en": "He gave up smoking last year.",
+"ko": "그는 작년에 담배를 끊었다.",
+"ch": [
+{
+"e": "He",
+"k": "그는"
+},
+{
+"e": "gave up smoking",
+"k": "담배를 끊었다"
+},
+{
+"e": "last year.",
+"k": "작년에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g18-1",
+"en": "Don't forget to bring your umbrella.",
+"ko": "우산 가져오는 것 잊지 마.",
+"ch": [
+{
+"e": "Don't forget",
+"k": "잊지 마"
+},
+{
+"e": "to bring your umbrella.",
+"k": "네 우산을 가져오는 것을"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g19-2",
+"en": "The game was exciting, so we were excited.",
+"ko": "경기가 흥미진진해서 우리는 신이 났다.",
+"ch": [
+{
+"e": "The game was exciting,",
+"k": "경기는 흥미진진했다,"
+},
+{
+"e": "so we were excited.",
+"k": "그래서 우리는 신이 났다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g20-0",
+"en": "Opening the door, I saw a cat.",
+"ko": "문을 열었을 때, 나는 고양이 한 마리를 보았다.",
+"ch": [
+{
+"e": "Opening the door,",
+"k": "문을 열었을 때,"
+},
+{
+"e": "I saw a cat.",
+"k": "나는 고양이 한 마리를 보았다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g20-1",
+"en": "Feeling tired, he went to bed early.",
+"ko": "피곤해서 그는 일찍 잠자리에 들었다.",
+"ch": [
+{
+"e": "Feeling tired,",
+"k": "피곤해서,"
+},
+{
+"e": "he went to bed early.",
+"k": "그는 일찍 잠자리에 들었다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g20-2",
+"en": "Not knowing the answer, she kept quiet.",
+"ko": "답을 몰라서 그녀는 조용히 있었다.",
+"ch": [
+{
+"e": "Not knowing the answer,",
+"k": "답을 몰라서,"
+},
+{
+"e": "she kept quiet.",
+"k": "그녀는 조용히 있었다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g21-0",
+"en": "She walked home, listening to music.",
+"ko": "그녀는 음악을 들으면서 집으로 걸어갔다.",
+"ch": [
+{
+"e": "She walked home,",
+"k": "그녀는 집으로 걸어갔다,"
+},
+{
+"e": "listening to music.",
+"k": "음악을 들으면서"
+}
+],
+"r": "분사구 앞"
+},
+{
+"id": "g21-1",
+"en": "He sat on the bench, reading a newspaper.",
+"ko": "그는 신문을 읽으면서 벤치에 앉아 있었다.",
+"ch": [
+{
+"e": "He sat on the bench,",
+"k": "그는 벤치에 앉아 있었다,"
+},
+{
+"e": "reading a newspaper.",
+"k": "신문을 읽으면서"
+}
+],
+"r": "분사구 앞"
+},
+{
+"id": "g21-2",
+"en": "She listened to the song with her eyes closed.",
+"ko": "그녀는 눈을 감은 채로 그 노래를 들었다.",
+"ch": [
+{
+"e": "She listened to the song",
+"k": "그녀는 그 노래를 들었다"
+},
+{
+"e": "with her eyes closed.",
+"k": "눈을 감은 채로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g23-0",
+"en": "My mom made me clean my room.",
+"ko": "엄마는 나에게 방을 청소하게 하셨다.",
+"ch": [
+{
+"e": "My mom",
+"k": "엄마는"
+},
+{
+"e": "made me",
+"k": "나에게 시키셨다"
+},
+{
+"e": "clean my room.",
+"k": "내 방을 청소하게"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g24-0",
+"en": "I saw him cross the street.",
+"ko": "나는 그가 길을 건너는 것을 보았다.",
+"ch": [
+{
+"e": "I",
+"k": "나는"
+},
+{
+"e": "saw him",
+"k": "그를 보았다"
+},
+{
+"e": "cross the street.",
+"k": "길을 건너는 것을"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g25-0",
+"en": "The window was broken by Tom.",
+"ko": "그 창문은 톰에 의해 깨졌다.",
+"ch": [
+{
+"e": "The window was broken",
+"k": "그 창문은 깨졌다"
+},
+{
+"e": "by Tom.",
+"k": "톰에 의해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g25-1",
+"en": "English is spoken in many countries.",
+"ko": "영어는 많은 나라에서 사용된다.",
+"ch": [
+{
+"e": "English is spoken",
+"k": "영어는 사용된다"
+},
+{
+"e": "in many countries.",
+"k": "많은 나라에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g25-2",
+"en": "This song was written by my teacher.",
+"ko": "이 노래는 우리 선생님이 쓰셨다.",
+"ch": [
+{
+"e": "This song was written",
+"k": "이 노래는 쓰였다"
+},
+{
+"e": "by my teacher.",
+"k": "우리 선생님에 의해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g26-0",
+"en": "The work will be finished tomorrow.",
+"ko": "그 일은 내일 끝날 것이다.",
+"ch": [
+{
+"e": "The work",
+"k": "그 일은"
+},
+{
+"e": "will be finished",
+"k": "끝날 것이다"
+},
+{
+"e": "tomorrow.",
+"k": "내일"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g26-1",
+"en": "Phones should be turned off in class.",
+"ko": "수업 중에는 휴대폰을 꺼야 한다.",
+"ch": [
+{
+"e": "Phones should be turned off",
+"k": "휴대폰은 꺼져야 한다"
+},
+{
+"e": "in class.",
+"k": "수업 중에는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g26-2",
+"en": "The stars can be seen at night.",
+"ko": "별은 밤에 볼 수 있다.",
+"ch": [
+{
+"e": "The stars can be seen",
+"k": "별은 보일 수 있다"
+},
+{
+"e": "at night.",
+"k": "밤에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g27-1",
+"en": "The sun disappeared behind the clouds.",
+"ko": "해가 구름 뒤로 사라졌다.",
+"ch": [
+{
+"e": "The sun disappeared",
+"k": "해가 사라졌다"
+},
+{
+"e": "behind the clouds.",
+"k": "구름 뒤로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g28-0",
+"en": "If I were rich, I would buy a big house.",
+"ko": "내가 부자라면 큰 집을 살 텐데.",
+"ch": [
+{
+"e": "If I were rich,",
+"k": "만약 내가 부자라면,"
+},
+{
+"e": "I would buy a big house.",
+"k": "나는 큰 집을 살 텐데"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g28-1",
+"en": "If I had time, I could help you.",
+"ko": "나에게 시간이 있다면 너를 도와줄 수 있을 텐데.",
+"ch": [
+{
+"e": "If I had time,",
+"k": "만약 나에게 시간이 있다면,"
+},
+{
+"e": "I could help you.",
+"k": "나는 너를 도와줄 수 있을 텐데"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g28-2",
+"en": "If he knew her number, he would call her.",
+"ko": "그가 그녀의 번호를 안다면 그녀에게 전화할 텐데.",
+"ch": [
+{
+"e": "If he knew her number,",
+"k": "만약 그가 그녀의 번호를 안다면,"
+},
+{
+"e": "he would call her.",
+"k": "그는 그녀에게 전화할 텐데"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g29-0",
+"en": "If I had studied harder, I would have passed the test.",
+"ko": "내가 더 열심히 공부했더라면 시험에 합격했을 텐데.",
+"ch": [
+{
+"e": "If I had studied harder,",
+"k": "만약 내가 더 열심히 공부했더라면,"
+},
+{
+"e": "I would have passed the test.",
+"k": "나는 시험에 합격했을 텐데"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g29-1",
+"en": "If you had told me, I could have helped you.",
+"ko": "네가 나에게 말했더라면 내가 도와줄 수 있었을 텐데.",
+"ch": [
+{
+"e": "If you had told me,",
+"k": "만약 네가 나에게 말했더라면,"
+},
+{
+"e": "I could have helped you.",
+"k": "나는 너를 도와줄 수 있었을 텐데"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g29-2",
+"en": "If it hadn't rained, we would have played soccer.",
+"ko": "비가 오지 않았더라면 우리는 축구를 했을 텐데.",
+"ch": [
+{
+"e": "If it hadn't rained,",
+"k": "만약 비가 오지 않았더라면,"
+},
+{
+"e": "we would have played soccer.",
+"k": "우리는 축구를 했을 텐데"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g30-1",
+"en": "I wish I had listened to you.",
+"ko": "네 말을 들었더라면 좋았을 텐데.",
+"ch": [
+{
+"e": "I wish",
+"k": "나는 바란다"
+},
+{
+"e": "I had listened to you.",
+"k": "내가 네 말을 들었더라면 (좋았을 텐데)"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "g32-0",
+"en": "Three children are playing in the park.",
+"ko": "아이 세 명이 공원에서 놀고 있다.",
+"ch": [
+{
+"e": "Three children are playing",
+"k": "아이 세 명이 놀고 있다"
+},
+{
+"e": "in the park.",
+"k": "공원에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g32-1",
+"en": "My feet hurt after the game.",
+"ko": "경기 후에 발이 아프다.",
+"ch": [
+{
+"e": "My feet hurt",
+"k": "내 발이 아프다"
+},
+{
+"e": "after the game.",
+"k": "경기 후에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g33-0",
+"en": "I drink a glass of milk every morning.",
+"ko": "나는 매일 아침 우유 한 잔을 마신다.",
+"ch": [
+{
+"e": "I",
+"k": "나는"
+},
+{
+"e": "drink a glass of milk",
+"k": "우유 한 잔을 마신다"
+},
+{
+"e": "every morning.",
+"k": "매일 아침"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g33-1",
+"en": "She gave me some good advice.",
+"ko": "그녀는 나에게 좋은 조언을 해 주었다.",
+"ch": [
+{
+"e": "She",
+"k": "그녀는"
+},
+{
+"e": "gave me some good advice.",
+"k": "나에게 좋은 조언을 해 주었다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g33-2",
+"en": "We have a lot of homework today.",
+"ko": "오늘 우리는 숙제가 많다.",
+"ch": [
+{
+"e": "We",
+"k": "우리는"
+},
+{
+"e": "have a lot of homework",
+"k": "숙제가 많다"
+},
+{
+"e": "today.",
+"k": "오늘"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g34-1",
+"en": "The police are looking for the thief.",
+"ko": "경찰이 그 도둑을 찾고 있다.",
+"ch": [
+{
+"e": "The police",
+"k": "경찰이"
+},
+{
+"e": "are looking for the thief.",
+"k": "그 도둑을 찾고 있다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g34-2",
+"en": "There are five families in this building.",
+"ko": "이 건물에는 다섯 가구가 산다.",
+"ch": [
+{
+"e": "There are five families",
+"k": "다섯 가구가 있다"
+},
+{
+"e": "in this building.",
+"k": "이 건물에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g35-0",
+"en": "I saw a cat. The cat was black.",
+"ko": "나는 고양이 한 마리를 봤다. 그 고양이는 검은색이었다.",
+"ch": [
+{
+"e": "I saw a cat.",
+"k": "나는 고양이 한 마리를 봤다."
+},
+{
+"e": "The cat was black.",
+"k": "그 고양이는 검은색이었다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g36-1",
+"en": "I saw a movie yesterday. The movie was funny.",
+"ko": "어제 영화를 한 편 봤다. 그 영화는 재미있었다.",
+"ch": [
+{
+"e": "I saw a movie yesterday.",
+"k": "나는 어제 영화를 한 편 봤다."
+},
+{
+"e": "The movie was funny.",
+"k": "그 영화는 재미있었다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g36-2",
+"en": "The sun rises in the east.",
+"ko": "해는 동쪽에서 뜬다.",
+"ch": [
+{
+"e": "The sun rises",
+"k": "해는 뜬다"
+},
+{
+"e": "in the east.",
+"k": "동쪽에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g37-0",
+"en": "I play soccer twice a week.",
+"ko": "나는 일주일에 두 번 축구를 한다.",
+"ch": [
+{
+"e": "I",
+"k": "나는"
+},
+{
+"e": "play soccer",
+"k": "축구를 한다"
+},
+{
+"e": "twice a week.",
+"k": "일주일에 두 번"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g37-2",
+"en": "He took me by the hand.",
+"ko": "그는 내 손을 잡았다.",
+"ch": [
+{
+"e": "He took me",
+"k": "그는 나를 잡았다"
+},
+{
+"e": "by the hand.",
+"k": "손을"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g38-0",
+"en": "I go to school by bus.",
+"ko": "나는 버스를 타고 학교에 간다.",
+"ch": [
+{
+"e": "I go",
+"k": "나는 간다"
+},
+{
+"e": "to school",
+"k": "학교에"
+},
+{
+"e": "by bus.",
+"k": "버스를 타고"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g38-2",
+"en": "She went to bed early last night.",
+"ko": "그녀는 어젯밤 일찍 잠자리에 들었다.",
+"ch": [
+{
+"e": "She went",
+"k": "그녀는 갔다"
+},
+{
+"e": "to bed early",
+"k": "일찍 잠자리에"
+},
+{
+"e": "last night.",
+"k": "어젯밤"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g40-0",
+"en": "How many brothers do you have?",
+"ko": "너는 형제가 몇 명 있니?",
+"ch": [
+{
+"e": "How many brothers",
+"k": "몇 명의 형제를"
+},
+{
+"e": "do you have?",
+"k": "너는 가지고 있니?"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g40-2",
+"en": "There are a lot of people here.",
+"ko": "여기에 사람이 많다.",
+"ch": [
+{
+"e": "There are a lot of people",
+"k": "사람이 많이 있다"
+},
+{
+"e": "here.",
+"k": "여기에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g41-0",
+"en": "I have a few friends in Busan.",
+"ko": "나는 부산에 친구가 몇 명 있다.",
+"ch": [
+{
+"e": "I have a few friends",
+"k": "나는 친구가 몇 명 있다"
+},
+{
+"e": "in Busan.",
+"k": "부산에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g41-2",
+"en": "He has little money, so he can't buy it.",
+"ko": "그는 돈이 거의 없어서 그것을 살 수 없다.",
+"ch": [
+{
+"e": "He has little money,",
+"k": "그는 돈이 거의 없다,"
+},
+{
+"e": "so he can't buy it.",
+"k": "그래서 그는 그것을 살 수 없다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g42-0",
+"en": "All students must wear a uniform.",
+"ko": "모든 학생은 교복을 입어야 한다.",
+"ch": [
+{
+"e": "All students",
+"k": "모든 학생은"
+},
+{
+"e": "must wear a uniform.",
+"k": "교복을 입어야 한다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g42-2",
+"en": "There is no milk in the fridge.",
+"ko": "냉장고에 우유가 하나도 없다.",
+"ch": [
+{
+"e": "There is no milk",
+"k": "우유가 하나도 없다"
+},
+{
+"e": "in the fridge.",
+"k": "냉장고에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g43-1",
+"en": "Almost all of my friends have smartphones.",
+"ko": "내 친구들 거의 모두가 스마트폰을 가지고 있다.",
+"ch": [
+{
+"e": "Almost all of my friends",
+"k": "내 친구들 거의 모두가"
+},
+{
+"e": "have smartphones.",
+"k": "스마트폰을 가지고 있다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g43-2",
+"en": "Most of the students are here.",
+"ko": "그 학생들 대부분이 여기에 있다.",
+"ch": [
+{
+"e": "Most of the students",
+"k": "그 학생들 대부분이"
+},
+{
+"e": "are here.",
+"k": "여기에 있다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g44-0",
+"en": "She is my sister. I love her.",
+"ko": "그녀는 내 여동생이다. 나는 그녀를 사랑한다.",
+"ch": [
+{
+"e": "She is my sister.",
+"k": "그녀는 내 여동생이다."
+},
+{
+"e": "I love her.",
+"k": "나는 그녀를 사랑한다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g45-2",
+"en": "Which do you like better, pizza or chicken?",
+"ko": "피자와 치킨 중 어느 것을 더 좋아하니?",
+"ch": [
+{
+"e": "Which do you like better,",
+"k": "너는 어느 것을 더 좋아하니,"
+},
+{
+"e": "pizza or chicken?",
+"k": "피자 아니면 치킨?"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g46-1",
+"en": "Those are my classmates over there.",
+"ko": "저기 있는 저 사람들은 내 반 친구들이야.",
+"ch": [
+{
+"e": "Those",
+"k": "저 사람들은"
+},
+{
+"e": "are my classmates",
+"k": "내 반 친구들이야"
+},
+{
+"e": "over there.",
+"k": "저기 있는"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g47-0",
+"en": "I lost my pen, so I bought a new one.",
+"ko": "펜을 잃어버려서 새 것을 하나 샀다.",
+"ch": [
+{
+"e": "I lost my pen,",
+"k": "나는 펜을 잃어버렸다,"
+},
+{
+"e": "so I bought a new one.",
+"k": "그래서 나는 새 것을 하나 샀다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g47-1",
+"en": "I have two brothers. One is tall, and the other is short.",
+"ko": "나는 형이 둘 있다. 한 명은 키가 크고, 나머지 한 명은 작다.",
+"ch": [
+{
+"e": "I have two brothers.",
+"k": "나는 형이 둘 있다."
+},
+{
+"e": "One is tall,",
+"k": "한 명은 키가 크고,"
+},
+{
+"e": "and the other is short.",
+"k": "그리고 나머지 한 명은 작다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g47-2",
+"en": "Some people like tea, and others like coffee.",
+"ko": "어떤 사람들은 차를 좋아하고, 다른 사람들은 커피를 좋아한다.",
+"ch": [
+{
+"e": "Some people like tea,",
+"k": "어떤 사람들은 차를 좋아하고,"
+},
+{
+"e": "and others like coffee.",
+"k": "그리고 다른 사람들은 커피를 좋아한다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "g48-2",
+"en": "Both of my parents are teachers.",
+"ko": "우리 부모님 두 분 다 선생님이다.",
+"ch": [
+{
+"e": "Both of my parents",
+"k": "우리 부모님 두 분 다"
+},
+{
+"e": "are teachers.",
+"k": "선생님이다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g49-0",
+"en": "I am excited about the trip.",
+"ko": "나는 여행 때문에 신난다.",
+"ch": [
+{
+"e": "I am excited",
+"k": "나는 신난다"
+},
+{
+"e": "about the trip.",
+"k": "그 여행에 대해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g50-2",
+"en": "This town is famous for its beaches.",
+"ko": "이 마을은 해변으로 유명하다.",
+"ch": [
+{
+"e": "This town is famous",
+"k": "이 마을은 유명하다"
+},
+{
+"e": "for its beaches.",
+"k": "그곳의 해변으로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g52-0",
+"en": "I'm sure that she will win.",
+"ko": "나는 그녀가 이길 거라고 확신해.",
+"ch": [
+{
+"e": "I'm sure",
+"k": "나는 확신한다"
+},
+{
+"e": "that she will win.",
+"k": "(그건) 그녀가 이길 거라는 것"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "g53-1",
+"en": "This is a really difficult question.",
+"ko": "이것은 정말 어려운 문제다.",
+"ch": [
+{
+"e": "This",
+"k": "이것은"
+},
+{
+"e": "is a really difficult question.",
+"k": "정말 어려운 문제다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g55-0",
+"en": "I usually get up at seven.",
+"ko": "나는 보통 7시에 일어난다.",
+"ch": [
+{
+"e": "I usually get up",
+"k": "나는 보통 일어난다"
+},
+{
+"e": "at seven.",
+"k": "7시에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g55-1",
+"en": "She is never late for class.",
+"ko": "그녀는 수업에 절대 늦지 않는다.",
+"ch": [
+{
+"e": "She is never late",
+"k": "그녀는 절대 늦지 않는다"
+},
+{
+"e": "for class.",
+"k": "수업에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g56-0",
+"en": "He is tall enough to reach the shelf.",
+"ko": "그는 선반에 손이 닿을 만큼 키가 크다.",
+"ch": [
+{
+"e": "He is tall enough",
+"k": "그는 충분히 키가 크다"
+},
+{
+"e": "to reach the shelf.",
+"k": "선반에 손이 닿을 만큼"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g56-1",
+"en": "This tea is too hot to drink.",
+"ko": "이 차는 너무 뜨거워서 마실 수 없다.",
+"ch": [
+{
+"e": "This tea is too hot",
+"k": "이 차는 너무 뜨겁다"
+},
+{
+"e": "to drink.",
+"k": "마시기에"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "g57-0",
+"en": "I met him three days ago.",
+"ko": "나는 3일 전에 그를 만났다.",
+"ch": [
+{
+"e": "I",
+"k": "나는"
+},
+{
+"e": "met him",
+"k": "그를 만났다"
+},
+{
+"e": "three days ago.",
+"k": "3일 전에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "g57-1",
+"en": "I have been to Busan before.",
+"ko": "나는 전에 부산에 가 본 적이 있다.",
+"ch": [
+{
+"e": "I have been",
+"k": "나는 가 본 적이 있다"
+},
+{
+"e": "to Busan before.",
+"k": "전에 부산에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g58-0",
+"en": "Tom is as tall as his father.",
+"ko": "톰은 아빠만큼 키가 크다.",
+"ch": [
+{
+"e": "Tom is as tall",
+"k": "톰은 그만큼 키가 크다"
+},
+{
+"e": "as his father.",
+"k": "그의 아빠만큼"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g58-1",
+"en": "My bag is not as heavy as yours.",
+"ko": "내 가방은 네 것만큼 무겁지 않다.",
+"ch": [
+{
+"e": "My bag is not as heavy",
+"k": "내 가방은 그만큼 무겁지 않다"
+},
+{
+"e": "as yours.",
+"k": "네 것만큼"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g58-2",
+"en": "Please call me as soon as possible.",
+"ko": "가능한 한 빨리 전화해 줘.",
+"ch": [
+{
+"e": "Please call me",
+"k": "나에게 전화해 줘"
+},
+{
+"e": "as soon as possible.",
+"k": "가능한 한 빨리"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "g59-0",
+"en": "This box is heavier than that one.",
+"ko": "이 상자가 저 상자보다 더 무겁다.",
+"ch": [
+{
+"e": "This box is heavier",
+"k": "이 상자가 더 무겁다"
+},
+{
+"e": "than that one.",
+"k": "저것보다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "g59-1",
+"en": "Math is more difficult than English for me.",
+"ko": "나에게는 수학이 영어보다 더 어렵다.",
+"ch": [
+{
+"e": "Math is more difficult",
+"k": "수학이 더 어렵다"
+},
+{
+"e": "than English",
+"k": "영어보다"
+},
+{
+"e": "for me.",
+"k": "나에게는"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "g59-2",
+"en": "This phone is less expensive than that one.",
+"ko": "이 휴대폰은 저것보다 덜 비싸다.",
+"ch": [
+{
+"e": "This phone is less expensive",
+"k": "이 휴대폰은 덜 비싸다"
+},
+{
+"e": "than that one.",
+"k": "저것보다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "g60-0",
+"en": "Mt. Everest is the highest mountain in the world.",
+"ko": "에베레스트산은 세계에서 가장 높은 산이다.",
+"ch": [
+{
+"e": "Mt. Everest is",
+"k": "에베레스트산은 ~이다"
+},
+{
+"e": "the highest mountain",
+"k": "가장 높은 산"
+},
+{
+"e": "in the world.",
+"k": "세계에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g60-1",
+"en": "He is the tallest of the three boys.",
+"ko": "그는 세 소년 중에서 가장 키가 크다.",
+"ch": [
+{
+"e": "He is the tallest",
+"k": "그는 가장 키가 크다"
+},
+{
+"e": "of the three boys.",
+"k": "세 소년 중에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "g60-2",
+"en": "Seoul is one of the biggest cities in Asia.",
+"ko": "서울은 아시아에서 가장 큰 도시 중 하나이다.",
+"ch": [
+{
+"e": "Seoul is one",
+"k": "서울은 하나이다"
+},
+{
+"e": "of the biggest cities",
+"k": "가장 큰 도시들 중"
+},
+{
+"e": "in Asia.",
+"k": "아시아에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a0",
+"en": "She went through a hard time last year.",
+"ko": "그녀는 작년에 힘든 시기를 겪었다.",
+"ch": [
+{
+"e": "She",
+"k": "그녀는"
+},
+{
+"e": "went through a hard time",
+"k": "힘든 시기를 겪었다"
+},
+{
+"e": "last year.",
+"k": "작년에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a1",
+"en": "My brother negotiated a later bedtime with Mom.",
+"ko": "남동생은 엄마와 협상해서 잠자는 시간을 늦췄다.",
+"ch": [
+{
+"e": "My brother negotiated",
+"k": "남동생은 협상했다"
+},
+{
+"e": "a later bedtime",
+"k": "더 늦은 취침 시간을"
+},
+{
+"e": "with Mom.",
+"k": "엄마와"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a7",
+"en": "Is it feasible to finish this by tomorrow?",
+"ko": "이걸 내일까지 끝내는 게 가능할까?",
+"ch": [
+{
+"e": "Is it feasible",
+"k": "가능할까"
+},
+{
+"e": "to finish this",
+"k": "이것을 끝내는 것이"
+},
+{
+"e": "by tomorrow?",
+"k": "내일까지"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a8",
+"en": "Our school has a diverse group of students.",
+"ko": "우리 학교에는 다양한 학생들이 있다.",
+"ch": [
+{
+"e": "Our school",
+"k": "우리 학교에는"
+},
+{
+"e": "has a diverse group of students.",
+"k": "다양한 학생들이 있다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a10",
+"en": "The car accelerated as we left the city.",
+"ko": "우리가 도시를 벗어나자 차가 속도를 냈다.",
+"ch": [
+{
+"e": "The car accelerated",
+"k": "차가 속도를 냈다"
+},
+{
+"e": "as we left the city.",
+"k": "우리가 도시를 벗어나자"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a16",
+"en": "This is only a temporary classroom during repairs.",
+"ko": "이곳은 수리 기간 동안만 쓰는 임시 교실이다.",
+"ch": [
+{
+"e": "This is only a temporary classroom",
+"k": "이곳은 임시 교실일 뿐이다"
+},
+{
+"e": "during repairs.",
+"k": "수리 기간 동안"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a17",
+"en": "I sent the photos to Grandma via email.",
+"ko": "나는 이메일로 할머니께 사진을 보냈다.",
+"ch": [
+{
+"e": "I sent the photos",
+"k": "나는 사진을 보냈다"
+},
+{
+"e": "to Grandma",
+"k": "할머니께"
+},
+{
+"e": "via email.",
+"k": "이메일을 통해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a18",
+"en": "How do you cope with stress during exams?",
+"ko": "시험 기간에 스트레스를 어떻게 이겨내니?",
+"ch": [
+{
+"e": "How do you cope",
+"k": "너는 어떻게 대처하니"
+},
+{
+"e": "with stress",
+"k": "스트레스에"
+},
+{
+"e": "during exams?",
+"k": "시험 기간 동안"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a19",
+"en": "The scientists made a breakthrough in cancer research.",
+"ko": "과학자들이 암 연구에서 획기적인 발전을 이루었다.",
+"ch": [
+{
+"e": "The scientists made a breakthrough",
+"k": "과학자들은 획기적인 발전을 이루었다"
+},
+{
+"e": "in cancer research.",
+"k": "암 연구에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a21",
+"en": "Walking is a healthy alternative to taking the bus.",
+"ko": "걷기는 버스를 타는 것의 건강한 대안이다.",
+"ch": [
+{
+"e": "Walking is a healthy alternative",
+"k": "걷기는 건강한 대안이다"
+},
+{
+"e": "to taking the bus.",
+"k": "버스를 타는 것에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a23",
+"en": "The school will notify parents about the schedule change.",
+"ko": "학교가 일정 변경에 대해 학부모에게 알릴 것이다.",
+"ch": [
+{
+"e": "The school will notify parents",
+"k": "학교는 학부모에게 알릴 것이다"
+},
+{
+"e": "about the schedule change.",
+"k": "일정 변경에 대해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a26",
+"en": "I will make up for the lost time this weekend.",
+"ko": "이번 주말에 잃어버린 시간을 만회할 거야.",
+"ch": [
+{
+"e": "I will make up",
+"k": "나는 만회할 것이다"
+},
+{
+"e": "for the lost time",
+"k": "잃어버린 시간을"
+},
+{
+"e": "this weekend.",
+"k": "이번 주말에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a28",
+"en": "My favorite sweater shrank in the washing machine.",
+"ko": "내가 제일 좋아하는 스웨터가 세탁기에서 줄어들었다.",
+"ch": [
+{
+"e": "My favorite sweater shrank",
+"k": "내가 제일 좋아하는 스웨터가 줄어들었다"
+},
+{
+"e": "in the washing machine.",
+"k": "세탁기에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a30",
+"en": "Don't neglect your teeth, even when you're busy.",
+"ko": "바빠도 이를 소홀히 하지 마라.",
+"ch": [
+{
+"e": "Don't neglect your teeth,",
+"k": "이를 소홀히 하지 마라"
+},
+{
+"e": "even when you're busy.",
+"k": "바쁠 때조차도"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a32",
+"en": "Our team gained momentum in the second half.",
+"ko": "우리 팀은 후반전에 기세를 탔다.",
+"ch": [
+{
+"e": "Our team gained momentum",
+"k": "우리 팀은 기세를 탔다"
+},
+{
+"e": "in the second half.",
+"k": "후반전에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a33",
+"en": "My brother took over the cooking when Mom was sick.",
+"ko": "엄마가 아프셨을 때 형이 요리를 맡았다.",
+"ch": [
+{
+"e": "My brother took over the cooking",
+"k": "형이 요리를 맡았다"
+},
+{
+"e": "when Mom was sick.",
+"k": "엄마가 아프셨을 때"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a37",
+"en": "My teacher advocates reading a little every day.",
+"ko": "우리 선생님은 매일 조금씩 읽기를 적극 권하신다.",
+"ch": [
+{
+"e": "My teacher advocates",
+"k": "우리 선생님은 적극 권하신다"
+},
+{
+"e": "reading a little",
+"k": "조금씩 읽는 것을"
+},
+{
+"e": "every day.",
+"k": "매일"
+}
+],
+"r": "분사구 앞"
+},
+{
+"id": "a39",
+"en": "I was embarrassed when I fell on stage.",
+"ko": "무대에서 넘어졌을 때 나는 창피했다.",
+"ch": [
+{
+"e": "I was embarrassed",
+"k": "나는 창피했다"
+},
+{
+"e": "when I fell on stage.",
+"k": "무대에서 넘어졌을 때"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a41",
+"en": "There is a noticeable change in your handwriting.",
+"ko": "네 글씨체에 눈에 띄는 변화가 있다.",
+"ch": [
+{
+"e": "There is a noticeable change",
+"k": "눈에 띄는 변화가 있다"
+},
+{
+"e": "in your handwriting.",
+"k": "네 글씨체에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a43",
+"en": "The library extended its opening hours this month.",
+"ko": "도서관이 이번 달에 운영 시간을 연장했다.",
+"ch": [
+{
+"e": "The library",
+"k": "도서관은"
+},
+{
+"e": "extended its opening hours",
+"k": "운영 시간을 연장했다"
+},
+{
+"e": "this month.",
+"k": "이번 달에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a46",
+"en": "The flu is widespread at school this month.",
+"ko": "이번 달 학교에 독감이 널리 퍼져 있다.",
+"ch": [
+{
+"e": "The flu is widespread",
+"k": "독감이 널리 퍼져 있다"
+},
+{
+"e": "at school",
+"k": "학교에"
+},
+{
+"e": "this month.",
+"k": "이번 달에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a48",
+"en": "Her bright red coat stood out in the crowd.",
+"ko": "그녀의 새빨간 코트가 군중 속에서 눈에 띄었다.",
+"ch": [
+{
+"e": "Her bright red coat stood out",
+"k": "그녀의 새빨간 코트가 눈에 띄었다"
+},
+{
+"e": "in the crowd.",
+"k": "군중 속에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a52",
+"en": "Our school uses an innovative way of teaching math.",
+"ko": "우리 학교는 혁신적인 수학 교수법을 쓴다.",
+"ch": [
+{
+"e": "Our school uses an innovative way",
+"k": "우리 학교는 혁신적인 방식을 쓴다"
+},
+{
+"e": "of teaching math.",
+"k": "수학을 가르치는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a54",
+"en": "Honey tea is Grandma's favorite remedy for colds.",
+"ko": "꿀차는 할머니가 가장 좋아하는 감기 치료법이다.",
+"ch": [
+{
+"e": "Honey tea is Grandma's favorite remedy",
+"k": "꿀차는 할머니가 가장 좋아하는 치료법이다"
+},
+{
+"e": "for colds.",
+"k": "감기에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a55",
+"en": "I convinced my parents to get a puppy.",
+"ko": "나는 부모님을 설득해서 강아지를 들였다.",
+"ch": [
+{
+"e": "I convinced my parents",
+"k": "나는 부모님을 설득했다"
+},
+{
+"e": "to get a puppy.",
+"k": "강아지를 들이자고"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a57",
+"en": "Let's minimize screen time before going to bed.",
+"ko": "자기 전에는 화면 보는 시간을 최소화하자.",
+"ch": [
+{
+"e": "Let's minimize screen time",
+"k": "화면 보는 시간을 최소화하자"
+},
+{
+"e": "before going to bed.",
+"k": "자러 가기 전에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a58",
+"en": "You deserve a rest after working so hard.",
+"ko": "그렇게 열심히 했으니 너는 쉴 자격이 있어.",
+"ch": [
+{
+"e": "You deserve a rest",
+"k": "너는 쉴 자격이 있다"
+},
+{
+"e": "after working so hard.",
+"k": "그렇게 열심히 한 후에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a59",
+"en": "Grandpa's stories gave me insight into the past.",
+"ko": "할아버지의 이야기는 과거를 이해하는 눈을 열어 주었다.",
+"ch": [
+{
+"e": "Grandpa's stories gave me insight",
+"k": "할아버지의 이야기는 나에게 통찰을 주었다"
+},
+{
+"e": "into the past.",
+"k": "과거에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a60",
+"en": "My son is keen on learning to code.",
+"ko": "우리 아들은 코딩 배우기에 열심이다.",
+"ch": [
+{
+"e": "My son is keen",
+"k": "우리 아들은 열심이다"
+},
+{
+"e": "on learning to code.",
+"k": "코딩 배우는 것에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a61",
+"en": "Our dog quickly adapted to the new house.",
+"ko": "우리 강아지는 새 집에 빨리 적응했다.",
+"ch": [
+{
+"e": "Our dog quickly adapted",
+"k": "우리 강아지는 빨리 적응했다"
+},
+{
+"e": "to the new house.",
+"k": "새 집에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a62",
+"en": "This road is notorious for heavy traffic jams.",
+"ko": "이 도로는 심한 교통 체증으로 악명 높다.",
+"ch": [
+{
+"e": "This road is notorious",
+"k": "이 도로는 악명 높다"
+},
+{
+"e": "for heavy traffic jams.",
+"k": "심한 교통 체증으로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a63",
+"en": "My sister has an ambitious plan for the summer.",
+"ko": "언니는 여름을 위한 야심 찬 계획이 있다.",
+"ch": [
+{
+"e": "My sister has an ambitious plan",
+"k": "언니는 야심 찬 계획이 있다"
+},
+{
+"e": "for the summer.",
+"k": "여름을 위한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a64",
+"en": "Our hypothesis was proven wrong by the experiment.",
+"ko": "우리의 가설은 실험으로 틀렸음이 밝혀졌다.",
+"ch": [
+{
+"e": "Our hypothesis was proven wrong",
+"k": "우리의 가설은 틀렸음이 밝혀졌다"
+},
+{
+"e": "by the experiment.",
+"k": "그 실험에 의해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a65",
+"en": "Save a portion of your allowance every week.",
+"ko": "매주 용돈의 일부를 저축해라.",
+"ch": [
+{
+"e": "Save a portion",
+"k": "일부를 저축해라"
+},
+{
+"e": "of your allowance",
+"k": "네 용돈의"
+},
+{
+"e": "every week.",
+"k": "매주"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a67",
+"en": "Please ensure that all the windows are closed.",
+"ko": "창문이 모두 닫혔는지 꼭 확인해 줘.",
+"ch": [
+{
+"e": "Please ensure",
+"k": "꼭 확인해 줘"
+},
+{
+"e": "that all the windows are closed.",
+"k": "모든 창문이 닫혔는지"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "a68",
+"en": "All students can participate in the school festival.",
+"ko": "모든 학생이 학교 축제에 참여할 수 있다.",
+"ch": [
+{
+"e": "All students can participate",
+"k": "모든 학생이 참여할 수 있다"
+},
+{
+"e": "in the school festival.",
+"k": "학교 축제에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a70",
+"en": "The prospect of a long vacation excited everyone.",
+"ko": "긴 휴가를 앞두고 모두가 들떴다.",
+"ch": [
+{
+"e": "The prospect",
+"k": "그 기대가"
+},
+{
+"e": "of a long vacation",
+"k": "긴 휴가에 대한"
+},
+{
+"e": "excited everyone.",
+"k": "모두를 들뜨게 했다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a73",
+"en": "As a matter of fact, I finished it yesterday.",
+"ko": "사실은 나 그거 어제 끝냈어.",
+"ch": [
+{
+"e": "As a matter of fact,",
+"k": "사실은"
+},
+{
+"e": "I finished it yesterday.",
+"k": "나는 그것을 어제 끝냈다"
+}
+],
+"r": "콤마"
+},
+{
+"id": "a74",
+"en": "He got a decent score on the test.",
+"ko": "그는 시험에서 꽤 괜찮은 점수를 받았다.",
+"ch": [
+{
+"e": "He got a decent score",
+"k": "그는 꽤 괜찮은 점수를 받았다"
+},
+{
+"e": "on the test.",
+"k": "시험에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a75",
+"en": "She couldn't hold back her tears at the movie.",
+"ko": "그녀는 영화를 보다가 눈물을 참지 못했다.",
+"ch": [
+{
+"e": "She couldn't hold back her tears",
+"k": "그녀는 눈물을 참지 못했다"
+},
+{
+"e": "at the movie.",
+"k": "영화를 보면서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a76",
+"en": "We need a better strategy for the board game.",
+"ko": "그 보드게임을 위한 더 나은 전략이 필요하다.",
+"ch": [
+{
+"e": "We need a better strategy",
+"k": "우리는 더 나은 전략이 필요하다"
+},
+{
+"e": "for the board game.",
+"k": "그 보드게임을 위한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a77",
+"en": "Some ads try to manipulate children into buying toys.",
+"ko": "어떤 광고들은 아이들이 장난감을 사도록 조종하려 한다.",
+"ch": [
+{
+"e": "Some ads try",
+"k": "어떤 광고들은 시도한다"
+},
+{
+"e": "to manipulate children",
+"k": "아이들을 조종하려고"
+},
+{
+"e": "into buying toys.",
+"k": "장난감을 사도록"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a80",
+"en": "The picnic was postponed because of the storm.",
+"ko": "폭풍 때문에 소풍이 연기되었다.",
+"ch": [
+{
+"e": "The picnic was postponed",
+"k": "소풍이 연기되었다"
+},
+{
+"e": "because of the storm.",
+"k": "폭풍 때문에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a81",
+"en": "Eight hours of sleep is sufficient for most adults.",
+"ko": "대부분의 어른에게 8시간 수면이면 충분하다.",
+"ch": [
+{
+"e": "Eight hours of sleep",
+"k": "8시간의 수면은"
+},
+{
+"e": "is sufficient",
+"k": "충분하다"
+},
+{
+"e": "for most adults.",
+"k": "대부분의 어른에게"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a82",
+"en": "A trip to the zoo is a great incentive.",
+"ko": "동물원 나들이는 아주 좋은 동기 부여가 된다.",
+"ch": [
+{
+"e": "A trip to the zoo",
+"k": "동물원 나들이는"
+},
+{
+"e": "is a great incentive.",
+"k": "아주 좋은 동기 부여다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a83",
+"en": "We are preparing for the upcoming school concert.",
+"ko": "우리는 다가오는 학교 음악회를 준비하고 있다.",
+"ch": [
+{
+"e": "We are preparing",
+"k": "우리는 준비하고 있다"
+},
+{
+"e": "for the upcoming school concert.",
+"k": "다가오는 학교 음악회를"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a84",
+"en": "He tried to conceal his test score from Mom.",
+"ko": "그는 엄마에게 시험 점수를 숨기려고 했다.",
+"ch": [
+{
+"e": "He tried",
+"k": "그는 시도했다"
+},
+{
+"e": "to conceal his test score",
+"k": "시험 점수를 숨기려고"
+},
+{
+"e": "from Mom.",
+"k": "엄마에게"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a85",
+"en": "Safety is our primary concern on the field trip.",
+"ko": "현장 학습에서 안전이 우리의 주된 관심사다.",
+"ch": [
+{
+"e": "Safety is our primary concern",
+"k": "안전이 우리의 주된 관심사다"
+},
+{
+"e": "on the field trip.",
+"k": "현장 학습에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a86",
+"en": "I ran fast to catch up with my friends.",
+"ko": "나는 친구들을 따라잡으려고 빨리 달렸다.",
+"ch": [
+{
+"e": "I ran fast",
+"k": "나는 빨리 달렸다"
+},
+{
+"e": "to catch up with my friends.",
+"k": "친구들을 따라잡으려고"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a88",
+"en": "It's late; therefore, you should go to bed now.",
+"ko": "늦었으니 이제 자러 가야 한다.",
+"ch": [
+{
+"e": "It's late;",
+"k": "늦었다"
+},
+{
+"e": "therefore, you should go to bed now.",
+"k": "그러므로 너는 이제 자러 가야 한다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a89",
+"en": "The movie didn't live up to my expectations.",
+"ko": "그 영화는 내 기대에 미치지 못했다.",
+"ch": [
+{
+"e": "The movie didn't live up",
+"k": "그 영화는 미치지 못했다"
+},
+{
+"e": "to my expectations.",
+"k": "내 기대에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a90",
+"en": "My cousin wants to pursue a career in music.",
+"ko": "내 사촌은 음악 분야의 진로를 추구하고 싶어 한다.",
+"ch": [
+{
+"e": "My cousin wants",
+"k": "내 사촌은 원한다"
+},
+{
+"e": "to pursue a career",
+"k": "진로를 추구하기를"
+},
+{
+"e": "in music.",
+"k": "음악 분야에서"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a91",
+"en": "The teacher gave explicit instructions for the test.",
+"ko": "선생님은 시험에 대해 분명한 지시를 주셨다.",
+"ch": [
+{
+"e": "The teacher gave explicit instructions",
+"k": "선생님은 분명한 지시를 주셨다"
+},
+{
+"e": "for the test.",
+"k": "시험에 대해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a92",
+"en": "Make sure you get adequate sleep before the exam.",
+"ko": "시험 전에는 꼭 충분히 자도록 해.",
+"ch": [
+{
+"e": "Make sure",
+"k": "꼭 ~하도록 해"
+},
+{
+"e": "you get adequate sleep",
+"k": "네가 충분히 자도록"
+},
+{
+"e": "before the exam.",
+"k": "시험 전에"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "a93",
+"en": "Our main objective this month is to save money.",
+"ko": "이번 달 우리의 주요 목표는 돈을 모으는 것이다.",
+"ch": [
+{
+"e": "Our main objective this month",
+"k": "이번 달 우리의 주요 목표는"
+},
+{
+"e": "is to save money.",
+"k": "돈을 모으는 것이다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a95",
+"en": "I can't recall where I put my keys.",
+"ko": "열쇠를 어디에 두었는지 기억이 안 난다.",
+"ch": [
+{
+"e": "I can't recall",
+"k": "나는 기억이 안 난다"
+},
+{
+"e": "where I put my keys.",
+"k": "내가 열쇠를 어디에 두었는지"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "a96",
+"en": "The colors of my T-shirt faded after washing.",
+"ko": "빨래 후에 내 티셔츠 색이 바랬다.",
+"ch": [
+{
+"e": "The colors of my T-shirt",
+"k": "내 티셔츠의 색깔이"
+},
+{
+"e": "faded",
+"k": "바랬다"
+},
+{
+"e": "after washing.",
+"k": "빨래 후에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a97",
+"en": "This jacket is versatile enough for school and hiking.",
+"ko": "이 재킷은 학교에도 등산에도 입을 수 있을 만큼 다용도다.",
+"ch": [
+{
+"e": "This jacket is versatile enough",
+"k": "이 재킷은 충분히 다용도다"
+},
+{
+"e": "for school and hiking.",
+"k": "학교에도 등산에도"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a99",
+"en": "Let's stick to our plan and go to bed early.",
+"ko": "계획대로 일찍 자자.",
+"ch": [
+{
+"e": "Let's stick to our plan",
+"k": "우리 계획을 지키자"
+},
+{
+"e": "and go to bed early.",
+"k": "그리고 일찍 자자"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a100",
+"en": "You're liable to slip on the icy road.",
+"ko": "빙판길에서는 미끄러지기 쉽다.",
+"ch": [
+{
+"e": "You're liable",
+"k": "너는 ~하기 쉽다"
+},
+{
+"e": "to slip",
+"k": "미끄러지기"
+},
+{
+"e": "on the icy road.",
+"k": "빙판길에서"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a101",
+"en": "Fresh fruit is readily available at the market.",
+"ko": "시장에서는 신선한 과일을 쉽게 구할 수 있다.",
+"ch": [
+{
+"e": "Fresh fruit is readily available",
+"k": "신선한 과일은 쉽게 구할 수 있다"
+},
+{
+"e": "at the market.",
+"k": "시장에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a102",
+"en": "Our dog retrieved the ball from the pond.",
+"ko": "우리 개가 연못에서 공을 물어 왔다.",
+"ch": [
+{
+"e": "Our dog retrieved the ball",
+"k": "우리 개가 공을 물어 왔다"
+},
+{
+"e": "from the pond.",
+"k": "연못에서"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a103",
+"en": "Teaching my brother to ride a bike took patience.",
+"ko": "남동생에게 자전거 타기를 가르치는 데 인내심이 필요했다.",
+"ch": [
+{
+"e": "Teaching my brother to ride a bike",
+"k": "남동생에게 자전거 타기를 가르치는 것은"
+},
+{
+"e": "took patience.",
+"k": "인내심이 필요했다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a104",
+"en": "I messed up my speech, but everyone still clapped.",
+"ko": "나는 발표를 망쳤지만 모두가 그래도 박수를 쳐 주었다.",
+"ch": [
+{
+"e": "I messed up my speech,",
+"k": "나는 발표를 망쳤다"
+},
+{
+"e": "but everyone still clapped.",
+"k": "하지만 모두가 그래도 박수를 쳐 주었다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a105",
+"en": "Our cat quickly got used to her new surroundings.",
+"ko": "우리 고양이는 새로운 환경에 빨리 적응했다.",
+"ch": [
+{
+"e": "Our cat quickly got used",
+"k": "우리 고양이는 빨리 익숙해졌다"
+},
+{
+"e": "to her new surroundings.",
+"k": "새로운 환경에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a108",
+"en": "My brother didn't break the vase on purpose.",
+"ko": "남동생이 일부러 꽃병을 깬 건 아니었다.",
+"ch": [
+{
+"e": "My brother didn't break the vase",
+"k": "남동생이 꽃병을 깬 건 아니었다"
+},
+{
+"e": "on purpose.",
+"k": "일부러"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a110",
+"en": "Hard work doesn't guarantee success, but it helps.",
+"ko": "노력이 성공을 보장하진 않지만 도움이 된다.",
+"ch": [
+{
+"e": "Hard work doesn't guarantee success,",
+"k": "노력이 성공을 보장하지는 않는다"
+},
+{
+"e": "but it helps.",
+"k": "하지만 그것은 도움이 된다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a111",
+"en": "How can you justify spending so much money?",
+"ko": "그렇게 많은 돈을 쓴 걸 어떻게 정당화할 거니?",
+"ch": [
+{
+"e": "How can you justify",
+"k": "너는 어떻게 정당화할 수 있니"
+},
+{
+"e": "spending so much money?",
+"k": "그렇게 많은 돈을 쓴 것을"
+}
+],
+"r": "분사구 앞"
+},
+{
+"id": "a113",
+"en": "Running around all day wore the kids out.",
+"ko": "하루 종일 뛰어다녀서 아이들이 녹초가 되었다.",
+"ch": [
+{
+"e": "Running around all day",
+"k": "하루 종일 뛰어다닌 것이"
+},
+{
+"e": "wore the kids out.",
+"k": "아이들을 녹초로 만들었다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a114",
+"en": "The teacher passed out the test papers quietly.",
+"ko": "선생님이 조용히 시험지를 나눠 주셨다.",
+"ch": [
+{
+"e": "The teacher",
+"k": "선생님이"
+},
+{
+"e": "passed out the test papers quietly.",
+"k": "시험지를 조용히 나눠 주셨다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a118",
+"en": "Let me illustrate my point with an example.",
+"ko": "예를 들어 내 말을 설명해 볼게.",
+"ch": [
+{
+"e": "Let me illustrate my point",
+"k": "내 말을 설명해 볼게"
+},
+{
+"e": "with an example.",
+"k": "예를 들어"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a121",
+"en": "Our schedule is too rigid for a vacation.",
+"ko": "우리 일정은 휴가치고 너무 빡빡하다.",
+"ch": [
+{
+"e": "Our schedule is too rigid",
+"k": "우리 일정은 너무 빡빡하다"
+},
+{
+"e": "for a vacation.",
+"k": "휴가치고는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a122",
+"en": "Our teacher mediated the argument between the two friends.",
+"ko": "선생님이 두 친구 사이의 말다툼을 중재하셨다.",
+"ch": [
+{
+"e": "Our teacher mediated the argument",
+"k": "선생님이 말다툼을 중재하셨다"
+},
+{
+"e": "between the two friends.",
+"k": "두 친구 사이의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a123",
+"en": "The kids were eager to open their presents.",
+"ko": "아이들은 선물을 얼른 열어 보고 싶어 했다.",
+"ch": [
+{
+"e": "The kids were eager",
+"k": "아이들은 몹시 하고 싶어 했다"
+},
+{
+"e": "to open their presents.",
+"k": "선물을 여는 것을"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a124",
+"en": "Her curiosity helps her learn new things fast.",
+"ko": "그녀의 호기심은 새로운 것을 빨리 배우게 해 준다.",
+"ch": [
+{
+"e": "Her curiosity",
+"k": "그녀의 호기심은"
+},
+{
+"e": "helps her",
+"k": "그녀를 돕는다"
+},
+{
+"e": "learn new things fast.",
+"k": "새로운 것을 빨리 배우도록"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a126",
+"en": "We narrowed down our vacation choices to two places.",
+"ko": "우리는 휴가지 선택지를 두 곳으로 좁혔다.",
+"ch": [
+{
+"e": "We narrowed down our vacation choices",
+"k": "우리는 휴가지 선택지를 좁혔다"
+},
+{
+"e": "to two places.",
+"k": "두 곳으로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a127",
+"en": "The library has many useful resources for your project.",
+"ko": "도서관에는 네 과제에 유용한 자료가 많다.",
+"ch": [
+{
+"e": "The library has many useful resources",
+"k": "도서관에는 유용한 자료가 많다"
+},
+{
+"e": "for your project.",
+"k": "네 과제를 위한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a128",
+"en": "Nothing can compensate for the time we lost.",
+"ko": "우리가 잃어버린 시간은 그 무엇으로도 보상할 수 없다.",
+"ch": [
+{
+"e": "Nothing can compensate",
+"k": "그 무엇도 보상할 수 없다"
+},
+{
+"e": "for the time",
+"k": "그 시간을"
+},
+{
+"e": "we lost.",
+"k": "(그건) 우리가 잃어버린"
+}
+],
+"r": "관계사 앞"
+},
+{
+"id": "a129",
+"en": "There is a shortage of seats on the bus.",
+"ko": "버스에 좌석이 부족하다.",
+"ch": [
+{
+"e": "There is a shortage of seats",
+"k": "좌석이 부족하다"
+},
+{
+"e": "on the bus.",
+"k": "버스에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a132",
+"en": "My previous school was much smaller than this one.",
+"ko": "내 이전 학교는 여기보다 훨씬 작았다.",
+"ch": [
+{
+"e": "My previous school was much smaller",
+"k": "내 이전 학교는 훨씬 작았다"
+},
+{
+"e": "than this one.",
+"k": "이곳보다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a137",
+"en": "Mom can cook and help with homework simultaneously.",
+"ko": "엄마는 요리와 숙제 도와주기를 동시에 할 수 있다.",
+"ch": [
+{
+"e": "Mom can cook",
+"k": "엄마는 요리할 수 있다"
+},
+{
+"e": "and help with homework",
+"k": "그리고 숙제를 도와줄 수 있다"
+},
+{
+"e": "simultaneously.",
+"k": "동시에"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a138",
+"en": "Wearing a raincoat today is a sensible idea.",
+"ko": "오늘 우비를 입는 건 현명한 생각이다.",
+"ch": [
+{
+"e": "Wearing a raincoat today",
+"k": "오늘 우비를 입는 것은"
+},
+{
+"e": "is a sensible idea.",
+"k": "현명한 생각이다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a140",
+"en": "Never underestimate the power of a good breakfast.",
+"ko": "좋은 아침 식사의 힘을 절대 과소평가하지 마라.",
+"ch": [
+{
+"e": "Never underestimate the power",
+"k": "그 힘을 절대 과소평가하지 마라"
+},
+{
+"e": "of a good breakfast.",
+"k": "좋은 아침 식사의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a141",
+"en": "How do you account for this broken vase?",
+"ko": "이 깨진 꽃병은 어떻게 설명할 거니?",
+"ch": [
+{
+"e": "How do you account",
+"k": "너는 어떻게 설명할 거니"
+},
+{
+"e": "for this broken vase?",
+"k": "이 깨진 꽃병에 대해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a144",
+"en": "Social media has a big impact on teens.",
+"ko": "소셜 미디어는 십대에게 큰 영향을 미친다.",
+"ch": [
+{
+"e": "Social media has a big impact",
+"k": "소셜 미디어는 큰 영향을 미친다"
+},
+{
+"e": "on teens.",
+"k": "십대에게"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a145",
+"en": "It took months to restore the old church.",
+"ko": "그 오래된 교회를 복원하는 데 몇 달이 걸렸다.",
+"ch": [
+{
+"e": "It took months",
+"k": "몇 달이 걸렸다"
+},
+{
+"e": "to restore the old church.",
+"k": "그 오래된 교회를 복원하는 데"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a148",
+"en": "I don't want to be a burden to you.",
+"ko": "나는 너에게 짐이 되고 싶지 않아.",
+"ch": [
+{
+"e": "I don't want",
+"k": "나는 원하지 않는다"
+},
+{
+"e": "to be a burden",
+"k": "짐이 되는 것을"
+},
+{
+"e": "to you.",
+"k": "너에게"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a149",
+"en": "Playing games until midnight is out of the question.",
+"ko": "자정까지 게임하는 건 절대 안 된다.",
+"ch": [
+{
+"e": "Playing games until midnight",
+"k": "자정까지 게임하는 것은"
+},
+{
+"e": "is out of the question.",
+"k": "절대 안 된다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a154",
+"en": "Fear is the biggest obstacle to trying new things.",
+"ko": "두려움은 새로운 것을 시도하는 데 가장 큰 장애물이다.",
+"ch": [
+{
+"e": "Fear is the biggest obstacle",
+"k": "두려움은 가장 큰 장애물이다"
+},
+{
+"e": "to trying new things.",
+"k": "새로운 것을 시도하는 데"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a156",
+"en": "Let's make a rational decision, not an emotional one.",
+"ko": "감정적인 결정이 아니라 이성적인 결정을 내리자.",
+"ch": [
+{
+"e": "Let's make a rational decision,",
+"k": "이성적인 결정을 내리자"
+},
+{
+"e": "not an emotional one.",
+"k": "감정적인 결정 말고"
+}
+],
+"r": "콤마"
+},
+{
+"id": "a171",
+"en": "We gave the house a thorough cleaning on Sunday.",
+"ko": "우리는 일요일에 집을 철저히 청소했다.",
+"ch": [
+{
+"e": "We gave the house a thorough cleaning",
+"k": "우리는 집을 철저히 청소했다"
+},
+{
+"e": "on Sunday.",
+"k": "일요일에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a175",
+"en": "They had to abandon the car in the snow.",
+"ko": "그들은 눈 속에 차를 버려두고 가야 했다.",
+"ch": [
+{
+"e": "They had to abandon the car",
+"k": "그들은 차를 버려두고 가야 했다"
+},
+{
+"e": "in the snow.",
+"k": "눈 속에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a177",
+"en": "It was just a misunderstanding, so let's make up.",
+"ko": "그건 그냥 오해였으니 화해하자.",
+"ch": [
+{
+"e": "It was just a misunderstanding,",
+"k": "그건 그냥 오해였다"
+},
+{
+"e": "so let's make up.",
+"k": "그러니 화해하자"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a185",
+"en": "I love spicy food, whereas my sister hates it.",
+"ko": "나는 매운 음식을 좋아하는 반면 여동생은 싫어한다.",
+"ch": [
+{
+"e": "I love spicy food,",
+"k": "나는 매운 음식을 좋아한다"
+},
+{
+"e": "whereas my sister hates it.",
+"k": "반면 여동생은 그것을 싫어한다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a187",
+"en": "Each plan for the trip has its own merits.",
+"ko": "여행 계획마다 각자의 장점이 있다.",
+"ch": [
+{
+"e": "Each plan for the trip",
+"k": "여행 계획 각각은"
+},
+{
+"e": "has its own merits.",
+"k": "자신만의 장점이 있다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a189",
+"en": "I only have a vague memory of my first birthday.",
+"ko": "나는 첫 생일에 대한 기억이 희미하게만 있다.",
+"ch": [
+{
+"e": "I only have a vague memory",
+"k": "나는 희미한 기억만 있다"
+},
+{
+"e": "of my first birthday.",
+"k": "내 첫 생일에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a196",
+"en": "We were happy with the outcome of the game.",
+"ko": "우리는 경기 결과에 만족했다.",
+"ch": [
+{
+"e": "We were happy",
+"k": "우리는 만족했다"
+},
+{
+"e": "with the outcome",
+"k": "그 결과에"
+},
+{
+"e": "of the game.",
+"k": "경기의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a200",
+"en": "It's hard to keep up with the new slang.",
+"ko": "새로운 유행어를 따라가기가 힘들다.",
+"ch": [
+{
+"e": "It's hard",
+"k": "어렵다"
+},
+{
+"e": "to keep up with the new slang.",
+"k": "새로운 유행어를 따라가는 것은"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a204",
+"en": "Being sick is a legitimate reason to miss school.",
+"ko": "아픈 것은 학교에 빠질 정당한 이유다.",
+"ch": [
+{
+"e": "Being sick",
+"k": "아픈 것은"
+},
+{
+"e": "is a legitimate reason",
+"k": "정당한 이유다"
+},
+{
+"e": "to miss school.",
+"k": "학교에 빠질"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a205",
+"en": "Steady practice is the key to playing piano well.",
+"ko": "꾸준한 연습이 피아노를 잘 치는 비결이다.",
+"ch": [
+{
+"e": "Steady practice is the key",
+"k": "꾸준한 연습이 비결이다"
+},
+{
+"e": "to playing piano well.",
+"k": "피아노를 잘 치는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a216",
+"en": "We utilized old boxes to build a cat house.",
+"ko": "우리는 낡은 상자를 활용해 고양이 집을 만들었다.",
+"ch": [
+{
+"e": "We utilized old boxes",
+"k": "우리는 낡은 상자를 활용했다"
+},
+{
+"e": "to build a cat house.",
+"k": "고양이 집을 만들기 위해"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a218",
+"en": "My little sister has no notion of time yet.",
+"ko": "내 여동생은 아직 시간 개념이 없다.",
+"ch": [
+{
+"e": "My little sister has no notion",
+"k": "내 여동생은 개념이 없다"
+},
+{
+"e": "of time yet.",
+"k": "아직 시간에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a224",
+"en": "She shook hands with her opponent after the match.",
+"ko": "그녀는 경기 후 상대 선수와 악수했다.",
+"ch": [
+{
+"e": "She shook hands with her opponent",
+"k": "그녀는 상대 선수와 악수했다"
+},
+{
+"e": "after the match.",
+"k": "경기 후에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a234",
+"en": "The smell of fresh bread lingered in the kitchen.",
+"ko": "갓 구운 빵 냄새가 부엌에 남아 있었다.",
+"ch": [
+{
+"e": "The smell of fresh bread",
+"k": "갓 구운 빵 냄새가"
+},
+{
+"e": "lingered",
+"k": "남아 있었다"
+},
+{
+"e": "in the kitchen.",
+"k": "부엌에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a256",
+"en": "The first lesson was hard, but subsequent ones were easier.",
+"ko": "첫 수업은 어려웠지만 이후 수업들은 더 쉬웠다.",
+"ch": [
+{
+"e": "The first lesson was hard,",
+"k": "첫 수업은 어려웠다"
+},
+{
+"e": "but subsequent ones were easier.",
+"k": "하지만 이후 수업들은 더 쉬웠다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a259",
+"en": "Please give me the precise time of the meeting.",
+"ko": "회의의 정확한 시간을 알려 주세요.",
+"ch": [
+{
+"e": "Please give me the precise time",
+"k": "정확한 시간을 알려 주세요"
+},
+{
+"e": "of the meeting.",
+"k": "회의의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a263",
+"en": "I owe my sister five dollars for the snack.",
+"ko": "나는 간식값으로 언니에게 5달러를 빚졌다.",
+"ch": [
+{
+"e": "I owe my sister five dollars",
+"k": "나는 언니에게 5달러를 빚졌다"
+},
+{
+"e": "for the snack.",
+"k": "간식값으로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a267",
+"en": "Don't hesitate to call me if you need help.",
+"ko": "도움이 필요하면 망설이지 말고 전화해.",
+"ch": [
+{
+"e": "Don't hesitate",
+"k": "망설이지 마"
+},
+{
+"e": "to call me",
+"k": "나에게 전화하는 것을"
+},
+{
+"e": "if you need help.",
+"k": "도움이 필요하면"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a269",
+"en": "Saving money now helps you in the long run.",
+"ko": "지금 돈을 모으면 장기적으로 도움이 된다.",
+"ch": [
+{
+"e": "Saving money now",
+"k": "지금 돈을 모으는 것은"
+},
+{
+"e": "helps you",
+"k": "너에게 도움이 된다"
+},
+{
+"e": "in the long run.",
+"k": "장기적으로"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a275",
+"en": "Your bus pass is valid until the end of the month.",
+"ko": "네 버스 카드는 이달 말까지 유효하다.",
+"ch": [
+{
+"e": "Your bus pass is valid",
+"k": "네 버스 카드는 유효하다"
+},
+{
+"e": "until the end of the month.",
+"k": "이달 말까지"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a279",
+"en": "You can lean on me when things get tough.",
+"ko": "힘들 때는 나에게 기대도 돼.",
+"ch": [
+{
+"e": "You can lean on me",
+"k": "나에게 기대도 돼"
+},
+{
+"e": "when things get tough.",
+"k": "상황이 힘들어질 때"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "a281",
+"en": "Thank you for your candid opinion about my essay.",
+"ko": "내 글에 대해 솔직한 의견을 줘서 고마워.",
+"ch": [
+{
+"e": "Thank you",
+"k": "고마워"
+},
+{
+"e": "for your candid opinion",
+"k": "네 솔직한 의견에 대해"
+},
+{
+"e": "about my essay.",
+"k": "내 글에 관한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a289",
+"en": "Thank you for your prompt reply to my email.",
+"ko": "제 이메일에 신속히 답해 주셔서 감사합니다.",
+"ch": [
+{
+"e": "Thank you",
+"k": "감사합니다"
+},
+{
+"e": "for your prompt reply",
+"k": "신속한 답장에 대해"
+},
+{
+"e": "to my email.",
+"k": "제 이메일에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a301",
+"en": "There is a subtle difference between these two colors.",
+"ko": "이 두 색깔 사이에는 미묘한 차이가 있다.",
+"ch": [
+{
+"e": "There is a subtle difference",
+"k": "미묘한 차이가 있다"
+},
+{
+"e": "between these two colors.",
+"k": "이 두 색깔 사이에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a304",
+"en": "Wearing a helmet is mandatory on the school bike trip.",
+"ko": "학교 자전거 여행에서는 헬멧 착용이 의무다.",
+"ch": [
+{
+"e": "Wearing a helmet",
+"k": "헬멧을 쓰는 것은"
+},
+{
+"e": "is mandatory",
+"k": "의무다"
+},
+{
+"e": "on the school bike trip.",
+"k": "학교 자전거 여행에서"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a309",
+"en": "The meaning of the poem was a bit obscure.",
+"ko": "그 시의 의미는 조금 모호했다.",
+"ch": [
+{
+"e": "The meaning of the poem",
+"k": "그 시의 의미는"
+},
+{
+"e": "was a bit obscure.",
+"k": "조금 모호했다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "a335",
+"en": "Good lighting can enhance the look of a room.",
+"ko": "좋은 조명은 방을 더 보기 좋게 만들 수 있다.",
+"ch": [
+{
+"e": "Good lighting can enhance the look",
+"k": "좋은 조명은 모습을 더 좋게 만들 수 있다"
+},
+{
+"e": "of a room.",
+"k": "방의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a338",
+"en": "We went to the airport to see Dad off.",
+"ko": "우리는 아빠를 배웅하러 공항에 갔다.",
+"ch": [
+{
+"e": "We went to the airport",
+"k": "우리는 공항에 갔다"
+},
+{
+"e": "to see Dad off.",
+"k": "아빠를 배웅하러"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "a342",
+"en": "We saved a substantial amount of money this year.",
+"ko": "우리는 올해 상당한 금액을 저축했다.",
+"ch": [
+{
+"e": "We saved a substantial amount",
+"k": "우리는 상당한 금액을 저축했다"
+},
+{
+"e": "of money",
+"k": "돈의"
+},
+{
+"e": "this year.",
+"k": "올해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "a343",
+"en": "We had a substitute teacher in math class today.",
+"ko": "오늘 수학 시간에 대리 선생님이 오셨다.",
+"ch": [
+{
+"e": "We had a substitute teacher",
+"k": "대리 선생님이 오셨다"
+},
+{
+"e": "in math class",
+"k": "수학 시간에"
+},
+{
+"e": "today.",
+"k": "오늘"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p2",
+"en": "The plan to close rural schools faced a strong backlash from parents.",
+"ko": "농촌 학교를 폐교하려는 계획은 학부모들의 거센 반발에 부딪혔다.",
+"ch": [
+{
+"e": "The plan",
+"k": "그 계획은"
+},
+{
+"e": "to close rural schools",
+"k": "농촌 학교들을 폐교하려는"
+},
+{
+"e": "faced a strong backlash",
+"k": "거센 반발에 부딪혔다"
+},
+{
+"e": "from parents.",
+"k": "학부모들로부터"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p12",
+"en": "Free lunches are one of the best perks of working here.",
+"ko": "무료 점심은 여기서 일하는 가장 좋은 혜택 중 하나입니다.",
+"ch": [
+{
+"e": "Free lunches",
+"k": "무료 점심은"
+},
+{
+"e": "are one of the best perks",
+"k": "가장 좋은 혜택 중 하나이다"
+},
+{
+"e": "of working here.",
+"k": "여기서 일하는 것의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p13",
+"en": "A cyberattack shut down the hospital's computer system for two days.",
+"ko": "사이버 공격으로 병원 전산 시스템이 이틀간 마비되었다.",
+"ch": [
+{
+"e": "A cyberattack",
+"k": "사이버 공격이"
+},
+{
+"e": "shut down the hospital's computer system",
+"k": "병원의 전산 시스템을 마비시켰다"
+},
+{
+"e": "for two days.",
+"k": "이틀 동안"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p16",
+"en": "I'll follow up on your request after I talk to the manager.",
+"ko": "부장님과 이야기한 뒤에 요청하신 건을 다시 챙기겠습니다.",
+"ch": [
+{
+"e": "I'll follow up",
+"k": "내가 후속 조치하겠다"
+},
+{
+"e": "on your request",
+"k": "당신의 요청에 대해"
+},
+{
+"e": "after I talk to the manager.",
+"k": "내가 부장님과 이야기한 뒤에"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p17",
+"en": "We need a pragmatic solution, not a perfect plan that nobody follows.",
+"ko": "우리에게 필요한 건 아무도 따르지 않는 완벽한 계획이 아니라 현실적인 해결책이다.",
+"ch": [
+{
+"e": "We need a pragmatic solution,",
+"k": "우리는 현실적인 해결책이 필요하다"
+},
+{
+"e": "not a perfect plan",
+"k": "완벽한 계획이 아니라"
+},
+{
+"e": "that nobody follows.",
+"k": "(그건) 아무도 따르지 않는"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p18",
+"en": "Thanks to strong sales, we ended the year with a small surplus.",
+"ko": "탄탄한 매출 덕분에 우리는 소폭 흑자로 한 해를 마쳤습니다.",
+"ch": [
+{
+"e": "Thanks to strong sales,",
+"k": "탄탄한 매출 덕분에"
+},
+{
+"e": "we ended the year",
+"k": "우리는 한 해를 마쳤다"
+},
+{
+"e": "with a small surplus.",
+"k": "소폭의 흑자로"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p21",
+"en": "More than a hundred countries signed the treaty to protect the oceans.",
+"ko": "100개가 넘는 나라가 해양 보호 조약에 서명했다.",
+"ch": [
+{
+"e": "More than a hundred countries",
+"k": "100개가 넘는 나라들이"
+},
+{
+"e": "signed the treaty",
+"k": "그 조약에 서명했다"
+},
+{
+"e": "to protect the oceans.",
+"k": "해양을 보호하기 위한"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p22",
+"en": "Stock prices plummeted after the company admitted to hiding its losses.",
+"ko": "회사가 손실을 숨긴 사실을 인정하자 주가가 곤두박질쳤다.",
+"ch": [
+{
+"e": "Stock prices plummeted",
+"k": "주가가 곤두박질쳤다"
+},
+{
+"e": "after the company admitted",
+"k": "회사가 인정한 뒤에"
+},
+{
+"e": "to hiding its losses.",
+"k": "손실을 숨긴 것을"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p23",
+"en": "It is hard to reconcile a full-time job with graduate school.",
+"ko": "직장 생활과 대학원 공부를 조화시키기는 어렵다.",
+"ch": [
+{
+"e": "It is hard",
+"k": "(그것은) 어렵다"
+},
+{
+"e": "to reconcile a full-time job",
+"k": "정규직 일을 조화시키는 것은"
+},
+{
+"e": "with graduate school.",
+"k": "대학원 공부와"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p24",
+"en": "In the aftermath of the storm, volunteers helped clear the streets.",
+"ko": "폭풍이 지나간 뒤 자원봉사자들이 거리 정리를 도왔다.",
+"ch": [
+{
+"e": "In the aftermath",
+"k": "여파 속에서"
+},
+{
+"e": "of the storm,",
+"k": "폭풍의"
+},
+{
+"e": "volunteers helped",
+"k": "자원봉사자들이 도왔다"
+},
+{
+"e": "clear the streets.",
+"k": "거리를 치우는 것을"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p27",
+"en": "Students need tangible goals, like running one more lap each week.",
+"ko": "학생들에게는 매주 한 바퀴 더 달리기 같은 눈에 보이는 목표가 필요하다.",
+"ch": [
+{
+"e": "Students need tangible goals,",
+"k": "학생들은 눈에 보이는 목표가 필요하다"
+},
+{
+"e": "like running one more lap",
+"k": "한 바퀴 더 달리기 같은"
+},
+{
+"e": "each week.",
+"k": "매주"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p29",
+"en": "Online learning created a new paradigm for how schools deliver lessons.",
+"ko": "온라인 학습은 학교가 수업을 제공하는 방식에 새로운 패러다임을 만들었다.",
+"ch": [
+{
+"e": "Online learning",
+"k": "온라인 학습은"
+},
+{
+"e": "created a new paradigm",
+"k": "새로운 패러다임을 만들었다"
+},
+{
+"e": "for how schools deliver lessons.",
+"k": "학교가 수업을 전달하는 방식에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p32",
+"en": "A long drought has left farmers struggling to water their crops.",
+"ko": "오랜 가뭄으로 농민들은 농작물에 물을 대느라 애를 먹고 있다.",
+"ch": [
+{
+"e": "A long drought",
+"k": "오랜 가뭄이"
+},
+{
+"e": "has left farmers",
+"k": "농민들을 (어떤 상태로) 만들었다"
+},
+{
+"e": "struggling to water their crops.",
+"k": "농작물에 물을 대느라 애쓰는"
+}
+],
+"r": "분사구 앞"
+},
+{
+"id": "p33",
+"en": "We still need to iron out a few details in the contract.",
+"ko": "계약서의 몇 가지 세부 사항을 아직 정리해야 합니다.",
+"ch": [
+{
+"e": "We still need",
+"k": "우리는 아직 필요하다"
+},
+{
+"e": "to iron out a few details",
+"k": "몇 가지 세부 사항을 정리하는 것이"
+},
+{
+"e": "in the contract.",
+"k": "계약서에 있는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p35",
+"en": "The new tariff on imported steel could raise prices for consumers.",
+"ko": "수입 철강에 대한 새 관세는 소비자 가격을 올릴 수 있다.",
+"ch": [
+{
+"e": "The new tariff",
+"k": "새 관세는"
+},
+{
+"e": "on imported steel",
+"k": "수입 철강에 대한"
+},
+{
+"e": "could raise prices",
+"k": "가격을 올릴 수 있다"
+},
+{
+"e": "for consumers.",
+"k": "소비자들에게"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p38",
+"en": "The two parties formed a coalition to win a majority in parliament.",
+"ko": "두 정당은 의회 과반을 차지하기 위해 연합을 구성했다.",
+"ch": [
+{
+"e": "The two parties",
+"k": "두 정당은"
+},
+{
+"e": "formed a coalition",
+"k": "연합을 구성했다"
+},
+{
+"e": "to win a majority",
+"k": "과반을 차지하기 위해"
+},
+{
+"e": "in parliament.",
+"k": "의회에서"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p40",
+"en": "Could you draft a reply to the client and send it to me?",
+"ko": "고객에게 보낼 답장 초안을 써서 저에게 보내 주시겠어요?",
+"ch": [
+{
+"e": "Could you draft a reply",
+"k": "답장 초안을 써 주시겠어요"
+},
+{
+"e": "to the client",
+"k": "고객에게 보낼"
+},
+{
+"e": "and send it to me?",
+"k": "그리고 그걸 저에게 보내 (주시겠어요)"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p41",
+"en": "The pandemic forced schools around the world to move classes online.",
+"ko": "팬데믹으로 전 세계 학교가 수업을 온라인으로 전환해야 했다.",
+"ch": [
+{
+"e": "The pandemic forced schools",
+"k": "팬데믹은 학교들이 ~하게 만들었다"
+},
+{
+"e": "around the world",
+"k": "전 세계의"
+},
+{
+"e": "to move classes online.",
+"k": "수업을 온라인으로 옮기도록"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p42",
+"en": "Starting a new school year can feel daunting for new teachers.",
+"ko": "새 학년을 시작하는 것은 신규 교사에게 벅차게 느껴질 수 있다.",
+"ch": [
+{
+"e": "Starting a new school year",
+"k": "새 학년을 시작하는 것은"
+},
+{
+"e": "can feel daunting",
+"k": "벅차게 느껴질 수 있다"
+},
+{
+"e": "for new teachers.",
+"k": "신규 교사들에게"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p43",
+"en": "The HR department sent out a memo about the new dress code.",
+"ko": "인사 부서에서 새 복장 규정에 관한 회람을 돌렸습니다.",
+"ch": [
+{
+"e": "The HR department",
+"k": "인사 부서가"
+},
+{
+"e": "sent out a memo",
+"k": "회람을 돌렸다"
+},
+{
+"e": "about the new dress code.",
+"k": "새 복장 규정에 관한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p44",
+"en": "The new app is so intuitive that students used it without instructions.",
+"ko": "새 앱은 매우 직관적이라 학생들이 설명 없이도 사용했다.",
+"ch": [
+{
+"e": "The new app is so intuitive",
+"k": "새 앱은 매우 직관적이어서"
+},
+{
+"e": "that students used it",
+"k": "학생들이 그것을 사용했다"
+},
+{
+"e": "without instructions.",
+"k": "설명 없이"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p45",
+"en": "Please submit your proposal to the committee by the end of the month.",
+"ko": "이달 말까지 위원회에 제안서를 제출해 주세요.",
+"ch": [
+{
+"e": "Please submit your proposal",
+"k": "제안서를 제출해 주세요"
+},
+{
+"e": "to the committee",
+"k": "위원회에"
+},
+{
+"e": "by the end of the month.",
+"k": "이달 말까지"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p46",
+"en": "The board allocated more funds to research and development this year.",
+"ko": "이사회는 올해 연구 개발에 더 많은 자금을 배정했습니다.",
+"ch": [
+{
+"e": "The board allocated more funds",
+"k": "이사회는 더 많은 자금을 배정했다"
+},
+{
+"e": "to research and development",
+"k": "연구 개발에"
+},
+{
+"e": "this year.",
+"k": "올해"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p48",
+"en": "The new speed limits near schools will take effect in March.",
+"ko": "학교 주변 새 제한 속도가 3월부터 시행된다.",
+"ch": [
+{
+"e": "The new speed limits",
+"k": "새 제한 속도가"
+},
+{
+"e": "near schools",
+"k": "학교 주변의"
+},
+{
+"e": "will take effect",
+"k": "시행될 것이다"
+},
+{
+"e": "in March.",
+"k": "3월에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p49",
+"en": "Intrinsic motivation lasts longer than any reward a teacher can offer.",
+"ko": "내적 동기는 교사가 줄 수 있는 어떤 보상보다 오래 지속된다.",
+"ch": [
+{
+"e": "Intrinsic motivation lasts longer",
+"k": "내적 동기는 더 오래 지속된다"
+},
+{
+"e": "than any reward",
+"k": "어떤 보상보다도"
+},
+{
+"e": "a teacher can offer.",
+"k": "(그건) 교사가 줄 수 있는"
+}
+],
+"r": "관계사 앞"
+},
+{
+"id": "p52",
+"en": "The company will roll out the new system to all branches in March.",
+"ko": "회사는 3월에 새 시스템을 모든 지점에 도입할 예정입니다.",
+"ch": [
+{
+"e": "The company will roll out the new system",
+"k": "회사는 새 시스템을 도입할 것이다"
+},
+{
+"e": "to all branches",
+"k": "모든 지점에"
+},
+{
+"e": "in March.",
+"k": "3월에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p53",
+"en": "The stock market fell sharply after the election results came out.",
+"ko": "선거 결과가 나온 뒤 주식 시장이 급락했다.",
+"ch": [
+{
+"e": "The stock market fell sharply",
+"k": "주식 시장이 급락했다"
+},
+{
+"e": "after the election results came out.",
+"k": "선거 결과가 나온 뒤에"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p55",
+"en": "The department is running a deficit for the second year in a row.",
+"ko": "그 부서는 2년 연속 적자를 내고 있습니다.",
+"ch": [
+{
+"e": "The department is running a deficit",
+"k": "그 부서는 적자를 내고 있다"
+},
+{
+"e": "for the second year",
+"k": "2년째"
+},
+{
+"e": "in a row.",
+"k": "연속으로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p56",
+"en": "The city aims to cut carbon emissions in half by 2035.",
+"ko": "시는 2035년까지 탄소 배출량을 절반으로 줄이는 것을 목표로 한다.",
+"ch": [
+{
+"e": "The city aims",
+"k": "시는 목표로 한다"
+},
+{
+"e": "to cut carbon emissions in half",
+"k": "탄소 배출량을 절반으로 줄이는 것을"
+},
+{
+"e": "by 2035.",
+"k": "2035년까지"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p58",
+"en": "Stickers and points are extrinsic rewards that work only for a while.",
+"ko": "스티커와 점수는 잠시만 효과가 있는 외적 보상이다.",
+"ch": [
+{
+"e": "Stickers and points",
+"k": "스티커와 점수는"
+},
+{
+"e": "are extrinsic rewards",
+"k": "외적 보상이다"
+},
+{
+"e": "that work only for a while.",
+"k": "(그건) 잠시 동안만 효과가 있는"
+}
+],
+"r": "관계사 앞"
+},
+{
+"id": "p59",
+"en": "The CEO will step down at the end of the year.",
+"ko": "대표이사는 연말에 물러날 예정입니다.",
+"ch": [
+{
+"e": "The CEO will step down",
+"k": "대표이사는 물러날 것이다"
+},
+{
+"e": "at the end of the year.",
+"k": "연말에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p60",
+"en": "Many teachers worry that the pension reform will reduce their benefits.",
+"ko": "많은 교사들은 연금 개혁으로 수령액이 줄어들까 걱정한다.",
+"ch": [
+{
+"e": "Many teachers worry",
+"k": "많은 교사들은 걱정한다"
+},
+{
+"e": "that the pension reform",
+"k": "(그건) 연금 개혁이"
+},
+{
+"e": "will reduce their benefits.",
+"k": "그들의 수령액을 줄일 것이라고"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p61",
+"en": "Our long-term contract is a useful bargaining chip in these talks.",
+"ko": "우리의 장기 계약이 이번 협상에서 쓸모 있는 협상 카드입니다.",
+"ch": [
+{
+"e": "Our long-term contract",
+"k": "우리의 장기 계약은"
+},
+{
+"e": "is a useful bargaining chip",
+"k": "쓸모 있는 협상 카드이다"
+},
+{
+"e": "in these talks.",
+"k": "이번 협상에서"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p62",
+"en": "Cattle farming produces a large share of the world's greenhouse gases.",
+"ko": "소 사육은 전 세계 온실가스의 상당 부분을 배출한다.",
+"ch": [
+{
+"e": "Cattle farming",
+"k": "소 사육은"
+},
+{
+"e": "produces a large share",
+"k": "큰 몫을 만들어 낸다"
+},
+{
+"e": "of the world's greenhouse gases.",
+"k": "전 세계 온실가스의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p64",
+"en": "Police are cracking down on drivers who use phones behind the wheel.",
+"ko": "경찰은 운전 중 휴대폰을 쓰는 운전자들을 엄중 단속하고 있다.",
+"ch": [
+{
+"e": "Police are cracking down",
+"k": "경찰이 엄중 단속하고 있다"
+},
+{
+"e": "on drivers",
+"k": "운전자들을"
+},
+{
+"e": "who use phones",
+"k": "(그들은) 휴대폰을 쓰는"
+},
+{
+"e": "behind the wheel.",
+"k": "운전 중에"
+}
+],
+"r": "관계사 앞"
+},
+{
+"id": "p65",
+"en": "The new findings call into question the value of standardized tests.",
+"ko": "새로운 연구 결과는 표준화 시험의 가치에 의문을 제기한다.",
+"ch": [
+{
+"e": "The new findings",
+"k": "새로운 연구 결과는"
+},
+{
+"e": "call into question the value",
+"k": "가치에 의문을 제기한다"
+},
+{
+"e": "of standardized tests.",
+"k": "표준화 시험의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p66",
+"en": "A key witness agreed to testify against the gang leader in court.",
+"ko": "핵심 증인이 법정에서 조직 두목에 불리한 증언을 하기로 했다.",
+"ch": [
+{
+"e": "A key witness agreed",
+"k": "핵심 증인이 동의했다"
+},
+{
+"e": "to testify against the gang leader",
+"k": "조직 두목에 불리하게 증언하기로"
+},
+{
+"e": "in court.",
+"k": "법정에서"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p67",
+"en": "A whistleblower revealed that the hospital had hidden its infection rates.",
+"ko": "한 내부 고발자가 병원이 감염률을 숨겨 왔다고 폭로했다.",
+"ch": [
+{
+"e": "A whistleblower revealed",
+"k": "한 내부 고발자가 폭로했다"
+},
+{
+"e": "that the hospital had hidden",
+"k": "(그건) 병원이 숨겨 왔다는 것을"
+},
+{
+"e": "its infection rates.",
+"k": "자신의 감염률을"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p71",
+"en": "We are phasing out paper forms by the end of the year.",
+"ko": "연말까지 종이 양식을 단계적으로 없애고 있습니다.",
+"ch": [
+{
+"e": "We are phasing out paper forms",
+"k": "우리는 종이 양식을 단계적으로 없애고 있다"
+},
+{
+"e": "by the end of the year.",
+"k": "연말까지"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p75",
+"en": "The pressure of college entrance exams is pervasive in Korean high schools.",
+"ko": "대입 시험의 압박은 한국 고등학교 전반에 스며들어 있다.",
+"ch": [
+{
+"e": "The pressure",
+"k": "그 압박은"
+},
+{
+"e": "of college entrance exams",
+"k": "대입 시험의"
+},
+{
+"e": "is pervasive",
+"k": "널리 퍼져 있다"
+},
+{
+"e": "in Korean high schools.",
+"k": "한국 고등학교들에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p78",
+"en": "Good pedagogy matters more than expensive equipment in a PE class.",
+"ko": "체육 수업에서는 비싼 장비보다 좋은 교수법이 더 중요하다.",
+"ch": [
+{
+"e": "Good pedagogy matters more",
+"k": "좋은 교수법이 더 중요하다"
+},
+{
+"e": "than expensive equipment",
+"k": "비싼 장비보다"
+},
+{
+"e": "in a PE class.",
+"k": "체육 수업에서는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p80",
+"en": "Clear goals create a strong sense of accountability on the team.",
+"ko": "명확한 목표는 팀에 강한 책임 의식을 만들어 줍니다.",
+"ch": [
+{
+"e": "Clear goals",
+"k": "명확한 목표는"
+},
+{
+"e": "create a strong sense",
+"k": "강한 의식을 만든다"
+},
+{
+"e": "of accountability",
+"k": "책임에 대한"
+},
+{
+"e": "on the team.",
+"k": "팀에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p81",
+"en": "The report offers a comprehensive overview of youth sports in Korea.",
+"ko": "그 보고서는 한국 유소년 스포츠에 대한 종합적인 개관을 제공한다.",
+"ch": [
+{
+"e": "The report offers a comprehensive overview",
+"k": "그 보고서는 종합적인 개관을 제공한다"
+},
+{
+"e": "of youth sports",
+"k": "유소년 스포츠에 대한"
+},
+{
+"e": "in Korea.",
+"k": "한국의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p84",
+"en": "Residents filed a lawsuit against the factory over the polluted river.",
+"ko": "주민들은 오염된 강 문제로 공장을 상대로 소송을 제기했다.",
+"ch": [
+{
+"e": "Residents filed a lawsuit",
+"k": "주민들은 소송을 제기했다"
+},
+{
+"e": "against the factory",
+"k": "그 공장을 상대로"
+},
+{
+"e": "over the polluted river.",
+"k": "오염된 강 문제로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p86",
+"en": "The whole argument rests on the premise that all students learn the same way.",
+"ko": "그 주장 전체는 모든 학생이 똑같은 방식으로 배운다는 전제에 기대고 있다.",
+"ch": [
+{
+"e": "The whole argument",
+"k": "그 주장 전체는"
+},
+{
+"e": "rests on the premise",
+"k": "전제에 기대고 있다"
+},
+{
+"e": "that all students",
+"k": "(그 전제란) 모든 학생이"
+},
+{
+"e": "learn the same way.",
+"k": "같은 방식으로 배운다는"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p87",
+"en": "The policy should be based on empirical evidence, not personal opinion.",
+"ko": "그 정책은 개인적 의견이 아니라 실증적 증거에 근거해야 한다.",
+"ch": [
+{
+"e": "The policy should be based",
+"k": "그 정책은 근거해야 한다"
+},
+{
+"e": "on empirical evidence,",
+"k": "실증적 증거에"
+},
+{
+"e": "not personal opinion.",
+"k": "개인적 의견이 아니라"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p92",
+"en": "Both sides agreed to a ceasefire so that aid could reach civilians.",
+"ko": "구호품이 민간인에게 닿을 수 있도록 양측이 휴전에 합의했다.",
+"ch": [
+{
+"e": "Both sides agreed",
+"k": "양측은 합의했다"
+},
+{
+"e": "to a ceasefire",
+"k": "휴전에"
+},
+{
+"e": "so that aid could reach civilians.",
+"k": "구호품이 민간인에게 닿을 수 있도록"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p98",
+"en": "The two presidents will meet at a summit in Geneva next month.",
+"ko": "두 대통령은 다음 달 제네바 정상 회담에서 만날 것이다.",
+"ch": [
+{
+"e": "The two presidents will meet",
+"k": "두 대통령은 만날 것이다"
+},
+{
+"e": "at a summit",
+"k": "정상 회담에서"
+},
+{
+"e": "in Geneva",
+"k": "제네바의"
+},
+{
+"e": "next month.",
+"k": "다음 달에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p99",
+"en": "I shared the rubric so students knew exactly how they'd be graded.",
+"ko": "학생들이 정확히 어떻게 채점되는지 알 수 있도록 채점 기준표를 공유했다.",
+"ch": [
+{
+"e": "I shared the rubric",
+"k": "나는 채점 기준표를 공유했다"
+},
+{
+"e": "so students knew exactly",
+"k": "그래서 학생들이 정확히 알았다"
+},
+{
+"e": "how they'd be graded.",
+"k": "그들이 어떻게 채점될지를"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p102",
+"en": "The incumbent mayor is running for a third term this spring.",
+"ko": "현직 시장이 올봄 3선에 도전한다.",
+"ch": [
+{
+"e": "The incumbent mayor",
+"k": "현직 시장이"
+},
+{
+"e": "is running",
+"k": "출마한다"
+},
+{
+"e": "for a third term",
+"k": "세 번째 임기를 위해"
+},
+{
+"e": "this spring.",
+"k": "올봄에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p105",
+"en": "If the client is still unhappy, please escalate the issue to me.",
+"ko": "고객이 여전히 불만이면 그 문제를 저에게 올려 주세요.",
+"ch": [
+{
+"e": "If the client is still unhappy,",
+"k": "만약 고객이 여전히 불만이면"
+},
+{
+"e": "please escalate the issue",
+"k": "그 문제를 올려 주세요"
+},
+{
+"e": "to me.",
+"k": "저에게"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p106",
+"en": "Heavy rain impeded our progress on the second day of the walk.",
+"ko": "폭우로 걷기 둘째 날 우리의 진행이 더뎌졌다.",
+"ch": [
+{
+"e": "Heavy rain impeded our progress",
+"k": "폭우가 우리의 진행을 방해했다"
+},
+{
+"e": "on the second day",
+"k": "둘째 날에"
+},
+{
+"e": "of the walk.",
+"k": "걷기의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p110",
+"en": "The merger is expected to create synergy between the two brands.",
+"ko": "그 합병은 두 브랜드 사이에 시너지를 낼 것으로 기대됩니다.",
+"ch": [
+{
+"e": "The merger is expected",
+"k": "그 합병은 기대된다"
+},
+{
+"e": "to create synergy",
+"k": "시너지를 낼 것으로"
+},
+{
+"e": "between the two brands.",
+"k": "두 브랜드 사이에"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p112",
+"en": "We scaffold the skill by starting with a stationary pass first.",
+"ko": "우리는 먼저 제자리 패스부터 시작해서 그 기술을 단계적으로 익히도록 돕는다.",
+"ch": [
+{
+"e": "We scaffold the skill",
+"k": "우리는 그 기술을 단계적으로 지도한다"
+},
+{
+"e": "by starting",
+"k": "시작함으로써"
+},
+{
+"e": "with a stationary pass first.",
+"k": "먼저 제자리 패스로"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p114",
+"en": "Critics say the new cameras could lead to excessive government surveillance.",
+"ko": "비판론자들은 새 카메라가 과도한 정부 감시로 이어질 수 있다고 말한다.",
+"ch": [
+{
+"e": "Critics say",
+"k": "비판론자들은 말한다"
+},
+{
+"e": "the new cameras could lead",
+"k": "(그건) 새 카메라가 이어질 수 있다고"
+},
+{
+"e": "to excessive government surveillance.",
+"k": "과도한 정부 감시로"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p115",
+"en": "The reported cases of bullying are just the tip of the iceberg.",
+"ko": "보고된 괴롭힘 사례는 빙산의 일각에 불과하다.",
+"ch": [
+{
+"e": "The reported cases",
+"k": "보고된 사례들은"
+},
+{
+"e": "of bullying",
+"k": "괴롭힘의"
+},
+{
+"e": "are just the tip",
+"k": "단지 일각일 뿐이다"
+},
+{
+"e": "of the iceberg.",
+"k": "빙산의"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p121",
+"en": "My first coach instilled in me a love of hard work.",
+"ko": "나의 첫 코치는 내게 성실함을 사랑하는 마음을 심어 주었다.",
+"ch": [
+{
+"e": "My first coach",
+"k": "나의 첫 코치는"
+},
+{
+"e": "instilled in me",
+"k": "내 안에 심어 주었다"
+},
+{
+"e": "a love of hard work.",
+"k": "성실함에 대한 사랑을"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p123",
+"en": "Many economists warn that the country could slip into a recession.",
+"ko": "많은 경제학자들이 나라가 경기 침체에 빠질 수 있다고 경고한다.",
+"ch": [
+{
+"e": "Many economists warn",
+"k": "많은 경제학자들이 경고한다"
+},
+{
+"e": "that the country could slip",
+"k": "(그건) 그 나라가 빠질 수 있다고"
+},
+{
+"e": "into a recession.",
+"k": "경기 침체로"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p124",
+"en": "A good manager knows how to delegate tasks to the right people.",
+"ko": "좋은 관리자는 적임자에게 업무를 위임할 줄 압니다.",
+"ch": [
+{
+"e": "A good manager knows",
+"k": "좋은 관리자는 안다"
+},
+{
+"e": "how to delegate tasks",
+"k": "업무를 위임하는 방법을"
+},
+{
+"e": "to the right people.",
+"k": "적임자들에게"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p125",
+"en": "The court acquitted the driver due to a lack of evidence.",
+"ko": "법원은 증거 부족으로 운전자에게 무죄를 선고했다.",
+"ch": [
+{
+"e": "The court acquitted the driver",
+"k": "법원은 운전자에게 무죄를 선고했다"
+},
+{
+"e": "due to a lack",
+"k": "부족 때문에"
+},
+{
+"e": "of evidence.",
+"k": "증거의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p126",
+"en": "Let's review the plan once more so we're all on the same page.",
+"ko": "모두 같은 이해를 갖도록 계획을 한 번 더 검토합시다.",
+"ch": [
+{
+"e": "Let's review the plan once more",
+"k": "계획을 한 번 더 검토하자"
+},
+{
+"e": "so we're all",
+"k": "우리 모두가 ~하도록"
+},
+{
+"e": "on the same page.",
+"k": "같은 이해를 갖도록"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p130",
+"en": "We should leverage our existing client base to launch the new service.",
+"ko": "새 서비스를 출시하려면 기존 고객층을 활용해야 합니다.",
+"ch": [
+{
+"e": "We should leverage",
+"k": "우리는 활용해야 한다"
+},
+{
+"e": "our existing client base",
+"k": "우리의 기존 고객층을"
+},
+{
+"e": "to launch the new service.",
+"k": "새 서비스를 출시하기 위해"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p135",
+"en": "With the championship at stake, nobody wanted to make a mistake.",
+"ko": "우승이 걸려 있어서 아무도 실수하고 싶어 하지 않았다.",
+"ch": [
+{
+"e": "With the championship",
+"k": "우승이"
+},
+{
+"e": "at stake,",
+"k": "걸려 있어서"
+},
+{
+"e": "nobody wanted",
+"k": "아무도 원하지 않았다"
+},
+{
+"e": "to make a mistake.",
+"k": "실수하는 것을"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p140",
+"en": "The new law aims to root out corruption among public officials.",
+"ko": "새 법은 공무원 사이의 부패를 뿌리 뽑는 것을 목표로 한다.",
+"ch": [
+{
+"e": "The new law aims",
+"k": "새 법은 목표로 한다"
+},
+{
+"e": "to root out corruption",
+"k": "부패를 뿌리 뽑는 것을"
+},
+{
+"e": "among public officials.",
+"k": "공무원들 사이의"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p142",
+"en": "The lecture delves into the history of the modern Olympic Games.",
+"ko": "그 강의는 근대 올림픽의 역사를 깊이 파고든다.",
+"ch": [
+{
+"e": "The lecture delves",
+"k": "그 강의는 깊이 파고든다"
+},
+{
+"e": "into the history",
+"k": "역사를"
+},
+{
+"e": "of the modern Olympic Games.",
+"k": "근대 올림픽의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p147",
+"en": "Sports teach children resilience because they learn to lose and try again.",
+"ko": "아이들은 지고 다시 도전하는 법을 배우기 때문에 스포츠는 회복탄력성을 길러 준다.",
+"ch": [
+{
+"e": "Sports teach children resilience",
+"k": "스포츠는 아이들에게 회복탄력성을 가르친다"
+},
+{
+"e": "because they learn",
+"k": "왜냐하면 그들이 배우기 때문에"
+},
+{
+"e": "to lose and try again.",
+"k": "지고 다시 도전하는 것을"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p149",
+"en": "The committee will scrutinize every evaluation plan before the semester starts.",
+"ko": "위원회는 학기가 시작되기 전에 모든 평가계획을 면밀히 검토할 것이다.",
+"ch": [
+{
+"e": "The committee will scrutinize",
+"k": "위원회는 면밀히 검토할 것이다"
+},
+{
+"e": "every evaluation plan",
+"k": "모든 평가계획을"
+},
+{
+"e": "before the semester starts.",
+"k": "학기가 시작되기 전에"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p150",
+"en": "The company's annual revenue exceeded two billion won for the first time.",
+"ko": "회사의 연 매출이 처음으로 20억 원을 넘었습니다.",
+"ch": [
+{
+"e": "The company's annual revenue",
+"k": "회사의 연 매출이"
+},
+{
+"e": "exceeded two billion won",
+"k": "20억 원을 넘었다"
+},
+{
+"e": "for the first time.",
+"k": "처음으로"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p151",
+"en": "Her English proficiency improved quickly after she started listening every day.",
+"ko": "매일 듣기를 시작한 뒤로 그녀의 영어 실력은 빠르게 늘었다.",
+"ch": [
+{
+"e": "Her English proficiency",
+"k": "그녀의 영어 실력은"
+},
+{
+"e": "improved quickly",
+"k": "빠르게 늘었다"
+},
+{
+"e": "after she started",
+"k": "그녀가 시작한 뒤에"
+},
+{
+"e": "listening every day.",
+"k": "매일 듣기를"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p152",
+"en": "I often ponder what kind of teacher my students will remember.",
+"ko": "나는 학생들이 나를 어떤 교사로 기억할지 종종 곰곰이 생각한다.",
+"ch": [
+{
+"e": "I often ponder",
+"k": "나는 종종 곰곰이 생각한다"
+},
+{
+"e": "what kind of teacher",
+"k": "어떤 교사로"
+},
+{
+"e": "my students will remember.",
+"k": "내 학생들이 기억할지"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p154",
+"en": "The new variant is far more contagious than the original virus.",
+"ko": "새 변이는 원래 바이러스보다 훨씬 전염성이 강하다.",
+"ch": [
+{
+"e": "The new variant",
+"k": "새 변이는"
+},
+{
+"e": "is far more contagious",
+"k": "훨씬 더 전염성이 강하다"
+},
+{
+"e": "than the original virus.",
+"k": "원래 바이러스보다"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p157",
+"en": "It is a paradox that the busiest people often get the most done.",
+"ko": "가장 바쁜 사람이 가장 많은 일을 해낸다는 것은 역설이다.",
+"ch": [
+{
+"e": "It is a paradox",
+"k": "(그것은) 역설이다"
+},
+{
+"e": "that the busiest people",
+"k": "(그건) 가장 바쁜 사람들이"
+},
+{
+"e": "often get the most done.",
+"k": "종종 가장 많은 일을 해낸다는 것"
+}
+],
+"r": "that절 앞"
+},
+{
+"id": "p158",
+"en": "The grading system takes into account effort as well as skill.",
+"ko": "그 채점 방식은 실력뿐 아니라 노력도 고려한다.",
+"ch": [
+{
+"e": "The grading system",
+"k": "그 채점 방식은"
+},
+{
+"e": "takes into account effort",
+"k": "노력을 고려한다"
+},
+{
+"e": "as well as skill.",
+"k": "실력뿐 아니라"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p160",
+"en": "The court ruling could pave the way for same-day voter registration.",
+"ko": "그 법원 판결은 선거 당일 유권자 등록의 길을 열 수 있다.",
+"ch": [
+{
+"e": "The court ruling",
+"k": "그 법원 판결은"
+},
+{
+"e": "could pave the way",
+"k": "길을 열 수 있다"
+},
+{
+"e": "for same-day voter registration.",
+"k": "선거 당일 유권자 등록을 위한"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p161",
+"en": "Let's touch base on Friday to see how things are going.",
+"ko": "금요일에 잠깐 연락해서 진행 상황을 확인합시다.",
+"ch": [
+{
+"e": "Let's touch base",
+"k": "잠깐 연락하자"
+},
+{
+"e": "on Friday",
+"k": "금요일에"
+},
+{
+"e": "to see how things are going.",
+"k": "일이 어떻게 되어 가는지 보기 위해"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p163",
+"en": "Taking the bus instead of driving can shrink your carbon footprint.",
+"ko": "운전 대신 버스를 타면 탄소 발자국을 줄일 수 있다.",
+"ch": [
+{
+"e": "Taking the bus",
+"k": "버스를 타는 것은"
+},
+{
+"e": "instead of driving",
+"k": "운전 대신"
+},
+{
+"e": "can shrink your carbon footprint.",
+"k": "당신의 탄소 발자국을 줄일 수 있다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p164",
+"en": "Building rapport with students in March makes the whole year easier.",
+"ko": "3월에 학생들과 라포를 쌓으면 한 해 전체가 수월해진다.",
+"ch": [
+{
+"e": "Building rapport with students",
+"k": "학생들과 라포를 쌓는 것은"
+},
+{
+"e": "in March",
+"k": "3월에"
+},
+{
+"e": "makes the whole year easier.",
+"k": "한 해 전체를 더 수월하게 만든다"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p165",
+"en": "The new software will streamline the approval process for expense reports.",
+"ko": "새 소프트웨어가 경비 보고서 결재 절차를 간소화해 줄 겁니다.",
+"ch": [
+{
+"e": "The new software will streamline",
+"k": "새 소프트웨어는 간소화할 것이다"
+},
+{
+"e": "the approval process",
+"k": "결재 절차를"
+},
+{
+"e": "for expense reports.",
+"k": "경비 보고서에 대한"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p167",
+"en": "Scientists found a genetic link between the disease and poor eyesight.",
+"ko": "과학자들은 그 질병과 나쁜 시력 사이의 유전적 연관성을 발견했다.",
+"ch": [
+{
+"e": "Scientists found a genetic link",
+"k": "과학자들은 유전적 연관성을 발견했다"
+},
+{
+"e": "between the disease and poor eyesight.",
+"k": "그 질병과 나쁜 시력 사이의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p168",
+"en": "A single great teacher can change the trajectory of a student's life.",
+"ko": "훌륭한 교사 한 명이 학생 인생의 궤적을 바꿀 수 있다.",
+"ch": [
+{
+"e": "A single great teacher",
+"k": "훌륭한 교사 한 명이"
+},
+{
+"e": "can change the trajectory",
+"k": "궤적을 바꿀 수 있다"
+},
+{
+"e": "of a student's life.",
+"k": "한 학생 인생의"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p169",
+"en": "Adding a mobile app would go beyond the scope of this project.",
+"ko": "모바일 앱을 추가하는 것은 이 프로젝트의 범위를 넘어섭니다.",
+"ch": [
+{
+"e": "Adding a mobile app",
+"k": "모바일 앱을 추가하는 것은"
+},
+{
+"e": "would go beyond the scope",
+"k": "범위를 넘어설 것이다"
+},
+{
+"e": "of this project.",
+"k": "이 프로젝트의"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p171",
+"en": "Readers must make an inference because the author never says it directly.",
+"ko": "작가가 직접 말하지 않기 때문에 독자는 추론을 해야 한다.",
+"ch": [
+{
+"e": "Readers must make an inference",
+"k": "독자는 추론을 해야 한다"
+},
+{
+"e": "because the author never says it",
+"k": "왜냐하면 작가가 결코 그것을 말하지 않기 때문에"
+},
+{
+"e": "directly.",
+"k": "직접적으로"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p172",
+"en": "Please cc me on any emails you send to the client.",
+"ko": "고객에게 보내는 이메일에는 저를 참조로 넣어 주세요.",
+"ch": [
+{
+"e": "Please cc me",
+"k": "저를 참조로 넣어 주세요"
+},
+{
+"e": "on any emails",
+"k": "어떤 이메일이든"
+},
+{
+"e": "you send to the client.",
+"k": "(그건) 당신이 고객에게 보내는"
+}
+],
+"r": "관계사 앞"
+},
+{
+"id": "p173",
+"en": "We track several key metrics, such as customer satisfaction and retention.",
+"ko": "우리는 고객 만족도와 재구매율 같은 핵심 지표를 추적합니다.",
+"ch": [
+{
+"e": "We track several key metrics,",
+"k": "우리는 몇 가지 핵심 지표를 추적한다"
+},
+{
+"e": "such as customer satisfaction and retention.",
+"k": "고객 만족도와 재구매율 같은"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p177",
+"en": "Strict austerity measures led to cuts in public schools and hospitals.",
+"ko": "엄격한 긴축 조치로 공립 학교와 병원 예산이 삭감되었다.",
+"ch": [
+{
+"e": "Strict austerity measures",
+"k": "엄격한 긴축 조치는"
+},
+{
+"e": "led to cuts",
+"k": "삭감으로 이어졌다"
+},
+{
+"e": "in public schools and hospitals.",
+"k": "공립 학교와 병원의"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p180",
+"en": "The director has to sign off on any spending over one million won.",
+"ko": "100만 원이 넘는 지출은 이사가 결재해야 합니다.",
+"ch": [
+{
+"e": "The director has to sign off",
+"k": "이사가 결재해야 한다"
+},
+{
+"e": "on any spending",
+"k": "어떤 지출이든"
+},
+{
+"e": "over one million won.",
+"k": "100만 원이 넘는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p190",
+"en": "The new mayor promised to tackle the city's traffic problems first.",
+"ko": "새 시장은 도시 교통 문제부터 해결하겠다고 약속했다.",
+"ch": [
+{
+"e": "The new mayor promised",
+"k": "새 시장은 약속했다"
+},
+{
+"e": "to tackle the city's traffic problems",
+"k": "도시의 교통 문제를 해결하겠다고"
+},
+{
+"e": "first.",
+"k": "먼저"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p219",
+"en": "Please loop in the design team before we make a final decision.",
+"ko": "최종 결정을 내리기 전에 디자인팀도 논의에 포함해 주세요.",
+"ch": [
+{
+"e": "Please loop in the design team",
+"k": "디자인팀을 논의에 포함해 주세요"
+},
+{
+"e": "before we make a final decision.",
+"k": "우리가 최종 결정을 내리기 전에"
+}
+],
+"r": "접속사 앞"
+},
+{
+"id": "p231",
+"en": "Cutting energy waste has had a real impact on our bottom line.",
+"ko": "에너지 낭비를 줄인 것이 최종 손익에 실질적인 영향을 주었습니다.",
+"ch": [
+{
+"e": "Cutting energy waste",
+"k": "에너지 낭비를 줄인 것이"
+},
+{
+"e": "has had a real impact",
+"k": "실질적인 영향을 주었다"
+},
+{
+"e": "on our bottom line.",
+"k": "우리의 최종 손익에"
+}
+],
+"r": "주어 뒤"
+},
+{
+"id": "p248",
+"en": "She acts as a liaison between the sales team and the factory.",
+"ko": "그녀는 영업팀과 공장 사이의 연락 담당 역할을 합니다.",
+"ch": [
+{
+"e": "She acts",
+"k": "그녀는 역할을 한다"
+},
+{
+"e": "as a liaison",
+"k": "연락 담당자로서"
+},
+{
+"e": "between the sales team and the factory.",
+"k": "영업팀과 공장 사이의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p266",
+"en": "A short walk can alleviate stress after a long day of teaching.",
+"ko": "짧은 산책은 긴 수업 일과 뒤의 스트레스를 덜어 줄 수 있다.",
+"ch": [
+{
+"e": "A short walk can alleviate stress",
+"k": "짧은 산책은 스트레스를 덜어 줄 수 있다"
+},
+{
+"e": "after a long day",
+"k": "긴 하루 뒤의"
+},
+{
+"e": "of teaching.",
+"k": "수업하는"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p267",
+"en": "The country still relies on fossil fuels for most of its electricity.",
+"ko": "그 나라는 여전히 전력 대부분을 화석 연료에 의존한다.",
+"ch": [
+{
+"e": "The country still relies",
+"k": "그 나라는 여전히 의존한다"
+},
+{
+"e": "on fossil fuels",
+"k": "화석 연료에"
+},
+{
+"e": "for most of its electricity.",
+"k": "자국 전력의 대부분을"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p277",
+"en": "Any costs incurred during the trip will be covered by the company.",
+"ko": "출장 중 발생한 비용은 모두 회사가 부담합니다.",
+"ch": [
+{
+"e": "Any costs",
+"k": "어떤 비용이든"
+},
+{
+"e": "incurred during the trip",
+"k": "출장 중에 발생한"
+},
+{
+"e": "will be covered",
+"k": "부담될 것이다"
+},
+{
+"e": "by the company.",
+"k": "회사에 의해"
+}
+],
+"r": "분사구 앞"
+},
+{
+"id": "p282",
+"en": "It took him months to come to terms with his career-ending injury.",
+"ko": "그는 선수 생명을 끝낸 부상을 받아들이기까지 몇 달이 걸렸다.",
+"ch": [
+{
+"e": "It took him months",
+"k": "그에게 몇 달이 걸렸다"
+},
+{
+"e": "to come to terms",
+"k": "받아들이는 데"
+},
+{
+"e": "with his career-ending injury.",
+"k": "선수 생명을 끝낸 그의 부상을"
+}
+],
+"r": "to부정사 앞"
+},
+{
+"id": "p283",
+"en": "The new drug is now in the final stage of clinical trials.",
+"ko": "그 신약은 현재 임상 시험 마지막 단계에 있다.",
+"ch": [
+{
+"e": "The new drug is now",
+"k": "그 신약은 현재 있다"
+},
+{
+"e": "in the final stage",
+"k": "마지막 단계에"
+},
+{
+"e": "of clinical trials.",
+"k": "임상 시험의"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p284",
+"en": "We don't have time now, so let's circle back to this next week.",
+"ko": "지금은 시간이 없으니 다음 주에 다시 이야기합시다.",
+"ch": [
+{
+"e": "We don't have time now,",
+"k": "우리는 지금 시간이 없다"
+},
+{
+"e": "so let's circle back to this",
+"k": "그러니 이것으로 다시 돌아오자"
+},
+{
+"e": "next week.",
+"k": "다음 주에"
+}
+],
+"r": "콤마"
+},
+{
+"id": "p295",
+"en": "There was a discrepancy between the attendance record and the actual headcount.",
+"ko": "출석부와 실제 인원수 사이에 불일치가 있었다.",
+"ch": [
+{
+"e": "There was a discrepancy",
+"k": "불일치가 있었다"
+},
+{
+"e": "between the attendance record",
+"k": "출석부와"
+},
+{
+"e": "and the actual headcount.",
+"k": "실제 인원수 사이에"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p307",
+"en": "Constructive feedback focuses on what to do next, not what went wrong.",
+"ko": "건설적인 피드백은 무엇이 잘못됐는지보다 다음에 무엇을 할지에 초점을 맞춘다.",
+"ch": [
+{
+"e": "Constructive feedback focuses",
+"k": "건설적인 피드백은 초점을 맞춘다"
+},
+{
+"e": "on what to do next,",
+"k": "다음에 무엇을 할지에"
+},
+{
+"e": "not what went wrong.",
+"k": "무엇이 잘못됐는지가 아니라"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p309",
+"en": "She pitched her idea for a new product line to the directors.",
+"ko": "그녀는 새 제품군 아이디어를 임원들에게 제안했습니다.",
+"ch": [
+{
+"e": "She pitched her idea",
+"k": "그녀는 자신의 아이디어를 제안했다"
+},
+{
+"e": "for a new product line",
+"k": "새 제품군에 대한"
+},
+{
+"e": "to the directors.",
+"k": "임원들에게"
+}
+],
+"r": "전치사 앞"
+},
+{
+"id": "p314",
+"en": "I dropped the ball and forgot to send the client the contract.",
+"ko": "제가 실수로 고객에게 계약서 보내는 걸 잊었습니다.",
+"ch": [
+{
+"e": "I dropped the ball",
+"k": "내가 실수했다"
+},
+{
+"e": "and forgot to send the client",
+"k": "그리고 고객에게 보내는 것을 잊었다"
+},
+{
+"e": "the contract.",
+"k": "계약서를"
+}
+],
+"r": "접속사 앞"
+}
+]
