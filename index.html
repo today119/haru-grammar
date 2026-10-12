@@ -223,6 +223,7 @@ function home(){
     morningCard()+famCard()+
     '<h2>오늘 할 것</h2><div class="stack">'+
     '<button class="act" data-a="drive"><span class="e">🚗</span><span><b>손 안 대고 듣기</b><small>출퇴근 차에서 — 듣고 따라 말하기, 자동으로 계속</small></span></button>'+
+    '<button class="act" data-a="chunk"><span class="e">✂️</span><span><b>끊어 읽기 연습</b><small>영어 문장을 덩어리로 끊어 앞에서부터 바로 해석</small></span></button>'+
     '<button class="act" data-a="review"><span class="e">🔁</span><span><b>복습 문제</b><small>틀렸던 문제 중 다시 풀 때가 된 것</small></span><span class="n">'+dl+'</span></button>'+
     '<button class="act" data-a="wrong"><span class="e">📝</span><span><b>오답 노트</b><small>지금까지 틀린 문제 모아 보기</small></span><span class="n">'+wl+'</span></button>'+
     '<button class="act" data-a="mock"><span class="e">🎯</span><span><b>모의고사 20문항</b><small>'+(S.mocks.length?"최근 "+S.mocks[S.mocks.length-1].score+"점":"전 범위 랜덤, 실전처럼")+'</small></span></button>'+
@@ -230,7 +231,7 @@ function home(){
     '</div>';
   var g=document.getElementById("goNext"); if(g) g.onclick=function(){ topic(nx.id); };
   bindMorning(); bindFam();
-  $app.querySelectorAll("[data-a]").forEach(function(b){ b.onclick=function(){ var a=b.dataset.a; if(a==="review") review(); else if(a==="sync") sync(); else if(a==="drive") drive(); else go(a); }; });
+  $app.querySelectorAll("[data-a]").forEach(function(b){ b.onclick=function(){ var a=b.dataset.a; if(a==="review") review(); else if(a==="sync") sync(); else if(a==="drive") drive(); else if(a==="chunk") chunkHome(); else go(a); }; });
 }
 function morningCard(){
   var ws=todayWords(), dg=todayDialog(); if(!ws.length && !dg) return "";
@@ -449,12 +450,13 @@ function driveSources(){
     return {id:"w_"+L, name:LVN[L]+" 단어 전체", items:WL[L].length?tag(L).map(function(w){ return {w:w}; }):[], keep:true, lvl:L};
   })).concat([
     {id:"dialog", name:"💬 오늘 대화 따라하기", items:dg?dg.lines.map(function(l,k){ return {en:l.en, ko:l.ko, tag:dg.title+" · "+l.s, aid:"d"+dg.id+"-"+k}; }):[], keep:false},
-    {id:"ex", name:"✏️ 연수 문법 예문 전체", items:ex, keep:true}
+    {id:"ex", name:"✏️ 연수 문법 예문 전체", items:ex, keep:true},
+    {id:"chunk", name:"✂️ 끊어 읽기 듣기", items:CH.map(function(c){ return {en:c.ch.map(function(x){ return x.e; }).join(" / "), ko:c.ch.map(function(x){ return x.k; }).join(" / "), exko:c.ko, tag:"끊는 곳: "+c.r, aid:"c"+c.id}; }), keep:true}
 
   ]);
 }
 function drive(){
-  stopDrive();
+  stopDrive(); if(!CH.length&&!drive.t){ drive.t=1; return loadCH().then(drive); }
   var src=driveSources(), cur=ls("dsrc")||"today";
   $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 손 안 대고 듣기</div></div>'+
     '<p class="muted" style="margin:4px 0 12px">시작만 누르면 끝까지 자동으로 넘어가요. 영어가 두 번 나오고, 그 사이에 따라 말하세요.</p>'+
@@ -475,7 +477,7 @@ function playDrive(s){
   var A=DRV.audio||(DRV.audio=new Audio()); A.preload="auto";
   var i=s.keep?(+(ls("dpos_"+s.id)||0))%s.items.length:0;
   try{ if(navigator.wakeLock) navigator.wakeLock.request("screen").then(function(l){ DRV.lock=l; }).catch(function(){}); }catch(e){}
-  function it(){ var x=s.items[i]; return x.w?{en:x.w.w, ko:x.w.ko, ex:x.w.ex, exko:x.w.exko, tag:LVN[x.w.lv]||"", aid:x.w.aid}:{en:x.en, ko:x.ko, ex:"", exko:"", tag:x.tag, aid:x.aid}; }
+  function it(){ var x=s.items[i]; return x.w?{en:x.w.w, ko:x.w.ko, ex:x.w.ex, exko:x.w.exko, tag:LVN[x.w.lv]||"", aid:x.w.aid}:{en:x.en, ko:x.ko, ex:x.ex||"", exko:x.exko||"", tag:x.tag, aid:x.aid}; }
   function save(){ if(s.keep) ls("dpos_"+s.id, i); }
   function skipK(d){ var K=knownSet(), n=0; while(s.items[i]&&s.items[i].w&&K[s.items[i].w.aid]&&n<s.items.length){ i+=d||1; n++; if(i<0) i=s.items.length-1; if(i>=s.items.length){ if(!s.keep) return false; i=0; } } return n<s.items.length; }
   function markKnown(){ var x=s.items[i]; if(!x||!x.w) return; setKnown(x.w.aid,true); toast("✓ "+x.w.w+" — 다음부터 안 나와요"); step(1); }
@@ -484,7 +486,7 @@ function playDrive(s){
     $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 '+esc(s.name.replace(/^\S+\s/,""))+'</div></div>'+
       '<div class="qh"><span>'+(i+1)+' / '+s.items.length+'</span><span>'+esc(c.tag)+'</span></div>'+
       '<div class="card drv"><div class="en1">'+esc(c.en)+'</div><div class="ko1">'+esc(c.ko)+'</div>'+
-      (c.ex?'<div class="en2">'+esc(c.ex)+'</div><div class="ko2">'+esc(c.exko)+'</div>':'')+
+      (c.ex||c.exko?'<div class="en2">'+esc(c.ex)+'</div><div class="ko2">'+esc(c.exko)+'</div>':'')+
       '<div class="cue">'+(A.paused?"⏸ 멈춤":"🗣️ 듣고 따라 말해 보세요")+'</div></div>'+
       '<div class="ox3" style="margin-top:12px"><button class="big ghost" id="pv">⏮ 이전</button><button class="big" id="pp">'+(A.paused?"▶ 계속":"⏸ 멈춤")+'</button><button class="big ghost" id="nx">다음 ⏭</button></div>'+
       '<div class="ox" style="margin-top:8px">'+(s.items[i].w?'<button class="big" id="kw" style="background:var(--ok)">✓ 아는 단어 (빼기)</button>':'')+'<button class="big ghost" id="rt">속도: '+(ls("drate")==="slow"?"천천히":"보통")+'</button></div>'+
@@ -531,6 +533,60 @@ function knownView(){
   $app.querySelectorAll("[data-un]").forEach(function(b){ b.onclick=function(){ setKnown(b.dataset.un,false); knownView(); }; });
   window.scrollTo(0,0);
 }
+/* ── ✂️ 끊어 읽기(직독직해) ── 문장을 의미 덩어리로 끊고, 덩어리마다 앞에서부터 바로 뜻을 붙인다 */
+var CH=[];
+function loadCH(){ if(CH.length) return Promise.resolve(CH); return fetch("data/chunks.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).then(function(d){ CH=d||[]; return CH; }).catch(function(){ return CH; }); }
+var CH_RULES=[
+  ["긴 주어 뒤","주어가 길면 동사 앞에서 끊어요","The man who lives next door / is a doctor.","옆집에 사는 그 남자는 / 의사다"],
+  ["전치사 앞","in·at·with·for·on… 앞에서 끊어요","I met her / at the station / in the morning.","나는 그녀를 만났다 / 역에서 / 아침에"],
+  ["to부정사 앞","to+동사 = 「~하려고, ~할」","I went to the store / to buy some milk.","나는 가게에 갔다 / 우유를 사려고"],
+  ["접속사 앞","and·but·because·when·if… 앞","I stayed home / because it was raining.","나는 집에 있었다 / 비가 와서"],
+  ["관계사 앞","who·which·that 앞 — 「(그건) ~하는」","This is the book / that I told you about.","이게 그 책이야 / (그건) 내가 너한테 말했던"],
+  ["that절·의문사 앞","think·know·say 뒤에서 끊어요","I don't know / where she lives.","나는 모르겠다 / 그녀가 어디 사는지"],
+  ["분사구·콤마","-ing·-ed 덩어리, 콤마에서 끊어요","Feeling tired, / she went to bed early.","피곤해서 / 그녀는 일찍 잤다"]
+];
+function chunkHome(){
+  if(!CH.length&&!chunkHome.t){ chunkHome.t=1; $app.innerHTML='<p class="muted" style="padding:30px;text-align:center">불러오는 중…</p>'; return loadCH().then(chunkHome); }
+  var pos=+(ls("cpos")||0), open=ls("crules")!=="0";
+  $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">✂️ 끊어 읽기 연습</div></div>'+
+    '<div class="card trap"><b>핵심: 뒤에서 거꾸로 해석하지 말고, 끊은 덩어리마다 앞에서부터 바로 뜻을 붙여요.</b></div>'+
+    '<h2 id="rh" style="cursor:pointer">📌 어디서 끊을까? 7가지 '+(open?"▴":"▾")+'</h2>'+
+    (open?'<div class="card">'+CH_RULES.map(function(r,i){ return '<div class="ex" style="display:block"><div style="font-weight:900">'+(i+1)+'. '+r[0]+' <span class="small">'+r[1]+'</span></div><div class="en" style="font-size:17px;margin-top:4px">'+esc(r[2]).replace(/ \/ /g,' <b style="color:var(--no)">/</b> ')+'</div><div class="ko">'+esc(r[3])+'</div></div>'; }).join("")+'</div>':'')+
+    '<div class="stack" style="margin-top:14px">'+(CH.length?'<button class="big" id="st">'+(pos?'이어서 연습 ▶ '+(pos+1)+'번째':'연습 시작 ▶')+' <span class="small" style="color:inherit;opacity:.8">(전체 '+CH.length+'문장)</span></button>'+(pos?'<button class="big ghost" id="st0">처음부터</button>':''):'<div class="card">문장 준비 중이에요</div>')+
+    '<button class="big ghost" id="dr">🚗 끊어 읽기 듣기(손 안 대고)</button></div>';
+  document.getElementById("bk").onclick=function(){ go("home"); };
+  document.getElementById("rh").onclick=function(){ ls("crules", open?"0":"1"); chunkHome(); };
+  var st=document.getElementById("st"); if(st) st.onclick=function(){ chunkPractice(pos); };
+  var s0=document.getElementById("st0"); if(s0) s0.onclick=function(){ chunkPractice(0); };
+  document.getElementById("dr").onclick=function(){ var s=driveSources().filter(function(x){ return x.id==="chunk"; })[0]; if(s&&s.items.length){ ls("dsrc","chunk"); playDrive(s); } };
+  window.scrollTo(0,0);
+}
+/* 단계: 0 문장만 → 1 「/」 표시 → 2 덩어리별 뜻 → 3 자연스러운 해석 */
+function chunkPractice(i){
+  var st=0;
+  function draw(){
+    var c=CH[i]; ls("cpos", i);
+    var sl=c.ch.map(function(x){ return esc(x.e); }).join(' <b style="color:var(--no);font-size:1.1em">/</b> ');
+    $app.innerHTML='<div class="top"><button class="back" id="bk">‹</button><div class="ti">✂️ 끊어 읽기</div></div>'+
+      '<div class="qh"><span>'+(i+1)+' / '+CH.length+'</span><span>'+(st>=1?'끊는 곳: <b>'+esc(c.r)+'</b>':'어디서 끊을까?')+'</span></div>'+
+      '<button class="card" id="cd" style="width:100%;text-align:left;min-height:42vh;display:flex;flex-direction:column;gap:14px;justify-content:center">'+
+        '<div style="font-size:24px;font-weight:800;line-height:1.5">'+(st>=1?sl:esc(c.en))+'</div>'+
+        (st>=2?'<div>'+c.ch.map(function(x){ return '<div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="flex:1;font-weight:700">'+esc(x.e)+'</span><span style="flex:1;color:var(--ok);font-weight:800">'+esc(x.k)+'</span></div>'; }).join("")+'</div>':'')+
+        (st>=3?'<div style="font-size:18px;font-weight:800">👉 '+esc(c.ko)+'</div>':'')+
+        '<div class="small">'+["🤔 머릿속으로 끊어 보고 탭","탭 → 덩어리별 뜻","탭 → 자연스러운 해석","다음 문장으로 →"][st]+'</div>'+
+      '</button>'+
+      '<div class="ox3" style="margin-top:12px"><button class="big ghost" id="pv">‹ 이전</button><button class="big ghost" id="sp">🔊 듣기</button><button class="big" id="nx">다음 ›</button></div>';
+    document.getElementById("bk").onclick=chunkHome;
+    document.getElementById("cd").onclick=function(){ if(st<3){ st++; draw(); } else next(1); };
+    document.getElementById("pv").onclick=function(){ next(-1); };
+    document.getElementById("nx").onclick=function(){ next(1); };
+    document.getElementById("sp").onclick=function(){ if(st>=1) sayChunks(c); else say(c.en); };
+  }
+  function next(d){ i=(i+d+CH.length)%CH.length; st=0; draw(); window.scrollTo(0,0); }
+  draw(); window.scrollTo(0,0);
+}
+/* 덩어리마다 살짝 쉬며 읽기 */
+function sayChunks(c){ try{ speechSynthesis.cancel(); c.ch.forEach(function(x){ var u=new SpeechSynthesisUtterance(x.e); u.lang="en-US"; u.rate=.85; speechSynthesis.speak(u); var g=new SpeechSynthesisUtterance(","); g.volume=0; speechSynthesis.speak(g); }); }catch(e){} }
 var LVN={basic:"🐣 기초",mid:"🚶 중급",adv:"🔥 고급",pro:"🎓 전문"}, TEST_DAY="2026-10-18";
 function ls(k,v){ try{ if(v===undefined) return localStorage.getItem("haru-grammar."+k); localStorage.setItem("haru-grammar."+k,v); }catch(e){ return null; } }
 /* ── 우리 가족 순위 ── 가족 코드 하나로 여러 폰을 묶는다. 기록은 Firebase REST(로그인 없음, 코드가 곧 열쇠) */
