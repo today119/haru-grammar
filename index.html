@@ -201,7 +201,7 @@ function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var s=(dayIdx
 function knownKey(){ return "known_"+(curP()||"d"); }
 function knownSet(){ try{ return JSON.parse(ls(knownKey())||"{}")||{}; }catch(e){ return {}; } }
 function setKnown(aid,on){ var K=knownSet(); if(on) K[aid]=today(); else delete K[aid]; ls(knownKey(), JSON.stringify(K)); }
-function wordByAid(aid){ var L={b:"basic",m:"mid",a:"adv"}[aid.charAt(0)], w=WL[L]&&WL[L][+aid.slice(1)]; if(!w) return null; w=Object.assign({},w); w.lv=L; w.aid=aid; return w; }
+function wordByAid(aid){ var L={b:"basic",m:"mid",a:"adv",p:"pro"}[aid.charAt(0)], w=WL[L]&&WL[L][+aid.slice(1)]; if(!w) return null; w=Object.assign({},w); w.lv=L; w.aid=aid; return w; }
 function todayWords(){ return getMode()==="adv" ? pick5("mid").concat(pick5("adv")) : pick5("basic").concat(pick5("mid")); }
 function todayDialogTopic(){ var p=todayPlan(); if(p) return p[1]; return (dayIdx()%60)+1; }
 function todayDialog(){ var id=todayDialogTopic(); for(var i=0;i<D.length;i++) if(D[i].id===id) return D[i]; return null; }
@@ -433,7 +433,7 @@ function sync(){
   };
 }
 
-var W=[], D=[], G={}, WL={basic:[],mid:[],adv:[]};
+var W=[], D=[], G={}, WL={basic:[],mid:[],adv:[],pro:[]};
 /* 단어 난이도 — 기기마다 기억(가족이 각자 폰에서 고름) */
 
 /* ── 🚗 손 안 대고 듣기 ── 시작 한 번 누르면 끝까지 자동. 영어 → 따라 말할 틈 → 뜻 → 예문 → 틈 → 해석
@@ -441,22 +441,24 @@ var W=[], D=[], G={}, WL={basic:[],mid:[],adv:[]};
 var DRV={run:false, tok:0, lock:null};
 function driveSources(){
   function tag(L){ return WL[L].map(function(w,ix){ var o=Object.assign({},w); o.lv=L; o.aid=L.charAt(0)+ix; return o; }); }
-  var ws=getMode()==="adv"?tag("mid").concat(tag("adv")):tag("basic").concat(tag("mid"));
   var ex=[]; T.forEach(function(t){ (t.examples||[]).forEach(function(e,k){ ex.push({en:e.en, ko:e.ko, tag:t.id+". "+t.title, aid:"g"+t.id+"-"+k}); }); });
   var dg=todayDialog();
   return [
     {id:"today", name:"📅 오늘 단어 "+todayWords().length+"개", items:todayWords().map(function(w){ return {w:w}; }), keep:false},
-    {id:"words", name:"📚 단어 전체 이어 듣기", items:ws.map(function(w){ return {w:w}; }), keep:true},
+  ].concat(["basic","mid","adv","pro"].map(function(L){   // 수준별 단어 전체 — 각자 이어 듣기, 끝나면 처음부터 계속
+    return {id:"w_"+L, name:LVN[L]+" 단어 전체", items:WL[L].length?tag(L).map(function(w){ return {w:w}; }):[], keep:true, lvl:L};
+  })).concat([
     {id:"dialog", name:"💬 오늘 대화 따라하기", items:dg?dg.lines.map(function(l,k){ return {en:l.en, ko:l.ko, tag:dg.title+" · "+l.s, aid:"d"+dg.id+"-"+k}; }):[], keep:false},
     {id:"ex", name:"✏️ 연수 문법 예문 전체", items:ex, keep:true}
-  ];
+
+  ]);
 }
 function drive(){
   stopDrive();
   var src=driveSources(), cur=ls("dsrc")||"today";
   $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 손 안 대고 듣기</div></div>'+
     '<p class="muted" style="margin:4px 0 12px">시작만 누르면 끝까지 자동으로 넘어가요. 영어가 두 번 나오고, 그 사이에 따라 말하세요.</p>'+
-    '<div class="stack">'+src.map(function(s){ var pos=+(ls("dpos_"+s.id)||0); return '<button class="act'+(s.id===cur?' on':'')+'" data-s="'+s.id+'"'+(s.items.length?'':' disabled')+'><span><b>'+s.name+'</b><small>'+(s.keep&&pos?(pos+1)+'번째부터 이어서 · 전체 '+s.items.length:'모두 '+s.items.length+'개')+'</small></span></button>'; }).join("")+'</div>'+
+    '<div class="stack">'+src.map(function(s){ var pos=+(ls("dpos_"+s.id)||0); return '<button class="act'+(s.id===cur?' on':'')+'" data-s="'+s.id+'"'+(s.items.length?'':' disabled')+'><span><b>'+s.name+'</b><small>'+(!s.items.length?'준비 중 — 곧 추가돼요':s.keep&&pos?(pos+1)+'번째부터 이어서 · 전체 '+s.items.length+(s.lvl?' · 끝나면 처음부터 반복':''):'모두 '+s.items.length+'개'+(s.lvl?' · 끝나면 처음부터 반복':''))+'</small></span></button>'; }).join("")+'</div>'+
     '<div class="ox" style="margin-top:12px"><button class="big ghost" id="rt">속도: '+(ls("drate")==="slow"?"천천히":"보통")+'</button><button class="big ghost" id="kl">✓ 아는 단어 '+Object.keys(knownSet()).length+'개</button></div>'+
     '<p class="small" style="margin-top:10px">단어 듣다가 <b>「✓ 아는 단어」</b>를 누르거나 카드를 ← 밀면 그 단어는 다음부터 안 나와요(오늘의 단어도 새 단어로 바뀜).</p>'+
     '<p class="small" style="margin-top:6px">🎧 음악처럼 재생돼서 블루투스 이어폰·차 스피커로 나오고, 화면을 꺼도 계속 들려요.</p>';
@@ -529,7 +531,7 @@ function knownView(){
   $app.querySelectorAll("[data-un]").forEach(function(b){ b.onclick=function(){ setKnown(b.dataset.un,false); knownView(); }; });
   window.scrollTo(0,0);
 }
-var LVN={basic:"🐣 기초",mid:"🚶 중급",adv:"🔥 고급"}, TEST_DAY="2026-10-18";
+var LVN={basic:"🐣 기초",mid:"🚶 중급",adv:"🔥 고급",pro:"🎓 전문"}, TEST_DAY="2026-10-18";
 function ls(k,v){ try{ if(v===undefined) return localStorage.getItem("haru-grammar."+k); localStorage.setItem("haru-grammar."+k,v); }catch(e){ return null; } }
 /* ── 우리 가족 순위 ── 가족 코드 하나로 여러 폰을 묶는다. 기록은 Firebase REST(로그인 없음, 코드가 곧 열쇠) */
 var FB="https://matchmaker-28187-default-rtdb.asia-southeast1.firebasedatabase.app/haru_family/", FAM=null;
@@ -651,8 +653,9 @@ Promise.all([
   fetch("data/dialogues.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
   fetch("data/gloss.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return {}; }),
   fetch("data/words_mid.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
-  fetch("data/words_adv.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; })
-]).then(function(a){ T=a[0]; WL.basic=a[1]; D=a[2]; G=a[3]; WL.mid=a[4]; WL.adv=a[5]; W=WL.basic; go("home"); famLoad().then(function(){ if(FAM && tab==="home" && $app.querySelector("#fam")) home(); }); })
+  fetch("data/words_adv.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; }),
+  fetch("data/words_pro.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).catch(function(){ return []; })
+]).then(function(a){ T=a[0]; WL.basic=a[1]; D=a[2]; G=a[3]; WL.mid=a[4]; WL.adv=a[5]; WL.pro=a[6]||[]; W=WL.basic; go("home"); famLoad().then(function(){ if(FAM && tab==="home" && $app.querySelector("#fam")) home(); }); })
   .catch(function(){ $app.innerHTML='<div class="card">자료를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</div>'; });
 if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function(){});
 })();
