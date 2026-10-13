@@ -451,12 +451,13 @@ function driveSources(){
   })).concat([
     {id:"dialog", name:"💬 오늘 대화 따라하기", items:dg?dg.lines.map(function(l,k){ return {en:l.en, ko:l.ko, tag:dg.title+" · "+l.s, aid:"d"+dg.id+"-"+k}; }):[], keep:false},
     {id:"ex", name:"✏️ 연수 문법 예문 전체", items:ex, keep:true},
+    {id:"pass", name:"📖 장문 듣기", items:PS.map(function(p){ return {en:p.title, ko:p.tko, exko:p.sum, tag:LVN[p.lv]+" · "+p.genre, aid:"pd-"+p.id}; }), keep:true},
     {id:"chunk", name:"✂️ 끊어 읽기 듣기", items:CH.map(function(c){ return {en:c.ch.map(function(x){ return x.e; }).join(" / "), ko:c.ch.map(function(x){ return x.k; }).join(" / "), exko:c.ko, tag:"끊는 곳: "+c.r, aid:"c"+c.id}; }), keep:true}
 
   ]);
 }
 function drive(){
-  stopDrive(); if(!CH.length&&!drive.t){ drive.t=1; return loadCH().then(drive); }
+  stopDrive(); if((!CH.length||!PS.length)&&!drive.t){ drive.t=1; return Promise.all([loadCH(),loadPS()]).then(drive); }
   var src=driveSources(), cur=ls("dsrc")||"today";
   $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">🚗 손 안 대고 듣기</div></div>'+
     '<p class="muted" style="margin:4px 0 12px">시작만 누르면 끝까지 자동으로 넘어가요. 영어가 두 번 나오고, 그 사이에 따라 말하세요.</p>'+
@@ -549,6 +550,7 @@ function chunkHome(){
   if(!CH.length&&!chunkHome.t){ chunkHome.t=1; $app.innerHTML='<p class="muted" style="padding:30px;text-align:center">불러오는 중…</p>'; return loadCH().then(chunkHome); }
   var pos=+(ls("cpos")||0), open=ls("crules")!=="0";
   $app.innerHTML='<div class="top"><button class="back" id="bk">×</button><div class="ti">✂️ 끊어 읽기 연습</div></div>'+
+    '<button class="act" id="psg" style="margin-bottom:12px"><span class="e">📖</span><span><b>장문 끊어 읽기</b><small>이야기·뉴스·에세이 '+(PS.length||40)+'편 — 전체 내용 파악 + 3문제</small></span></button>'+
     '<div class="card trap"><b>핵심: 뒤에서 거꾸로 해석하지 말고, 끊은 덩어리마다 앞에서부터 바로 뜻을 붙여요.</b></div>'+
     '<h2 id="rh" style="cursor:pointer">📌 어디서 끊을까? 7가지 '+(open?"▴":"▾")+'</h2>'+
     (open?'<div class="card">'+CH_RULES.map(function(r,i){ return '<div class="ex" style="display:block"><div style="font-weight:900">'+(i+1)+'. '+r[0]+' <span class="small">'+r[1]+'</span></div><div class="en" style="font-size:17px;margin-top:4px">'+esc(r[2]).replace(/ \/ /g,' <b style="color:var(--no)">/</b> ')+'</div><div class="ko">'+esc(r[3])+'</div></div>'; }).join("")+'</div>':'')+
@@ -556,6 +558,7 @@ function chunkHome(){
     '<button class="big ghost" id="dr">🚗 끊어 읽기 듣기(손 안 대고)</button></div>';
   document.getElementById("bk").onclick=function(){ go("home"); };
   document.getElementById("rh").onclick=function(){ ls("crules", open?"0":"1"); chunkHome(); };
+  document.getElementById("psg").onclick=passList;
   var st=document.getElementById("st"); if(st) st.onclick=function(){ chunkPractice(pos); };
   var s0=document.getElementById("st0"); if(s0) s0.onclick=function(){ chunkPractice(0); };
   document.getElementById("dr").onclick=function(){ var s=driveSources().filter(function(x){ return x.id==="chunk"; })[0]; if(s&&s.items.length){ ls("dsrc","chunk"); playDrive(s); } };
@@ -583,6 +586,66 @@ function chunkPractice(i){
     document.getElementById("sp").onclick=function(){ if(st>=1) sayChunks(c); else say(c.en); };
   }
   function next(d){ i=(i+d+CH.length)%CH.length; st=0; draw(); window.scrollTo(0,0); }
+  draw(); window.scrollTo(0,0);
+}
+/* ── 📖 장문 끊어 읽기 ── 통째로 읽고 → 필요한 만큼 끊기·뜻·해석을 켜고 → 내용 파악 3문제 */
+var PS=[];
+function loadPS(){ if(PS.length) return Promise.resolve(PS); return fetch("data/passages.json",{cache:"no-cache"}).then(function(r){ return r.json(); }).then(function(d){ PS=d||[]; return PS; }).catch(function(){ return PS; }); }
+function pDone(){ try{ return JSON.parse(ls("pdone")||"{}")||{}; }catch(e){ return {}; } }
+function pWords(p){ return p.sents.reduce(function(a,x){ return a+x.en.split(/\s+/).length; },0); }
+function passList(){
+  if(!PS.length&&!passList.t){ passList.t=1; $app.innerHTML='<p class="muted" style="padding:30px;text-align:center">불러오는 중…</p>'; return loadPS().then(passList); }
+  var dn=pDone(), last="";
+  $app.innerHTML='<div class="top"><button class="back" id="bk">‹</button><div class="ti">📖 장문 끊어 읽기</div></div>'+
+    '<p class="muted" style="margin:4px 0 10px">먼저 끝까지 통째로 읽고 → 막히는 문장만 탭해서 풀어 보세요. 다 읽으면 3문제.</p>'+
+    (PS.length?PS.map(function(p,i){ var h=""; if(p.lv!==last){ h='<div class="grp">'+LVN[p.lv]+'</div>'; last=p.lv; } var d=dn[p.id];
+      return h+'<button class="row'+(d!=null?' done':'')+'" data-p="'+i+'"><span class="no">'+(i+1)+'</span><span class="tt">'+esc(p.title)+'<br><span class="small">'+esc(p.tko)+' · '+esc(p.genre)+' · '+pWords(p)+'단어</span></span><span class="st">'+(d!=null?d+"/3":"")+'</span></button>'; }).join(""):'<div class="card">지문 준비 중이에요</div>');
+  document.getElementById("bk").onclick=chunkHome;
+  $app.querySelectorAll("[data-p]").forEach(function(b){ b.onclick=function(){ passRead(+b.dataset.p); }; });
+  window.scrollTo(0,0);
+}
+function passRead(pi){
+  var p=PS[pi], V; try{ V=JSON.parse(ls("pview")||"{}"); }catch(e){ V={}; } var open={};
+  var A=DRV.audio||(DRV.audio=new Audio());
+  function sent(x,k){
+    var on=open[k], cut=V.cut||on, mean=V.mean||on, tr=V.tr||on;
+    var en=cut?x.ch.map(function(c){ return esc(c.e); }).join(' <b style="color:var(--no)">/</b> '):esc(x.en);
+    if(mean) return '<div class="psent card" data-k="'+k+'" style="margin:8px 0;padding:10px 12px'+(on?';outline:2px solid var(--hi)':'')+'"><div style="font-size:18px;line-height:1.6">'+en+'</div>'+
+      x.ch.map(function(c){ return '<div style="display:flex;gap:10px;padding:3px 0;font-size:15px"><span style="flex:1">'+esc(c.e)+'</span><span style="flex:1;color:var(--ok);font-weight:800">'+esc(c.k)+'</span></div>'; }).join("")+
+      (tr?'<div class="ko" style="margin-top:4px">👉 '+esc(x.ko)+'</div>':'')+'</div>';
+    return '<span class="psent" data-k="'+k+'" style="cursor:pointer;'+(on?'background:var(--brand-soft);':'')+'">'+en+' </span>'+(tr?'<span class="ko" style="display:block;margin:2px 0 8px;font-size:15px">'+esc(x.ko)+'</span>':'');
+  }
+  function draw(){
+    var block=V.mean||Object.keys(open).length&&V.mean;
+    $app.innerHTML='<div class="top"><button class="back" id="bk">‹</button><div class="ti">📖 '+esc(p.title)+'</div></div>'+
+      '<div class="qh"><span>'+LVN[p.lv]+' · '+esc(p.genre)+' · '+pWords(p)+'단어</span><span>'+esc(p.tko)+'</span></div>'+
+      '<div class="lv pv" style="margin:6px 0 10px"><button class="chip'+(V.cut?' on':'')+'" data-v="cut">/ 끊기</button><button class="chip'+(V.mean?' on':'')+'" data-v="mean">덩어리 뜻</button><button class="chip'+(V.tr?' on':'')+'" data-v="tr">해석</button></div>'+
+      '<div class="card" style="font-size:19px;line-height:1.75;padding:16px">'+p.sents.map(sent).join("")+'</div>'+
+      '<p class="small" style="margin-top:6px">💡 막히는 문장만 탭하면 그 문장만 끊기·뜻·해석이 열려요.</p>'+
+      '<div class="ox" style="margin-top:10px"><button class="big ghost" id="pl">🔊 전체 듣기</button><button class="big" id="qz">내용 파악 3문제 ›</button></div>';
+    document.getElementById("bk").onclick=function(){ A.pause(); passList(); };
+    $app.querySelectorAll("[data-v]").forEach(function(b){ b.onclick=function(){ V[b.dataset.v]=!V[b.dataset.v]; ls("pview",JSON.stringify(V)); draw(); }; });
+    $app.querySelectorAll(".psent").forEach(function(e){ e.onclick=function(){ var k=+e.dataset.k; if(open[k]) delete open[k]; else open[k]=1; var y=window.scrollY; draw(); window.scrollTo(0,y); }; });
+    document.getElementById("pl").onclick=function(){ if(!A.paused&&A.src.indexOf("pf-"+p.id)>=0){ A.pause(); return; } A.src="audio/pf-"+p.id+".m4a"; A.playbackRate=ls("drate")==="slow"?0.8:1; A.play().catch(function(){}); };
+    document.getElementById("qz").onclick=function(){ A.pause(); passQuiz(pi); };
+  }
+  draw(); window.scrollTo(0,0);
+}
+function passQuiz(pi){
+  var p=PS[pi], ans={};
+  function draw(){
+    var n=Object.keys(ans).length, sc=Object.keys(ans).filter(function(k){ return ans[k]===p.qs[k].a; }).length;
+    $app.innerHTML='<div class="top"><button class="back" id="bk">‹</button><div class="ti">✅ '+esc(p.title)+'</div></div>'+
+      p.qs.map(function(q,qi){ var a=ans[qi]; return '<div class="card" style="margin-top:10px"><div style="font-weight:900;font-size:17px">'+(qi+1)+'. '+esc(q.q)+'</div>'+
+        q.c.map(function(c,ci){ var cl=a==null?"":ci===q.a?" right":ci===a?" wrong":""; return '<button class="ch'+cl+'" data-q="'+qi+'" data-c="'+ci+'"'+(a!=null?' disabled':'')+'>'+"①②③④".charAt(ci)+' '+esc(c)+'</button>'; }).join("")+
+        (a!=null?'<div class="small" style="margin-top:8px">'+(a===q.a?"⭕ ":"❌ ")+esc(q.x)+'</div>':'')+'</div>'; }).join("")+
+      (n===p.qs.length?'<div class="card trap" style="margin-top:12px"><b>'+sc+' / '+p.qs.length+'</b> · 요약: '+esc(p.sum)+'</div>'+
+        '<h2>핵심 표현</h2><div class="card">'+p.vocab.map(function(v){ return '<div class="ex"><div><div class="en" style="font-size:17px">'+esc(v.w)+'</div><div class="ko">'+esc(v.ko)+'</div></div></div>'; }).join("")+'</div>'+
+        '<div class="ox" style="margin-top:12px"><button class="big ghost" id="rd">지문 다시 보기</button><button class="big" id="nx">'+(pi+1<PS.length?"다음 지문 ›":"목록")+'</button></div>':'');
+    document.getElementById("bk").onclick=function(){ passRead(pi); };
+    $app.querySelectorAll("[data-q]").forEach(function(b){ b.onclick=function(){ ans[+b.dataset.q]=+b.dataset.c; if(Object.keys(ans).length===p.qs.length){ var d=pDone(); d[p.id]=Object.keys(ans).filter(function(k){ return ans[k]===p.qs[k].a; }).length; ls("pdone",JSON.stringify(d)); } var y=window.scrollY; draw(); window.scrollTo(0,y); }; });
+    var rd=document.getElementById("rd"); if(rd){ rd.onclick=function(){ passRead(pi); }; document.getElementById("nx").onclick=function(){ if(pi+1<PS.length) passRead(pi+1); else passList(); }; }
+  }
   draw(); window.scrollTo(0,0);
 }
 /* 덩어리마다 살짝 쉬며 읽기 */
