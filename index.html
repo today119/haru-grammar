@@ -192,6 +192,10 @@ function go(t){ if(typeof stopDrive==="function") stopDrive(); tab=t; document.q
 /* 오늘의 영단어·대화 — «날짜»로 정해져서 가족 모두 같은 게 나온다 */
 var DAY0="2026-10-04";
 function dayIdx(){ return Math.max(0, daysBetween(DAY0, today())); }
+/* 홈 화면 앱은 아이폰이 백그라운드에 그대로 들고 있다가 다음 날 «어제 화면»을 보여 준다 → 날짜가 바뀌었으면 새로 연다(듣기 중엔 끝날 때까지 미룸) */
+var RENDER_DAY=today();
+function dayCheck(){ if(document.visibilityState==="hidden" || today()===RENDER_DAY) return; if(typeof DRV!=="undefined" && DRV.run) return; RENDER_DAY=today(); location.reload(); }
+document.addEventListener("visibilitychange", dayCheck); window.addEventListener("pageshow", dayCheck); window.addEventListener("focus", dayCheck); setInterval(dayCheck, 60000);
 /* 가족 모드 = 기초5(연우)+중급5, 고급 도전 해제 기기는 중급5+고급5 를 고를 수 있다 */
 /* 「✓ 아는 단어」로 뺀 단어는 건너뛰고 그다음 모르는 단어로 채운다(사람마다 따로) */
 function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var s=(dayIdx()*5)%list.length, a=[], K=knownSet();
