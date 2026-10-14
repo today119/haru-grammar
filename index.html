@@ -197,9 +197,13 @@ var RENDER_DAY=today();
 function dayCheck(){ if(document.visibilityState==="hidden" || today()===RENDER_DAY) return; if(typeof DRV!=="undefined" && DRV.run) return; RENDER_DAY=today(); location.reload(); }
 document.addEventListener("visibilitychange", dayCheck); window.addEventListener("pageshow", dayCheck); window.addEventListener("focus", dayCheck); setInterval(dayCheck, 60000);
 /* 가족 모드 = 기초5(연우)+중급5, 고급 도전 해제 기기는 중급5+고급5 를 고를 수 있다 */
-/* 「✓ 아는 단어」로 뺀 단어는 건너뛰고 그다음 모르는 단어로 채운다(사람마다 따로) */
-function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var s=(dayIdx()*5)%list.length, a=[], K=knownSet();
-  for(var k=0;k<list.length&&a.length<5;k++){ var ix=(s+k)%list.length, aid=L.charAt(0)+ix; if(K[aid]) continue; var w=Object.assign({},list[ix]); w.lv=L; w.aid=aid; a.push(w); }
+/* 「✓ 아는 단어」로 뺀 단어는 빼고 «모르는 단어 목록»에서 날마다 5개씩 넘어간다(사람마다 따로)
+   — 날짜 위치에서 다음 모르는 단어를 찾으면, 아는 단어가 하루 5개보다 많이 몰려 있을 때 같은 단어가 며칠씩 나온다(10/15) */
+function pick5(L){ var list=WL[L]||[]; if(!list.length) return []; var K=knownSet(), U=[];
+  for(var i=0;i<list.length;i++) if(!K[L.charAt(0)+i]) U.push(i);
+  if(!U.length) return [];
+  var s=(dayIdx()*5)%U.length, a=[];
+  for(var k=0;k<Math.min(5,U.length);k++){ var ix=U[(s+k)%U.length]; var w=Object.assign({},list[ix]); w.lv=L; w.aid=L.charAt(0)+ix; a.push(w); }
   return a; }
 /* 아는 단어 — 기기·사람별 저장 { aid: 체크한 날 } */
 function knownKey(){ return "known_"+(curP()||"d"); }
